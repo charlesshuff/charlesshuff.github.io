@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="grad-top" x1="4" y1="0" x2="60" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="white"/>
+      <stop offset="100%" stop-color="#00FF00"/>
+    </linearGradient>
+    <linearGradient id="grad-right" x1="0" y1="4" x2="0" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00FF00"/>
+      <stop offset="100%" stop-color="white"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="64" height="64" fill="black" fill-opacity="0.6"/>
+
+  <line x1="4" y1="4" x2="60" y2="4" stroke="url(#grad-top)" stroke-width="4.5" stroke-linecap="square"/>
+  <line x1="60" y1="4" x2="60" y2="60" stroke="url(#grad-right)" stroke-width="4.5" stroke-linecap="square"/>
+  <line x1="60" y1="60" x2="4" y2="60" stroke="white" stroke-width="4.5" stroke-linecap="square"/>
+  <line x1="4" y1="60" x2="4" y2="4" stroke="white" stroke-width="4.5" stroke-linecap="square"/>
+
+  <g fill="white" shape-rendering="crispEdges">
+    <rect x="8" y="51" width="1" height="5"/>
+    <rect x="12" y="51" width="1" height="5"/>
+    <rect x="9" y="52" width="1" height="1"/>
+    <rect x="11" y="52" width="1" height="1"/>
+    <rect x="10" y="53" width="1" height="1"/>
+    <rect x="14" y="51" width="1" height="5"/>
+    <rect x="15" y="55" width="3" height="1"/>
+  </g>
+</svg>

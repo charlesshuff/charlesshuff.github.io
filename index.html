@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>smlml — web viewer</title>
+<link rel="icon" type="image/svg+xml" href="logo.svg" />
+
+<!--
+  editors/smlml-web — a real, deployable web app over the smlml WASM language
+  server.  The structural chrome (toolbar / file browser / dock) lives here as
+  declarative markup so the central stylesheet (theme.css) applies directly; the
+  editor pane hosts CodeMirror and the diagram pane hosts the React/React-Flow
+  app reused (unmodified) from the VS Code extension.
+
+  THEME: every component is styled off `--vscode-*` tokens under the body classes
+  `vscode-dark` / `vscode-light` — the same names/classes VS Code injects into a
+  webview — so this page can be lifted into a real webview with minimal change.
+-->
+<link rel="stylesheet" href="theme.css" />
+<link rel="stylesheet" href="app.css" />
+</head>
+<body class="vscode-dark">
+  <div class="app">
+
+    <!-- ════════════════════════ TOOLBAR ════════════════════════ -->
+    <header class="toolbar">
+      <div class="brand">
+        <img class="logo" src="logo.svg" alt="" aria-hidden="true" /><span>smlml</span>
+        <button class="btn icon brand-about" id="btn-about" title="About smlml">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4">
+            <circle cx="8" cy="8" r="6.4"/>
+            <path d="M8 7.2v4" stroke-linecap="round"/>
+            <circle cx="8" cy="4.8" r=".9" fill="currentColor" stroke="none"/>
+          </svg>
+        </button>
+      </div>
+
+      <button class="btn icon" id="btn-files" title="Toggle file browser">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M1.5 2h4l1.5 1.5H14.5a1 1 0 011 1V13a1 1 0 01-1 1h-13a1 1 0 01-1-1V3a1 1 0 011-1zm0 1v10h13V4.5H6.6L5.1 3H1.5z"/></svg></button>
+
+      <select class="control" id="lang" title="Language of the active file">
+        <option value="sysml">SysML</option><option value="kerml">KerML</option>
+      </select>
+
+      <button class="btn" id="btn-import" title="Import workspace (.zip or loose .sysml/.kerml — replaces files)">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l3 3H9v5H7V4H5l3-3zM3 11v2h10v-2h2v3a1 1 0 01-1 1H2a1 1 0 01-1-1v-3h2z"/></svg>
+        <span class="label-collapse">Import</span></button>
+      <button class="btn" id="btn-export" title="Export workspace as .zip">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 14l-3-3h2V6h2v5h2l-3 3zM3 4V2h10v2h2V1H1v3h2z"/></svg>
+        <span class="label-collapse">Export</span></button>
+      <button class="btn" id="btn-load-examples" title="Load the example workspace (replaces the current files)">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M1.5 2.5h4L7 4h7.5a1 1 0 011 1v7.5a1 1 0 01-1 1h-13a1 1 0 01-1-1v-10a1 1 0 011-1zm6.5 4v5h1.5l-2 2.5-2-2.5H7v-5h1z"/></svg>
+        <span class="label-collapse">Examples</span></button>
+      <button class="btn" id="btn-clear" title="Clear the workspace of all files">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M6 1h4v1h3v2H3V2h3V1zM4 5h8l-.7 9.1a1 1 0 01-1 .9H5.7a1 1 0 01-1-.9L4 5zm2.2 2l.3 6h1l-.3-6h-1zm3.6 0h-1l-.3 6h1l.3-6z"/></svg>
+        <span class="label-collapse">Clear</span></button>
+
+      <div class="menu-wrap">
+        <button class="btn" id="btn-ast" title="AST JSON interchange">
+          AST <svg viewBox="0 0 16 16" fill="currentColor" style="width:10px;height:10px"><path d="M4 6l4 4 4-4z"/></svg></button>
+        <div class="menu" id="ast-menu">
+          <button data-act="export">⭳ Export AST JSON</button>
+          <button data-act="import">⭱ Import AST JSON…</button>
+        </div>
+      </div>
+
+      <button class="btn" id="btn-format" title="Format document">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M2 3h12v2H2V3zm0 4h8v2H2V7zm0 4h12v2H2v-2z"/></svg>
+        <span class="label-collapse">Format</span></button>
+      <!-- Refresh glyph: a stroked three-quarter ring with a solid arrowhead.
+           The previous filled path drew a hairline arc that read as a stray
+           mark rather than as "reparse" — only the top of the circle was
+           legible at 16px. -->
+      <button class="btn icon" id="btn-reparse" title="Reparse the active file">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"
+             stroke-linecap="round">
+          <path d="M13 8a5 5 0 1 1-1.9-3.93"/>
+          <path d="M13.4 1.9V5.1H10.2" stroke-linejoin="round"/>
+        </svg></button>
+
+      <button class="btn" id="btn-eval" title="Calc evaluation: on (click to disable)">
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M2 3h12v2l-4.5 3L14 11v2H2v-2l4.5-3L2 5V3zm1.5 1.5v.8l4.5 3 4.5-3V4.5h-9zm0 7v.5h9v-.5l-4.5-3-4.5 3z"/></svg>
+        <span class="label-collapse">Eval</span>
+        <!-- Solved-value count, filled by `Toolbar.setEvalCount`. Hidden while
+             zero so the button does not carry a permanent "0". -->
+        <span class="count hidden" id="count-eval">0</span></button>
+
+      <span class="spacer"></span>
+
+      <div class="status-pill" id="status" title="Open Problems">
+        <span class="dot"></span><span id="status-text">starting…</span></div>
+
+      <div class="seg" id="theme-seg" role="group" aria-label="Theme">
+        <button data-mode="light" title="Light">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="8" cy="8" r="3"/><path d="M8 0v2M8 14v2M0 8h2M14 8h2M2.3 2.3l1.4 1.4M12.3 12.3l1.4 1.4M13.7 2.3l-1.4 1.4M3.7 12.3l-1.4 1.4"/></svg></button>
+        <button data-mode="dark" title="Dark">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M6 1a7 7 0 109 9A6 6 0 016 1z"/></svg></button>
+        <button data-mode="system" title="System">
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M1 2h14v9H1V2zm1 1v7h12V3H2zm3 10h6v1H5v-1z"/></svg></button>
+      </div>
+    </header>
+
+    <!-- ════════════════════════ WORKBENCH ════════════════════════ -->
+    <div class="workbench" id="workbench">
+
+      <!-- ── File browser ── -->
+      <section class="filebrowser" id="filebrowser">
+        <div class="pane-header">
+          <span class="title">Files</span><span class="spacer"></span>
+          <button class="hbtn" id="fb-new-folder" title="New folder">
+            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M1.5 2.5h4l1.5 1.5h6.5a1 1 0 011 1v7a1 1 0 01-1 1h-12a1 1 0 01-1-1v-9a1 1 0 011-1zm6 5v2h-2v1.5h2v2H9v-2h2V9.5H9v-2H7.5z"/></svg></button>
+          <button class="hbtn" id="fb-new-file" title="New file">
+            <svg viewBox="0 0 16 16" fill="currentColor"><path d="M7 3h2v4h4v2H9v4H7V9H3V7h4V3z"/></svg></button>
+        </div>
+        <div class="fb-list" id="fb-list"></div>
+        <div class="fb-hint">All files share one workspace — names resolve across files.
+          Drag &amp; drop <code>.sysml</code>/<code>.kerml</code> here.</div>
+      </section>
+
+      <div class="splitter-col split-fb" id="split-fb"></div>
+
+      <!-- ── Editor pane ── -->
+      <section class="pane editor-pane">
+        <div class="pane-header">
+          <span class="title" id="active-file">—</span><span class="spacer"></span>
+          <span style="color:var(--vscode-descriptionForeground);font-size:12px" id="active-lang">UTF-8</span>
+        </div>
+        <div class="editor-host" id="editor"></div>
+      </section>
+
+      <div class="splitter-col" id="split-col"></div>
+
+      <!-- ── Diagram pane (React/React-Flow app mounts into #diagram-root) ── -->
+      <section class="pane diagram-pane">
+        <div class="pane-header">
+          <span class="title">Diagram</span>
+          <span class="spacer"></span>
+        </div>
+        <div class="diagram-root" id="diagram-root"></div>
+      </section>
+    </div>
+
+    <div class="splitter-row" id="split-row"></div>
+
+    <!-- ════════════════════════ BOTTOM DOCK ════════════════════════ -->
+    <section class="dock" id="dock">
+      <!-- Log is the tab the dock opens on: boot is the longest wait in the app
+           (WASM instantiation, then the stdlib parse), and the Log is the only
+           panel that says anything while it runs. Problems is empty until
+           analysis finishes, so opening there showed a blank pane for the whole
+           startup. -->
+      <div class="dock-tabs">
+        <button class="dock-tab" data-tab="problems">Problems <span class="count" id="count-problems">0</span></button>
+        <button class="dock-tab" data-tab="values">Values <span class="count" id="count-values">0</span></button>
+        <button class="dock-tab hidden" data-tab="run" id="tab-run">Run</button>
+        <button class="dock-tab active" data-tab="log">Log</button>
+        <span class="spacer"></span>
+        <button class="hbtn" id="dock-collapse" title="Collapse panel" style="margin:4px 6px">
+          <!-- The chevron is flipped by `.dock.collapsed` in theme.css, so the
+               arrow always points the way the click will move the panel. -->
+          <svg viewBox="0 0 16 16" fill="currentColor"><path d="M4 6l4 4 4-4z"/></svg></button>
+      </div>
+
+      <div class="dock-body">
+        <div class="tabpane" data-tab="problems" id="pane-problems"></div>
+        <div class="tabpane" data-tab="values" id="pane-values"></div>
+        <div class="tabpane" data-tab="run" id="pane-run"></div>
+        <div class="tabpane log active" data-tab="log" id="pane-log">
+          <div class="log-head"><span id="log-count">0 entries</span>
+            <span class="spacer"></span>
+            <button class="btn" id="log-clear">Clear</button></div>
+          <div class="log-list" id="log-list"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
