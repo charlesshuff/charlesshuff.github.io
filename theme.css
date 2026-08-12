@@ -239,12 +239,7 @@ body {
 .btn.active { background: var(--vscode-button-background); color: var(--vscode-button-foreground); }
 .btn.active:hover { background: var(--vscode-button-hoverBackground); }
 
-select.control { height: 28px; padding: 0 26px 0 9px; border-radius: var(--radius-sm);
-  font: inherit; cursor: pointer; appearance: none; color: var(--vscode-dropdown-foreground);
-  background: var(--vscode-dropdown-background)
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 16 16' fill='%23888'><path d='M4 6l4 4 4-4z'/></svg>")
-    no-repeat right 7px center; border: 1px solid var(--vscode-dropdown-border); }
-select.control:focus, .btn:focus-visible, .seg button:focus-visible {
+.btn:focus-visible, .seg button:focus-visible {
   outline: 1px solid var(--vscode-focusBorder); outline-offset: -1px; }
 
 .seg { display: inline-flex; border-radius: var(--radius-sm); overflow: hidden;
@@ -257,7 +252,7 @@ select.control:focus, .btn:focus-visible, .seg button:focus-visible {
 .seg button.active { background: var(--vscode-button-background); color: var(--vscode-button-foreground); }
 .seg svg { width: 15px; height: 15px; }
 
-/* dropdown menu (AST interchange) */
+/* dropdown menus */
 .menu-wrap { position: relative; }
 .menu { position: absolute; top: calc(100% + 4px); left: 0; z-index: 20; min-width: 230px;
   display: none; flex-direction: column; padding: 4px; border-radius: var(--radius);
@@ -276,6 +271,7 @@ select.control:focus, .btn:focus-visible, .seg button:focus-visible {
 .status-pill .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--vscode-editorWarning-foreground); }
 .status-pill.ok .dot { background: #3fb950; }
 .status-pill.err .dot { background: var(--vscode-editorError-foreground); }
+.status-pill.warn .dot { background: var(--vscode-editorWarning-foreground); }
 
 /* Analysis in flight. The pill must not read as "fine" before the server has
    answered — it used to go green immediately after seeding, when the diagnostic
@@ -288,7 +284,13 @@ select.control:focus, .btn:focus-visible, .seg button:focus-visible {
 .workbench { flex: 1 1 auto; display: flex; min-height: 0; }
 .pane { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
 .editor-pane { flex: 0 0 var(--editor-w); }
-.diagram-pane { flex: 1 1 auto; border-left: 1px solid var(--vscode-panel-border); }
+.diagram-pane { flex: 1 1 auto; border-left: 1px solid var(--vscode-panel-border); position: relative; }
+
+/* Overlay that replaces the diagram while the active file has errors. */
+.render-block { position: absolute; inset: 0; z-index: 5; display: flex; align-items: center;
+  justify-content: center; text-align: center; padding: 24px; background: var(--vscode-editor-background); }
+.render-block[hidden] { display: none; }
+.render-block-msg { max-width: 32em; color: var(--vscode-descriptionForeground); font-size: 13px; }
 
 /* ──────────────────────────── File browser ────────────────────────────── */
 .filebrowser { flex: 0 0 var(--filebrowser-w); display: flex; flex-direction: column;
@@ -356,6 +358,11 @@ select.control:focus, .btn:focus-visible, .seg button:focus-visible {
 .editor-host .cm-gutters { background: var(--vscode-editorGutter-background);
   color: var(--vscode-editorLineNumber-foreground); border-right: 1px solid var(--vscode-panel-border); }
 .editor-host .cm-content { caret-color: var(--vscode-editor-foreground); color: var(--vscode-editor-foreground); }
+/* `drawSelection()` replaces the native caret with CodeMirror's absolutely
+   positioned border. Its default border is black, so `caret-color` alone does
+   not affect the cursor seen in dark mode. */
+.editor-host .cm-cursor,
+.editor-host .cm-dropCursor { border-left-color: var(--vscode-editor-foreground) !important; }
 .editor-host .cm-activeLine { background: var(--vscode-list-hoverBackground); }
 /* The BACKGROUND has to be stated, not just the number colour. CodeMirror's
    base theme picks its active-gutter fill from an `&light`/`&dark` selector
@@ -557,9 +564,20 @@ select.control:focus, .btn:focus-visible, .seg button:focus-visible {
 .modal-btn:hover { filter: brightness(1.1); }
 
 /* ── About ── */
+.about-box { width: min(720px, calc(100vw - 32px)); max-width: 720px; max-height: min(760px, calc(100vh - 32px));
+  overflow: auto; box-sizing: border-box; }
 .about-title { font-size: 18px; font-weight: 600; margin-bottom: 2px; }
 .about-sub { color: var(--vscode-descriptionForeground); font-size: 12px; line-height: 1.45;
   margin-bottom: 14px; }
+.about-overview { margin: 0 0 16px; line-height: 1.55; max-width: 68ch; }
+.about-heading { margin: 17px 0 8px; font-size: 11px; line-height: 1;
+  color: var(--vscode-descriptionForeground); text-transform: uppercase; letter-spacing: .08em; }
+.about-capabilities { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.about-capability { padding: 9px 10px; border: 1px solid var(--vscode-widget-border, rgba(128,128,128,.3));
+  border-radius: 5px; background: var(--vscode-sideBar-background, rgba(128,128,128,.06)); }
+.about-capability strong, .about-capability span { display: block; }
+.about-capability strong { margin-bottom: 3px; font-size: 12px; }
+.about-capability span { color: var(--vscode-descriptionForeground); font-size: 11px; line-height: 1.4; }
 /* A two-column definition list: labels in the description grey, values in the
    foreground, so the eye runs down the values rather than the labels. */
 .about-rows { display: grid; grid-template-columns: max-content 1fr; gap: 5px 14px;
@@ -567,6 +585,11 @@ select.control:focus, .btn:focus-visible, .seg button:focus-visible {
 .about-rows dt { color: var(--vscode-descriptionForeground); }
 .about-rows dd { margin: 0; color: var(--vscode-foreground); overflow-wrap: anywhere; }
 .about-rows a { color: var(--vscode-textLink-foreground, #3794ff); }
+.about-releases details { border-top: 1px solid var(--vscode-widget-border, rgba(128,128,128,.25)); padding: 8px 0; }
+.about-releases summary { cursor: pointer; font-weight: 600; font-size: 12px; }
+.about-releases ul { margin: 7px 0 0 18px; padding: 0; color: var(--vscode-descriptionForeground);
+  font-size: 11px; line-height: 1.45; }
+@media (max-width: 560px) { .about-capabilities { grid-template-columns: 1fr; } }
 
 /* The Eval button's solved-value badge — the dock tabs' badge, reused, so the
    two counts on screen read as the same kind of thing. */

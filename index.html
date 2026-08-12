@@ -39,22 +39,21 @@
       <button class="btn icon" id="btn-files" title="Toggle file browser">
         <svg viewBox="0 0 16 16" fill="currentColor"><path d="M1.5 2h4l1.5 1.5H14.5a1 1 0 011 1V13a1 1 0 01-1 1h-13a1 1 0 01-1-1V3a1 1 0 011-1zm0 1v10h13V4.5H6.6L5.1 3H1.5z"/></svg></button>
 
-      <select class="control" id="lang" title="Language of the active file">
-        <option value="sysml">SysML</option><option value="kerml">KerML</option>
-      </select>
+      <button class="btn icon" id="btn-nav-back" title="Go Back (Alt+Left)" disabled>
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M9.7 3.3L5 8l4.7 4.7 1-1L7 8l3.7-3.7-1-1z"/></svg></button>
+      <button class="btn icon" id="btn-nav-forward" title="Go Forward (Alt+Right)" disabled>
+        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M6.3 3.3l4.7 4.7-4.7 4.7-1-1L9 8 5.3 4.3l1-1z"/></svg></button>
 
-      <button class="btn" id="btn-import" title="Import workspace (.zip or loose .sysml/.kerml — replaces files)">
-        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1l3 3H9v5H7V4H5l3-3zM3 11v2h10v-2h2v3a1 1 0 01-1 1H2a1 1 0 01-1-1v-3h2z"/></svg>
-        <span class="label-collapse">Import</span></button>
-      <button class="btn" id="btn-export" title="Export workspace as .zip">
-        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 14l-3-3h2V6h2v5h2l-3 3zM3 4V2h10v2h2V1H1v3h2z"/></svg>
-        <span class="label-collapse">Export</span></button>
-      <button class="btn" id="btn-load-examples" title="Load the example workspace (replaces the current files)">
-        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M1.5 2.5h4L7 4h7.5a1 1 0 011 1v7.5a1 1 0 01-1 1h-13a1 1 0 01-1-1v-10a1 1 0 011-1zm6.5 4v5h1.5l-2 2.5-2-2.5H7v-5h1z"/></svg>
-        <span class="label-collapse">Examples</span></button>
-      <button class="btn" id="btn-clear" title="Clear the workspace of all files">
-        <svg viewBox="0 0 16 16" fill="currentColor"><path d="M6 1h4v1h3v2H3V2h3V1zM4 5h8l-.7 9.1a1 1 0 01-1 .9H5.7a1 1 0 01-1-.9L4 5zm2.2 2l.3 6h1l-.3-6h-1zm3.6 0h-1l-.3 6h1l.3-6z"/></svg>
-        <span class="label-collapse">Clear</span></button>
+      <div class="menu-wrap">
+        <button class="btn" id="btn-workspace" aria-haspopup="menu" aria-expanded="false">
+          Workspace <svg viewBox="0 0 16 16" fill="currentColor" style="width:10px;height:10px"><path d="M4 6l4 4 4-4z"/></svg></button>
+        <div class="menu" id="workspace-menu" role="menu">
+          <button id="btn-export" role="menuitem">Save</button>
+          <button id="btn-import" role="menuitem">Load…</button>
+          <button id="btn-clear" role="menuitem">Clear</button>
+          <button id="btn-load-examples" role="menuitem">Reload example</button>
+        </div>
+      </div>
 
       <div class="menu-wrap">
         <button class="btn" id="btn-ast" title="AST JSON interchange">
@@ -138,6 +137,12 @@
           <span class="spacer"></span>
         </div>
         <div class="diagram-root" id="diagram-root"></div>
+        <!-- Shown instead of the diagram while the active file has errors: a
+             graph built over an unresolved model would be misleading, not
+             merely stale. Toggled by `main.tsx`'s render gate. -->
+        <div class="render-block" id="render-block" hidden>
+          <div class="render-block-msg" id="render-block-msg"></div>
+        </div>
       </section>
     </div>
 

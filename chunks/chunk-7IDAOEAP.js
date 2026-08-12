@@ -1,4 +1,4 @@
-var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var g=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var c=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var b=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}};var d=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!p.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=o(t,r))||a.enumerable});return e};var f=(e,t,n)=>(n=e!=null?s(u(e)):{},d(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var P,h=c(()=>{P=[{path:"satellite.sysml",text:`package Satellite {
+var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var b=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var m=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var g=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}};var c=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!u.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=s(t,r))||a.enumerable});return e};var f=(e,t,n)=>(n=e!=null?o(p(e)):{},c(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var v,h=m(()=>{v=[{path:"satellite.sysml",text:`package Satellite {
     private import ISQ::*;
     private import SI::*;
     private import ScalarValues::*;
@@ -7,7 +7,8 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
     private import Energy::Battery;
     private import Propulsion::Thruster;
     private import Control::PowerMode;
-    private import Interfaces::*;
+    private import SatelliteInterfaces::*;
+    private import Geometry::SatelliteBody;
 
     // Central power-distribution unit that ties the subsystems together; its
     // ports drive the interconnection view.
@@ -29,40 +30,48 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
         attribute activePower : PowerValue = 80 [W];
     }
 
+    // The reusable system definition ties logical composition to its physical
+    // envelope and owns the behaviors exhibited by every observatory.
+    part def Observatory :> SatelliteBody {
+        part panels     [4] : SolarPanel;
+        part batteries  [2] : Battery;
+        part thrusters  [8] : Thruster;
+        part controller     : PowerMode;
+        part bus            : PowerDistribution;
+        part payload        : Payload;
+
+        exhibit state powerMode : PowerMode;
+    }
+
     // \u2500\u2500 Subsystem composition with multiplicities \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    part panels     [4] : SolarPanel;
-    part batteries  [2] : Battery;
-    part thrusters  [8] : Thruster;
-    part controller     : PowerMode;
-    part bus            : PowerDistribution;
-    part payload        : Payload;
+    part observatory : Observatory;
 
     // \u2500\u2500 Interconnections (ports, connectors, interface, flow, binding) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    connect panels.pwrOut     to bus.panelIn;
-    connect batteries.pwrPort to bus.batteryIn;
-    interface : PowerBus connect bus.loadOut to batteries.pwrPort;
-    flow of t : Telemetry from payload.dataOut to bus.dataIn;
-    bind bus.panelIn.voltage = bus.busVoltage;
+    connect observatory.panels.pwrOut     to observatory.bus.panelIn;
+    connect observatory.batteries.pwrPort to observatory.bus.batteryIn;
+    interface : PowerBus connect observatory.bus.loadOut to observatory.batteries.pwrPort;
+    flow of t : Telemetry from observatory.payload.dataOut to observatory.bus.dataIn;
+    bind observatory.bus.panelIn.voltage = observatory.bus.busVoltage;
 
     // \u2500\u2500 Mass budget \u2014 multiplicity rollup (kg) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
     // panels [4] \xD7 3.5 kg + batteries [2] \xD7 8 kg + thrusters [8] \xD7 0.22 kg \u2026
-    attribute totalMass : MassValue = panels.mass + batteries.mass
-        + thrusters.mass + bus.mass + payload.mass;
+    attribute totalMass : MassValue = observatory.panels.mass + observatory.batteries.mass
+        + observatory.thrusters.mass + observatory.bus.mass + observatory.payload.mass;
 
     // \u2500\u2500 Power budget (W) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    attribute solarGen    : PowerValue = panels.peakPower;                     // 4 \xD7 120 W = 480 W
-    attribute houseLoad   : PowerValue = bus.idlePower + payload.activePower;  // 130 W
+    attribute solarGen    : PowerValue = observatory.panels.peakPower;                     // 4 \xD7 120 W = 480 W
+    attribute houseLoad   : PowerValue = observatory.bus.idlePower + observatory.payload.activePower;  // 130 W
     attribute powerMargin : PowerValue = solarGen - houseLoad;                 // 350 W surplus
 
     // max() aggregation: the dominant power figure (generation vs. load)
     attribute peakDemand : PowerValue = max(solarGen, houseLoad);             // 480 W
 
     // \u2500\u2500 Energy and eclipse endurance \u2014 unit arithmetic: J / W = s \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    attribute totalEnergy : EnergyValue = batteries.capacity;       // 2 \xD7 1 296 000 J
+    attribute totalEnergy : EnergyValue = observatory.batteries.capacity;       // 2 \xD7 1 296 000 J
     attribute eclipseTime : TimeValue   = totalEnergy / houseLoad;  // \u2248 19 938 s
 
     // \u2500\u2500 Propulsion budget (N) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    attribute totalThrust : ForceValue = thrusters.thrust;          // 8 \xD7 0.5 N = 4 N
+    attribute totalThrust : ForceValue = observatory.thrusters.thrust;          // 8 \xD7 0.5 N = 4 N
 
     // \u2500\u2500 Design checks \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
     attribute overBudget : Boolean = totalMass > 100 [kg];          // false
@@ -71,7 +80,7 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
     comment about totalMass
         /* Dry-mass rollup across every subsystem; checked by MassBudgetRequirement. */
 }
-`},{path:"interfaces/Interfaces.sysml",text:`package Interfaces {
+`},{path:"interfaces/Interfaces.sysml",text:`package SatelliteInterfaces {
     private import ISQ::*;
     private import SI::*;
 
@@ -98,7 +107,7 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
 `},{path:"subsystems/Battery.sysml",text:`package Energy {
     private import ISQ::*;
     private import SI::*;
-    private import Interfaces::PowerPort;
+    private import SatelliteInterfaces::PowerPort;
 
     part def Battery {
         attribute mass       : MassValue              = 8       [kg];
@@ -115,7 +124,8 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
     private import ISQ::*;
     private import SI::*;
     private import ScalarValues::*;
-    private import Interfaces::PowerPort;
+    private import SatelliteInterfaces::PowerPort;
+    private import Geometry::PanelWing;
 
     // Abstract base for power-generating panels.
     part def BasePanel {
@@ -124,7 +134,7 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
     }
 
     // SolarPanel specialises BasePanel, redefining mass and adding geometry.
-    part def SolarPanel :> BasePanel {
+    part def SolarPanel :> BasePanel, PanelWing {
         attribute :>> mass   : MassValue  = 3.5 [kg];
         attribute peakPower  : PowerValue = 120 [W];
         attribute efficiency : Real       = 0.28;        // dimensionless
@@ -216,7 +226,7 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
     }
 }
 `},{path:"behavior/Operations.sysml",text:`package Operations {
-    private import Interfaces::Telemetry;
+    private import SatelliteInterfaces::Telemetry;
 
     // Commissioning sequence flown once after separation. The action view
     // renders the steps plus the control nodes \u2014 fork \u2442, join, decision \u25C7,
@@ -230,6 +240,10 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
         action orientToSun;
         action enterNominal;
         action enterSafe;
+
+        // Typed subactions demonstrate action performance as well as bare
+        // action usages.
+        perform action publishReport : PublishTelemetry;
 
         first start then detumble;
 
@@ -252,12 +266,17 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
         merge resume;
         first enterNominal then resume;
         first enterSafe then resume;
-        first resume then done;
+        first resume then publishReport;
+        first publishReport then done;
+    }
+
+    action def PublishTelemetry {
+        in report : Telemetry;
     }
 
     attribute def CommandSignal;
 }
-`},{path:"requirements/Requirements.sysml",text:`package Requirements {
+`},{path:"requirements/Requirements.sysml",text:`package MissionRequirements {
     private import ISQ::*;
     private import SI::*;
 
@@ -283,5 +302,86 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
             powerMargin > 0 [W]
         }
     }
+
+    requirement def ImagingDurationRequirement {
+        doc /* Each imaging pass shall fit within the ten-minute contact window. */
+
+        attribute imagingDuration : TimeValue = 300 [s];
+        attribute contactDuration : TimeValue = 600 [s];
+
+        require constraint {
+            imagingDuration <= contactDuration
+        }
+    }
 }
-`}]});export{g as a,b,f as c,h as d,P as e};
+`},{path:"mission/FlightArticle.sysml",text:`package FlightArticles {
+    private import Satellite::*;
+    private import MissionTimeline::*;
+
+    // Individual definitions identify one specific flight article and one
+    // specific contact opportunity, rather than a reusable class of either.
+    individual part def Pathfinder :> Observatory;
+
+    individual part pathfinder : Pathfinder {
+        timeslice commissioning [1] : Pathfinder;
+    }
+
+    individual part firstGroundContact : ContactWindow;
+}
+`},{path:"mission/MissionTimeline.sysml",text:`package MissionTimeline {
+    private import ISQ::*;
+    private import SI::*;
+    private import Time::*;
+
+    item def MissionEvent;
+
+    // An occurrence has a lifetime bounded by its inherited start and done
+    // snapshots. A nested timeslice captures a meaningful interval within it.
+    part def ContactWindow {
+        attribute startTime = TimeOf(start);
+        attribute elapsed :> duration;
+
+        timeslice :>> portionOfLife {
+            snapshot :>> start {
+                :>> elapsed = 0 [s];
+            }
+            snapshot :>> done {
+                :>> elapsed = 600 [s];
+            }
+        }
+
+        timeslice imagingPass {
+            snapshot :>> start {
+                :>> elapsed = 120 [s];
+            }
+            snapshot :>> done {
+                :>> elapsed = 420 [s];
+            }
+        }
+
+        event occurrence acquisitionOfSignal = start;
+        event occurrence lossOfSignal = done;
+    }
+}
+`},{path:"structure/Geometry.sysml",text:`package Geometry {
+    private import SI::*;
+    private import ShapeItems::*;
+    private import SpatialItems::*;
+
+    // Physical items specialize SpatialItem, following the OMG geometry
+    // examples. Their shapes make the satellite dimensions explicit instead of
+    // leaving geometry as unrelated scalar attributes.
+    part def SatelliteBody :> SpatialItem {
+        item :>> shape = new Box(0.8 [m], 0.8 [m], 1.0 [m]);
+    }
+
+    part def PanelWing :> SpatialItem {
+        item :>> shape = new Box(0.6 [m], 0.03 [m], 1.0 [m]);
+    }
+
+    part spacecraftGeometry : SatelliteBody {
+        part portWing  : PanelWing :> componentParts;
+        part starboardWing : PanelWing :> componentParts;
+    }
+}
+`}]});export{b as a,g as b,f as c,h as d,v as e};
