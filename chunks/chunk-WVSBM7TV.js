@@ -1,4 +1,4 @@
-var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var b=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var m=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var g=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}};var c=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!u.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=s(t,r))||a.enumerable});return e};var f=(e,t,n)=>(n=e!=null?o(p(e)):{},c(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var v,h=m(()=>{v=[{path:"satellite.sysml",text:`package Satellite {
+var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var b=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var c=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var g=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}};var d=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!p.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=o(t,r))||a.enumerable});return e};var f=(e,t,n)=>(n=e!=null?s(u(e)):{},d(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var v,h=c(()=>{v=[{path:"satellite.sysml",text:`package Satellite {
     private import ISQ::*;
     private import SI::*;
     private import ScalarValues::*;
@@ -313,6 +313,82 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
             imagingDuration <= contactDuration
         }
     }
+}
+`},{path:"analysis/CalculationPatterns.sysml",text:`package CalculationPatterns {
+    private import ScalarValues::*;
+    private import NumericalFunctions::*;
+    private import RealFunctions::*;
+    private import SequenceFunctions::*;
+    private import ControlFunctions::*;
+
+    // \u2500\u2500 Inherited equations and redefinition \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // \`adjustedMass\` is inherited as an equation, so it is recalculated using
+    // FlightBudget's redefined factor: 10 * 1.1 = 11.
+    part def BudgetBase {
+        attribute rawMass : Real = 10.0;
+        attribute factor  : Real = 1.0;
+        attribute adjustedMass : Real = rawMass * factor;
+    }
+    part def FlightBudget :> BudgetBase {
+        attribute :>> factor : Real = 1.1;
+    }
+    part budget : FlightBudget;
+
+    // \u2500\u2500 Typed calculation usage and direct invocation \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    calc def PowerMargin {
+        in generation : Real;
+        in load : Real;
+        attribute reserve : Real = generation - load;
+        return result : Real = reserve;
+    }
+    calc margin : PowerMargin {
+        in generation = 480.0;
+        in load = 130.0;
+    }
+    attribute directMargin : Real = PowerMargin(600.0, 250.0);
+
+    // \u2500\u2500 Nested equations \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    part nestedMetrics {
+        attribute usablePower : Real = margin.result * 0.8;
+        attribute doubledPower : Real = usablePower * 2.0;
+    }
+
+    // \u2500\u2500 Constraint predicate and asserted derivation equation \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    constraint def BelowLimit {
+        in value : Real;
+        in limit : Real;
+        value <= limit
+    }
+    constraint massCheck : BelowLimit {
+        in value = budget.adjustedMass;
+        in limit = 15.0;
+    }
+
+    attribute computedMass : Real;
+    assert constraint { computedMass == budget.adjustedMass + 2.0 }
+
+    // A binding connector identifies both features with the same value.
+    attribute mirroredMass : Real;
+    bind mirroredMass = computedMass;
+
+    // \u2500\u2500 Concrete standard-library functions and collection operators \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    attribute productValue : Integer = product((2, 3, 4));
+    attribute rootValue : Real = sqrt(81.0);
+    attribute sampleCount : Integer = (1 .. 5)->size();
+    attribute containsThree : Boolean = (1, 2, 3)->includes(3);
+    attribute checksPass : Boolean = allTrue((massCheck.result, containsThree));
+}
+`},{path:"analysis/Functions.kerml",text:`package DemoFunctions {
+    // KerML Functions are directly invokable. Local feature equations are
+    // evaluated before the trailing result expression.
+    function Affine {
+        in x;
+        in offset;
+        feature doubled = x * 2;
+        doubled + offset
+    }
+
+    feature functionResult = Affine(17, 8); // 42
 }
 `},{path:"mission/FlightArticle.sysml",text:`package FlightArticles {
     private import Satellite::*;
