@@ -1,4 +1,4 @@
-var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var b=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var c=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var g=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}};var d=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!p.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=o(t,r))||a.enumerable});return e};var f=(e,t,n)=>(n=e!=null?s(u(e)):{},d(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var v,h=c(()=>{v=[{path:"satellite.sysml",text:`package Satellite {
+var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var b=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var p=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var f=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}},g=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!u.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=s(t,r))||a.enumerable});return e};var y=(e,t,n)=>(n=e!=null?o(m(e)):{},c(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var S,h=p(()=>{S=[{path:"satellite.sysml",text:`package Satellite {
     private import ISQ::*;
     private import SI::*;
     private import ScalarValues::*;
@@ -460,4 +460,278 @@ var s=Object.create;var i=Object.defineProperty;var o=Object.getOwnPropertyDescr
         part starboardWing : PanelWing :> componentParts;
     }
 }
-`}]});export{b as a,g as b,f as c,h as d,v as e};
+`},{path:"structure/GeometryReferences.sysml",text:`package GeometryReferences {
+    private import ISQ::*;
+    private import SI::*;
+    private import ShapeItems::*;
+    private import SpatialItems::*;
+    private import MeasurementReferences::TranslationRotationSequence;
+    private import MeasurementReferences::Translation;
+    private import MeasurementReferences::Rotation;
+
+    part stack : SpatialItem {
+        attribute datum :>> coordinateFrame {
+            :>> mRefs = (mm, mm, mm);
+        }
+
+        // The cone's canonical frame is at its base. Moving that frame up by
+        // its height and turning it over puts the apex at the universal origin.
+        part cone :> componentParts {
+            item :>> shape : RightCircularCone {
+                :>> radius = 40 [mm];
+                :>> height = 70 [mm];
+            }
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = (
+                        new Translation((0, 0, shape.height)[datum]),
+                        new Rotation((1, 0, 0)[datum], 180 ['\xB0'])
+                    );
+                }
+            }
+        }
+
+        // This height and placement both use inter-part feature references.
+        // Its frame is at the far end; rotating about X makes the cylinder
+        // extend down to the cone's base.
+        part cylinder :> componentParts {
+            item :>> shape : RightCircularCylinder {
+                :>> radius = 35 [mm];
+                :>> height = cone.shape.height + 10 [mm];
+            }
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = (
+                        new Translation((0, 0, cone.shape.height + shape.height)[datum]),
+                        new Rotation((1, 0, 0)[datum], 180 ['\xB0'])
+                    );
+                }
+            }
+        }
+    }
+}
+`},{path:"structure/GeometryStack.sysml",text:`package GeometryStack {
+    private import ISQ::*;
+    private import SI::*;
+    private import ShapeItems::*;
+    private import SpatialItems::*;
+    private import MeasurementReferences::TranslationRotationSequence;
+    private import MeasurementReferences::Translation;
+    private import MeasurementReferences::Rotation;
+
+    item def PedestalShape :> Box {
+        :>> length = 100 [mm];
+        :>> width = 100 [mm];
+        :>> height = 100 [mm];
+    }
+
+    part stack : SpatialItem {
+        attribute datum :>> coordinateFrame {
+            :>> mRefs = (mm, mm, mm);
+        }
+
+        part cube :> componentParts {
+            item :>> shape : PedestalShape;
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = new Rotation((0, 0, 1)[datum], 15 ['\xB0']);
+                }
+            }
+        }
+
+        part cylinder :> componentParts {
+            item :>> shape : RightCircularCylinder {
+                :>> radius = 35 [mm];
+                :>> height = 80 [mm];
+            }
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = (
+                        new Translation((50, 50, 100)[datum]),
+                        new Rotation((1, 0, 0)[datum], 12 ['\xB0'])
+                    );
+                }
+            }
+        }
+
+        part cone :> componentParts {
+            item :>> shape : RightCircularCone {
+                :>> radius = 40 [mm];
+                :>> height = 70 [mm];
+            }
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = (
+                        new Translation((50, 50, 180)[datum]),
+                        new Rotation((0, 1, 0)[datum], -10 ['\xB0'])
+                    );
+                }
+            }
+        }
+    }
+}
+`},{path:"structure/GeometryVehicleFrames.sysml",text:`package GeometryVehicleFrames {
+    private import ISQ::*;
+    private import SI::*;
+    private import ShapeItems::*;
+    private import SpatialItems::*;
+    private import MeasurementReferences::CoordinateFrame;
+    private import MeasurementReferences::TranslationRotationSequence;
+    private import MeasurementReferences::Translation;
+    private import MeasurementReferences::Rotation;
+    private import Collections::Array;
+    private import ScalarValues::Real;
+
+    part def Vehicle :> SpatialItem;
+
+    part def Chassis :> SpatialItem {
+        item :>> shape = new Box(4800 [mm], 1840 [mm], 1350 [mm]);
+    }
+
+    part def Wheel :> SpatialItem {
+        item :>> shape : Cylinder {
+            // Apply mm to the complete numeric calculation. Multiplying or
+            // adding a unitless intermediate directly to a LengthValue would
+            // be dimensionally invalid.
+            :>> radius = (22 / 2 * 25.4 + 110) [mm];
+            :>> height = 220 [mm];
+        }
+        attribute wheelCoordinateFrame : CoordinateFrame {
+            :>> mRefs = (mm, mm, mm);
+        }
+    }
+
+    part vehicle : Vehicle {
+        attribute datum :>> coordinateFrame {
+            :>> mRefs = (mm, mm, mm);
+        }
+
+        part chassis : Chassis[1] :> componentParts {
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = new Translation((
+                        -(shape as Box).length / 2,
+                        -(shape as Box).width / 2,
+                        0
+                    )[datum]);
+                }
+            }
+        }
+
+        private attribute plusXAxis : Array {
+            :>> dimensions = 3;
+            :>> elements : Real[3] = (1, 0, 0);
+        }
+        private attribute frontWheelXShift : Real = 1670;
+        private attribute rearWheelXShift : Real = -1820;
+        private attribute wheelYShift : Real = 720;
+
+        part leftFrontWheel : Wheel[1] :> componentParts {
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = (
+                        new Translation((frontWheelXShift, wheelYShift, 80)[datum]),
+                        new Rotation(plusXAxis[datum], -90 ['\xB0'])
+                    );
+                }
+            }
+        }
+
+        part rightFrontWheel : Wheel[1] :> componentParts {
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = (
+                        new Translation((frontWheelXShift, -wheelYShift, 80)[datum]),
+                        new Rotation((1, 0, 0)[datum], 90 ['\xB0'])
+                    );
+                }
+            }
+        }
+
+        part leftRearWheel : Wheel[1] :> componentParts {
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = (
+                        new Translation((rearWheelXShift, wheelYShift, 80)[datum]),
+                        new Rotation((1, 0, 0)[datum], 90 ['\xB0'])
+                    );
+                }
+            }
+        }
+
+        part rightRearWheel : Wheel[1] :> componentParts {
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = (
+                        new Translation((rearWheelXShift, -wheelYShift, 80)[datum]),
+                        new Rotation((-1, 0, 0)[datum], 90 ['\xB0'])
+                    );
+                }
+            }
+        }
+    }
+}
+`},{path:"structure/GeometryWheelPattern.sysml",text:`package GeometryWheelPattern {
+    private import TrigFunctions::cos;
+    private import TrigFunctions::sin;
+    private import TrigFunctions::pi;
+    private import ISQ::*;
+    private import SI::*;
+    private import ShapeItems::*;
+    private import SpatialItems::*;
+    private import MeasurementReferences::TranslationRotationSequence;
+    private import MeasurementReferences::Translation;
+    private import ScalarValues::Natural;
+    private import ScalarValues::Real;
+    private import ControlFunctions::forAll;
+
+    part def LugBolt :> SpatialItem {
+        item :>> shape : Cylinder {
+            :>> radius = 14 [mm];
+            :>> height = 40 [mm];
+        }
+    }
+
+    part wheel : SpatialItem {
+        attribute datum :>> coordinateFrame {
+            :>> mRefs = (mm, mm, mm);
+        }
+
+        attribute numberOfBolts : Natural = 5;
+        attribute placementRadius :>> radius = 60 [mm];
+        private attribute distributionAngleDegrees : Real = 360 / numberOfBolts;
+        attribute distributionAngle :>> planeAngle = distributionAngleDegrees ['\xB0'];
+        private attribute distributionAngleRadians : Real =
+            distributionAngle.num * (pi / 180);
+
+        part lugBolts : LugBolt[1..numberOfBolts] :> subSpatialParts;
+
+        assert constraint {
+            (1..numberOfBolts)->forAll {
+                in i : Natural;
+                private attribute boltFrame = lugBolts#(i).coordinateFrame;
+                private attribute placement : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> target = boltFrame;
+                    :>> elements = new Translation((
+                        placementRadius * cos((i - 1) * distributionAngleRadians),
+                        placementRadius * sin((i - 1) * distributionAngleRadians),
+                        -8
+                    )[datum]);
+                }
+                boltFrame.transformation == placement
+            }
+        }
+    }
+}
+`}]});export{b as a,f as b,g as c,y as d,h as e,S as f};
