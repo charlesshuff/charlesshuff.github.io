@@ -1,4 +1,4 @@
-var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var b=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var p=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var f=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}},g=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},c=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!u.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=s(t,r))||a.enumerable});return e};var y=(e,t,n)=>(n=e!=null?o(m(e)):{},c(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var S,h=p(()=>{S=[{path:"satellite.sysml",text:`package Satellite {
+var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var f=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(n,t)=>(typeof require<"u"?require:n)[t]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var u=(e,n,t)=>()=>{if(t)throw t[0];try{return e&&(n=e(e=0)),n}catch(a){throw t=[a],a}};var g=(e,n)=>()=>{try{return n||e((n={exports:{}}).exports,n),n.exports}catch(t){throw n=0,t}},b=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},p=(e,n,t,a)=>{if(n&&typeof n=="object"||typeof n=="function")for(let r of l(n))!d.call(e,r)&&r!==t&&i(e,r,{get:()=>n[r],enumerable:!(a=s(n,r))||a.enumerable});return e};var w=(e,n,t)=>(t=e!=null?o(m(e)):{},p(n||!e||!e.__esModule?i(t,"default",{value:e,enumerable:!0}):t,e));var S,h=u(()=>{S=[{path:"satellite.sysml",text:`package Satellite {
     private import ISQ::*;
     private import SI::*;
     private import ScalarValues::*;
@@ -130,7 +130,7 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     // Abstract base for power-generating panels.
     part def BasePanel {
         doc /* Abstract base for power-generating panels. */
-        attribute mass : MassValue = 1.0 [kg];
+        attribute mass : MassValue default 1.0 [kg];
     }
 
     // SolarPanel specialises BasePanel, redefining mass and adding geometry.
@@ -326,7 +326,7 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     // FlightBudget's redefined factor: 10 * 1.1 = 11.
     part def BudgetBase {
         attribute rawMass : Real = 10.0;
-        attribute factor  : Real = 1.0;
+        attribute factor  : Real default 1.0;
         attribute adjustedMass : Real = rawMass * factor;
     }
     part def FlightBudget :> BudgetBase {
@@ -413,7 +413,7 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
 
     // An occurrence has a lifetime bounded by its inherited start and done
     // snapshots. A nested timeslice captures a meaningful interval within it.
-    part def ContactWindow {
+    individual part def ContactWindow {
         attribute startTime = TimeOf(start);
         attribute elapsed :> duration;
 
@@ -734,4 +734,188 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
         }
     }
 }
-`}]});export{b as a,f as b,g as c,y as d,h as e,S as f};
+`},{path:"views/SatelliteViews.sysml",text:`package SatelliteViews {
+    // \`Views::*\` supplies the two renderings a view may declare \u2014
+    // \`asTreeDiagram\` and \`asInterconnectionDiagram\`. A view that declares no
+    // rendering at all lets the viewer infer one from its first exposed
+    // element, which \`busContext\` below exercises deliberately.
+    private import Views::*;
+    private import ScalarValues::*;
+    private import ISQ::*;
+    private import SI::*;
+
+    // \u2500\u2500 Cross-cutting concerns \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // \`filter\` matches an element's OWNED annotations only. SysML.ecore derives
+    // \`Element::ownedAnnotation\` as
+    //
+    //     ownedRelationship->selectByKind(Annotation)->
+    //         select(a | a.annotatedElement = self)
+    //
+    // and a view's condition check reads
+    // \`element.ownedAnnotation.annotatingElement\`. An \`about\`-form annotation
+    // is owned by the annotating metadata usage rather than by its target, so
+    // it is invisible to a filter \u2014 the annotation has to be written inside the
+    // element it marks.
+    metadata def Safety {
+        attribute isMandatory : Boolean;
+    }
+    metadata def FlightCritical;
+
+    // \u2500\u2500 Ground and deployable hardware \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // The flight model stops at the spacecraft boundary and carries no
+    // cross-cutting annotations, so the downlink and safety views need parts of
+    // their own to select over. These extend the satellite rather than
+    // duplicating it: a ground segment, and the deployables whose release is the
+    // mission's single-point-of-failure step.
+    part def GroundStation {
+        in port telemetryIn : SatelliteInterfaces::DataPort;
+        attribute antennaGain : Real = 42.0;      // dBi
+    }
+
+    part def DeployableBoom {
+        attribute mass : MassValue = 1.4 [kg];
+    }
+
+    part segment {
+        part groundStation : GroundStation;
+
+        part solarBoom : DeployableBoom {
+            @Safety { isMandatory = true; }
+            @FlightCritical;
+        }
+        part antennaBoom : DeployableBoom {
+            @Safety { isMandatory = true; }
+        }
+        part sunSensor {
+            @Safety { isMandatory = false; }
+        }
+        part starTracker {
+            @FlightCritical;
+        }
+        part testPort;
+    }
+
+    // \u2500\u2500 Reusable view definitions \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // Each view usage below restates \`render\` even though it is typed by one of
+    // these definitions. That looks redundant and is not: the rendering a view
+    // is DRAWN with comes from \`ViewUsage::viewRendering\`, whose derivation is
+    // \`nestedRendering\` (ECore: \`nestedUsage->selectByKind(RenderingUsage)\`
+    // over \`ownedFeature\`) falling back to \`UsageUtil.getViewRenderingOf\`,
+    // which reads \`getOwnedMembership()\`. Both are OWNED-only, so a rendering
+    // on the definition is not picked up by a usage typed by it \u2014
+    // \`getAllViewConditionsOf\` right beside it unions inherited members
+    // explicitly, so the omission is deliberate in the Pilot.
+    //
+    // A view with no rendering of its own does not fail; the mode is inferred
+    // from its first exposed element instead. That silently draws the WRONG
+    // KIND of diagram whenever the inference disagrees with the definition \u2014
+    // \`busContext\` below exposes a leaf part and used to infer an
+    // interconnection diagram, which draws nothing for a part that owns only
+    // ports. The Pilot's own \`ViewTest.sysml:34\` likewise declares \`render r;\`
+    // inside a typed \`view v: V[0..*]\`.
+    //
+    // Note this is where the Pilot departs from the spec prose: SysML v2.1
+    // \xA77.26.2 says a usage that declares no rendering inherits one from its
+    // definition. The definitions are kept because they carry the intent, and
+    // because a local \`render\` is what \xA77.26.2 calls a redefinition of the
+    // definition's rendering \u2014 correct under either reading.
+    view def InterconnectView {
+        render asInterconnectionDiagram;
+    }
+
+    view def BreakdownView {
+        render asTreeDiagram;
+    }
+
+    // \u2500\u2500 1. Observatory interconnect \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // An interconnection diagram is composed from a CONTAINING part: it draws
+    // that part's nested usages together with the ports and connectors between
+    // them. Exposing the leaf usages instead (\`observatory::panels\` and
+    // friends) hands the renderer parts with no enclosing context to connect
+    // them in, and it draws nothing \u2014 so the whole observatory is exposed and
+    // the power chain reads off the connectors declared in \`satellite.sysml\`.
+    view powerChain : InterconnectView {
+        render asInterconnectionDiagram;
+        expose Satellite::observatory;
+    }
+
+    // \u2500\u2500 2. Telemetry downlink, spacecraft through ground \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // Two containers in one diagram, which is what makes this view span the
+    // flight/ground boundary no single source file covers.
+    view telemetryDownlink : InterconnectView {
+        render asInterconnectionDiagram;
+        expose Satellite::observatory;
+        expose segment;
+    }
+
+    // \u2500\u2500 3. Dry-mass contributors \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // The observatory as a containment breakdown \u2014 the structure behind
+    // \`Satellite::totalMass\`.
+    view massBreakdown : BreakdownView {
+        render asTreeDiagram;
+        expose Satellite::observatory::**;
+    }
+
+    // \u2500\u2500 4. Propulsion subsystem in isolation \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // \`::**\` on a PART walks that part's tree, but on a PACKAGE it also walks
+    // what the package imports \u2014 for any package importing the standard
+    // library that is thousands of elements, not a subsystem slice. Name the
+    // definition and the usage instead.
+    view propulsionSlice : BreakdownView {
+        render asTreeDiagram;
+        expose Propulsion::Thruster;
+        expose Satellite::observatory::thrusters;
+    }
+
+    // \u2500\u2500 5. Safety-critical cross-section \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // The one selection \`expose\` cannot express on its own: a predicate over
+    // every exposed element rather than a subtree of them.
+    view safetyCritical : BreakdownView {
+        render asTreeDiagram;
+        expose segment::**;
+        filter @Safety;
+    }
+
+    // \u2500\u2500 6. Mandatory-safety subset \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // Filters compose: annotation presence AND an attribute of the annotation.
+    // \`sunSensor\` carries \`@Safety\` with \`isMandatory = false\`, so it drops out
+    // here while remaining in \`safetyCritical\`.
+    view mandatorySafety : BreakdownView {
+        render asTreeDiagram;
+        expose segment::**;
+        filter @Safety and (as Safety).isMandatory;
+    }
+
+    // \u2500\u2500 7. Flight-critical hardware \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    view flightCritical : BreakdownView {
+        render asTreeDiagram;
+        expose segment::**;
+        filter @FlightCritical;
+    }
+
+    // \u2500\u2500 8. Bus context, with a nested detail view \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // A view may own another view. The nested view names its own rendering and
+    // its own exposed set, so the two are drawn independently and each gets its
+    // own entry in the panel.
+    // \`bus\` is exposed BARE, not as \`bus::**\`: the star form selects an
+    // element's descendants, while the bare form includes the exposed element
+    // itself, which is what puts the bus on the diagram.
+    //
+    // This view is why the local \`render\` above matters. \`bus\` is a leaf part
+    // whose members are all ports, so mode inference over it selects an
+    // INTERCONNECTION diagram, and an interconnection diagram of a part with
+    // no nested parts to connect draws nothing at all. Naming the tree
+    // rendering here is what makes it draw.
+    view busContext : BreakdownView {
+        render asTreeDiagram;
+        expose Satellite::observatory::bus;
+
+        view busPorts : BreakdownView {
+            render asTreeDiagram;
+            expose SatelliteInterfaces::PowerPort;
+            expose SatelliteInterfaces::DataPort;
+            expose SatelliteInterfaces::PowerBus;
+        }
+    }
+}
+`}]});export{f as a,g as b,b as c,w as d,h as e,S as f};
