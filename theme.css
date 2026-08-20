@@ -400,6 +400,17 @@ body {
 /* Padlock badge: 🔒 locked (fixed `=`) vs 🔓 modifiable (`:=`/`default`); hover for why. */
 .calc-deco .calc-lock { cursor: help; font-style: normal; }
 
+/* "Show View" code lens above a `view` declaration (see editor/view-lenses.ts).
+   A block widget, so it occupies its own line the way a VS Code lens does. */
+.view-lens { padding: 2px 0 0 14px; line-height: 1.4; }
+.view-lens-action { background: none; border: none; padding: 0; cursor: pointer;
+  font: inherit; font-size: 11.5px;
+  color: var(--vscode-editorCodeLens-foreground, #999); }
+.view-lens-action:hover { color: var(--vscode-textLink-activeForeground, #4daafc);
+  text-decoration: underline; }
+.view-lens-action:focus-visible { outline: 1px solid var(--vscode-focusBorder, #4daafc);
+  outline-offset: 2px; }
+
 /* LSP hover tooltip. */
 .cm-tooltip.cm-tooltip-hover { background: var(--vscode-editorHoverWidget-background, var(--vscode-editorWidget-background));
   border: 1px solid var(--vscode-editorHoverWidget-border, var(--vscode-editorWidget-border));
