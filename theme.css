@@ -286,12 +286,6 @@ body {
 .editor-pane { flex: 0 0 var(--editor-w); }
 .diagram-pane { flex: 1 1 auto; border-left: 1px solid var(--vscode-panel-border); position: relative; }
 
-/* Overlay that replaces the diagram while the active file has errors. */
-.render-block { position: absolute; inset: 0; z-index: 5; display: flex; align-items: center;
-  justify-content: center; text-align: center; padding: 24px; background: var(--vscode-editor-background); }
-.render-block[hidden] { display: none; }
-.render-block-msg { max-width: 32em; color: var(--vscode-descriptionForeground); font-size: 13px; }
-
 /* ──────────────────────────── File browser ────────────────────────────── */
 .filebrowser { flex: 0 0 var(--filebrowser-w); display: flex; flex-direction: column;
   position: relative; min-width: 0; background: var(--vscode-sideBar-background); }
@@ -388,6 +382,38 @@ body {
 .tok-cmt  { color: #6a9955; font-style: italic; } body.vscode-light .tok-cmt { color: #008000; }
 .tok-str  { color: #ce9178; } body.vscode-light .tok-str  { color: #a31515; }
 .tok-op   { color: #d4d4d4; } body.vscode-light .tok-op   { color: #000000; }
+.tok-attribute, .tok-connection { color: #9cdcfe; } body.vscode-light .tok-attribute, body.vscode-light .tok-connection { color: #001080; }
+.tok-part, .tok-interface { color: #4ec9b0; } body.vscode-light .tok-part, body.vscode-light .tok-interface { color: #267f99; }
+.tok-item, .tok-requirement, .tok-enum { color: #4ec9b0; } body.vscode-light .tok-item, body.vscode-light .tok-requirement, body.vscode-light .tok-enum { color: #267f99; }
+.tok-state, .tok-time { color: #b5cea8; } body.vscode-light .tok-state, body.vscode-light .tok-time { color: #098658; }
+.tok-action, .tok-calc, .tok-constraint { color: #dcdcaa; } body.vscode-light .tok-action, body.vscode-light .tok-calc, body.vscode-light .tok-constraint { color: #795e26; }
+.tok-transition, .tok-flow { color: #c586c0; } body.vscode-light .tok-transition, body.vscode-light .tok-flow { color: #af00db; }
+/* `.tok-port` used to carry `font-style: italic` as a family marker, on the same
+   #9cdcfe/#001080 as attribute, connection and occurrence — italic was its ONLY
+   differentiator from those three. Italic is now reserved for the `usage`
+   modifier (see `.tok-usage` below), because otherwise a `port def` would read
+   as a usage, so port needs a hue of its own or it collapses onto the other
+   three. #4fc1ff / #0070c1 is the remaining unused pair from the VS Code
+   Dark+/Light+ palette this file follows (their `constant` blue): same blue
+   family as the SysML "connectable" group, clearly separated from #9cdcfe /
+   #001080 at normal weight. */
+.tok-port { color: #4fc1ff; } body.vscode-light .tok-port { color: #0070c1; }
+.tok-view { color: #c8c8c8; } body.vscode-light .tok-view { color: #267f99; }
+.tok-metadata { color: #d7ba7d; } body.vscode-light .tok-metadata { color: #795e26; }
+.tok-occurrence { color: #9cdcfe; } body.vscode-light .tok-occurrence { color: #001080; }
+.tok-case { color: #dcdcaa; } body.vscode-light .tok-case { color: #795e26; }
+
+/* The `definition` / `usage` semantic-token modifiers: the two halves of a
+   SysML metaclass pair (`part def` vs `part`). Font style only — the colour
+   still comes from the element-family class alongside it. The two are mutually
+   exclusive and are emitted on references as well as declarations, so a
+   definition reads bold wherever it appears and a usage italic.
+
+   `.tok-def` pins `font-style: normal` so a definition can never inherit italic
+   from an element-family class; italic in this editor means "usage" and nothing
+   else. */
+.tok-def   { font-weight: 600; font-style: normal; }
+.tok-usage { font-style: italic; }
 
 /* Inline calc-result annotations (mirrors VS Code CodeLens / CalcResultDecoration).
    Deliberately unlike source: italic, indented, and opened by a ⟹ marker rather

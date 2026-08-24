@@ -166,6 +166,58 @@ export function hover_at_offset(src, lang, utf16_offset) {
 }
 
 /**
+ * Install the standard-library substrate from its DEFLATE-compressed blob.
+ *
+ * The substrate is the element-level library table `smlml-validate` type-checks
+ * against. Native builds compile it in; this build does not, because it is
+ * 9.6 MB of already-DEFLATE'd bytes that gzip cannot compress further — inside
+ * the `.wasm` it was 74% of the editor's entire download. It ships as
+ * `stdlib_substrate.deflate` beside the wasm-pack package instead, and the
+ * host fetches it and calls this.
+ *
+ * Call it BEFORE the first LSP message: until it lands, the server withholds
+ * every type-dependent finding (see `smlml_ide::type_validation_ready`),
+ * because without the substrate `TypeGraph::is_a` answers false for every
+ * library element and the findings would be wrong rather than merely absent.
+ *
+ * Returns a TRI-STATE string, not a boolean, because the two ways the
+ * underlying installer can decline are opposites:
+ *
+ * * `"installed"`   — this call put the substrate in place.
+ * * `"already"`     — a substrate was already in place. Nothing to do; type
+ *                     diagnostics work. A worker that re-inits, or a host that
+ *                     installs defensively twice, lands here.
+ * * `"rejected"`    — the blob was empty or undecodable and NO substrate is in
+ *                     place. Type-dependent findings will be withheld.
+ *
+ * `install_compressed` answers `false` for both of the latter, so a `bool`
+ * made a redundant install indistinguishable from a broken one and both JS
+ * hosts raised a substrate error on a perfectly healthy session. Only
+ * `"rejected"` is worth surfacing — it is the difference between "diagnostics"
+ * and "silence".
+ * @param {Uint8Array} bytes
+ * @returns {string}
+ */
+export function install_stdlib_substrate(bytes) {
+    let deferred2_0;
+    let deferred2_1;
+    try {
+        const retptr = wasm.__wbindgen_add_to_stack_pointer(-16);
+        const ptr0 = passArray8ToWasm0(bytes, wasm.__wbindgen_export2);
+        const len0 = WASM_VECTOR_LEN;
+        wasm.install_stdlib_substrate(retptr, ptr0, len0);
+        var r0 = getDataViewMemory0().getInt32(retptr + 4 * 0, true);
+        var r1 = getDataViewMemory0().getInt32(retptr + 4 * 1, true);
+        deferred2_0 = r0;
+        deferred2_1 = r1;
+        return getStringFromWasm0(r0, r1);
+    } finally {
+        wasm.__wbindgen_add_to_stack_pointer(16);
+        wasm.__wbindgen_export(deferred2_0, deferred2_1, 1);
+    }
+}
+
+/**
  * List instance usages (concrete value-sets) as a JSON array of path arrays.
  * @param {string} file_text
  * @returns {string}
@@ -316,6 +368,17 @@ export function smlml_version() {
 }
 
 /**
+ * Whether a standard-library substrate is in place, and therefore whether the
+ * server will report type-dependent findings. See
+ * [`install_stdlib_substrate`].
+ * @returns {boolean}
+ */
+export function stdlib_substrate_ready() {
+    const ret = wasm.stdlib_substrate_ready();
+    return ret !== 0;
+}
+
+/**
  * Initialize the WASM module: registers `console_error_panic_hook` so that
  * Rust panics are reported as readable messages in the browser console instead
  * of opaque WASM traps.  Called automatically at module load (via
@@ -401,6 +464,13 @@ let heap = new Array(1024).fill(undefined);
 heap.push(undefined, null, true, false);
 
 let heap_next = heap.length;
+
+function passArray8ToWasm0(arg, malloc) {
+    const ptr = malloc(arg.length * 1, 1) >>> 0;
+    getUint8ArrayMemory0().set(arg, ptr / 1);
+    WASM_VECTOR_LEN = arg.length;
+    return ptr;
+}
 
 function passStringToWasm0(arg, malloc, realloc) {
     if (realloc === undefined) {

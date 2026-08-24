@@ -12,6 +12,11 @@
  *   { type: "smlml-log", tag, msg }   lifecycle breadcrumbs for the Log panel
  *   { type: "smlml-ready" }           init succeeded
  *   { type: "smlml-error", message }  init failed
+ *   { type: "smlml-substrate-error", message }
+ *                                     the standard-library substrate could not
+ *                                     be fetched or installed; the worker is
+ *                                     still usable but type diagnostics are
+ *                                     suppressed server-side
  *   { type: "smlml-snippet-hover-result", id, markdown }
  * Any other worker → main message is a raw JSON-RPC LSP message.
  *
@@ -33,9 +38,48 @@
 
 import init, {
   hover_at_offset,
+  install_stdlib_substrate,
   lsp_handle_message,
   wasm_init,
 } from "./wasm-pkg/smlml_wasm.js";
+
+/**
+ * Fetch the standard-library substrate and install it into the WASM module.
+ *
+ * The substrate is the element-level table `smlml-validate` type-checks
+ * against. It used to be `include_bytes!`d into the `.wasm`, but it is 9.6 MB
+ * of already-DEFLATE'd bytes that gzip cannot touch, so it was 74% of the
+ * download and blew the size budget. The wasm build now emits it as a sibling
+ * asset instead and this hands the bytes to the SAME installer the native
+ * build uses (`lib_substrate::install_compressed`).
+ *
+ * This runs before `smlml-ready` is posted, and therefore before any LSP
+ * message is dispatched: the server never sees a document while the substrate
+ * is missing, so there is no window in which the 947-finding "every library
+ * type is unknown" flood could be published. The Rust side suppresses
+ * type-dependent findings while no substrate is installed as a second line of
+ * defence for the failure path below.
+ *
+ * Throws on any failure — fetch, HTTP status, or a blob the installer rejects
+ * — so the caller can surface it. A missing substrate is never allowed to pass
+ * silently: wrong diagnostics are worse than no diagnostics.
+ *
+ * `install_stdlib_substrate` answers a tri-state string. Only "rejected" is a
+ * failure: "already" means a substrate is in place (a re-initialised worker
+ * installing a second time), which is a no-op and must NOT raise the substrate
+ * error banner over a session whose diagnostics are working.
+ */
+async function installSubstrate() {
+  const url = new URL("./wasm-pkg/stdlib_substrate.deflate", import.meta.url);
+  const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`HTTP ${resp.status} fetching ${url.pathname}`);
+  const bytes = new Uint8Array(await resp.arrayBuffer());
+  const status = install_stdlib_substrate(bytes);
+  if (status === "rejected") {
+    throw new Error(`the standard-library substrate blob was rejected (${bytes.length} bytes)`);
+  }
+  return { bytes: bytes.length, status };
+}
 
 let ready = false;
 let initPromise = null;
@@ -56,6 +100,27 @@ async function ensureWasm() {
       wasm_init();
       const t2 = performance.now();
       post({ type: "smlml-log", tag: "WASM", msg: `wasm_init() — panic hook installed (${(t2 - t1).toFixed(0)} ms)` });
+      post({ type: "smlml-log", tag: "WASM", msg: "fetch wasm-pkg/stdlib_substrate.deflate" });
+      try {
+        const { bytes, status } = await installSubstrate();
+        const t3 = performance.now();
+        post({
+          type: "smlml-log",
+          tag: "WASM",
+          msg:
+            status === "already"
+              ? `standard-library substrate already installed (${(t3 - t2).toFixed(0)} ms)`
+              : `standard-library substrate installed (${bytes.toLocaleString()} bytes, ${(t3 - t2).toFixed(0)} ms)`,
+        });
+      } catch (err) {
+        // Deliberately NOT fatal: the editor still parses, resolves, formats
+        // and renders without the substrate, and the server suppresses exactly
+        // the findings that would be wrong without it. But it is loud — the
+        // control message drives an error line in the Log panel — because a
+        // silently substrate-less session looks identical to a healthy one
+        // until someone trusts a missing diagnostic.
+        post({ type: "smlml-substrate-error", message: String(err) });
+      }
       ready = true;
     })();
   }

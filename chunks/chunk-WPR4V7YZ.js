@@ -316,7 +316,6 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
 }
 `},{path:"analysis/CalculationPatterns.sysml",text:`package CalculationPatterns {
     private import ScalarValues::*;
-    private import NumericalFunctions::*;
     private import RealFunctions::*;
     private import SequenceFunctions::*;
     private import ControlFunctions::*;
@@ -507,6 +506,53 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
                         new Translation((0, 0, cone.shape.height + shape.height)[datum]),
                         new Rotation((1, 0, 0)[datum], 180 ['\xB0'])
                     );
+                }
+            }
+        }
+    }
+}
+`},{path:"structure/GeometrySphere.sysml",text:`package GeometrySphere {
+    private import ISQ::*;
+    private import SI::*;
+    private import ShapeItems::*;
+    private import SpatialItems::*;
+    private import MeasurementReferences::TranslationRotationSequence;
+    private import MeasurementReferences::Translation;
+
+    // A Sphere is centred on its own origin, so a body placed at the datum
+    // straddles the origin while the two orbiting markers are offset by their
+    // translations alone.
+    item def MarkerShape :> Sphere {
+        :>> radius = 15 [mm];
+    }
+
+    part assembly : SpatialItem {
+        attribute datum :>> coordinateFrame {
+            :>> mRefs = (mm, mm, mm);
+        }
+
+        part body :> componentParts {
+            item :>> shape : Sphere {
+                :>> radius = 60 [mm];
+            }
+        }
+
+        part equatorMarker :> componentParts {
+            item :>> shape : MarkerShape;
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = new Translation((90, 0, 0)[datum]);
+                }
+            }
+        }
+
+        part poleMarker :> componentParts {
+            item :>> shape : MarkerShape;
+            attribute :>> coordinateFrame {
+                :>> transformation : TranslationRotationSequence {
+                    :>> source = datum;
+                    :>> elements = new Translation((0, 0, 90)[datum]);
                 }
             }
         }
