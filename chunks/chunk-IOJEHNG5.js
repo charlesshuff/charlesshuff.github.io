@@ -1,4 +1,4 @@
-var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,d=Object.prototype.hasOwnProperty;var f=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(n,t)=>(typeof require<"u"?require:n)[t]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var u=(e,n,t)=>()=>{if(t)throw t[0];try{return e&&(n=e(e=0)),n}catch(a){throw t=[a],a}};var g=(e,n)=>()=>{try{return n||e((n={exports:{}}).exports,n),n.exports}catch(t){throw n=0,t}},b=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},p=(e,n,t,a)=>{if(n&&typeof n=="object"||typeof n=="function")for(let r of l(n))!d.call(e,r)&&r!==t&&i(e,r,{get:()=>n[r],enumerable:!(a=s(n,r))||a.enumerable});return e};var w=(e,n,t)=>(t=e!=null?o(m(e)):{},p(n||!e||!e.__esModule?i(t,"default",{value:e,enumerable:!0}):t,e));var S,h=u(()=>{S=[{path:"satellite.sysml",text:`package Satellite {
+var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var g=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var d=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var f=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}},b=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!p.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=s(t,r))||a.enumerable});return e};var w=(e,t,n)=>(n=e!=null?o(m(e)):{},u(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var S,h=d(()=>{S=[{path:"satellite.sysml",text:`package Satellite {
     private import ISQ::*;
     private import SI::*;
     private import ScalarValues::*;
@@ -853,12 +853,16 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     // explicitly, so the omission is deliberate in the Pilot.
     //
     // A view with no rendering of its own does not fail; the mode is inferred
-    // from its first exposed element instead. That silently draws the WRONG
-    // KIND of diagram whenever the inference disagrees with the definition \u2014
-    // \`busContext\` below exposes a leaf part and used to infer an
-    // interconnection diagram, which draws nothing for a part that owns only
-    // ports. The Pilot's own \`ViewTest.sysml:34\` likewise declares \`render r;\`
-    // inside a typed \`view v: V[0..*]\`.
+    // from its first exposed element instead, via \`getMode()\`, whose only
+    // non-Mixed branches match a CaseUsage/StateUsage/ActionUsage or a bare
+    // OccurrenceDefinition \u2014 inference can never select Interconnection, so a
+    // usage typed by \`InterconnectView\` that omits \`render\` silently falls
+    // back to Mixed instead. For an ordinary part Mixed still draws the same
+    // containment box Tree does \u2014 confirmed against the Pilot \u2014 except when
+    // the part's only members are ports: Tree draws an empty box for such a
+    // part, Mixed draws nothing at all. \`busContext\` below exposes exactly
+    // that case. The Pilot's own \`ViewTest.sysml:34\` likewise declares
+    // \`render r;\` inside a typed \`view v: V[0..*]\`.
     //
     // Note this is where the Pilot departs from the spec prose: SysML v2.1
     // \xA77.26.2 says a usage that declares no rendering inherits one from its
@@ -948,10 +952,11 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     // itself, which is what puts the bus on the diagram.
     //
     // This view is why the local \`render\` above matters. \`bus\` is a leaf part
-    // whose members are all ports, so mode inference over it selects an
-    // INTERCONNECTION diagram, and an interconnection diagram of a part with
-    // no nested parts to connect draws nothing at all. Naming the tree
-    // rendering here is what makes it draw.
+    // whose only members are ports, so mode inference falls back to Mixed for
+    // it (inference can never select Interconnection \u2014 see the note above
+    // \`InterconnectView\`). Tree draws an empty containment box for a
+    // ports-only part; Mixed draws nothing at all. Naming the tree rendering
+    // here is what makes it draw.
     view busContext : BreakdownView {
         render asTreeDiagram;
         expose Satellite::observatory::bus;
@@ -963,5 +968,35 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
             expose SatelliteInterfaces::PowerBus;
         }
     }
+
+    // \u2500\u2500 9. Everything, satellite-only \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    // \`expose Satellite::*\` looks like the obvious way to draw "all of
+    // Satellite," but a package-level wildcard also reaches the package's
+    // ANONYMOUS members \u2014 the \`connect\`, \`bind\`, \`flow\`, and \`interface\`
+    // statements in satellite.sysml carry no name of their own, so nothing
+    // about them stands out in the \`expose\` line, yet the wildcard still
+    // picks them up. Drawing them pulls in enough of their surrounding
+    // closure to swell this view past 3,000 elements, confirmed against the
+    // Pilot reference implementation (which renders the same \`Satellite::*\`
+    // view at essentially the same size \u2014 this is not an engine bug, it is
+    // what a package wildcard means). Naming each member instead avoids the
+    // anonymous ones entirely, the same fix \`propulsionSlice\` above applies
+    // to \`::**\` on a package, extended here to bare \`::*\`.
+    view everything : BreakdownView {
+        render asTreeDiagram;
+        expose Satellite::observatory::**;
+        expose Satellite::PowerDistribution;
+        expose Satellite::Payload;
+        expose Satellite::totalMass;
+        expose Satellite::solarGen;
+        expose Satellite::houseLoad;
+        expose Satellite::powerMargin;
+        expose Satellite::peakDemand;
+        expose Satellite::totalEnergy;
+        expose Satellite::eclipseTime;
+        expose Satellite::totalThrust;
+        expose Satellite::overBudget;
+        expose Satellite::safePower;
+    }
 }
-`}]});export{f as a,g as b,b as c,w as d,h as e,S as f};
+`}]});export{g as a,f as b,b as c,w as d,h as e,S as f};
