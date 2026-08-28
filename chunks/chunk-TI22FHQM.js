@@ -1,4 +1,4 @@
-var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var g=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var d=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var f=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}},b=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},u=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!p.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=s(t,r))||a.enumerable});return e};var w=(e,t,n)=>(n=e!=null?o(m(e)):{},u(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var S,h=d(()=>{S=[{path:"satellite.sysml",text:`package Satellite {
+var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var u=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var g=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}},b=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!p.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=s(t,r))||a.enumerable});return e};var w=(e,t,n)=>(n=e!=null?o(m(e)):{},d(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var S,h=u(()=>{S=[{path:"satellite.sysml",text:`package Satellite {
     private import ISQ::*;
     private import SI::*;
     private import ScalarValues::*;
@@ -842,39 +842,10 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     }
 
     // \u2500\u2500 Reusable view definitions \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // Each view usage below restates \`render\` even though it is typed by one of
-    // these definitions. That looks redundant and is not: the rendering a view
-    // is DRAWN with comes from \`ViewUsage::viewRendering\`, whose derivation is
-    // \`nestedRendering\` (ECore: \`nestedUsage->selectByKind(RenderingUsage)\`
-    // over \`ownedFeature\`) falling back to \`UsageUtil.getViewRenderingOf\`,
-    // which reads \`getOwnedMembership()\`. Both are OWNED-only, so a rendering
-    // on the definition is not picked up by a usage typed by it \u2014
-    // \`getAllViewConditionsOf\` right beside it unions inherited members
-    // explicitly, so the omission is deliberate in the Pilot.
-    //
-    // A view with no rendering of its own does not fail; the mode is inferred
-    // from its first exposed element instead, via \`getMode()\`, whose only
-    // non-Mixed branches match a CaseUsage/StateUsage/ActionUsage or a bare
-    // OccurrenceDefinition \u2014 inference can never select Interconnection, so a
-    // usage typed by \`InterconnectView\` that omits \`render\` silently falls
-    // back to Mixed instead. For an ordinary part Mixed still draws the same
-    // containment box Tree does \u2014 confirmed against the Pilot \u2014 except when
-    // the part's only members are ports: Tree draws an empty box for such a
-    // part, Mixed draws nothing at all. \`busContext\` below exposes exactly
-    // that case. The Pilot's own \`ViewTest.sysml:34\` likewise declares
-    // \`render r;\` inside a typed \`view v: V[0..*]\`.
-    //
-    // Note this is where the Pilot departs from the spec prose: SysML v2.1
-    // \xA77.26.2 says a usage that declares no rendering inherits one from its
-    // definition. The definitions are kept because they carry the intent, and
-    // because a local \`render\` is what \xA77.26.2 calls a redefinition of the
-    // definition's rendering \u2014 correct under either reading.
     view def InterconnectView {
-        render asInterconnectionDiagram;
     }
 
     view def BreakdownView {
-        render asTreeDiagram;
     }
 
     // \u2500\u2500 1. Observatory interconnect \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
@@ -999,4 +970,4 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
         expose Satellite::safePower;
     }
 }
-`}]});export{g as a,f as b,b as c,w as d,h as e,S as f};
+`}]});export{f as a,g as b,b as c,w as d,h as e,S as f};
