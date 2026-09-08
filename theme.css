@@ -716,3 +716,5 @@ body {
   border: 1px solid var(--vscode-focusBorder, #007fd4); border-radius: 3px; outline: none; }
 .fb-folder.drop-into, .file-item.drop-into { outline: 1px solid var(--vscode-focusBorder, #007fd4);
   outline-offset: -1px; background: var(--vscode-list-dropBackground, rgba(0,127,212,.18)); }
+
+.cm-unused-import { opacity: 0.6; }
