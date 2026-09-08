@@ -780,6 +780,65 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
         }
     }
 }
+`},{path:"structure/GeometryWheelSeparateFrame.sysml",text:`package GeometryWheelSeparateFrame {
+    private import TrigFunctions::cos;
+    private import TrigFunctions::sin;
+    private import TrigFunctions::pi;
+    private import ISQ::*;
+    private import SI::*;
+    private import ShapeItems::*;
+    private import SpatialItems::*;
+    private import MeasurementReferences::CoordinateFrame;
+    private import MeasurementReferences::TranslationRotationSequence;
+    private import MeasurementReferences::Translation;
+    private import ScalarValues::Natural;
+    private import ScalarValues::Real;
+    private import ControlFunctions::forAll;
+
+    part def LugBolt :> SpatialItem {
+        item :>> shape : Cylinder {
+            :>> radius = 14 [mm];
+            :>> height = 40 [mm];
+        }
+    }
+
+    // Mirrors the OMG \`VehicleGeometryAndCoordinateFrames\` example: \`wcf\` is
+    // a SEPARATE frame from the wheel's own \`coordinateFrame\` (\`datum\`),
+    // declared with no \`mRefs\` and no \`transformation\` of its own.
+    part wheel : SpatialItem {
+        attribute datum :>> coordinateFrame {
+            :>> mRefs = (mm, mm, mm);
+        }
+
+        attribute <wcf> wheelCoordinateFrame : CoordinateFrame;
+
+        attribute numberOfBolts : Natural = 5;
+        attribute placementRadius :>> radius = 60 [mm];
+        private attribute distributionAngleDegrees : Real = 360 / numberOfBolts;
+        attribute distributionAngle :>> planeAngle = distributionAngleDegrees ['\xB0'];
+        private attribute distributionAngleRadians : Real =
+            distributionAngle.num * (pi / 180);
+
+        part lugBolts : LugBolt[1..numberOfBolts] :> subSpatialParts;
+
+        assert constraint {
+            (1..numberOfBolts)->forAll {
+                in i : Natural;
+                private attribute boltFrame = lugBolts#(i).coordinateFrame;
+                private attribute placement : TranslationRotationSequence {
+                    :>> source = wcf;
+                    :>> target = boltFrame;
+                    :>> elements = new Translation((
+                        placementRadius * cos((i - 1) * distributionAngleRadians),
+                        placementRadius * sin((i - 1) * distributionAngleRadians),
+                        -8
+                    )[wcf]);
+                }
+                boltFrame.transformation == placement
+            }
+        }
+    }
+}
 `},{path:"views/SatelliteViews.sysml",text:`package SatelliteViews {
     // \`Views::*\` supplies the two renderings a view may declare \u2014
     // \`asTreeDiagram\` and \`asInterconnectionDiagram\`. A view that declares no

@@ -18,10 +18,16 @@
  *                                     still usable but type diagnostics are
  *                                     suppressed server-side
  *   { type: "smlml-snippet-hover-result", id, markdown }
+ *   { type: "smlml-heap", bytes }     linear-memory size, for the measurement
+ *                                     harness and the Log panel
  * Any other worker → main message is a raw JSON-RPC LSP message.
  *
  * main → worker:
- *   { type: "smlml-init" }            trigger WASM init
+ *   { type: "smlml-init", role }      trigger WASM init; `role` names which of
+ *                                     the two engine instances this is, and is
+ *                                     echoed back so the Log panel can tell
+ *                                     their breadcrumbs apart
+ *   { type: "smlml-heap-query" }      ask for the linear-memory size
  *   { type: "smlml-snippet-hover", id, src, lang, offset }
  *   <JSON-RPC message>               processed via lsp_handle_message
  *
@@ -83,9 +89,18 @@ async function installSubstrate() {
 
 let ready = false;
 let initPromise = null;
+/** Which engine instance this worker is; set by `smlml-init`. */
+let role = null;
+/** The wasm-bindgen `InitOutput`, kept for its `memory` export. */
+let wasmExports = null;
 
 function post(msg) {
   globalThis.postMessage(msg);
+}
+
+/** A lifecycle breadcrumb, prefixed so two instances' lines stay separable. */
+function postLog(msg) {
+  post({ type: "smlml-log", tag: "WASM", msg: role ? `[${role}] ${msg}` : msg });
 }
 
 async function ensureWasm() {
@@ -93,25 +108,22 @@ async function ensureWasm() {
   if (!initPromise) {
     initPromise = (async () => {
       const t0 = performance.now();
-      post({ type: "smlml-log", tag: "WASM", msg: "fetch wasm-pkg/smlml_wasm_bg.wasm" });
-      await init(); // fetches the sibling .wasm via import.meta.url
+      postLog("fetch wasm-pkg/smlml_wasm_bg.wasm");
+      wasmExports = await init(); // fetches the sibling .wasm via import.meta.url
       const t1 = performance.now();
-      post({ type: "smlml-log", tag: "WASM", msg: `WebAssembly.instantiate — module ready (${(t1 - t0).toFixed(0)} ms)` });
+      postLog(`WebAssembly.instantiate — module ready (${(t1 - t0).toFixed(0)} ms)`);
       wasm_init();
       const t2 = performance.now();
-      post({ type: "smlml-log", tag: "WASM", msg: `wasm_init() — panic hook installed (${(t2 - t1).toFixed(0)} ms)` });
-      post({ type: "smlml-log", tag: "WASM", msg: "fetch wasm-pkg/stdlib_substrate.deflate" });
+      postLog(`wasm_init() — panic hook installed (${(t2 - t1).toFixed(0)} ms)`);
+      postLog("fetch wasm-pkg/stdlib_substrate.deflate");
       try {
         const { bytes, status } = await installSubstrate();
         const t3 = performance.now();
-        post({
-          type: "smlml-log",
-          tag: "WASM",
-          msg:
-            status === "already"
-              ? `standard-library substrate already installed (${(t3 - t2).toFixed(0)} ms)`
-              : `standard-library substrate installed (${bytes.toLocaleString()} bytes, ${(t3 - t2).toFixed(0)} ms)`,
-        });
+        postLog(
+          status === "already"
+            ? `standard-library substrate already installed (${(t3 - t2).toFixed(0)} ms)`
+            : `standard-library substrate installed (${bytes.toLocaleString()} bytes, ${(t3 - t2).toFixed(0)} ms)`
+        );
       } catch (err) {
         // Deliberately NOT fatal: the editor still parses, resolves, formats
         // and renders without the substrate, and the server suppresses exactly
@@ -131,9 +143,10 @@ globalThis.onmessage = async (ev) => {
   const data = ev.data;
 
   if (data && data.type === "smlml-init") {
+    if (data.role) role = data.role;
     try {
       await ensureWasm();
-      post({ type: "smlml-ready" });
+      post({ type: "smlml-ready", role });
     } catch (err) {
       post({ type: "smlml-error", message: String(err) });
     }
@@ -147,6 +160,14 @@ globalThis.onmessage = async (ev) => {
       post({ type: "smlml-error", message: String(err) });
       return;
     }
+  }
+
+  if (data && data.type === "smlml-heap-query") {
+    // Reads a byteLength and allocates nothing; the measurement harness is the
+    // only sender. A module that never initialized has no size to report, and
+    // a zero would be recorded as a real answer, so it stays silent.
+    if (wasmExports) post({ type: "smlml-heap", bytes: wasmExports.memory.buffer.byteLength });
+    return;
   }
 
   if (data && data.type === "smlml-snippet-hover") {

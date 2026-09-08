@@ -97,6 +97,40 @@ body.vscode-dark {
   --dg-fired: #3fb950;         /* fired transition */
   --dg-rollup: #c586c0;        /* rollup contribution tint */
   color-scheme: dark;
+
+  /* Syntax colors — Dark+'s actual per-scope colors, not hand-picked. See
+     src/editor/vscode-palette.ts for how these are derived and kept in sync
+     with editors/smlml-vscode/package.json's semanticTokenScopes. */
+  --tok-comment: #6A9955;
+  --tok-string: #ce9178;
+  --tok-number: #b5cea8;
+  --tok-operator: #d4d4d4;
+  --tok-namespace: #4EC9B0;
+  --tok-type: #4EC9B0;
+  --tok-variable: #9CDCFE;
+  --tok-kwStorageType: #569cd6;
+  --tok-kwStorageModifier: #569cd6;
+  --tok-kwOther: #569cd6;
+  --tok-constantLanguage: #569cd6;
+  --tok-kwControl: #C586C0;
+  --tok-smlmlAttribute: #9CDCFE;
+  --tok-smlmlPart: #4EC9B0;
+  --tok-smlmlItem: #4EC9B0;
+  --tok-smlmlState: #4FC1FF;
+  --tok-smlmlAction: #DCDCAA;
+  --tok-smlmlTransition: #9CDCFE;
+  --tok-smlmlPort: #9CDCFE;
+  --tok-smlmlInterface: #4EC9B0;
+  --tok-smlmlCalculation: #DCDCAA;
+  --tok-smlmlTime: #b5cea8;
+  --tok-smlmlRequirement: #4EC9B0;
+  --tok-smlmlConstraint: #569cd6;
+  --tok-smlmlConnection: #9CDCFE;
+  --tok-smlmlFlow: #9CDCFE;
+  --tok-smlmlView: #4EC9B0;
+  --tok-smlmlEnum: #4EC9B0;
+  --tok-smlmlOccurrence: #9CDCFE;
+  --tok-smlmlCase: #DCDCAA;
 }
 
 body.vscode-light {
@@ -185,6 +219,39 @@ body.vscode-light {
   --dg-fired: #2da44e;
   --dg-rollup: #9b46b0;
   color-scheme: light;
+
+  /* Syntax colors — Light+'s actual per-scope colors; see the dark block
+     above and src/editor/vscode-palette.ts. */
+  --tok-comment: #008000;
+  --tok-string: #a31515;
+  --tok-number: #098658;
+  --tok-operator: #000000;
+  --tok-namespace: #267f99;
+  --tok-type: #267f99;
+  --tok-variable: #001080;
+  --tok-kwStorageType: #0000ff;
+  --tok-kwStorageModifier: #0000ff;
+  --tok-kwOther: #0000ff;
+  --tok-constantLanguage: #0000ff;
+  --tok-kwControl: #AF00DB;
+  --tok-smlmlAttribute: #001080;
+  --tok-smlmlPart: #267f99;
+  --tok-smlmlItem: #267f99;
+  --tok-smlmlState: #0070C1;
+  --tok-smlmlAction: #795E26;
+  --tok-smlmlTransition: #001080;
+  --tok-smlmlPort: #001080;
+  --tok-smlmlInterface: #267f99;
+  --tok-smlmlCalculation: #795E26;
+  --tok-smlmlTime: #098658;
+  --tok-smlmlRequirement: #267f99;
+  --tok-smlmlConstraint: #0000ff;
+  --tok-smlmlConnection: #001080;
+  --tok-smlmlFlow: #001080;
+  --tok-smlmlView: #267f99;
+  --tok-smlmlEnum: #267f99;
+  --tok-smlmlOccurrence: #001080;
+  --tok-smlmlCase: #795E26;
 }
 
 /* ───────────────────────────── Layout tokens ──────────────────────────── */
@@ -373,35 +440,44 @@ body {
 .editor-host .cm-content ::selection { background: var(--vscode-editor-selectionBackground) !important; }
 
 /* Syntax-colour classes. Keyword/comment/string/number/operator come from the
-   client-side StreamLanguage (sml-language.ts); type/namespace names come from
-   the server's semantic tokens (semantic-tokens.ts) — both bind to these. */
-.tok-kw   { color: #569cd6; } body.vscode-light .tok-kw   { color: #0000ff; }
-.tok-id   { color: #9cdcfe; } body.vscode-light .tok-id   { color: #001080; }
-.tok-type { color: #4ec9b0; } body.vscode-light .tok-type { color: #267f99; }
-.tok-num  { color: #b5cea8; } body.vscode-light .tok-num  { color: #098658; }
-.tok-cmt  { color: #6a9955; font-style: italic; } body.vscode-light .tok-cmt { color: #008000; }
-.tok-str  { color: #ce9178; } body.vscode-light .tok-str  { color: #a31515; }
-.tok-op   { color: #d4d4d4; } body.vscode-light .tok-op   { color: #000000; }
-.tok-attribute, .tok-connection { color: #9cdcfe; } body.vscode-light .tok-attribute, body.vscode-light .tok-connection { color: #001080; }
-.tok-part, .tok-interface { color: #4ec9b0; } body.vscode-light .tok-part, body.vscode-light .tok-interface { color: #267f99; }
-.tok-item, .tok-requirement, .tok-enum { color: #4ec9b0; } body.vscode-light .tok-item, body.vscode-light .tok-requirement, body.vscode-light .tok-enum { color: #267f99; }
-.tok-state, .tok-time { color: #b5cea8; } body.vscode-light .tok-state, body.vscode-light .tok-time { color: #098658; }
-.tok-action, .tok-calc, .tok-constraint { color: #dcdcaa; } body.vscode-light .tok-action, body.vscode-light .tok-calc, body.vscode-light .tok-constraint { color: #795e26; }
-.tok-transition, .tok-flow { color: #c586c0; } body.vscode-light .tok-transition, body.vscode-light .tok-flow { color: #af00db; }
-/* `.tok-port` used to carry `font-style: italic` as a family marker, on the same
-   #9cdcfe/#001080 as attribute, connection and occurrence — italic was its ONLY
-   differentiator from those three. Italic is now reserved for the `usage`
-   modifier (see `.tok-usage` below), because otherwise a `port def` would read
-   as a usage, so port needs a hue of its own or it collapses onto the other
-   three. #4fc1ff / #0070c1 is the remaining unused pair from the VS Code
-   Dark+/Light+ palette this file follows (their `constant` blue): same blue
-   family as the SysML "connectable" group, clearly separated from #9cdcfe /
-   #001080 at normal weight. */
-.tok-port { color: #4fc1ff; } body.vscode-light .tok-port { color: #0070c1; }
-.tok-view { color: #c8c8c8; } body.vscode-light .tok-view { color: #267f99; }
-.tok-metadata { color: #d7ba7d; } body.vscode-light .tok-metadata { color: #795e26; }
-.tok-occurrence { color: #9cdcfe; } body.vscode-light .tok-occurrence { color: #001080; }
-.tok-case { color: #dcdcaa; } body.vscode-light .tok-case { color: #795e26; }
+   client-side StreamLanguage (sml-language.ts); element-kind/type/namespace
+   names come from the server's semantic tokens (semantic-tokens.ts) — both
+   bind to these. Every color is a `--tok-*` custom property (declared above,
+   once per theme) rather than a literal here, so light/dark need no separate
+   override line and there is exactly one place — src/editor/vscode-palette.ts
+   — these values can drift from. Several classes below share an identical
+   value: that is Dark+/Light+ itself not distinguishing those scopes (see
+   vscode-palette.ts's comments), not a copy-paste accident. */
+.tok-kw        { color: var(--tok-kwStorageType); }
+.tok-kw-ctrl   { color: var(--tok-kwControl); }
+.tok-id        { color: var(--tok-variable); }
+.tok-type      { color: var(--tok-type); }
+.tok-num       { color: var(--tok-number); }
+.tok-cmt       { color: var(--tok-comment); font-style: italic; }
+.tok-str       { color: var(--tok-string); }
+.tok-op        { color: var(--tok-operator); }
+.tok-attribute { color: var(--tok-smlmlAttribute); }
+.tok-connection{ color: var(--tok-smlmlConnection); }
+.tok-part      { color: var(--tok-smlmlPart); }
+.tok-interface { color: var(--tok-smlmlInterface); }
+.tok-item      { color: var(--tok-smlmlItem); }
+.tok-requirement{ color: var(--tok-smlmlRequirement); }
+.tok-enum      { color: var(--tok-smlmlEnum); }
+.tok-state     { color: var(--tok-smlmlState); }
+.tok-time      { color: var(--tok-smlmlTime); }
+.tok-action    { color: var(--tok-smlmlAction); }
+.tok-calc      { color: var(--tok-smlmlCalculation); }
+.tok-constraint{ color: var(--tok-smlmlConstraint); }
+.tok-transition{ color: var(--tok-smlmlTransition); }
+.tok-flow      { color: var(--tok-smlmlFlow); }
+.tok-port      { color: var(--tok-smlmlPort); }
+.tok-view      { color: var(--tok-smlmlView); }
+/* No Dark+/Light+ rule matches `entity.name.decorator`, so `metadata` names
+   render as plain editor-foreground text — the same as VS Code — by simply
+   never overriding `color` here. */
+.tok-metadata  { }
+.tok-occurrence{ color: var(--tok-smlmlOccurrence); }
+.tok-case      { color: var(--tok-smlmlCase); }
 
 /* The `definition` / `usage` semantic-token modifiers: the two halves of a
    SysML metaclass pair (`part def` vs `part`). Font style only — the colour
