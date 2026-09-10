@@ -1,8 +1,9 @@
-var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(t,n)=>(typeof require<"u"?require:t)[n]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var u=(e,t,n)=>()=>{if(n)throw n[0];try{return e&&(t=e(e=0)),t}catch(a){throw n=[a],a}};var g=(e,t)=>()=>{try{return t||e((t={exports:{}}).exports,t),t.exports}catch(n){throw t=0,n}},b=(e,t)=>{for(var n in t)i(e,n,{get:t[n],enumerable:!0})},d=(e,t,n,a)=>{if(t&&typeof t=="object"||typeof t=="function")for(let r of l(t))!p.call(e,r)&&r!==n&&i(e,r,{get:()=>t[r],enumerable:!(a=s(t,r))||a.enumerable});return e};var w=(e,t,n)=>(n=e!=null?o(m(e)):{},d(t||!e||!e.__esModule?i(n,"default",{value:e,enumerable:!0}):n,e));var S,h=u(()=>{S=[{path:"satellite.sysml",text:`package Satellite {
+var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var b=(e=>typeof require<"u"?require:typeof Proxy<"u"?new Proxy(e,{get:(n,t)=>(typeof require<"u"?require:n)[t]}):e)(function(e){if(typeof require<"u")return require.apply(this,arguments);throw Error('Dynamic require of "'+e+'" is not supported')});var d=(e,n,t)=>()=>{if(t)throw t[0];try{return e&&(n=e(e=0)),n}catch(a){throw t=[a],a}};var f=(e,n)=>()=>{try{return n||e((n={exports:{}}).exports,n),n.exports}catch(t){throw n=0,t}},g=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},p=(e,n,t,a)=>{if(n&&typeof n=="object"||typeof n=="function")for(let r of l(n))!u.call(e,r)&&r!==t&&i(e,r,{get:()=>n[r],enumerable:!(a=s(n,r))||a.enumerable});return e};var y=(e,n,t)=>(t=e!=null?o(m(e)):{},p(n||!e||!e.__esModule?i(t,"default",{value:e,enumerable:!0}):t,e));var S,h=d(()=>{S=[{path:"satellite.sysml",text:`package Satellite {
     private import ISQ::*;
     private import SI::*;
     private import ScalarValues::*;
     private import RealFunctions::max;
+    private import NumericalFunctions::sum;
     private import Power::SolarPanel;
     private import Energy::Battery;
     private import Propulsion::Thruster;
@@ -10,9 +11,12 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import SatelliteInterfaces::*;
     private import Geometry::SatelliteBody;
 
-    // Central power-distribution unit that ties the subsystems together; its
-    // ports drive the interconnection view.
     part def PowerDistribution {
+        doc /* # Power distribution
+
+        Routes solar-array and battery power to spacecraft loads while receiving
+        payload data for telemetry. Its directed ports define the power-chain view.
+        */
         in port panelIn   : PowerPort;
         // The battery charges and discharges through the same port, so its
         // honest direction is \`inout\` \u2014 the third of the three keywords.
@@ -25,14 +29,21 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     }
 
     part def Payload {
+        doc /* # Payload
+
+        Science payload with a telemetry output and nominal mass and power demand.
+        */
         out port dataOut : DataPort;
         attribute mass        : MassValue  = 12 [kg];
         attribute activePower : PowerValue = 80 [W];
     }
 
-    // The reusable system definition ties logical composition to its physical
-    // envelope and owns the behaviors exhibited by every observatory.
     part def Observatory :> SatelliteBody {
+        doc /* # Observatory
+
+        Reusable spacecraft definition combining the physical envelope, subsystem
+        composition, and exhibited power-mode behavior.
+        */
         part panels     [4] : SolarPanel;
         part batteries  [2] : Battery;
         part thrusters  [8] : Thruster;
@@ -43,8 +54,12 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
         exhibit state powerMode : PowerMode;
     }
 
-    // \u2500\u2500 Subsystem composition with multiplicities \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    part observatory : Observatory;
+    part observatory : Observatory {
+        doc /* # Mission observatory
+
+        Concrete observatory used by the budgets, connections, and example views.
+        */
+    }
 
     // \u2500\u2500 Interconnections (ports, connectors, interface, flow, binding) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
     connect observatory.panels.pwrOut     to observatory.bus.panelIn;
@@ -53,46 +68,71 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     flow of t : Telemetry from observatory.payload.dataOut to observatory.bus.dataIn;
     bind observatory.bus.panelIn.voltage = observatory.bus.busVoltage;
 
-    // \u2500\u2500 Mass budget \u2014 multiplicity rollup (kg) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // panels [4] \xD7 3.5 kg + batteries [2] \xD7 8 kg + thrusters [8] \xD7 0.22 kg \u2026
-    attribute totalMass : MassValue = observatory.panels.mass + observatory.batteries.mass
-        + observatory.thrusters.mass + observatory.bus.mass + observatory.payload.mass;
+    attribute totalMass : MassValue = sum(observatory.panels.mass)
+        + sum(observatory.batteries.mass) + sum(observatory.thrusters.mass)
+        + observatory.bus.mass + observatory.payload.mass {
+        doc /* # Total dry mass
 
-    // \u2500\u2500 Power budget (W) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    attribute solarGen    : PowerValue = observatory.panels.peakPower;                     // 4 \xD7 120 W = 480 W
-    attribute houseLoad   : PowerValue = observatory.bus.idlePower + observatory.payload.activePower;  // 130 W
-    attribute powerMargin : PowerValue = solarGen - houseLoad;                 // 350 W surplus
+        Rolls up every subsystem mass, including multiplicities, for the launch
+        mass-budget check.
+        */
+    }
 
-    // max() aggregation: the dominant power figure (generation vs. load)
-    attribute peakDemand : PowerValue = max(solarGen, houseLoad);             // 480 W
+    attribute solarGen : PowerValue = sum(observatory.panels.peakPower);
+    attribute houseLoad : PowerValue = observatory.bus.idlePower
+        + observatory.payload.activePower;
+    attribute powerMargin : PowerValue = solarGen - houseLoad {
+        doc /* # Power margin
 
-    // \u2500\u2500 Energy and eclipse endurance \u2014 unit arithmetic: J / W = s \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    attribute totalEnergy : EnergyValue = observatory.batteries.capacity;       // 2 \xD7 1 296 000 J
-    attribute eclipseTime : TimeValue   = totalEnergy / houseLoad;  // \u2248 19 938 s
+        Remaining generated power after the nominal bus and payload loads.
+        */
+    }
 
-    // \u2500\u2500 Propulsion budget (N) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    attribute totalThrust : ForceValue = observatory.thrusters.thrust;          // 8 \xD7 0.5 N = 4 N
+    attribute peakDemand : PowerValue = max(solarGen, houseLoad);
 
-    // \u2500\u2500 Design checks \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    attribute overBudget : Boolean = totalMass > 100 [kg];          // false
-    attribute safePower             = if powerMargin > 0 [W] ? 1 else 0;   // 1
+    attribute totalEnergy : EnergyValue = sum(observatory.batteries.capacity);
+    attribute eclipseTime : TimeValue   = totalEnergy / houseLoad;
+    attribute totalUsableEnergy : EnergyValue = sum(observatory.batteries.usableEnergy);
+    attribute eclipseReserveTime : TimeValue = totalUsableEnergy / houseLoad {
+        doc /* # Eclipse reserve time
 
-    comment about totalMass
-        /* Dry-mass rollup across every subsystem; checked by MassBudgetRequirement. */
+        Estimates nominal endurance from usable battery energy and house load.
+        */
+    }
+
+    attribute totalThrust : ForceValue = sum(observatory.thrusters.thrust);
+    attribute totalImpulse : ImpulseValue = sum(observatory.thrusters.totalImpulse);
+    attribute maneuverDeltaV : SpeedValue = totalImpulse / totalMass;
+
+    attribute overBudget : Boolean = totalMass > 100 [kg];
+    attribute safePower             = if powerMargin > 0 [W] ? 1 else 0;
 }
 `},{path:"interfaces/Interfaces.sysml",text:`package SatelliteInterfaces {
     private import ISQ::*;
     private import SI::*;
 
-    // Shared connection points used across the satellite's subsystems.
     port def PowerPort {
+        doc /* # Power port
+
+        Shared electrical connection point for power-producing, storage, and
+        distribution components.
+        */
         attribute voltage : ElectricPotentialValue;
     }
 
-    port def DataPort;
+    port def DataPort {
+        doc /* # Data port
 
-    // Item streamed across telemetry flows in the interconnection view.
-    item def Telemetry;
+        Connection point for digital spacecraft data.
+        */
+    }
+
+    item def Telemetry {
+        doc /* # Telemetry
+
+        Data item streamed from the payload across telemetry flows.
+        */
+    }
 
     // An interface definition pairs two ports as its ends. An end takes no
     // direction keyword: SysML.xtext's OccurrenceUsagePrefix is the alternation
@@ -100,6 +140,10 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     // mutually exclusive. Every interface end in the OMG corpus is written this
     // way. The in/out/inout demo lives on PowerDistribution's ports instead.
     interface def PowerBus {
+        doc /* # Power bus interface
+
+        Pairs a supplying power port with a consuming power port.
+        */
         end supply : PowerPort;
         end load   : PowerPort;
     }
@@ -107,15 +151,24 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
 `},{path:"subsystems/Battery.sysml",text:`package Energy {
     private import ISQ::*;
     private import SI::*;
+    private import ScalarValues::Real;
     private import SatelliteInterfaces::PowerPort;
 
     part def Battery {
+        doc /* # Battery
+
+        Stores spacecraft energy and derives usable energy, peak power, and
+        nominal reserve time from its electrical ratings.
+        */
         attribute mass       : MassValue              = 8       [kg];
-        attribute capacity   : EnergyValue            = 1296000 [J];   // 360 W\xB7h = 1 296 000 J
+        attribute capacity   : EnergyValue            = 1296000 [J];
         attribute voltage    : ElectricPotentialValue = 28      [V];
         attribute maxCurrent : ElectricCurrentValue   = 46      [A];
-        // Unit arithmetic: V \xD7 A \u2192 W  (electric power)
         attribute peakPower  : PowerValue = voltage * maxCurrent;
+        attribute depthOfDischarge : Real = 0.8;
+        attribute nominalLoad : PowerValue = 130 [W];
+        attribute usableEnergy : EnergyValue = capacity * depthOfDischarge;
+        attribute reserveTime : TimeValue = usableEnergy / nominalLoad;
 
         port pwrPort : PowerPort;
     }
@@ -127,22 +180,28 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import SatelliteInterfaces::PowerPort;
     private import Geometry::PanelWing;
 
-    // Abstract base for power-generating panels.
     part def BasePanel {
-        doc /* Abstract base for power-generating panels. */
+        doc /* # Base panel
+
+        Reusable base definition for power-generating panels.
+        */
         attribute mass : MassValue default 1.0 [kg];
     }
 
-    // SolarPanel specialises BasePanel, redefining mass and adding geometry.
     part def SolarPanel :> BasePanel, PanelWing {
-        attribute :>> mass   : MassValue  = 3.5 [kg];
-        attribute peakPower  : PowerValue = 120 [W];
-        attribute efficiency : Real       = 0.28;        // dimensionless
+        doc /* # Solar panel
 
-        // Unit arithmetic inside a definition: m \xD7 m \u2192 m\xB2
+        Combines the reusable panel mass with deployable geometry and derives
+        peak output from irradiance, area, and conversion efficiency.
+        */
+        attribute :>> mass   : MassValue  = 3.5 [kg];
+        attribute efficiency : Real       = 0.20;
+        attribute solarIrradiance : IrradianceValue = 1000 [W] / (1 [m] * 1 [m]);
+
         attribute width  : LengthValue = 0.6 [m];
         attribute height : LengthValue = 1.0 [m];
         attribute area   : AreaValue   = width * height;
+        attribute peakPower : PowerValue = solarIrradiance * area * efficiency;
 
         port pwrOut : PowerPort;
     }
@@ -152,22 +211,18 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import SI::*;
 
     part def Thruster {
-        doc /*
-         * Cold-gas reaction-control thruster used for fine attitude control and
-         * desaturation of the reaction wheels. Each unit delivers a small,
-         * highly repeatable impulse bit suitable for sub-degree pointing.
-         *
-         * The propellant budget assumes a stored-gas (nitrogen) blowdown system
-         * shared across the eight-thruster cluster; specific impulse is quoted at
-         * the nominal regulated inlet pressure and degrades as the tank blows
-         * down toward end-of-life. This long, multi-paragraph note demonstrates
-         * that a node's doc compartment caps its height and scrolls rather than
-         * growing unbounded.
-         */
+        doc /* # Cold-gas thruster
+
+        Reaction-control thruster for fine attitude control and reaction-wheel
+        desaturation. Each unit carries its share of the cluster propellant and
+        derives total impulse from thrust and burn duration.
+        */
         attribute mass       : MassValue  = 0.22 [kg];
         attribute thrust     : ForceValue = 0.5  [N];
         attribute isp        : TimeValue  = 220  [s];   // specific impulse
         attribute propellant : MassValue  = 0.05 [kg];  // propellant mass per unit
+        attribute burnDuration : TimeValue = 10 [s];
+        attribute totalImpulse : ImpulseValue = thrust * burnDuration;
     }
 }
 `},{path:"control/PowerMode.sysml",text:`package Control {
@@ -181,11 +236,13 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     attribute def FaultDetected;
     attribute def SystemsNominal;
 
-    // Power-mode state machine for the satellite.
-    //
-    // Nominal eclipse loop:  nominal \u2192 eclipse \u2192 charging \u2192 nominal
-    // Fault branch:          nominal \u2192 safeMode \u2192 nominal (guarded recovery)
     state def PowerMode {
+        doc /* # Satellite power modes
+
+        The nominal eclipse cycle is \`nominal \u2192 eclipse \u2192 charging \u2192 nominal\`.
+        Faults enter parallel thermal-hold and communications-beacon regions;
+        recovery requires \`faultCleared\`.
+        */
         attribute faultCleared : Boolean = true;
 
         entry action powerOn;
@@ -228,10 +285,12 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
 `},{path:"behavior/Operations.sysml",text:`package Operations {
     private import SatelliteInterfaces::Telemetry;
 
-    // Commissioning sequence flown once after separation. The action view
-    // renders the steps plus the control nodes \u2014 fork \u2442, join, decision \u25C7,
-    // merge \u2014 joined by succession edges.
     action def Commission {
+        doc /* # Commission
+
+        Runs the one-time post-separation sequence. Detumbling is followed by
+        parallel battery charging and Sun acquisition, then a health decision.
+        */
         in  command : CommandSignal;
         out report  : Telemetry;
 
@@ -271,6 +330,10 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     }
 
     action def PublishTelemetry {
+        doc /* # Publish telemetry
+
+        Publishes the commissioning report through the telemetry interface.
+        */
         in report : Telemetry;
     }
 
@@ -280,10 +343,11 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import ISQ::*;
     private import SI::*;
 
-    // A requirement definition with a formal constraint and documentation
-    // (rendered with the \xABrequirement\xBB stereotype in the tree view).
     requirement def MassBudgetRequirement {
-        doc /* The dry mass shall not exceed the launch allocation. */
+        doc /* # Mass budget
+
+        The spacecraft dry mass shall not exceed the launch allocation.
+        */
 
         attribute massActual : MassValue;
         attribute massLimit  : MassValue = 100 [kg];
@@ -294,7 +358,10 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     }
 
     requirement def PowerPositiveRequirement {
-        doc /* The power margin shall remain positive in the nominal mode. */
+        doc /* # Positive power margin
+
+        Available generation shall exceed the nominal spacecraft load.
+        */
 
         attribute powerMargin : PowerValue;
 
@@ -304,7 +371,10 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     }
 
     requirement def ImagingDurationRequirement {
-        doc /* Each imaging pass shall fit within the ten-minute contact window. */
+        doc /* # Imaging duration
+
+        Each imaging pass shall fit within its ten-minute contact window.
+        */
 
         attribute imagingDuration : TimeValue = 300 [s];
         attribute contactDuration : TimeValue = 600 [s];
@@ -313,106 +383,247 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
             imagingDuration <= contactDuration
         }
     }
+
+    // Concrete evidence used by the checks below.
+    part nominalMission {
+        attribute dryMass : MassValue = 88 [kg];
+        attribute powerMargin : PowerValue = 240 [W];
+        attribute imagingDuration : TimeValue = 300 [s];
+    }
+
+    part overweightMission {
+        attribute dryMass : MassValue = 108 [kg];
+        attribute powerMargin : PowerValue = 240 [W];
+    }
+
+    part incompleteMission;
+
+    requirement missionReadiness {
+        subject mission;
+
+        requirement massBudget {
+            require constraint { mission.dryMass <= 100 [kg] }
+        }
+
+        requirement positivePower {
+            require constraint { mission.powerMargin > 0 [W] }
+        }
+
+        requirement imagingWindow {
+            require constraint { mission.imagingDuration <= 600 [s] }
+        }
+    }
+
+    // All three nested requirements are satisfied, so the parent is satisfied.
+    satisfy missionReadiness by nominalMission;
+
+    // The mass child is violated, so the parent is violated.
+    satisfy missionReadiness by overweightMission;
+
+    // No evidence values are supplied, so the result is undetermined and the
+    // editor reports which values are missing.
+    satisfy missionReadiness by incompleteMission;
+
+    requirement launchWeather {
+        subject mission;
+        assume constraint { false }
+        require constraint { mission.windSpeed <= 10 [m/s] }
+    }
+
+    // A false assumption makes this requirement not applicable, not satisfied.
+    satisfy launchWeather by nominalMission;
 }
 `},{path:"analysis/CalculationPatterns.sysml",text:`package CalculationPatterns {
     private import ScalarValues::*;
+    private import ISQ::*;
+    private import SI::*;
     private import RealFunctions::*;
     private import SequenceFunctions::*;
     private import ControlFunctions::*;
 
-    // \u2500\u2500 Inherited equations and redefinition \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // \`adjustedMass\` is inherited as an equation, so it is recalculated using
-    // FlightBudget's redefined factor: 10 * 1.1 = 11.
     part def BudgetBase {
-        attribute rawMass : Real = 10.0;
+        doc /* # Reusable mass budget
+
+        Defines an adjusted-mass equation whose \`factor\` may be redefined by a
+        specialization. The equation continues to use the redefined value.
+        */
+        attribute rawMass : MassValue = 10 [kg];
         attribute factor  : Real default 1.0;
-        attribute adjustedMass : Real = rawMass * factor;
+        attribute adjustedMass : MassValue = rawMass * factor;
     }
     part def FlightBudget :> BudgetBase {
+        doc /* # Flight mass budget
+
+        Specializes the base budget with a flight-specific adjustment factor.
+        */
         attribute :>> factor : Real = 1.1;
     }
     part budget : FlightBudget;
 
-    // \u2500\u2500 Typed calculation usage and direct invocation \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+    part def SolarArray {
+        doc /* # Solar array input
+
+        Provides the generated power consumed by the calculation examples.
+        */
+        attribute generatedPower : PowerValue = 480 [W];
+    }
+    part def FlightComputer {
+        attribute requiredPower : PowerValue = 50 [W];
+    }
+    part def SciencePayload {
+        attribute requiredPower : PowerValue = 80 [W];
+    }
+    part def SpacecraftPowerSystem {
+        doc /* # Spacecraft power system
+
+        Groups generation and load contributors so calculations can accept a
+        model element as a typed input.
+        */
+        part solarArray : SolarArray;
+        part flightComputer : FlightComputer;
+        part sciencePayload : SciencePayload;
+    }
+    part powerSystem : SpacecraftPowerSystem;
+
+    calc def ArrayOutput {
+        doc /* # Array output
+
+        Returns the generated power of a supplied \`SolarArray\` model element.
+        */
+        in array : SolarArray;
+        return result : PowerValue = array.generatedPower;
+    }
+    attribute measuredGeneration : PowerValue = ArrayOutput(powerSystem.solarArray);
+
+    // Collection construction, member navigation, and aggregation establish
+    // the load used by both forms of PowerMargin invocation below.
+    attribute loadContributions : PowerValue[*] = (
+        powerSystem.flightComputer.requiredPower,
+        powerSystem.sciencePayload.requiredPower
+    );
+    attribute totalLoad : PowerValue = sum(loadContributions);
+
     calc def PowerMargin {
-        in generation : Real;
-        in load : Real;
-        attribute reserve : Real = generation - load;
-        return result : Real = reserve;
+        doc /* # Power margin
+
+        Subtracts aggregate load from available generation. The example invokes
+        this calculation as both a typed usage and a direct function call.
+        */
+        in generation : PowerValue;
+        in load : PowerValue;
+        attribute reserve : PowerValue = generation - load;
+        return result : PowerValue = reserve;
     }
     calc margin : PowerMargin {
-        in generation = 480.0;
-        in load = 130.0;
+        in generation = measuredGeneration;
+        in load = totalLoad;
     }
-    attribute directMargin : Real = PowerMargin(600.0, 250.0);
+    attribute directMargin : PowerValue = PowerMargin(measuredGeneration, totalLoad);
 
-    // \u2500\u2500 Nested equations \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
     part nestedMetrics {
-        attribute usablePower : Real = margin.result * 0.8;
-        attribute doubledPower : Real = usablePower * 2.0;
+        doc /* # Nested power metrics
+
+        Demonstrates equations that depend on another calculation's result.
+        */
+        attribute usablePower : PowerValue = margin.result * 0.8;
+        attribute doubledPower : PowerValue = usablePower * 2.0;
     }
 
-    // \u2500\u2500 Constraint predicate and asserted derivation equation \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
     constraint def BelowLimit {
-        in value : Real;
-        in limit : Real;
+        doc /* # Below limit
+
+        Checks that a measured mass does not exceed its allowed limit.
+        */
+        in value : MassValue;
+        in limit : MassValue;
         value <= limit
     }
     constraint massCheck : BelowLimit {
         in value = budget.adjustedMass;
-        in limit = 15.0;
+        in limit = maximumAdjustedMass;
     }
 
-    attribute computedMass : Real;
-    assert constraint { computedMass == budget.adjustedMass + 2.0 }
+    attribute maximumAdjustedMass : MassValue = 15 [kg];
+    attribute integrationAllowance : MassValue = 2 [kg];
+    attribute computedMass : MassValue;
+    assert constraint { computedMass == budget.adjustedMass + integrationAllowance }
 
     // A binding connector identifies both features with the same value.
-    attribute mirroredMass : Real;
+    attribute mirroredMass : MassValue;
     bind mirroredMass = computedMass;
 
-    // \u2500\u2500 Concrete standard-library functions and collection operators \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    attribute productValue : Integer = product((2, 3, 4));
-    attribute rootValue : Real = sqrt(81.0);
-    attribute sampleCount : Integer = (1 .. 5)->size();
-    attribute containsThree : Boolean = (1, 2, 3)->includes(3);
+    // Concrete standard-library functions and collection operators.
+    attribute redundancyFactors : Integer[*] = (2, 3, 4);
+    attribute productValue : Integer = product(redundancyFactors);
+    attribute squaredCalibration : Real = 81.0;
+    attribute rootValue : Real = sqrt(squaredCalibration);
+    attribute sampleWindow : Integer[*] = 1 .. 5;
+    attribute sampleCount : Integer = sampleWindow->size();
+    attribute telemetryChannels : Integer[*] = (1, 2, 3);
+    attribute requiredChannel : Integer = 3;
+    attribute containsThree : Boolean = telemetryChannels->includes(requiredChannel);
     attribute checksPass : Boolean = allTrue((massCheck.result, containsThree));
 }
 `},{path:"analysis/Functions.kerml",text:`package DemoFunctions {
-    // KerML Functions are directly invokable. Local feature equations are
-    // evaluated before the trailing result expression.
     function Affine {
+        doc /* # Affine function
+
+        Doubles \`x\`, then applies \`offset\`. The local equation is evaluated
+        before the trailing result expression.
+        */
         in x;
         in offset;
         feature doubled = x * 2;
         doubled + offset
     }
 
-    feature functionResult = Affine(17, 8); // 42
+    feature functionResult = Affine(17, 8);
 }
 `},{path:"mission/FlightArticle.sysml",text:`package FlightArticles {
     private import Satellite::*;
     private import MissionTimeline::*;
 
-    // Individual definitions identify one specific flight article and one
-    // specific contact opportunity, rather than a reusable class of either.
-    individual part def Pathfinder :> Observatory;
+    individual part def Pathfinder :> Observatory {
+        doc /* # Pathfinder
+
+        Identifies the mission's specific flight observatory rather than a
+        reusable spacecraft class.
+        */
+    }
 
     individual part pathfinder : Pathfinder {
+        doc /* # Pathfinder flight article
+
+        The deployed article, including its single commissioning timeslice.
+        */
         timeslice commissioning [1] : Pathfinder;
     }
 
-    individual part firstGroundContact : ContactWindow;
+    individual part firstGroundContact : ContactWindow {
+        doc /* # First ground contact
+
+        The first scheduled contact opportunity for Pathfinder.
+        */
+    }
 }
 `},{path:"mission/MissionTimeline.sysml",text:`package MissionTimeline {
     private import ISQ::*;
     private import SI::*;
     private import Time::*;
 
-    item def MissionEvent;
+    item def MissionEvent {
+        doc /* # Mission event
 
-    // An occurrence has a lifetime bounded by its inherited start and done
-    // snapshots. A nested timeslice captures a meaningful interval within it.
+        A timestamped event in the mission timeline.
+        */
+    }
+
     individual part def ContactWindow {
+        doc /* # Contact window
+
+        A ten-minute ground-contact occurrence. Its nested \`imagingPass\`
+        timeslice reserves the interval from 120 to 420 seconds after start.
+        */
         attribute startTime = TimeOf(start);
         attribute elapsed :> duration;
 
@@ -442,19 +653,27 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import SI::*;
     private import ShapeItems::*;
     private import SpatialItems::*;
-
-    // Physical items specialize SpatialItem, following the OMG geometry
-    // examples. Their shapes make the satellite dimensions explicit instead of
-    // leaving geometry as unrelated scalar attributes.
     part def SatelliteBody :> SpatialItem {
+        doc /* # Satellite body
+
+        Physical spacecraft envelope represented as a one-metre-tall box.
+        */
         item :>> shape = new Box(0.8 [m], 0.8 [m], 1.0 [m]);
     }
 
     part def PanelWing :> SpatialItem {
+        doc /* # Panel wing
+
+        Thin deployable wing used as the geometric base for each solar panel.
+        */
         item :>> shape = new Box(0.6 [m], 0.03 [m], 1.0 [m]);
     }
 
     part spacecraftGeometry : SatelliteBody {
+        doc /* # Spacecraft geometry
+
+        Body-centered assembly with port and starboard panel wings.
+        */
         part portWing  : PanelWing :> componentParts;
         part starboardWing : PanelWing :> componentParts;
     }
@@ -469,13 +688,21 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import MeasurementReferences::Rotation;
 
     part stack : SpatialItem {
+        doc /* # Reference-driven stack
+
+        Places a cone and cylinder from one millimetre datum. The cylinder height
+        and placement reference the cone, keeping the geometry associative.
+        */
         attribute datum :>> coordinateFrame {
             :>> mRefs = (mm, mm, mm);
         }
 
-        // The cone's canonical frame is at its base. Moving that frame up by
-        // its height and turning it over puts the apex at the universal origin.
         part cone :> componentParts {
+            doc /* ## Inverted cone
+
+            Translates by its own height and rotates 180\xB0 so its apex meets the
+            stack origin.
+            */
             item :>> shape : RightCircularCone {
                 :>> radius = 40 [mm];
                 :>> height = 70 [mm];
@@ -491,10 +718,12 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
             }
         }
 
-        // This height and placement both use inter-part feature references.
-        // Its frame is at the far end; rotating about X makes the cylinder
-        // extend down to the cone's base.
         part cylinder :> componentParts {
+            doc /* ## Referenced cylinder
+
+            Derives height and placement from the cone, then rotates downward
+            toward the cone base.
+            */
             item :>> shape : RightCircularCylinder {
                 :>> radius = 35 [mm];
                 :>> height = cone.shape.height + 10 [mm];
@@ -519,14 +748,20 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import MeasurementReferences::TranslationRotationSequence;
     private import MeasurementReferences::Translation;
 
-    // A Sphere is centred on its own origin, so a body placed at the datum
-    // straddles the origin while the two orbiting markers are offset by their
-    // translations alone.
     item def MarkerShape :> Sphere {
+        doc /* # Marker shape
+
+        Reusable spherical marker centered on its local origin.
+        */
         :>> radius = 15 [mm];
     }
 
     part assembly : SpatialItem {
+        doc /* # Sphere marker assembly
+
+        Centers a spherical body at the datum and places reusable markers along
+        the equatorial and polar axes.
+        */
         attribute datum :>> coordinateFrame {
             :>> mRefs = (mm, mm, mm);
         }
@@ -568,12 +803,21 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import MeasurementReferences::Rotation;
 
     item def PedestalShape :> Box {
+        doc /* # Pedestal shape
+
+        Reusable cubic base for the stacked geometry.
+        */
         :>> length = 100 [mm];
         :>> width = 100 [mm];
         :>> height = 100 [mm];
     }
 
     part stack : SpatialItem {
+        doc /* # Transformed shape stack
+
+        Demonstrates rotation-only and translation-plus-rotation transforms for
+        a cube, cylinder, and cone sharing one datum.
+        */
         attribute datum :>> coordinateFrame {
             :>> mRefs = (mm, mm, mm);
         }
@@ -633,13 +877,27 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import Collections::Array;
     private import ScalarValues::Real;
 
-    part def Vehicle :> SpatialItem;
+    part def Vehicle :> SpatialItem {
+        doc /* # Vehicle
+
+        Spatial base definition for the frame-placement example.
+        */
+    }
 
     part def Chassis :> SpatialItem {
+        doc /* # Chassis
+
+        Vehicle body represented by a rectangular metric envelope.
+        */
         item :>> shape = new Box(4800 [mm], 1840 [mm], 1350 [mm]);
     }
 
     part def Wheel :> SpatialItem {
+        doc /* # Wheel
+
+        Cylindrical wheel with a separate coordinate frame for placement on the
+        vehicle.
+        */
         item :>> shape : Cylinder {
             // Apply mm to the complete numeric calculation. Multiplying or
             // adding a unitless intermediate directly to a LengthValue would
@@ -653,6 +911,11 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     }
 
     part vehicle : Vehicle {
+        doc /* # Four-wheel vehicle
+
+        Places one chassis and four wheels from a shared millimetre datum using
+        translation and rotation sequences.
+        */
         attribute datum :>> coordinateFrame {
             :>> mRefs = (mm, mm, mm);
         }
@@ -742,6 +1005,10 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import ControlFunctions::forAll;
 
     part def LugBolt :> SpatialItem {
+        doc /* # Lug bolt
+
+        Cylindrical fastener reused by the wheel pattern.
+        */
         item :>> shape : Cylinder {
             :>> radius = 14 [mm];
             :>> height = 40 [mm];
@@ -749,6 +1016,11 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     }
 
     part wheel : SpatialItem {
+        doc /* # Parametric lug pattern
+
+        Distributes a configurable number of lug bolts evenly around a placement
+        radius. The constraint derives each bolt frame from its sequence index.
+        */
         attribute datum :>> coordinateFrame {
             :>> mRefs = (mm, mm, mm);
         }
@@ -796,16 +1068,22 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import ControlFunctions::forAll;
 
     part def LugBolt :> SpatialItem {
+        doc /* # Lug bolt
+
+        Cylindrical fastener reused by the wheel pattern.
+        */
         item :>> shape : Cylinder {
             :>> radius = 14 [mm];
             :>> height = 40 [mm];
         }
     }
 
-    // Mirrors the OMG \`VehicleGeometryAndCoordinateFrames\` example: \`wcf\` is
-    // a SEPARATE frame from the wheel's own \`coordinateFrame\` (\`datum\`),
-    // declared with no \`mRefs\` and no \`transformation\` of its own.
     part wheel : SpatialItem {
+        doc /* # Separate-frame lug pattern
+
+        Distributes lug bolts from \`wcf\`, a frame separate from the wheel's own
+        \`coordinateFrame\`. This mirrors the OMG vehicle-coordinate-frame pattern.
+        */
         attribute datum :>> coordinateFrame {
             :>> mRefs = (mm, mm, mm);
         }
@@ -849,7 +1127,6 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     private import ISQ::*;
     private import SI::*;
 
-    // \u2500\u2500 Cross-cutting concerns \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
     // \`filter\` matches an element's OWNED annotations only. SysML.ecore derives
     // \`Element::ownedAnnotation\` as
     //
@@ -862,26 +1139,42 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
     // it is invisible to a filter \u2014 the annotation has to be written inside the
     // element it marks.
     metadata def Safety {
+        doc /* # Safety metadata
+
+        Marks hardware as safety-related and records whether it is mandatory.
+        */
         attribute isMandatory : Boolean;
     }
-    metadata def FlightCritical;
+    metadata def FlightCritical {
+        doc /* # Flight-critical metadata
 
-    // \u2500\u2500 Ground and deployable hardware \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // The flight model stops at the spacecraft boundary and carries no
-    // cross-cutting annotations, so the downlink and safety views need parts of
-    // their own to select over. These extend the satellite rather than
-    // duplicating it: a ground segment, and the deployables whose release is the
-    // mission's single-point-of-failure step.
+        Marks hardware whose loss would threaten the mission.
+        */
+    }
+
     part def GroundStation {
+        doc /* # Ground station
+
+        Receives spacecraft telemetry across the flight-to-ground boundary.
+        */
         in port telemetryIn : SatelliteInterfaces::DataPort;
         attribute antennaGain : Real = 42.0;      // dBi
     }
 
     part def DeployableBoom {
+        doc /* # Deployable boom
+
+        Reusable deployable hardware selected by the safety views.
+        */
         attribute mass : MassValue = 1.4 [kg];
     }
 
     part segment {
+        doc /* # Ground and deployable segment
+
+        Adds the ground station and annotated deployables used by cross-cutting
+        views without extending the flight model itself.
+        */
         part groundStation : GroundStation;
 
         part solarBoom : DeployableBoom {
@@ -900,98 +1193,105 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
         part testPort;
     }
 
-    // \u2500\u2500 Reusable view definitions \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
     view def InterconnectView {
+        doc /* # Interconnection view
+
+        Reusable view type for ports, flows, and connections.
+        */
     }
 
     view def BreakdownView {
+        doc /* # Breakdown view
+
+        Reusable view type for containment and filtered model slices.
+        */
     }
 
-    // \u2500\u2500 1. Observatory interconnect \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // An interconnection diagram is composed from a CONTAINING part: it draws
-    // that part's nested usages together with the ports and connectors between
-    // them. Exposing the leaf usages instead (\`observatory::panels\` and
-    // friends) hands the renderer parts with no enclosing context to connect
-    // them in, and it draws nothing \u2014 so the whole observatory is exposed and
-    // the power chain reads off the connectors declared in \`satellite.sysml\`.
     view powerChain : InterconnectView {
+        doc /* # Observatory power chain
+
+        Shows the observatory's nested subsystems, directed ports, and declared
+        power connections in their containing context.
+        */
         render asInterconnectionDiagram;
         expose Satellite::observatory;
     }
 
-    // \u2500\u2500 2. Telemetry downlink, spacecraft through ground \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // Two containers in one diagram, which is what makes this view span the
-    // flight/ground boundary no single source file covers.
     view telemetryDownlink : InterconnectView {
+        doc /* # Telemetry downlink
+
+        Spans the flight and ground containers to show the end-to-end telemetry
+        path.
+        */
         render asInterconnectionDiagram;
         expose Satellite::observatory;
         expose segment;
     }
 
-    // \u2500\u2500 3. Dry-mass contributors \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // The observatory as a containment breakdown \u2014 the structure behind
-    // \`Satellite::totalMass\`.
     view massBreakdown : BreakdownView {
+        doc /* # Dry-mass breakdown
+
+        Displays the containment structure behind \`Satellite::totalMass\`.
+        */
         render asTreeDiagram;
         expose Satellite::observatory::**;
     }
 
-    // \u2500\u2500 4. Propulsion subsystem in isolation \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // \`::**\` on a PART walks that part's tree, but on a PACKAGE it also walks
-    // what the package imports \u2014 for any package importing the standard
-    // library that is thousands of elements, not a subsystem slice. Name the
-    // definition and the usage instead.
     view propulsionSlice : BreakdownView {
+        doc /* # Propulsion slice
+
+        Pairs the reusable thruster definition with its observatory usage while
+        excluding unrelated imported elements.
+        */
         render asTreeDiagram;
         expose Propulsion::Thruster;
         expose Satellite::observatory::thrusters;
     }
 
-    // \u2500\u2500 5. Safety-critical cross-section \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // The one selection \`expose\` cannot express on its own: a predicate over
-    // every exposed element rather than a subtree of them.
     view safetyCritical : BreakdownView {
+        doc /* # Safety-related hardware
+
+        Filters the segment to every element carrying \`@Safety\` metadata.
+        */
         render asTreeDiagram;
         expose segment::**;
         filter @Safety;
     }
 
-    // \u2500\u2500 6. Mandatory-safety subset \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // Filters compose: annotation presence AND an attribute of the annotation.
-    // \`sunSensor\` carries \`@Safety\` with \`isMandatory = false\`, so it drops out
-    // here while remaining in \`safetyCritical\`.
     view mandatorySafety : BreakdownView {
+        doc /* # Mandatory safety hardware
+
+        Narrows the safety view to annotations whose \`isMandatory\` value is true.
+        */
         render asTreeDiagram;
         expose segment::**;
         filter @Safety and (as Safety).isMandatory;
     }
 
-    // \u2500\u2500 7. Flight-critical hardware \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
     view flightCritical : BreakdownView {
+        doc /* # Flight-critical hardware
+
+        Selects every segment element annotated with \`@FlightCritical\`.
+        */
         render asTreeDiagram;
         expose segment::**;
         filter @FlightCritical;
     }
 
-    // \u2500\u2500 8. Bus context, with a nested detail view \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // A view may own another view. The nested view names its own rendering and
-    // its own exposed set, so the two are drawn independently and each gets its
-    // own entry in the panel.
-    // \`bus\` is exposed BARE, not as \`bus::**\`: the star form selects an
-    // element's descendants, while the bare form includes the exposed element
-    // itself, which is what puts the bus on the diagram.
-    //
-    // This view is why the local \`render\` above matters. \`bus\` is a leaf part
-    // whose only members are ports, so mode inference falls back to Mixed for
-    // it (inference can never select Interconnection \u2014 see the note above
-    // \`InterconnectView\`). Tree draws an empty containment box for a
-    // ports-only part; Mixed draws nothing at all. Naming the tree rendering
-    // here is what makes it draw.
     view busContext : BreakdownView {
+        doc /* # Bus context
+
+        Shows the observatory bus itself and owns a second view detailing its
+        reusable port and interface types.
+        */
         render asTreeDiagram;
         expose Satellite::observatory::bus;
 
         view busPorts : BreakdownView {
+            doc /* ## Bus types
+
+            Displays the power port, data port, and power-bus interface types.
+            */
             render asTreeDiagram;
             expose SatelliteInterfaces::PowerPort;
             expose SatelliteInterfaces::DataPort;
@@ -999,20 +1299,12 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
         }
     }
 
-    // \u2500\u2500 9. Everything, satellite-only \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
-    // \`expose Satellite::*\` looks like the obvious way to draw "all of
-    // Satellite," but a package-level wildcard also reaches the package's
-    // ANONYMOUS members \u2014 the \`connect\`, \`bind\`, \`flow\`, and \`interface\`
-    // statements in satellite.sysml carry no name of their own, so nothing
-    // about them stands out in the \`expose\` line, yet the wildcard still
-    // picks them up. Drawing them pulls in enough of their surrounding
-    // closure to swell this view past 3,000 elements, confirmed against the
-    // Pilot reference implementation (which renders the same \`Satellite::*\`
-    // view at essentially the same size \u2014 this is not an engine bug, it is
-    // what a package wildcard means). Naming each member instead avoids the
-    // anonymous ones entirely, the same fix \`propulsionSlice\` above applies
-    // to \`::**\` on a package, extended here to bare \`::*\`.
     view everything : BreakdownView {
+        doc /* # Complete satellite model
+
+        Collects the observatory structure and top-level budget attributes while
+        deliberately excluding anonymous connections and imported library trees.
+        */
         render asTreeDiagram;
         expose Satellite::observatory::**;
         expose Satellite::PowerDistribution;
@@ -1029,4 +1321,4 @@ var o=Object.create;var i=Object.defineProperty;var s=Object.getOwnPropertyDescr
         expose Satellite::safePower;
     }
 }
-`}]});export{f as a,g as b,b as c,w as d,h as e,S as f};
+`}]});export{b as a,f as b,g as c,y as d,h as e,S as f};
