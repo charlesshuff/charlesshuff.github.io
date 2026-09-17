@@ -1,0 +1,2123 @@
+{
+  "zoom": 0.502103,
+  "nodes": [
+    {
+      "id": "3d-Function-based Behavior-item",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1708.73,
+      "h": 1902.19,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1708.73,
+        "h": 1902.19
+      },
+      "clipped": 0,
+      "title": "3d-Function-based Behavior-item",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 387.07,
+      "y": 1149.59,
+      "w": 1023,
+      "h": 513,
+      "inner": {
+        "x": 387.07,
+        "y": 1149.59,
+        "w": 1023,
+        "h": 513
+      },
+      "clipped": 0,
+      "title": "Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Fuel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 907.52,
+      "y": 1852.19,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 907.52,
+        "y": 1852.19,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Fuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 127.32,
+      "y": 166.59,
+      "w": 1538.42,
+      "h": 883,
+      "inner": {
+        "x": 127.32,
+        "y": 166.59,
+        "w": 1538.42,
+        "h": 883
+      },
+      "clipped": 0,
+      "title": "Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::FuelPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 440.07,
+      "y": 1462.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 440.07,
+        "y": 1462.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 440.07,
+      "y": 1596.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 440.07,
+        "y": 1596.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuel: Fuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Pump",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 617.41,
+      "y": 1194.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 617.41,
+        "y": 1194.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Pump",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Pump::fuelInPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 760.07,
+      "y": 1328.59,
+      "w": 142,
+      "h": 50,
+      "inner": {
+        "x": 760.07,
+        "y": 1328.59,
+        "w": 142,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelInPort: ~FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 592.07,
+      "y": 1328.59,
+      "w": 144,
+      "h": 50,
+      "inner": {
+        "x": 592.07,
+        "y": 1328.59,
+        "w": 144,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelOutPort: FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::StorageTank",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 426.07,
+      "y": 1194.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 426.07,
+        "y": 1194.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "StorageTank",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 424.07,
+      "y": 1328.59,
+      "w": 144,
+      "h": 50,
+      "inner": {
+        "x": 424.07,
+        "y": 1328.59,
+        "w": 144,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelOutPort: FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::FuelTank",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1087.07,
+      "y": 1194.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1087.07,
+        "y": 1194.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FuelTank",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::FuelTank::fuelInPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1086.07,
+      "y": 1328.59,
+      "w": 142,
+      "h": 50,
+      "inner": {
+        "x": 1086.07,
+        "y": 1328.59,
+        "w": 142,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelInPort: ~FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1253.07,
+      "y": 1194.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1253.07,
+        "y": 1194.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1252.07,
+      "y": 1328.59,
+      "w": 142,
+      "h": 50,
+      "inner": {
+        "x": 1252.07,
+        "y": 1328.59,
+        "w": 142,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelInPort: ~FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::PumpFuel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 923.07,
+      "y": 1194.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 923.07,
+        "y": 1194.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "PumpFuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1002.91,
+      "y": 211.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1002.91,
+        "y": 211.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "context",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000037",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1345.74,
+      "y": 214.09,
+      "w": 140,
+      "h": 45,
+      "inner": {
+        "x": 1345.74,
+        "y": 214.09,
+        "w": 140,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Storage Element",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::storageTank",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 381.57,
+      "y": 345.59,
+      "w": 170,
+      "h": 50,
+      "inner": {
+        "x": 381.57,
+        "y": 345.59,
+        "w": 170,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "storageTank: StorageTank",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 162.98,
+      "y": 519.59,
+      "w": 151,
+      "h": 50,
+      "inner": {
+        "x": 162.98,
+        "y": 519.59,
+        "w": 151,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^fuelOutPort: FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 143.32,
+      "y": 701.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 143.32,
+        "y": 701.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^fuel: Fuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 683.41,
+      "y": 345.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 683.41,
+        "y": 345.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "pump: Pump",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump::pumpFuel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 516.91,
+      "y": 479.59,
+      "w": 179,
+      "h": 110,
+      "inner": {
+        "x": 516.91,
+        "y": 479.59,
+        "w": 179,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "pumpFuel: PumpFuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in fuelIn = fuelInPort.fuel",
+              "kind": "parameters"
+            },
+            {
+              "text": "out fuelOut = fuelOutPort.fuel",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 324.91,
+      "y": 849.59,
+      "w": 149,
+      "h": 50,
+      "inner": {
+        "x": 324.91,
+        "y": 849.59,
+        "w": 149,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^fuelInPort: ~FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 306.07,
+      "y": 983.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 306.07,
+        "y": 983.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^fuel: Fuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 719.91,
+      "y": 519.59,
+      "w": 151,
+      "h": 50,
+      "inner": {
+        "x": 719.91,
+        "y": 519.59,
+        "w": 151,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^fuelOutPort: FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 904.41,
+      "y": 701.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 904.41,
+        "y": 701.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^fuel: Fuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1037.91,
+      "y": 345.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1037.91,
+        "y": 345.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000099",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1509.74,
+      "y": 214.09,
+      "w": 140,
+      "h": 45,
+      "inner": {
+        "x": 1509.74,
+        "y": 214.09,
+        "w": 140,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Storage Element",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 891.91,
+      "y": 479.59,
+      "w": 241,
+      "h": 110,
+      "inner": {
+        "x": 891.91,
+        "y": 479.59,
+        "w": 241,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "fuelTank: FuelTank",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "fuelLevel: Real = fuel.volume / volumeMax",
+              "kind": "attributes"
+            },
+            {
+              "text": "volumeMax: Real",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b5",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1184.74,
+      "y": 214.09,
+      "w": 140,
+      "h": 45,
+      "inner": {
+        "x": 1184.74,
+        "y": 214.09,
+        "w": 140,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Stored Item",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank::fuel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 1241.41,
+      "y": 673.59,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 1241.41,
+        "y": 673.59,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "fuel: Fuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "volume: Real",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000bd",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 838.91,
+      "y": 214.09,
+      "w": 140,
+      "h": 45,
+      "inner": {
+        "x": 838.91,
+        "y": 214.09,
+        "w": 140,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "isConserved = true",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1068.41,
+      "y": 694.59,
+      "w": 149,
+      "h": 50,
+      "inner": {
+        "x": 1068.41,
+        "y": 694.59,
+        "w": 149,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^fuelInPort: ~FuelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 1049.57,
+      "y": 983.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1049.57,
+        "y": 983.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^fuel: Fuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "3d-Function-based Behavior-item→3d-Function-based Behavior-item::Definitions#0",
+      "source": "3d-Function-based Behavior-item",
+      "target": "3d-Function-based Behavior-item::Definitions",
+      "d": "M931.2992388855087,1918 C931.2992388855087,2092.3745799726125 882.1735657468463,965.2191700273876 882.1735657468463,1139.59375",
+      "start": {
+        "x": 931.3,
+        "y": 1918
+      },
+      "end": {
+        "x": 882.17,
+        "y": 1139.59
+      },
+      "length": 853.77,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item→3d-Function-based Behavior-item::Usages#1",
+      "source": "3d-Function-based Behavior-item",
+      "target": "3d-Function-based Behavior-item::Usages",
+      "d": "M938.9070373991123,16 C938.9070373991123,-185.90438543868976 864.5588919609013,1261.4981354386898 864.5588919609013,1059.59375",
+      "start": {
+        "x": 938.91,
+        "y": 16
+      },
+      "end": {
+        "x": 864.56,
+        "y": 1059.59
+      },
+      "length": 1124.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::FuelPort→3d-Function-based Behavior-item::Definitions::FuelPort::fuel#5",
+      "source": "3d-Function-based Behavior-item::Definitions::FuelPort",
+      "target": "3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "d": "M510.07209863236994,1525.59375 C510.07209863236994,1561.09375 510.07209863236994,1561.09375 510.07209863236994,1596.59375",
+      "start": {
+        "x": 510.07,
+        "y": 1525.59
+      },
+      "end": {
+        "x": 510.07,
+        "y": 1596.59
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::FuelPort::fuel→3d-Function-based Behavior-item::Definitions::Fuel#6",
+      "source": "3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "target": "3d-Function-based Behavior-item::Definitions::Fuel",
+      "d": "M555.7935261364115,1646.59375 C555.7935261364115,1739.890625 931.7951155727728,1739.890625 931.7951155727728,1833.1875",
+      "start": {
+        "x": 555.79,
+        "y": 1646.59
+      },
+      "end": {
+        "x": 931.8,
+        "y": 1833.19
+      },
+      "length": 440.36,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Pump→3d-Function-based Behavior-item::Definitions::Pump::fuelInPort#8",
+      "source": "3d-Function-based Behavior-item::Definitions::Pump",
+      "target": "3d-Function-based Behavior-item::Definitions::Pump::fuelInPort",
+      "d": "M714.208914552768,1257.59375 C714.208914552768,1293.09375 804.2686160453053,1293.09375 804.2686160453053,1328.59375",
+      "start": {
+        "x": 714.21,
+        "y": 1257.59
+      },
+      "end": {
+        "x": 804.27,
+        "y": 1328.59
+      },
+      "length": 121.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Pump→3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort#9",
+      "source": "3d-Function-based Behavior-item::Definitions::Pump",
+      "target": "3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort",
+      "d": "M683.0521981348576,1257.59375 C683.0521981348576,1293.09375 668.4253324632157,1293.09375 668.4253324632157,1328.59375",
+      "start": {
+        "x": 683.05,
+        "y": 1257.59
+      },
+      "end": {
+        "x": 668.43,
+        "y": 1328.59
+      },
+      "length": 73.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort→3d-Function-based Behavior-item::Definitions::FuelPort#10",
+      "source": "3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort",
+      "target": "3d-Function-based Behavior-item::Definitions::FuelPort",
+      "d": "M635.3407553487879,1378.59375 C635.3407553487879,1411.09375 538.803441915952,1411.09375 538.803441915952,1443.59375",
+      "start": {
+        "x": 635.34,
+        "y": 1378.59
+      },
+      "end": {
+        "x": 538.8,
+        "y": 1443.59
+      },
+      "length": 123,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::StorageTank→3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort#12",
+      "source": "3d-Function-based Behavior-item::Definitions::StorageTank",
+      "target": "3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort",
+      "d": "M496.07209863236994,1257.59375 C496.07209863236994,1293.09375 496.07209863236994,1293.09375 496.07209863236994,1328.59375",
+      "start": {
+        "x": 496.07,
+        "y": 1257.59
+      },
+      "end": {
+        "x": 496.07,
+        "y": 1328.59
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort→3d-Function-based Behavior-item::Definitions::FuelPort#13",
+      "source": "3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort",
+      "target": "3d-Function-based Behavior-item::Definitions::FuelPort",
+      "d": "M498.6840389308774,1378.59375 C498.6840389308774,1411.09375 507.46015833386247,1411.09375 507.46015833386247,1443.59375",
+      "start": {
+        "x": 498.68,
+        "y": 1378.59
+      },
+      "end": {
+        "x": 507.46,
+        "y": 1443.59
+      },
+      "length": 65.83,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::FuelTank→3d-Function-based Behavior-item::Definitions::FuelTank::fuelInPort#15",
+      "source": "3d-Function-based Behavior-item::Definitions::FuelTank",
+      "target": "3d-Function-based Behavior-item::Definitions::FuelTank::fuelInPort",
+      "d": "M1157.07209863237,1257.59375 C1157.07209863237,1293.09375 1157.07209863237,1293.09375 1157.07209863237,1328.59375",
+      "start": {
+        "x": 1157.07,
+        "y": 1257.59
+      },
+      "end": {
+        "x": 1157.07,
+        "y": 1328.59
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Vehicle→3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort#17",
+      "source": "3d-Function-based Behavior-item::Definitions::Vehicle",
+      "target": "3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort",
+      "d": "M1323.07209863237,1257.59375 C1323.07209863237,1293.09375 1323.07209863237,1293.09375 1323.07209863237,1328.59375",
+      "start": {
+        "x": 1323.07,
+        "y": 1257.59
+      },
+      "end": {
+        "x": 1323.07,
+        "y": 1328.59
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::PumpFuel→3d-Function-based Behavior-item::Definitions::Fuel#19",
+      "source": "3d-Function-based Behavior-item::Definitions::PumpFuel",
+      "target": "3d-Function-based Behavior-item::Definitions::Fuel",
+      "d": "M992.4807169641456,1257.59375 C992.4807169641456,1554.890625 978.1079247450388,1554.890625 978.1079247450388,1852.1875",
+      "start": {
+        "x": 992.48,
+        "y": 1257.59
+      },
+      "end": {
+        "x": 978.11,
+        "y": 1852.19
+      },
+      "length": 594.84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::PumpFuel→3d-Function-based Behavior-item::Definitions::Fuel#20",
+      "source": "3d-Function-based Behavior-item::Definitions::PumpFuel",
+      "target": "3d-Function-based Behavior-item::Definitions::Fuel",
+      "d": "M992.4807169641456,1257.59375 C992.4807169641456,1554.890625 978.1079247450388,1554.890625 978.1079247450388,1852.1875",
+      "start": {
+        "x": 992.48,
+        "y": 1257.59
+      },
+      "end": {
+        "x": 978.11,
+        "y": 1852.19
+      },
+      "length": 594.84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context→3d-Function-based Behavior-item::Usages::context::storageTank#23",
+      "source": "3d-Function-based Behavior-item::Usages::context",
+      "target": "3d-Function-based Behavior-item::Usages::context::storageTank",
+      "d": "M989.905431965703,252.06378848268278 C770.7387652990363,252.06378848268278 770.7387652990363,351.80870327102804 551.5720986323697,351.80870327102804",
+      "start": {
+        "x": 989.91,
+        "y": 252.06
+      },
+      "end": {
+        "x": 551.57,
+        "y": 351.81
+      },
+      "length": 453.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::storageTank→3d-Function-based Behavior-item::Definitions::StorageTank#24",
+      "source": "3d-Function-based Behavior-item::Usages::context::storageTank",
+      "target": "3d-Function-based Behavior-item::Definitions::StorageTank",
+      "d": "M467.440767654749,395.59375 C467.440767654749,785.59375 495.2034296099907,785.59375 495.2034296099907,1175.59375",
+      "start": {
+        "x": 467.44,
+        "y": 395.59
+      },
+      "end": {
+        "x": 495.2,
+        "y": 1175.59
+      },
+      "length": 780.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::storageTank→3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort#25",
+      "source": "3d-Function-based Behavior-item::Usages::context::storageTank",
+      "target": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort",
+      "d": "M433.8007338661741,408.59375 C433.8007338661741,464.09375 271.2547646258436,464.09375 271.2547646258436,519.59375",
+      "start": {
+        "x": 433.8,
+        "y": 408.59
+      },
+      "end": {
+        "x": 271.25,
+        "y": 519.59
+      },
+      "length": 208.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort→3d-Function-based Behavior-item::Definitions::FuelPort#26",
+      "source": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort",
+      "target": "3d-Function-based Behavior-item::Definitions::FuelPort",
+      "d": "M245.68352442944445,569.59375 C245.68352442944445,1006.59375 502.8719740625735,1006.59375 502.8719740625735,1443.59375",
+      "start": {
+        "x": 245.68,
+        "y": 569.59
+      },
+      "end": {
+        "x": 502.87,
+        "y": 1443.59
+      },
+      "length": 925.06,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort→3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel#27",
+      "source": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort",
+      "target": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "d": "M235.02644015268828,582.59375 C235.02644015268828,642.09375 216.77369289994095,642.09375 216.77369289994095,701.59375",
+      "start": {
+        "x": 235.03,
+        "y": 582.59
+      },
+      "end": {
+        "x": 216.77,
+        "y": 701.59
+      },
+      "length": 120.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel→3d-Function-based Behavior-item::Definitions::Fuel#28",
+      "source": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "target": "3d-Function-based Behavior-item::Definitions::Fuel",
+      "d": "M229.92119958009297,751.59375 C229.92119958009297,1292.390625 960.9120766897026,1292.390625 960.9120766897026,1833.1875",
+      "start": {
+        "x": 229.92,
+        "y": 751.59
+      },
+      "end": {
+        "x": 960.91,
+        "y": 1833.19
+      },
+      "length": 1365.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel→3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel#29",
+      "source": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "target": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "d": "M227.74540034186322,751.59375 C227.74540034186322,862.59375 361.643431483488,862.59375 361.643431483488,973.59375",
+      "start": {
+        "x": 227.75,
+        "y": 751.59
+      },
+      "end": {
+        "x": 361.64,
+        "y": 973.59
+      },
+      "length": 269.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context→3d-Function-based Behavior-item::Usages::context::pump#30",
+      "source": "3d-Function-based Behavior-item::Usages::context",
+      "target": "3d-Function-based Behavior-item::Usages::context::pump",
+      "d": "M1013.2972230104791,274.59375 C1013.2972230104791,310.09375 813.0136409209268,310.09375 813.0136409209268,345.59375",
+      "start": {
+        "x": 1013.3,
+        "y": 274.59
+      },
+      "end": {
+        "x": 813.01,
+        "y": 345.59
+      },
+      "length": 220.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump→3d-Function-based Behavior-item::Definitions::Pump#31",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump",
+      "target": "3d-Function-based Behavior-item::Definitions::Pump",
+      "d": "M751.4619690681765,395.59375 C751.4619690681765,785.59375 689.3488948632298,785.59375 689.3488948632298,1175.59375",
+      "start": {
+        "x": 751.46,
+        "y": 395.59
+      },
+      "end": {
+        "x": 689.35,
+        "y": 1175.59
+      },
+      "length": 783.51,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump→3d-Function-based Behavior-item::Usages::context::pump::pumpFuel#32",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump",
+      "target": "3d-Function-based Behavior-item::Usages::context::pump::pumpFuel",
+      "d": "M730.9968953803372,408.59375 C730.9968953803372,444.09375 655.7042124535078,444.09375 655.7042124535078,479.59375",
+      "start": {
+        "x": 731,
+        "y": 408.59
+      },
+      "end": {
+        "x": 655.7,
+        "y": 479.59
+      },
+      "length": 109.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump::pumpFuel→3d-Function-based Behavior-item::Definitions::PumpFuel#33",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump::pumpFuel",
+      "target": "3d-Function-based Behavior-item::Definitions::PumpFuel",
+      "d": "M637.4516606761653,589.59375 C637.4516606761653,882.59375 978.9601764912508,882.59375 978.9601764912508,1175.59375",
+      "start": {
+        "x": 637.45,
+        "y": 589.59
+      },
+      "end": {
+        "x": 978.96,
+        "y": 1175.59
+      },
+      "length": 705.32,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump→3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort#34",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump",
+      "target": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort",
+      "d": "M735.8459081561791,408.59375 C735.8459081561791,629.09375 416.964955775227,629.09375 416.964955775227,849.59375",
+      "start": {
+        "x": 735.85,
+        "y": 408.59
+      },
+      "end": {
+        "x": 416.96,
+        "y": 849.59
+      },
+      "length": 570.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort→3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel#35",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort",
+      "target": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "d": "M395.05219813485746,912.59375 C395.05219813485746,948.09375 380.4253324632157,948.09375 380.4253324632157,983.59375",
+      "start": {
+        "x": 395.05,
+        "y": 912.59
+      },
+      "end": {
+        "x": 380.43,
+        "y": 983.59
+      },
+      "length": 73.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel→3d-Function-based Behavior-item::Definitions::Fuel#36",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "target": "3d-Function-based Behavior-item::Definitions::Fuel",
+      "d": "M393.38296589466734,1033.59375 C393.38296589466734,1433.390625 960.205675814517,1433.390625 960.205675814517,1833.1875",
+      "start": {
+        "x": 393.38,
+        "y": 1033.59
+      },
+      "end": {
+        "x": 960.21,
+        "y": 1833.19
+      },
+      "length": 1026.93,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump→3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort#37",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump",
+      "target": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort",
+      "d": "M759.4399147243237,408.59375 C759.4399147243237,464.09375 789.3709492070823,464.09375 789.3709492070823,519.59375",
+      "start": {
+        "x": 759.44,
+        "y": 408.59
+      },
+      "end": {
+        "x": 789.37,
+        "y": 519.59
+      },
+      "length": 116.49,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort→3d-Function-based Behavior-item::Definitions::FuelPort#38",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort",
+      "target": "3d-Function-based Behavior-item::Definitions::FuelPort",
+      "d": "M787.84092153799,569.59375 C787.84092153799,1006.59375 517.636609060083,1006.59375 517.636609060083,1443.59375",
+      "start": {
+        "x": 787.84,
+        "y": 569.59
+      },
+      "end": {
+        "x": 517.64,
+        "y": 1443.59
+      },
+      "length": 930.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort→3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel#39",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort",
+      "target": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "d": "M819.993344053615,582.59375 C819.993344053615,642.09375 949.8175198777909,642.09375 949.8175198777909,701.59375",
+      "start": {
+        "x": 819.99,
+        "y": 582.59
+      },
+      "end": {
+        "x": 949.82,
+        "y": 701.59
+      },
+      "length": 186.39,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel→3d-Function-based Behavior-item::Definitions::Fuel#40",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "target": "3d-Function-based Behavior-item::Definitions::Fuel",
+      "d": "M974.4730299148295,751.59375 C974.4730299148295,1292.390625 977.4489451276879,1292.390625 977.4489451276879,1833.1875",
+      "start": {
+        "x": 974.47,
+        "y": 751.59
+      },
+      "end": {
+        "x": 977.45,
+        "y": 1833.19
+      },
+      "length": 1081.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel→3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel#41",
+      "source": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "target": "3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "d": "M987.2748173084925,751.59375 C987.2748173084925,862.59375 1106.7027132895798,862.59375 1106.7027132895798,973.59375",
+      "start": {
+        "x": 987.27,
+        "y": 751.59
+      },
+      "end": {
+        "x": 1106.7,
+        "y": 973.59
+      },
+      "length": 261.3,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context→3d-Function-based Behavior-item::Usages::context::vehicle#42",
+      "source": "3d-Function-based Behavior-item::Usages::context",
+      "target": "3d-Function-based Behavior-item::Usages::context::vehicle",
+      "d": "M1079.4352827119717,274.59375 C1079.4352827119717,310.09375 1101.3755812194343,310.09375 1101.3755812194343,345.59375",
+      "start": {
+        "x": 1079.44,
+        "y": 274.59
+      },
+      "end": {
+        "x": 1101.38,
+        "y": 345.59
+      },
+      "length": 75.55,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle→3d-Function-based Behavior-item::Definitions::Vehicle#43",
+      "source": "3d-Function-based Behavior-item::Usages::context::vehicle",
+      "target": "3d-Function-based Behavior-item::Definitions::Vehicle",
+      "d": "M1114.241317321023,395.59375 C1114.241317321023,785.59375 1316.73621327705,785.59375 1316.73621327705,1175.59375",
+      "start": {
+        "x": 1114.24,
+        "y": 395.59
+      },
+      "end": {
+        "x": 1316.74,
+        "y": 1175.59
+      },
+      "length": 815.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort→3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank::fuel#44",
+      "source": "3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort",
+      "target": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank::fuel",
+      "d": "M1322.6120565713816,1328.59375 C1322.6120565713816,1052.09375 1312.2519093579217,1052.09375 1312.2519093579217,775.59375",
+      "start": {
+        "x": 1322.61,
+        "y": 1328.59
+      },
+      "end": {
+        "x": 1312.25,
+        "y": 775.59
+      },
+      "length": 553.14,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle→3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank#45",
+      "source": "3d-Function-based Behavior-item::Usages::context::vehicle",
+      "target": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank",
+      "d": "M1093.3475051364346,408.59375 C1093.3475051364346,444.09375 1044.4328709900933,444.09375 1044.4328709900933,479.59375",
+      "start": {
+        "x": 1093.35,
+        "y": 408.59
+      },
+      "end": {
+        "x": 1044.43,
+        "y": 479.59
+      },
+      "length": 90.24,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank→3d-Function-based Behavior-item::Definitions::FuelTank#46",
+      "source": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank",
+      "target": "3d-Function-based Behavior-item::Definitions::FuelTank",
+      "d": "M1024.0210037418587,589.59375 C1024.0210037418587,882.59375 1151.7922932795718,882.59375 1151.7922932795718,1175.59375",
+      "start": {
+        "x": 1024.02,
+        "y": 589.59
+      },
+      "end": {
+        "x": 1151.79,
+        "y": 1175.59
+      },
+      "length": 605.24,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank→3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank::fuel#47",
+      "source": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank",
+      "target": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank::fuel",
+      "d": "M1101.2973238575948,602.59375 C1101.2973238575948,639.4382316053511 1171.3513779116488,676.2827132107024 1241.405431965703,676.2827132107024",
+      "start": {
+        "x": 1101.3,
+        "y": 602.59
+      },
+      "end": {
+        "x": 1241.41,
+        "y": 676.28
+      },
+      "length": 170,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank::fuel→3d-Function-based Behavior-item::Definitions::Fuel#48",
+      "source": "3d-Function-based Behavior-item::Usages::context::vehicle::fuelTank::fuel",
+      "target": "3d-Function-based Behavior-item::Definitions::Fuel",
+      "d": "M1298.1374881046647,765.59375 C1298.1374881046647,1299.390625 984.7273821317266,1299.390625 984.7273821317266,1833.1875",
+      "start": {
+        "x": 1298.14,
+        "y": 765.59
+      },
+      "end": {
+        "x": 984.73,
+        "y": 1833.19
+      },
+      "length": 1129.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle→3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort#49",
+      "source": "3d-Function-based Behavior-item::Usages::context::vehicle",
+      "target": "3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort",
+      "d": "M1110.4125952894851,408.59375 C1110.4125952894851,551.59375 1140.3982686419208,551.59375 1140.3982686419208,694.59375",
+      "start": {
+        "x": 1110.41,
+        "y": 408.59
+      },
+      "end": {
+        "x": 1140.4,
+        "y": 694.59
+      },
+      "length": 288.22,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort→3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel#50",
+      "source": "3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort",
+      "target": "3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "d": "M1140.8869775251032,757.59375 C1140.8869775251032,870.59375 1121.5905530729692,870.59375 1121.5905530729692,983.59375",
+      "start": {
+        "x": 1140.89,
+        "y": 757.59
+      },
+      "end": {
+        "x": 1121.59,
+        "y": 983.59
+      },
+      "length": 227.17,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel→3d-Function-based Behavior-item::Definitions::Fuel#51",
+      "source": "3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel",
+      "target": "3d-Function-based Behavior-item::Definitions::Fuel",
+      "d": "M1115.4834336046868,1033.59375 C1115.4834336046868,1433.390625 981.6052081044973,1433.390625 981.6052081044973,1833.1875",
+      "start": {
+        "x": 1115.48,
+        "y": 1033.59
+      },
+      "end": {
+        "x": 981.61,
+        "y": 1833.19
+      },
+      "length": 815.27,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 866.58,
+      "y": 1521,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "3d-Function-based Behavior-item→3d-Function-based Behavior-item::Definitions#0"
+    },
+    {
+      "x": 861.58,
+      "y": 530,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "3d-Function-based Behavior-item→3d-Function-based Behavior-item::Usages#1"
+    },
+    {
+      "x": 964.84,
+      "y": 1547.09,
+      "w": 40.91,
+      "h": 15.59,
+      "text": "fuelIn",
+      "edge": "3d-Function-based Behavior-item::Definitions::PumpFuel→3d-Function-based Behavior-item::Definitions::Fuel#19"
+    },
+    {
+      "x": 960.03,
+      "y": 1547.09,
+      "w": 50.53,
+      "h": 15.59,
+      "text": "fuelOut",
+      "edge": "3d-Function-based Behavior-item::Definitions::PumpFuel→3d-Function-based Behavior-item::Definitions::Fuel#20"
+    },
+    {
+      "x": 265.06,
+      "y": 854.8,
+      "w": 59.27,
+      "h": 15.59,
+      "text": "fuel: Fuel",
+      "edge": "3d-Function-based Behavior-item::Usages::context::storageTank/^3d-Function-based Behavior-item::Definitions::StorageTank::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel→3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel#29"
+    },
+    {
+      "x": 1017.36,
+      "y": 854.8,
+      "w": 59.27,
+      "h": 15.59,
+      "text": "fuel: Fuel",
+      "edge": "3d-Function-based Behavior-item::Usages::context::pump/^3d-Function-based Behavior-item::Definitions::Pump::fuelOutPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel→3d-Function-based Behavior-item::Usages::context::vehicle/^3d-Function-based Behavior-item::Definitions::Vehicle::fuelInPort/^3d-Function-based Behavior-item::Definitions::FuelPort::fuel#41"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "5ce7dc503577f7e8",
+  "unsettled": false
+}

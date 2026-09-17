@@ -1,0 +1,350 @@
+{
+  "zoom": 1.40037,
+  "nodes": [
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 16,
+      "y": 16,
+      "w": 172,
+      "h": 660,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 172,
+        "h": 660
+      },
+      "clipped": 0,
+      "title": "transmissionState",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010a",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 212,
+      "y": 286,
+      "w": 432,
+      "h": 120,
+      "inner": {
+        "x": 212,
+        "y": 286,
+        "w": 432,
+        "h": 120
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Solve for the required engine power as a function of time to support the nominal scenarios. Note: Vehicle force = power/speed Note: EngineRPM * EngineGearRatio/WheelRPM = constant",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010e",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 668,
+      "y": 301,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 668,
+        "y": 301,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Solve the engine equations to determine how much fuel is consumed. The engine RPM is a function of the speed of the vehicle and the gear state.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 32,
+      "y": 208,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 208,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "1stGear",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 32,
+      "y": 342,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 342,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "2ndGear",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 32,
+      "y": 476,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 476,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "3rdGear",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::4thGear",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 32,
+      "y": 610,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 610,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "4thGear",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::«start»",
+      "type": "actionInitial",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 86,
+      "y": 92,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 86,
+        "y": 92,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "[*]→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear#0",
+      "source": "[*]",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear",
+      "d": "M102,124 C102,161 102,161 102,198",
+      "start": {
+        "x": 102,
+        "y": 124
+      },
+      "end": {
+        "x": 102,
+        "y": 198
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear#1",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear",
+      "d": "M102,258 C102,295 102,295 102,332",
+      "start": {
+        "x": 102,
+        "y": 258
+      },
+      "end": {
+        "x": 102,
+        "y": 332
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear#2",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear",
+      "d": "M102,392 C102,429 102,429 102,466",
+      "start": {
+        "x": 102,
+        "y": 392
+      },
+      "end": {
+        "x": 102,
+        "y": 466
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::4thGear#3",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::4thGear",
+      "d": "M102,526 C102,563 102,563 102,600",
+      "start": {
+        "x": 102,
+        "y": 526
+      },
+      "end": {
+        "x": 102,
+        "y": 600
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "68395d89cfeb5f20",
+  "unsettled": false
+}

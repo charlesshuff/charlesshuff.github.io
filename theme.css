@@ -580,6 +580,9 @@ body {
   -webkit-mask: var(--ico-warn) center/contain no-repeat; mask: var(--ico-warn) center/contain no-repeat; }
 .problem.err .ico { background: var(--vscode-editorError-foreground);
   -webkit-mask: var(--ico-error) center/contain no-repeat; mask: var(--ico-error) center/contain no-repeat; }
+.problem.solver .ico { background: var(--vscode-editorInfo-foreground); }
+.problem .tag { flex: none; text-transform: uppercase; font-size: 10px; letter-spacing: .4px;
+  color: var(--vscode-editorInfo-foreground); border: 1px solid currentColor; border-radius: 3px; padding: 1px 4px; }
 .problem .msg { color: var(--vscode-foreground); }
 .problem .loc { margin-left: auto; color: var(--vscode-descriptionForeground); font-family: var(--font-mono); font-size: 12px; }
 .prob-copy { flex: none; visibility: hidden; width: 20px; height: 20px; margin-left: 4px; border: none;
@@ -702,7 +705,19 @@ body {
 .about-releases summary { cursor: pointer; font-weight: 600; font-size: 12px; }
 .about-releases ul { margin: 7px 0 0 18px; padding: 0; color: var(--vscode-descriptionForeground);
   font-size: 11px; line-height: 1.45; }
+.about-conformance-summary { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 7px; }
+.about-conformance-tile { display: grid; gap: 3px; padding: 9px 10px; border: 1px solid var(--vscode-widget-border, rgba(128,128,128,.3));
+  border-top-width: 3px; border-radius: 5px; background: var(--vscode-sideBar-background, rgba(128,128,128,.06)); }
+.about-conformance-tile > span:first-child { color: var(--vscode-descriptionForeground); font-size: 10px; text-transform: uppercase; letter-spacing: .05em; }
+.about-conformance-tile strong { font-size: 15px; }
+.about-conformance-percent { color: var(--vscode-descriptionForeground); font-size: 11px; }
+.about-conformance-tile.conformant { border-top-color: #2a9d68; }
+.about-conformance-tile.partial { border-top-color: #c18a24; }
+.about-conformance-tile.not-conformant { border-top-color: #c54b4b; }
+.about-conformance-note { margin: 8px 0 0; color: var(--vscode-descriptionForeground); font-size: 10px; }
+.about-conformance-link { display: inline-block; margin-top: 8px; color: var(--vscode-textLink-foreground, #3794ff); font-size: 12px; }
 @media (max-width: 560px) { .about-capabilities { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .about-conformance-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
 /* The Eval button's solved-value badge — the dock tabs' badge, reused, so the
    two counts on screen read as the same kind of thing. */

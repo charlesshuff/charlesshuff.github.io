@@ -1,0 +1,1262 @@
+{
+  "zoom": 0.471605,
+  "nodes": [
+    {
+      "id": "12b-Allocation-1",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1158.37,
+      "h": 2024.59,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1158.37,
+        "h": 2024.59
+      },
+      "clipped": 0,
+      "title": "12b-Allocation-1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 387.37,
+      "y": 166.59,
+      "w": 366,
+      "h": 463,
+      "inner": {
+        "x": 387.37,
+        "y": 166.59,
+        "w": 366,
+        "h": 463
+      },
+      "clipped": 0,
+      "title": "RequirementModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 437.76,
+      "y": 857.59,
+      "w": 623.5,
+      "h": 555,
+      "inner": {
+        "x": 437.76,
+        "y": 857.59,
+        "w": 623.5,
+        "h": 555
+      },
+      "clipped": 0,
+      "title": "LogicalModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::LogicalElement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 303.76,
+      "y": 1501.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 303.76,
+        "y": 1501.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "LogicalElement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 188.67,
+      "y": 1640.59,
+      "w": 336,
+      "h": 245,
+      "inner": {
+        "x": 188.67,
+        "y": 1640.59,
+        "w": 336,
+        "h": 245
+      },
+      "clipped": 0,
+      "title": "PhysicalModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::PhysicalElement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 42.68,
+      "y": 1974.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 42.68,
+        "y": 1974.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "PhysicalElement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalToPhysical",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 42.68,
+      "y": 718.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 42.68,
+        "y": 718.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "LogicalToPhysical",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "allocation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 403.37,
+      "y": 211.59,
+      "w": 334,
+      "h": 92,
+      "inner": {
+        "x": 403.37,
+        "y": 211.59,
+        "w": 334,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "torqueGeneration",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "require { generator.generateTorque.torque > 0.0 [N*m] }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 500.37,
+      "y": 387.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 500.37,
+        "y": 387.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generator",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator/^12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 483.7,
+      "y": 521.59,
+      "w": 220,
+      "h": 92,
+      "inner": {
+        "x": 483.7,
+        "y": 521.59,
+        "w": 220,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "^generateTorque: GenerateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "out ^torque:>ISQMechanics::torque",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::GenerateTorque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 826.76,
+      "y": 1304.59,
+      "w": 202,
+      "h": 92,
+      "inner": {
+        "x": 826.76,
+        "y": 1304.59,
+        "w": 202,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "GenerateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "out torque:>ISQMechanics::torque",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::TorqueGenerator",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 475.76,
+      "y": 1036.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 475.76,
+        "y": 1036.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TorqueGenerator",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 562.42,
+      "y": 1170.59,
+      "w": 213,
+      "h": 50,
+      "inner": {
+        "x": 562.42,
+        "y": 1170.59,
+        "w": 213,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generateTorque: GenerateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::providePower",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 857.76,
+      "y": 1036.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 857.76,
+        "y": 1036.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "providePower",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::providePower::generateTorque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 821.26,
+      "y": 1170.59,
+      "w": 213,
+      "h": 50,
+      "inner": {
+        "x": 821.26,
+        "y": 1170.59,
+        "w": 213,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generateTorque: GenerateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::torqueGenerator",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 558.36,
+      "y": 902.59,
+      "w": 223,
+      "h": 50,
+      "inner": {
+        "x": 558.36,
+        "y": 902.59,
+        "w": 223,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "torqueGenerator: TorqueGenerator",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 639.76,
+      "y": 1036.59,
+      "w": 194,
+      "h": 50,
+      "inner": {
+        "x": 639.76,
+        "y": 1036.59,
+        "w": 194,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "providePower.generateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::PowerTrain",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 204.67,
+      "y": 1819.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 204.67,
+        "y": 1819.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "PowerTrain",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::powerTrain",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 222,
+      "y": 1685.59,
+      "w": 158,
+      "h": 50,
+      "inner": {
+        "x": 222,
+        "y": 1685.59,
+        "w": 158,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "powerTrain: PowerTrain",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::powerTrain::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 368.67,
+      "y": 1819.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 368.67,
+        "y": 1819.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "12b-Allocation-1→12b-Allocation-1::RequirementModel#0",
+      "source": "12b-Allocation-1",
+      "target": "12b-Allocation-1::RequirementModel",
+      "d": "M555.4338483036496,16 C555.4338483036496,-140.07411976165363 579.4116689381508,795.6678697616536 579.4116689381508,639.59375",
+      "start": {
+        "x": 555.43,
+        "y": 16
+      },
+      "end": {
+        "x": 579.41,
+        "y": 639.59
+      },
+      "length": 694.67,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1→12b-Allocation-1::LogicalModel#1",
+      "source": "12b-Allocation-1",
+      "target": "12b-Allocation-1::LogicalModel",
+      "d": "M1174,1427.3050836808816 C1344.7340818257564,1427.3050836808816 257.02267473401133,920.1936012807685 427.7567565597677,920.1936012807685",
+      "start": {
+        "x": 1174,
+        "y": 1427.31
+      },
+      "end": {
+        "x": 427.76,
+        "y": 920.19
+      },
+      "length": 973.72,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1→12b-Allocation-1::PhysicalModel#2",
+      "source": "12b-Allocation-1",
+      "target": "12b-Allocation-1::PhysicalModel",
+      "d": "M266.5035303888612,2041 C266.5035303888612,2167.615536726837 396.411717584155,1503.978213273163 396.411717584155,1630.59375",
+      "start": {
+        "x": 266.5,
+        "y": 2041
+      },
+      "end": {
+        "x": 396.41,
+        "y": 1630.59
+      },
+      "length": 495.58,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration→12b-Allocation-1::RequirementModel::torqueGeneration::generator#5",
+      "source": "12b-Allocation-1::RequirementModel::torqueGeneration",
+      "target": "12b-Allocation-1::RequirementModel::torqueGeneration::generator",
+      "d": "M570.3651858589359,316.59375 C570.3651858589359,352.09375 570.3651858589359,352.09375 570.3651858589359,387.59375",
+      "start": {
+        "x": 570.37,
+        "y": 316.59
+      },
+      "end": {
+        "x": 570.37,
+        "y": 387.59
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator→12b-Allocation-1::LogicalModel::TorqueGenerator#6",
+      "source": "12b-Allocation-1::RequirementModel::torqueGeneration::generator",
+      "target": "12b-Allocation-1::LogicalModel::TorqueGenerator",
+      "d": "M569.4172494452545,437.59375 C569.4172494452545,727.59375 546.7046929734491,727.59375 546.7046929734491,1017.59375",
+      "start": {
+        "x": 569.42,
+        "y": 437.59
+      },
+      "end": {
+        "x": 546.7,
+        "y": 1017.59
+      },
+      "length": 580.63,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator→12b-Allocation-1::RequirementModel::torqueGeneration::generator/^12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque#7",
+      "source": "12b-Allocation-1::RequirementModel::torqueGeneration::generator",
+      "target": "12b-Allocation-1::RequirementModel::torqueGeneration::generator/^12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "d": "M574.1286267191509,450.59375 C574.1286267191509,486.09375 586.7737880094735,486.09375 586.7737880094735,521.59375",
+      "start": {
+        "x": 574.13,
+        "y": 450.59
+      },
+      "end": {
+        "x": 586.77,
+        "y": 521.59
+      },
+      "length": 72.57,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator/^12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque→12b-Allocation-1::LogicalModel::GenerateTorque#8",
+      "source": "12b-Allocation-1::RequirementModel::torqueGeneration::generator/^12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "target": "12b-Allocation-1::LogicalModel::GenerateTorque",
+      "d": "M613.3239073390189,613.59375 C613.3239073390189,949.59375 908.1313684130181,949.59375 908.1313684130181,1285.59375",
+      "start": {
+        "x": 613.32,
+        "y": 613.59
+      },
+      "end": {
+        "x": 908.13,
+        "y": 1285.59
+      },
+      "length": 754.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::TorqueGenerator→12b-Allocation-1::LogicalModel::LogicalElement#13",
+      "source": "12b-Allocation-1::LogicalModel::TorqueGenerator",
+      "target": "12b-Allocation-1::LogicalModel::LogicalElement",
+      "d": "M536.5094447318107,1086.59375 C536.5094447318107,1284.59375 383.0040683877247,1284.59375 383.0040683877247,1482.59375",
+      "start": {
+        "x": 536.51,
+        "y": 1086.59
+      },
+      "end": {
+        "x": 383,
+        "y": 1482.59
+      },
+      "length": 434.8,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::TorqueGenerator→12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque#14",
+      "source": "12b-Allocation-1::LogicalModel::TorqueGenerator",
+      "target": "12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "d": "M568.7356122811608,1099.59375 C568.7356122811608,1135.09375 645.9445675050413,1135.09375 645.9445675050413,1170.59375",
+      "start": {
+        "x": 568.74,
+        "y": 1099.59
+      },
+      "end": {
+        "x": 645.94,
+        "y": 1170.59
+      },
+      "length": 111.01,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque→12b-Allocation-1::LogicalModel::GenerateTorque#15",
+      "source": "12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "target": "12b-Allocation-1::LogicalModel::GenerateTorque",
+      "d": "M710.6707350543913,1220.59375 C710.6707350543913,1253.09375 850.9417027963268,1253.09375 850.9417027963268,1285.59375",
+      "start": {
+        "x": 710.67,
+        "y": 1220.59
+      },
+      "end": {
+        "x": 850.94,
+        "y": 1285.59
+      },
+      "length": 161.83,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::providePower→12b-Allocation-1::LogicalModel::providePower::generateTorque#17",
+      "source": "12b-Allocation-1::LogicalModel::providePower",
+      "target": "12b-Allocation-1::LogicalModel::providePower::generateTorque",
+      "d": "M927.7567565597677,1099.59375 C927.7567565597677,1135.09375 927.7567565597677,1135.09375 927.7567565597677,1170.59375",
+      "start": {
+        "x": 927.76,
+        "y": 1099.59
+      },
+      "end": {
+        "x": 927.76,
+        "y": 1170.59
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::providePower::generateTorque→12b-Allocation-1::LogicalModel::GenerateTorque#18",
+      "source": "12b-Allocation-1::LogicalModel::providePower::generateTorque",
+      "target": "12b-Allocation-1::LogicalModel::GenerateTorque",
+      "d": "M927.7567565597677,1220.59375 C927.7567565597677,1253.09375 927.7567565597677,1253.09375 927.7567565597677,1285.59375",
+      "start": {
+        "x": 927.76,
+        "y": 1220.59
+      },
+      "end": {
+        "x": 927.76,
+        "y": 1285.59
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::torqueGenerator→12b-Allocation-1::LogicalModel::TorqueGenerator#20",
+      "source": "12b-Allocation-1::LogicalModel::torqueGenerator",
+      "target": "12b-Allocation-1::LogicalModel::TorqueGenerator",
+      "d": "M646.7037714851409,952.59375 C646.7037714851409,985.09375 568.9097416343945,985.09375 568.9097416343945,1017.59375",
+      "start": {
+        "x": 646.7,
+        "y": 952.59
+      },
+      "end": {
+        "x": 568.91,
+        "y": 1017.59
+      },
+      "length": 107.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::torqueGenerator→00000000-0000-0000-0000-00000000004e#21",
+      "source": "12b-Allocation-1::LogicalModel::torqueGenerator",
+      "target": "00000000-0000-0000-0000-00000000004e",
+      "d": "M682.3380998433498,965.59375 C682.3380998433498,1001.09375 724.2754132761856,1001.09375 724.2754132761856,1036.59375",
+      "start": {
+        "x": 682.34,
+        "y": 965.59
+      },
+      "end": {
+        "x": 724.28,
+        "y": 1036.59
+      },
+      "length": 85.8,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e→12b-Allocation-1::LogicalModel::providePower::generateTorque#22",
+      "source": "00000000-0000-0000-0000-00000000004e",
+      "target": "12b-Allocation-1::LogicalModel::providePower::generateTorque",
+      "d": "M772.3910849179767,1086.59375 C772.3910849179767,1119.09375 892.1224282015588,1119.09375 892.1224282015588,1151.59375",
+      "start": {
+        "x": 772.39,
+        "y": 1086.59
+      },
+      "end": {
+        "x": 892.12,
+        "y": 1151.59
+      },
+      "length": 143.3,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e→12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque#23",
+      "source": "00000000-0000-0000-0000-00000000004e",
+      "target": "12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "d": "M724.1012839229518,1086.59375 C724.1012839229518,1119.09375 681.5788958632503,1119.09375 681.5788958632503,1151.59375",
+      "start": {
+        "x": 724.1,
+        "y": 1086.59
+      },
+      "end": {
+        "x": 681.58,
+        "y": 1151.59
+      },
+      "length": 81.14,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::torqueGenerator→12b-Allocation-1::RequirementModel::torqueGeneration#24",
+      "source": "12b-Allocation-1::LogicalModel::torqueGenerator",
+      "target": "12b-Allocation-1::RequirementModel::torqueGeneration",
+      "d": "M666.1443845186919,902.59375 C666.1443845186919,608.09375 577.1959504145154,608.09375 577.1959504145154,313.59375",
+      "start": {
+        "x": 666.14,
+        "y": 902.59
+      },
+      "end": {
+        "x": 577.2,
+        "y": 313.59
+      },
+      "length": 598.42,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::PowerTrain→12b-Allocation-1::PhysicalModel::PhysicalElement#28",
+      "source": "12b-Allocation-1::PhysicalModel::PowerTrain",
+      "target": "12b-Allocation-1::PhysicalModel::PhysicalElement",
+      "d": "M248.54134545710548,1869.59375 C248.54134545710548,1912.59375 138.8106552296021,1912.59375 138.8106552296021,1955.59375",
+      "start": {
+        "x": 248.54,
+        "y": 1869.59
+      },
+      "end": {
+        "x": 138.81,
+        "y": 1955.59
+      },
+      "length": 147.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::powerTrain→12b-Allocation-1::PhysicalModel::PowerTrain#30",
+      "source": "12b-Allocation-1::PhysicalModel::powerTrain",
+      "target": "12b-Allocation-1::PhysicalModel::PowerTrain",
+      "d": "M296.08809828312803,1735.59375 C296.08809828312803,1768.09375 279.5806355965608,1768.09375 279.5806355965608,1800.59375",
+      "start": {
+        "x": 296.09,
+        "y": 1735.59
+      },
+      "end": {
+        "x": 279.58,
+        "y": 1800.59
+      },
+      "length": 67.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::powerTrain→12b-Allocation-1::PhysicalModel::powerTrain::engine#31",
+      "source": "12b-Allocation-1::PhysicalModel::powerTrain",
+      "target": "12b-Allocation-1::PhysicalModel::powerTrain::engine",
+      "d": "M326.68511320850115,1748.59375 C326.68511320850115,1784.09375 412.9836206711877,1784.09375 412.9836206711877,1819.59375",
+      "start": {
+        "x": 326.69,
+        "y": 1748.59
+      },
+      "end": {
+        "x": 412.98,
+        "y": 1819.59
+      },
+      "length": 118.32,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::powerTrain::engine→12b-Allocation-1::LogicalModel::providePower::generateTorque#32",
+      "source": "12b-Allocation-1::PhysicalModel::powerTrain::engine",
+      "target": "12b-Allocation-1::LogicalModel::providePower::generateTorque",
+      "d": "M457.5078025954655,1819.59375 C457.5078025954655,1525.09375 908.91665423748,1525.09375 908.91665423748,1230.59375",
+      "start": {
+        "x": 457.51,
+        "y": 1819.59
+      },
+      "end": {
+        "x": 908.92,
+        "y": 1230.59
+      },
+      "length": 779.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalToPhysical→12b-Allocation-1::LogicalModel::LogicalElement#34",
+      "source": "12b-Allocation-1::LogicalToPhysical",
+      "target": "12b-Allocation-1::LogicalModel::LogicalElement",
+      "d": "M121.01994716149403,781.59375 C121.01994716149403,1141.59375 365.42110981180355,1141.59375 365.42110981180355,1501.59375",
+      "start": {
+        "x": 121.02,
+        "y": 781.59
+      },
+      "end": {
+        "x": 365.42,
+        "y": 1501.59
+      },
+      "length": 775.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalToPhysical→12b-Allocation-1::PhysicalModel::PhysicalElement#35",
+      "source": "12b-Allocation-1::LogicalToPhysical",
+      "target": "12b-Allocation-1::PhysicalModel::PhysicalElement",
+      "d": "M112.68430041352985,781.59375 C112.68430041352985,1378.09375 112.68430041352985,1378.09375 112.68430041352985,1974.59375",
+      "start": {
+        "x": 112.68,
+        "y": 781.59
+      },
+      "end": {
+        "x": 112.68,
+        "y": 1974.59
+      },
+      "length": 1193,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::torqueGenerator→12b-Allocation-1::PhysicalModel::powerTrain#36",
+      "source": "12b-Allocation-1::LogicalModel::torqueGenerator",
+      "target": "12b-Allocation-1::PhysicalModel::powerTrain",
+      "d": "M658.0797539111963,952.59375 C658.0797539111963,1314.09375 312.7780362550825,1314.09375 312.7780362550825,1675.59375",
+      "start": {
+        "x": 658.08,
+        "y": 952.59
+      },
+      "end": {
+        "x": 312.78,
+        "y": 1675.59
+      },
+      "length": 826.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": "2 3",
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 527.27,
+      "y": 320,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "12b-Allocation-1→12b-Allocation-1::RequirementModel#0"
+    },
+    {
+      "x": 760.72,
+      "y": 1165.95,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "12b-Allocation-1→12b-Allocation-1::LogicalModel#1"
+    },
+    {
+      "x": 291.3,
+      "y": 1828,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "12b-Allocation-1→12b-Allocation-1::PhysicalModel#2"
+    },
+    {
+      "x": 585.98,
+      "y": 600.3,
+      "w": 71.37,
+      "h": 15.59,
+      "text": "<<satisfy>>",
+      "edge": "12b-Allocation-1::LogicalModel::torqueGenerator→12b-Allocation-1::RequirementModel::torqueGeneration#24"
+    },
+    {
+      "x": 642.15,
+      "y": 1517.3,
+      "w": 82.12,
+      "h": 15.59,
+      "text": "<<perform>>",
+      "edge": "12b-Allocation-1::PhysicalModel::powerTrain::engine→12b-Allocation-1::LogicalModel::providePower::generateTorque#32"
+    },
+    {
+      "x": 221.01,
+      "y": 1133.8,
+      "w": 44.42,
+      "h": 15.59,
+      "text": "logical",
+      "edge": "12b-Allocation-1::LogicalToPhysical→12b-Allocation-1::LogicalModel::LogicalElement#34"
+    },
+    {
+      "x": 86,
+      "y": 1370.3,
+      "w": 53.36,
+      "h": 15.59,
+      "text": "physical",
+      "edge": "12b-Allocation-1::LogicalToPhysical→12b-Allocation-1::PhysicalModel::PhysicalElement#35"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "460f1e4297fa0c27",
+  "unsettled": false
+}

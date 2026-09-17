@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="40px" preserveAspectRatio="none" style="width:582px;height:40px;background:#FFFFFF;" version="1.1" viewBox="0 0 582 40" width="582px" zoomAndPan="magnify"><defs><filter height="300%" id="f1wh7lbfjvon5d" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><g id="elem_E1"><path d="M6,6 L6,33.706 L126,33.706 L126,16 L116,6 L6,6 " fill="#FEFFDD" filter="url(#f1wh7lbfjvon5d)" style="stroke:#181818;stroke-width:0.5;"/><path d="M116,6 L116,16 L126,16 L116,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99" x="12" y="24.897">Storage Element</text></g><g id="elem_E2"><path d="M161,6 L161,33.706 L281,33.706 L281,16 L271,6 L161,6 " fill="#FEFFDD" filter="url(#f1wh7lbfjvon5d)" style="stroke:#181818;stroke-width:0.5;"/><path d="M271,6 L271,16 L281,16 L271,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99" x="167" y="24.897">Storage Element</text></g><g id="elem_E3"><path d="M316,6 L316,33.706 L408,33.706 L408,16 L398,6 L316,6 " fill="#FEFFDD" filter="url(#f1wh7lbfjvon5d)" style="stroke:#181818;stroke-width:0.5;"/><path d="M398,6 L398,16 L408,16 L398,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="322" y="24.897">Stored Item</text></g><g id="elem_E4"><path d="M443,6 L443,33.706 L575,33.706 L575,16 L565,6 L443,6 " fill="#FEFFDD" filter="url(#f1wh7lbfjvon5d)" style="stroke:#181818;stroke-width:0.5;"/><path d="M565,6 L565,16 L575,16 L565,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="449" y="24.897">isConserved = true</text></g><!--MD5=[fc51a963b0d2fe2f60a63eab890c9f2a]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+
+note as E1
+Storage Element
+end note 
+note as E2
+Storage Element
+end note 
+note as E3
+Stored Item
+end note 
+note as E4
+isConserved = true
+end note 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

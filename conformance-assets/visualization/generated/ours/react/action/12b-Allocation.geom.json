@@ -1,0 +1,185 @@
+{
+  "zoom": 3.3444,
+  "nodes": [
+    {
+      "id": "12b-Allocation::LogicalModel::providePower",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 50,
+      "y": 161.55,
+      "w": 172,
+      "h": 140,
+      "inner": {
+        "x": 50,
+        "y": 161.55,
+        "w": 172,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "providePower",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000f",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 16,
+      "y": 16,
+      "w": 194,
+      "h": 50,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 194,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "providePower.generateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000001b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 234,
+      "y": 16,
+      "w": 194,
+      "h": 50,
+      "inner": {
+        "x": 234,
+        "y": 16,
+        "w": 194,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "providePower.generateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation::LogicalModel::providePower::generateTorque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 66,
+      "y": 231.55,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 66,
+        "y": 231.55,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000-0000-0000-0000-00000000000f→12b-Allocation::LogicalModel::providePower::generateTorque#0",
+      "source": "00000000-0000-0000-0000-00000000000f",
+      "target": "12b-Allocation::LogicalModel::providePower::generateTorque",
+      "d": "M115.66756505986832,66 C115.66756505986832,139.2761904761905 133.33243494013166,139.2761904761905 133.33243494013166,212.552380952381",
+      "start": {
+        "x": 115.67,
+        "y": 66
+      },
+      "end": {
+        "x": 133.33,
+        "y": 212.55
+      },
+      "length": 148.05,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000001b→12b-Allocation::LogicalModel::providePower::generateTorque#1",
+      "source": "00000000-0000-0000-0000-00000000001b",
+      "target": "12b-Allocation::LogicalModel::providePower::generateTorque",
+      "d": "M308.3836875358989,66 C308.3836875358989,139.2761904761905 158.6163124641011,139.2761904761905 158.6163124641011,212.552380952381",
+      "start": {
+        "x": 308.38,
+        "y": 66
+      },
+      "end": {
+        "x": 158.62,
+        "y": 212.55
+      },
+      "length": 221.62,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "088e691c7fabd9e2",
+  "unsettled": false
+}

@@ -1,0 +1,598 @@
+{
+  "zoom": 0.927873,
+  "nodes": [
+    {
+      "id": "15.10-Primitive Data Types",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1636,
+      "h": 648,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1636,
+        "h": 648
+      },
+      "clipped": 0,
+      "title": "15.10-Primitive Data Types",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000005",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 995,
+      "y": 558,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 995,
+        "y": 558,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Primitive data types are defined in normative model libraries. Any more specialized data types can be declared in user-defined model libraries or models as needed.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::UnsignedInteger",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 32,
+      "y": 108,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 32,
+        "y": 108,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "UnsignedInteger",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Mathematically, unsigned integers are just natural numbers (non-negative integers).",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::UnsignedReal",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 488,
+      "y": 112,
+      "w": 274,
+      "h": 150,
+      "inner": {
+        "x": 488,
+        "y": 112,
+        "w": 274,
+        "h": 150
+      },
+      "clipped": 0,
+      "title": "UnsignedReal",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Example of restriction of the base Real datatype.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "x: Real :>>DataValue::self",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000001c",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 555,
+      "y": 346,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 555,
+        "y": 346,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ x >= 0.0 }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::ConditionColor",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1204,
+      "y": 61,
+      "w": 432,
+      "h": 201,
+      "inner": {
+        "x": 1204,
+        "y": 61,
+        "w": 432,
+        "h": 201
+      },
+      "clipped": 0,
+      "title": "ConditionColor",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Enumerations are defined as an implicit restriction of the extent of the enumeration type to the listed enumeration values. Note: Enumerations are currently limited to attributes.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "enums",
+          "entries": [
+            {
+              "text": "red",
+              "kind": "enums"
+            },
+            {
+              "text": "yellow",
+              "kind": "enums"
+            },
+            {
+              "text": "green",
+              "kind": "enums"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::ConditionLevel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1015,
+      "y": 346,
+      "w": 190,
+      "h": 92,
+      "inner": {
+        "x": 1015,
+        "y": 346,
+        "w": 190,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "ConditionLevel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "associatedColor: ConditionColor",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::SeverityEnum",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1040,
+      "y": 134,
+      "w": 140,
+      "h": 128,
+      "inner": {
+        "x": 1040,
+        "y": 134,
+        "w": 140,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "SeverityEnum",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [
+        {
+          "title": "enums",
+          "entries": [
+            {
+              "text": "danger",
+              "kind": "enums"
+            },
+            {
+              "text": "warning",
+              "kind": "enums"
+            },
+            {
+              "text": "normal",
+              "kind": "enums"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::Diameter",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 831,
+      "y": 558,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 831,
+        "y": 558,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Diameter",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::DiameterChoice",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 831,
+      "y": 346,
+      "w": 140,
+      "h": 128,
+      "inner": {
+        "x": 831,
+        "y": 346,
+        "w": 140,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "DiameterChoice",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [
+        {
+          "title": "enums",
+          "entries": [
+            {
+              "text": "small = 60 [SI::mm]",
+              "kind": "enums"
+            },
+            {
+              "text": "medium = 70 [SI::mm]",
+              "kind": "enums"
+            },
+            {
+              "text": "large = 80 [SI::mm]",
+              "kind": "enums"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::aperatureDiameter",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 786,
+      "y": 170,
+      "w": 230,
+      "h": 92,
+      "inner": {
+        "x": 786,
+        "y": 170,
+        "w": 230,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "aperatureDiameter: DiameterChoice",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= DiameterChoice::small",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000-0000-0000-0000-000000000005→15.10-Primitive Data Types#0",
+      "source": "00000000-0000-0000-0000-000000000005",
+      "target": "15.10-Primitive Data Types",
+      "d": "M1146.4942965779467,558 C1146.4942965779467,493.6523116188313 1298.4410646387832,728.3476883811687 1298.4410646387832,664",
+      "start": {
+        "x": 1146.49,
+        "y": 558
+      },
+      "end": {
+        "x": 1298.44,
+        "y": 664
+      },
+      "length": 220.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::UnsignedReal→00000000-0000-0000-0000-00000000001c#3",
+      "source": "15.10-Primitive Data Types::UnsignedReal",
+      "target": "00000000-0000-0000-0000-00000000001c",
+      "d": "M625,275 C625,310.5 625,310.5 625,346",
+      "start": {
+        "x": 625,
+        "y": 275
+      },
+      "end": {
+        "x": 625,
+        "y": 346
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::SeverityEnum→15.10-Primitive Data Types::ConditionLevel#7",
+      "source": "15.10-Primitive Data Types::SeverityEnum",
+      "target": "15.10-Primitive Data Types::ConditionLevel",
+      "d": "M1110,262 C1110,294.5 1110,294.5 1110,327",
+      "start": {
+        "x": 1110,
+        "y": 262
+      },
+      "end": {
+        "x": 1110,
+        "y": 327
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::DiameterChoice→15.10-Primitive Data Types::Diameter#10",
+      "source": "15.10-Primitive Data Types::DiameterChoice",
+      "target": "15.10-Primitive Data Types::Diameter",
+      "d": "M901,474 C901,506.5 901,506.5 901,539",
+      "start": {
+        "x": 901,
+        "y": 474
+      },
+      "end": {
+        "x": 901,
+        "y": 539
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::aperatureDiameter→15.10-Primitive Data Types::DiameterChoice#12",
+      "source": "15.10-Primitive Data Types::aperatureDiameter",
+      "target": "15.10-Primitive Data Types::DiameterChoice",
+      "d": "M901,262 C901,294.5 901,294.5 901,327",
+      "start": {
+        "x": 901,
+        "y": 262
+      },
+      "end": {
+        "x": 901,
+        "y": 327
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "c2398bf472666662",
+  "unsettled": false
+}

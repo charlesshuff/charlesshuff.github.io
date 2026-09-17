@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Small ML conformance report for KerML and SysML v2." />
+  <title>Small ML Conformance Report</title>
+  <link rel="icon" type="image/svg+xml" href="logo.svg" />
+  <link rel="stylesheet" href="conformance.css" />
+</head>
+<body>
+  <div class="report-shell">
+    <header class="report-header">
+      <a class="report-brand" href="./" aria-label="Back to smlml web editor">
+        <img src="logo.svg" alt="" aria-hidden="true" />
+        <span>smlml</span>
+        <i aria-hidden="true"></i>
+        <strong>Conformance</strong>
+      </a>
+      <nav class="report-nav" aria-label="Report navigation">
+        <a href="#overview">Overview</a>
+        <a href="#method">Method</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" title="Toggle light and dark theme">◐ <span>Theme</span></button>
+        <a class="back-link" href="./">Open editor <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="overview">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="kicker">OMG conformance report</p>
+          <h1>Small ML Conformance Report</h1>
+          <p class="hero-lede">Results for OMG-defined interchange and visualization gates, Pilot validation checks, specification constraints, and Small ML text-fidelity checks.</p>
+          <p class="report-meta" id="report-meta">Loading evidence snapshot…</p>
+          <div class="hero-actions">
+            <button class="primary-button" id="load-details" type="button">Load conformance results <span aria-hidden="true">↓</span></button>
+            <a class="quiet-link" href="#method">Method <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero-score" aria-label="Canonical differences">
+          <span class="score-ring">0</span>
+          <strong>canonical differences</strong>
+          <span>across judged interchange and visualization comparisons</span>
+        </div>
+      </section>
+
+      <section class="metric-grid" id="metric-grid" aria-label="Conformance summary"></section>
+
+      <section class="highlight-grid" aria-label="Evidence highlights">
+        <article class="highlight-card highlight-wide">
+          <div>
+            <p class="section-eyebrow">01 · Visualization checks</p>
+            <h2>Visualization comparison</h2>
+            <p>The committed OMG Pilot index is grouped by view kind. Each accepted source path is processed by the Pilot GenViz harness and by Small ML; the resulting structural representations are compared element by element.</p>
+          </div>
+          <ul class="mode-list" id="mode-list"></ul>
+        </article>
+        <article class="highlight-card">
+          <p class="section-eyebrow">02 · Validation conformance</p>
+          <h2>Validation checks</h2>
+          <p>Each check is classified as implemented, guaranteed by model construction, inactive in the Pilot validator, or blocked by an unavailable capability.</p>
+          <div class="legend" id="validation-legend"></div>
+        </article>
+        <article class="highlight-card">
+          <p class="section-eyebrow">03 · Specification</p>
+          <h2>Specification catalog</h2>
+          <p>Derive, check, and validate constraints are reported against the 623-entry specification catalog. This is separate from the 218-entry Pilot validator catalog.</p>
+          <div class="legend" id="spec-legend"></div>
+        </article>
+        <article class="highlight-card highlight-token">
+          <div>
+            <p class="section-eyebrow">04 · Text fidelity</p>
+            <h2>Text fidelity checks</h2>
+          </div>
+          <p>Each source is parsed, serialized through the model interchange representation, deserialized, and unparsed. The original and produced material-token streams are compared; whitespace and comments are excluded.</p>
+          <p class="token-stat"><strong id="token-edits">—</strong> token edits across <strong id="token-clean">—</strong> token-identical models.</p>
+          <a class="quiet-link" id="details-link" href="#details">See every token result <span aria-hidden="true">→</span></a>
+        </article>
+      </section>
+
+      <section class="details-shell hidden" id="details-shell">
+        <div class="details-heading">
+          <div>
+            <p class="section-eyebrow">Full evidence</p>
+            <h2>Detailed results</h2>
+            <p id="detail-state">Loading…</p>
+          </div>
+          <label class="filter-box">Filter results
+            <input id="detail-filter" type="search" placeholder="Search models, packages, constraints, or statuses" />
+          </label>
+        </div>
+        <div class="gate-grid" id="gate-grid"></div>
+        <div class="detail-content" id="detail-content"></div>
+      </section>
+
+      <section class="method-section" id="method">
+        <div>
+          <p class="section-eyebrow">How to read this page</p>
+          <h2>Measurement scope</h2>
+        </div>
+        <div class="method-copy">
+          <p>The source snapshot is identified by the SysML-v2-Pilot-Implementation and SysML-v2-Release tags shown above. Manifest entries provide the main source file and dependency list.</p>
+          <p>For interchange, each manifest entry is parsed and compared with the corresponding Pilot JSON under the gate-specific normalization rules. For text fidelity, the source is parsed and unparsed and the material-token streams are compared.</p>
+          <p>For visualization, <code>run.py all</code> reads the oracle index for each view kind. <code>generate-graphics.py</code> loads the Pilot standard library, parses each indexed source with Pilot GenViz, and writes Pilot SVG plus PlantUML. It passes the same indexed source set to <code>smlml render &lt;source&gt; --kind &lt;view-kind&gt; --force --format dot</code>; Graphviz converts the resulting DOT to SVG. The conformance runner reduces the Pilot PlantUML and Small ML DOT to a common structural form and compares nodes, compartments, ownership or membership, edges, labels, styles, shapes, and order. The <code>%view</code> population instead runs one <code>smlml render &lt;source&gt; --view &lt;qualified-name&gt; --force --format dot</code> invocation per indexed ViewUsage and is judged on structural axes; rendered and React measurements are part of the other <code>%viz</code> populations.</p>
+          <p>Validation and specification rows report the status recorded in the Pilot coverage and specification coverage artifacts. The complete deviation register is rendered in the detailed results.</p>
+          <ol class="method-steps">
+            <li>Read the pinned source tags and the committed conformance manifests.</li>
+            <li>Use the manifest source list and the view oracle index as the input populations; standard-library imports are resolved by the Pilot and Small ML toolchains.</li>
+            <li>Run the relevant Pilot and Small ML parse, unparse, validation, or rendering path; the visualization reproduction command is <code>python3 assets/conformance/visualization/scripts/run.py all</code>.</li>
+            <li>Compare the resulting JSON, material-token, or graphic structure and record the reported delta.</li>
+          </ol>
+          <p class="method-note">The report is assembled during the web build from committed conformance artifacts. Detailed data and graphics are loaded only after the results button is selected.</p>
+        </div>
+      </section>
+
+      <section class="load-results" aria-label="Load conformance results">
+        <h2>Detailed conformance results</h2>
+        <p>Load the model tables, graphics, source/API evidence, validation constraints, and deviation register.</p>
+        <button class="primary-button load-results-button" id="load-details-bottom" type="button">Load conformance results <span aria-hidden="true">↓</span></button>
+      </section>
+    </main>
+
+    <footer class="report-footer">
+      <a href="./">← Back to the editor</a>
+      <span>Built from the repository’s conformance evidence</span>
+    </footer>
+  </div>
+  <script type="module" src="conformance.js"></script>
+</body>
+</html>

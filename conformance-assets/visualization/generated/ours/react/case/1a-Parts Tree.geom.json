@@ -1,0 +1,1934 @@
+{
+  "zoom": 0.55087,
+  "nodes": [
+    {
+      "id": "1a-Parts Tree",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 3447,
+      "h": 1294.59,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 3447,
+        "h": 1294.59
+      },
+      "clipped": 0,
+      "title": "1a-Parts Tree",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1562.17,
+      "y": 895.59,
+      "w": 736,
+      "h": 399,
+      "inner": {
+        "x": 1562.17,
+        "y": 895.59,
+        "w": 736,
+        "h": 399
+      },
+      "clipped": 0,
+      "title": "Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 61,
+      "w": 3415,
+      "h": 640,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 3415,
+        "h": 640
+      },
+      "clipped": 0,
+      "title": "Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Definitions::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1599.17,
+      "y": 1010.59,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 1599.17,
+        "y": 1010.59,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass:>ISQBase::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Definitions::AxleAssembly",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2091.17,
+      "y": 1010.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2091.17,
+        "y": 1010.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Definitions::Axle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1777.17,
+      "y": 1186.59,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 1777.17,
+        "y": 1186.59,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Axle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass:>ISQBase::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Definitions::FrontAxle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1763.17,
+      "y": 1010.59,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 1763.17,
+        "y": 1010.59,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "FrontAxle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "steeringAngle: Real",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Definitions::Wheel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1927.17,
+      "y": 1010.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1927.17,
+        "y": 1010.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1642,
+      "y": 134,
+      "w": 202,
+      "h": 107,
+      "inner": {
+        "x": 1642,
+        "y": 134,
+        "w": 202,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "vehicle1: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass = 1750 [kg] :>>Vehicle::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000026",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 2695,
+      "y": 143.5,
+      "w": 280,
+      "h": 60,
+      "inner": {
+        "x": 2695,
+        "y": 143.5,
+        "w": 280,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'vehicle1' is a package-owned part of type Vehicle.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1720,
+      "y": 325,
+      "w": 214,
+      "h": 50,
+      "inner": {
+        "x": 1720,
+        "y": 325,
+        "w": 214,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "frontAxleAssembly: AxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000003b",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1186,
+      "y": 121,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 1186,
+        "y": 121,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'frontAxleAssembly' is a nested part of part 'vehicle1'. It is a composite part of the containing part. (And similarly for 'rearAxleAssembly'.)",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontAxle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1864.5,
+      "y": 480,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1864.5,
+        "y": 480,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "frontAxle: Axle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1703.5,
+      "y": 480,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1703.5,
+        "y": 480,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "frontWheel: Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000047",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1868,
+      "y": 106,
+      "w": 432,
+      "h": 135,
+      "inner": {
+        "x": 1868,
+        "y": 106,
+        "w": 432,
+        "h": 135
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'frontWheel' is a nested part of type 'Wheel' with multiplicity \"2\". This means that this axle assembly must have exactly two wheels. However, there is still only one 'frontWheel' part. The part is \"ordered\", so that the first wheel can be distinguished from the second.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2046.25,
+      "y": 325,
+      "w": 209,
+      "h": 50,
+      "inner": {
+        "x": 2046.25,
+        "y": 325,
+        "w": 209,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearAxleAssembly: AxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearAxle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2189.5,
+      "y": 480,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2189.5,
+        "y": 480,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearAxle: Axle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2028.5,
+      "y": 480,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2028.5,
+        "y": 480,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearWheel: Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 504,
+      "y": 134,
+      "w": 202,
+      "h": 107,
+      "inner": {
+        "x": 504,
+        "y": 134,
+        "w": 202,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass = 2000 [kg] :>>Vehicle::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000059",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 48,
+      "y": 128.5,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 48,
+        "y": 128.5,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'vehicle1_c1' is a modified copy of 'vehicle1'. There is no connection between this copy and the original version in the model.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1153.83,
+      "y": 325,
+      "w": 214,
+      "h": 50,
+      "inner": {
+        "x": 1153.83,
+        "y": 325,
+        "w": 214,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "frontAxleAssembly: AxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontAxle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1119.5,
+      "y": 480,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1119.5,
+        "y": 480,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "frontAxle: FrontAxle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000071",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 2324,
+      "y": 143.5,
+      "w": 347,
+      "h": 60,
+      "inner": {
+        "x": 2324,
+        "y": 143.5,
+        "w": 347,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The part 'frontAxle' has been modified to have type 'FrontAxle'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1501.5,
+      "y": 635,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1501.5,
+        "y": 635,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "frontWheel: Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000007a",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 730,
+      "y": 121,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 730,
+        "y": 121,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The parts 'frontWheel_1' and 'frontWheel_2' have been added as subsets of 'frontWheel'. These are separate parts from 'frontWheel', but essentially provide alternate names for each of the two wheels, as given by their defining expressions.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1483.5,
+      "y": 459,
+      "w": 176,
+      "h": 92,
+      "inner": {
+        "x": 1483.5,
+        "y": 459,
+        "w": 176,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "frontWheel_1 :>frontWheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= frontWheel#(1)",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1283.5,
+      "y": 459,
+      "w": 176,
+      "h": 92,
+      "inner": {
+        "x": 1283.5,
+        "y": 459,
+        "w": 176,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "frontWheel_2 :>frontWheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= frontWheel#(2)",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 600.67,
+      "y": 325,
+      "w": 209,
+      "h": 50,
+      "inner": {
+        "x": 600.67,
+        "y": 325,
+        "w": 209,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearAxleAssembly: AxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009b",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 2999,
+      "y": 136,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 2999,
+        "y": 136,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'rearAxleAssembly' has also been modified to add subsetting parts for 'rearWheel'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearAxle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 565.5,
+      "y": 480,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 565.5,
+        "y": 480,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearAxle: Axle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 934,
+      "y": 635,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 934,
+        "y": 635,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearWheel: Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 920.5,
+      "y": 459,
+      "w": 167,
+      "h": 92,
+      "inner": {
+        "x": 920.5,
+        "y": 459,
+        "w": 167,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "rearWheel_1 :>rearWheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= rearWheel#(1)",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 729.5,
+      "y": 459,
+      "w": 167,
+      "h": 92,
+      "inner": {
+        "x": 729.5,
+        "y": 459,
+        "w": 167,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "rearWheel_2 :>rearWheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= rearWheel#(2)",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "1a-Parts Tree::Definitions::FrontAxle→1a-Parts Tree::Definitions::Axle#5",
+      "source": "1a-Parts Tree::Definitions::FrontAxle",
+      "target": "1a-Parts Tree::Definitions::Axle",
+      "d": "M1836.8257575757577,1102.59375 C1836.8257575757577,1135.09375 1843.5075757575758,1135.09375 1843.5075757575758,1167.59375",
+      "start": {
+        "x": 1836.83,
+        "y": 1102.59
+      },
+      "end": {
+        "x": 1843.51,
+        "y": 1167.59
+      },
+      "length": 65.49,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages→1a-Parts Tree::Definitions#8",
+      "source": "1a-Parts Tree::Usages",
+      "target": "1a-Parts Tree::Definitions",
+      "d": "M1824.9416291044884,701 C1824.9416291044884,793.296875 1876.8991510218373,793.296875 1876.8991510218373,885.59375",
+      "start": {
+        "x": 1824.94,
+        "y": 701
+      },
+      "end": {
+        "x": 1876.9,
+        "y": 885.59
+      },
+      "length": 194.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1→1a-Parts Tree::Definitions::Vehicle#10",
+      "source": "1a-Parts Tree::Usages::vehicle1",
+      "target": "1a-Parts Tree::Definitions::Vehicle",
+      "d": "M1738.4549398918894,241 C1738.4549398918894,616.296875 1673.0745688156965,616.296875 1673.0745688156965,991.59375",
+      "start": {
+        "x": 1738.45,
+        "y": 241
+      },
+      "end": {
+        "x": 1673.07,
+        "y": 991.59
+      },
+      "length": 754.63,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1→1a-Parts Tree::Usages::vehicle1::frontAxleAssembly#11",
+      "source": "1a-Parts Tree::Usages::vehicle1",
+      "target": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly",
+      "d": "M1770.6553846153847,254 C1770.6553846153847,289.5 1814.076923076923,289.5 1814.076923076923,325",
+      "start": {
+        "x": 1770.66,
+        "y": 254
+      },
+      "end": {
+        "x": 1814.08,
+        "y": 325
+      },
+      "length": 86.71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly→1a-Parts Tree::Definitions::AxleAssembly#12",
+      "source": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly",
+      "target": "1a-Parts Tree::Definitions::AxleAssembly",
+      "d": "M1839.1853016697814,375 C1839.1853016697814,683.296875 2148.9813649968855,683.296875 2148.9813649968855,991.59375",
+      "start": {
+        "x": 1839.19,
+        "y": 375
+      },
+      "end": {
+        "x": 2148.98,
+        "y": 991.59
+      },
+      "length": 713.32,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly→1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontAxle#13",
+      "source": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontAxle",
+      "d": "M1844.3387096774193,388 C1844.3387096774193,434 1917.1612903225807,434 1917.1612903225807,480",
+      "start": {
+        "x": 1844.34,
+        "y": 388
+      },
+      "end": {
+        "x": 1917.16,
+        "y": 480
+      },
+      "length": 123.39,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontAxle→1a-Parts Tree::Definitions::Axle#14",
+      "source": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontAxle",
+      "target": "1a-Parts Tree::Definitions::Axle",
+      "d": "M1931.4992412203467,530 C1931.4992412203467,848.796875 1852.6880628212286,848.796875 1852.6880628212286,1167.59375",
+      "start": {
+        "x": 1931.5,
+        "y": 530
+      },
+      "end": {
+        "x": 1852.69,
+        "y": 1167.59
+      },
+      "length": 644.46,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly→1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontWheel#15",
+      "source": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontWheel",
+      "d": "M1818.3709677419354,388 C1818.3709677419354,434 1782.1290322580646,434 1782.1290322580646,480",
+      "start": {
+        "x": 1818.37,
+        "y": 388
+      },
+      "end": {
+        "x": 1782.13,
+        "y": 480
+      },
+      "length": 101.29,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontWheel→1a-Parts Tree::Definitions::Wheel#16",
+      "source": "1a-Parts Tree::Usages::vehicle1::frontAxleAssembly::frontWheel",
+      "target": "1a-Parts Tree::Definitions::Wheel",
+      "d": "M1784.0385083534563,530 C1784.0385083534563,760.796875 1986.6281583132104,760.796875 1986.6281583132104,991.59375",
+      "start": {
+        "x": 1784.04,
+        "y": 530
+      },
+      "end": {
+        "x": 1986.63,
+        "y": 991.59
+      },
+      "length": 518.37,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1→1a-Parts Tree::Usages::vehicle1::rearAxleAssembly#17",
+      "source": "1a-Parts Tree::Usages::vehicle1",
+      "target": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly",
+      "d": "M1857,227.75137952176578 C1972.5096153846155,227.75137952176578 2088.019230769231,276.3756897608829 2088.019230769231,325",
+      "start": {
+        "x": 1857,
+        "y": 227.75
+      },
+      "end": {
+        "x": 2088.02,
+        "y": 325
+      },
+      "length": 265.95,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly→1a-Parts Tree::Definitions::AxleAssembly#18",
+      "source": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly",
+      "target": "1a-Parts Tree::Definitions::AxleAssembly",
+      "d": "M2151.1298410744944,375 C2151.1298410744944,683.296875 2160.7868255921726,683.296875 2160.7868255921726,991.59375",
+      "start": {
+        "x": 2151.13,
+        "y": 375
+      },
+      "end": {
+        "x": 2160.79,
+        "y": 991.59
+      },
+      "length": 616.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly→1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearAxle#19",
+      "source": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearAxle",
+      "d": "M2168.2903225806454,388 C2168.2903225806454,434 2241.9596774193546,434 2241.9596774193546,480",
+      "start": {
+        "x": 2168.29,
+        "y": 388
+      },
+      "end": {
+        "x": 2241.96,
+        "y": 480
+      },
+      "length": 123.99,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearAxle→1a-Parts Tree::Definitions::Axle#20",
+      "source": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearAxle",
+      "target": "1a-Parts Tree::Definitions::Axle",
+      "d": "M2245.332295380034,530 C2245.332295380034,848.796875 1873.235243167404,848.796875 1873.235243167404,1167.59375",
+      "start": {
+        "x": 2245.33,
+        "y": 530
+      },
+      "end": {
+        "x": 1873.24,
+        "y": 1167.59
+      },
+      "length": 767.73,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly→1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearWheel#21",
+      "source": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearWheel",
+      "d": "M2142.3225806451615,388 C2142.3225806451615,434 2106.9274193548385,434 2106.9274193548385,480",
+      "start": {
+        "x": 2142.32,
+        "y": 388
+      },
+      "end": {
+        "x": 2106.93,
+        "y": 480
+      },
+      "length": 100.89,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearWheel→1a-Parts Tree::Definitions::Wheel#22",
+      "source": "1a-Parts Tree::Usages::vehicle1::rearAxleAssembly::rearWheel",
+      "target": "1a-Parts Tree::Definitions::Wheel",
+      "d": "M2093.7254746058857,530 C2093.7254746058857,760.796875 2001.941192060781,760.796875 2001.941192060781,991.59375",
+      "start": {
+        "x": 2093.73,
+        "y": 530
+      },
+      "end": {
+        "x": 2001.94,
+        "y": 991.59
+      },
+      "length": 474.26,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1→1a-Parts Tree::Definitions::Vehicle#24",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1",
+      "target": "1a-Parts Tree::Definitions::Vehicle",
+      "d": "M670.5083719871034,241 C670.5083719871034,616.296875 1612.8417113132693,616.296875 1612.8417113132693,991.59375",
+      "start": {
+        "x": 670.51,
+        "y": 241
+      },
+      "end": {
+        "x": 1612.84,
+        "y": 991.59
+      },
+      "length": 1275.43,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1→1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly#25",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly",
+      "d": "M719,212.5254129606099 C939.4679487179487,212.5254129606099 1159.9358974358975,268.7627064803049 1159.9358974358975,325",
+      "start": {
+        "x": 719,
+        "y": 212.53
+      },
+      "end": {
+        "x": 1159.94,
+        "y": 325
+      },
+      "length": 470.84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly→1a-Parts Tree::Definitions::AxleAssembly#26",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly",
+      "target": "1a-Parts Tree::Definitions::AxleAssembly",
+      "d": "M1293.663757084036,375 C1293.663757084036,683.296875 2128.3362429159642,683.296875 2128.3362429159642,991.59375",
+      "start": {
+        "x": 1293.66,
+        "y": 375
+      },
+      "end": {
+        "x": 2128.34,
+        "y": 991.59
+      },
+      "length": 1098.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly→1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontAxle#27",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontAxle",
+      "d": "M1249.3279569892472,388 C1249.3279569892472,434 1201.005376344086,434 1201.005376344086,480",
+      "start": {
+        "x": 1249.33,
+        "y": 388
+      },
+      "end": {
+        "x": 1201.01,
+        "y": 480
+      },
+      "length": 107.61,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontAxle→1a-Parts Tree::Definitions::FrontAxle#28",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontAxle",
+      "target": "1a-Parts Tree::Definitions::FrontAxle",
+      "d": "M1218.6730402432345,530 C1218.6730402432345,760.796875 1779.4882726191152,760.796875 1779.4882726191152,991.59375",
+      "start": {
+        "x": 1218.67,
+        "y": 530
+      },
+      "end": {
+        "x": 1779.49,
+        "y": 991.59
+      },
+      "length": 769.03,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly→1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel#29",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel",
+      "d": "M1285.8870967741934,388 C1285.8870967741934,511.5 1546.4462365591398,511.5 1546.4462365591398,635",
+      "start": {
+        "x": 1285.89,
+        "y": 388
+      },
+      "end": {
+        "x": 1546.45,
+        "y": 635
+      },
+      "length": 379.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel→1a-Parts Tree::Definitions::Wheel#30",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel",
+      "target": "1a-Parts Tree::Definitions::Wheel",
+      "d": "M1599.832917325346,685 C1599.832917325346,838.296875 1968.8337493413208,838.296875 1968.8337493413208,991.59375",
+      "start": {
+        "x": 1599.83,
+        "y": 685
+      },
+      "end": {
+        "x": 1968.83,
+        "y": 991.59
+      },
+      "length": 507.95,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly→1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_1#31",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_1",
+      "d": "M1310.9408602150538,388 C1310.9408602150538,424.5472103004292 1397.220430107527,461.09442060085837 1483.5,461.09442060085837",
+      "start": {
+        "x": 1310.94,
+        "y": 388
+      },
+      "end": {
+        "x": 1483.5,
+        "y": 461.09
+      },
+      "length": 198.91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_1→1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel#32",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_1",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel",
+      "d": "M1571.5,551 C1571.5,583.5 1571.5,583.5 1571.5,616",
+      "start": {
+        "x": 1571.5,
+        "y": 551
+      },
+      "end": {
+        "x": 1571.5,
+        "y": 616
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly→1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_2#33",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_2",
+      "d": "M1278.6827956989246,388 C1278.6827956989246,423.5 1338.656989247312,423.5 1338.656989247312,459",
+      "start": {
+        "x": 1278.68,
+        "y": 388
+      },
+      "end": {
+        "x": 1338.66,
+        "y": 459
+      },
+      "length": 97.92,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_2→1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel#34",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel_2",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::frontAxleAssembly::frontWheel",
+      "d": "M1430.8548387096776,551 C1430.8548387096776,583.5 1539.241935483871,583.5 1539.241935483871,616",
+      "start": {
+        "x": 1430.85,
+        "y": 551
+      },
+      "end": {
+        "x": 1539.24,
+        "y": 616
+      },
+      "length": 133.27,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1→1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly#35",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly",
+      "d": "M637.9779487179487,254 C637.9779487179487,289.5 689.7564102564103,289.5 689.7564102564103,325",
+      "start": {
+        "x": 637.98,
+        "y": 254
+      },
+      "end": {
+        "x": 689.76,
+        "y": 325
+      },
+      "length": 92.16,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly→1a-Parts Tree::Definitions::AxleAssembly#36",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly",
+      "target": "1a-Parts Tree::Definitions::AxleAssembly",
+      "d": "M758.2593326952003,375 C758.2593326952003,683.296875 2108.0740006381334,683.296875 2108.0740006381334,991.59375",
+      "start": {
+        "x": 758.26,
+        "y": 375
+      },
+      "end": {
+        "x": 2108.07,
+        "y": 991.59
+      },
+      "length": 1552.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly→1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearAxle#37",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearAxle",
+      "d": "M693.9301075268817,388 C693.9301075268817,434 646.736559139785,434 646.736559139785,480",
+      "start": {
+        "x": 693.93,
+        "y": 388
+      },
+      "end": {
+        "x": 646.74,
+        "y": 480
+      },
+      "length": 106.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearAxle→1a-Parts Tree::Definitions::Axle#38",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearAxle",
+      "target": "1a-Parts Tree::Definitions::Axle",
+      "d": "M677.1326647482426,530 C677.1326647482426,860.279724037139 1217.6496657074547,1190.559448074278 1758.1666666666667,1190.559448074278",
+      "start": {
+        "x": 677.13,
+        "y": 530
+      },
+      "end": {
+        "x": 1758.17,
+        "y": 1190.56
+      },
+      "length": 1370.51,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly→1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel#39",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel",
+      "d": "M729.266129032258,388 C729.266129032258,511.5 979.9005376344086,511.5 979.9005376344086,635",
+      "start": {
+        "x": 729.27,
+        "y": 388
+      },
+      "end": {
+        "x": 979.9,
+        "y": 635
+      },
+      "length": 372.14,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel→1a-Parts Tree::Definitions::Wheel#40",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel",
+      "target": "1a-Parts Tree::Definitions::Wheel",
+      "d": "M1070.1064425770307,685 C1070.1064425770307,838.296875 1931.060224089636,838.296875 1931.060224089636,991.59375",
+      "start": {
+        "x": 1070.11,
+        "y": 685
+      },
+      "end": {
+        "x": 1931.06,
+        "y": 991.59
+      },
+      "length": 948.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly→1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_1#41",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_1",
+      "d": "M753.3655913978495,388 C753.3655913978495,424.84495259341884 836.9327956989248,461.68990518683773 920.5,461.68990518683773",
+      "start": {
+        "x": 753.37,
+        "y": 388
+      },
+      "end": {
+        "x": 920.5,
+        "y": 461.69
+      },
+      "length": 194.3,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_1→1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel#42",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_1",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel",
+      "d": "M1004,551 C1004,583.5 1004,583.5 1004,616",
+      "start": {
+        "x": 1004,
+        "y": 551
+      },
+      "end": {
+        "x": 1004,
+        "y": 616
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly→1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_2#43",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_2",
+      "d": "M722.5591397849462,388 C722.5591397849462,423.5 780.9978494623656,423.5 780.9978494623656,459",
+      "start": {
+        "x": 722.56,
+        "y": 388
+      },
+      "end": {
+        "x": 781,
+        "y": 459
+      },
+      "length": 96.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_2→1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel#44",
+      "source": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel_2",
+      "target": "1a-Parts Tree::Usages::vehicle1_c1::rearAxleAssembly::rearWheel",
+      "d": "M869.683870967742,551 C869.683870967742,583.5 973.1935483870968,583.5 973.1935483870968,616",
+      "start": {
+        "x": 869.68,
+        "y": 551
+      },
+      "end": {
+        "x": 973.19,
+        "y": 616
+      },
+      "length": 129.02,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 1810.76,
+      "y": 785.5,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "1a-Parts Tree::Usages→1a-Parts Tree::Definitions#8"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "b4ba9992bca363b4",
+  "unsettled": false
+}

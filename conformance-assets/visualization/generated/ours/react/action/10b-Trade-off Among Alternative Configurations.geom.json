@@ -1,0 +1,854 @@
+{
+  "zoom": 1.9254,
+  "nodes": [
+    {
+      "id": "10b-Trade-off Among Alternative Configurations::Analysis::EngineEvaluation",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 182,
+      "y": 462,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 182,
+        "y": 462,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "EngineEvaluation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008c",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 319,
+      "w": 352,
+      "h": 45,
+      "inner": {
+        "x": 16,
+        "y": 319,
+        "w": 352,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Evaluation function with criteria power, mass, efficency and cost.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10b-Trade-off Among Alternative Configurations::Analysis::engineTradeStudy",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 392,
+      "y": 30,
+      "w": 364,
+      "h": 334,
+      "inner": {
+        "x": 392,
+        "y": 30,
+        "w": 364,
+        "h": 334
+      },
+      "clipped": 0,
+      "title": "engineTradeStudy",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10b-Trade-off Among Alternative Configurations::Analysis::EngineEvaluation::power",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 175,
+      "y": 448,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 175,
+        "y": 448,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10b-Trade-off Among Alternative Configurations::Analysis::EngineEvaluation::mass",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 175,
+      "y": 448,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 175,
+        "y": 448,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10b-Trade-off Among Alternative Configurations::Analysis::EngineEvaluation::efficiency",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 175,
+      "y": 448,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 175,
+        "y": 448,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "efficiency",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10b-Trade-off Among Alternative Configurations::Analysis::EngineEvaluation::cost",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 175,
+      "y": 448,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 175,
+        "y": 448,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "cost",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10b-Trade-off Among Alternative Configurations::Analysis::EngineEvaluation::evaluation",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 315,
+      "y": 448,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 315,
+        "y": 448,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "evaluation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10b-Trade-off Among Alternative Configurations::Analysis::engineTradeStudy::studyAlternatives",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 385,
+      "y": 16,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 385,
+        "y": 16,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "studyAlternatives",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 408,
+      "y": 114,
+      "w": 332,
+      "h": 234,
+      "inner": {
+        "x": 408,
+        "y": 114,
+        "w": 332,
+        "h": 234
+      },
+      "clipped": 0,
+      "title": "evaluationFunction",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10b-Trade-off Among Alternative Configurations::Analysis::engineTradeStudy::selectedAlternative",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 749,
+      "y": 16,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 749,
+        "y": 16,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "selectedAlternative",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b1/anEngine",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 401,
+      "y": 100,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 401,
+        "y": 100,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "anEngine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "powerRollup",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 424,
+      "y": 198,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 424,
+        "y": 198,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "powerRollup",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "massRollup",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 584,
+      "y": 198,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 584,
+        "y": 198,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "massRollup",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "efficiencyRollup",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 424,
+      "y": 282,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 424,
+        "y": 282,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "efficiencyRollup",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "costRollup",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 584,
+      "y": 282,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 584,
+        "y": 282,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "costRollup",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b1/result",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 733,
+      "y": 100,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 733,
+        "y": 100,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "result",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "powerRollup::engine",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 417,
+      "y": 184,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 417,
+        "y": 184,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "powerRollup::power",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 557,
+      "y": 184,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 557,
+        "y": 184,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "massRollup::engine",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 577,
+      "y": 184,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 577,
+        "y": 184,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "massRollup::mass",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 717,
+      "y": 184,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 717,
+        "y": 184,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "efficiencyRollup::engine",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 417,
+      "y": 268,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 417,
+        "y": 268,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "efficiencyRollup::efficiency",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 557,
+      "y": 268,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 557,
+        "y": 268,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "efficiency",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "costRollup::engine",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 577,
+      "y": 268,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 577,
+        "y": 268,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "costRollup::cost",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 717,
+      "y": 268,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 717,
+        "y": 268,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "cost",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000-0000-0000-0000-00000000008c→10b-Trade-off Among Alternative Configurations::Analysis::EngineEvaluation#0",
+      "source": "00000000-0000-0000-0000-00000000008c",
+      "target": "10b-Trade-off Among Alternative Configurations::Analysis::EngineEvaluation",
+      "d": "M201.2783505154639,364 C201.2783505154639,413 241.69072164948454,413 241.69072164948454,462",
+      "start": {
+        "x": 201.28,
+        "y": 364
+      },
+      "end": {
+        "x": 241.69,
+        "y": 462
+      },
+      "length": 108.76,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "44cc8e19441f9b9b",
+  "unsettled": false
+}

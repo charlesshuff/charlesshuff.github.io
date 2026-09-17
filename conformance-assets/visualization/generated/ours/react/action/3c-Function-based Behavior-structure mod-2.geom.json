@@ -1,0 +1,131 @@
+{
+  "zoom": 3.53704,
+  "nodes": [
+    {
+      "id": "00000000-0000-0000-0000-000000000044",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 16,
+      "y": 16,
+      "w": 227,
+      "h": 270,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 227,
+        "h": 270
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "connect trailer to vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 48,
+      "y": 86,
+      "w": 163,
+      "h": 50,
+      "inner": {
+        "x": 48,
+        "y": 86,
+        "w": 163,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "connect trailer to vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "disconnect trailer from vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 32,
+      "y": 220,
+      "w": 195,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 220,
+        "w": 195,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "disconnect trailer from vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "connect trailer to vehicle→disconnect trailer from vehicle#0",
+      "source": "connect trailer to vehicle",
+      "target": "disconnect trailer from vehicle",
+      "d": "M129.5,136 C129.5,173 129.5,173 129.5,210",
+      "start": {
+        "x": 129.5,
+        "y": 136
+      },
+      "end": {
+        "x": 129.5,
+        "y": 210
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "f779e38790717f45",
+  "unsettled": false
+}

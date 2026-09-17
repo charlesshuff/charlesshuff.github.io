@@ -1,0 +1,780 @@
+{
+  "zoom": 0.695051,
+  "nodes": [
+    {
+      "id": "10d-Dynamics Analysis",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 907.81,
+      "h": 1373.59,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 907.81,
+        "h": 1373.59
+      },
+      "clipped": 0,
+      "title": "10d-Dynamics Analysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::VehicleModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 33.5,
+      "y": 1220.59,
+      "w": 172,
+      "h": 153,
+      "inner": {
+        "x": 33.5,
+        "y": 1220.59,
+        "w": 172,
+        "h": 153
+      },
+      "clipped": 0,
+      "title": "VehicleModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 229.5,
+      "y": 1220.59,
+      "w": 672,
+      "h": 143,
+      "inner": {
+        "x": 229.5,
+        "y": 1220.59,
+        "w": 672,
+        "h": 143
+      },
+      "clipped": 0,
+      "title": "DynamicsModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 61,
+      "w": 399.5,
+      "h": 965,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 399.5,
+        "h": 965
+      },
+      "clipped": 0,
+      "title": "AnalysisModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::VehicleModel::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 49.5,
+      "y": 1265.59,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 49.5,
+        "y": 1265.59,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass:>ISQBase::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 409.5,
+      "y": 1265.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 409.5,
+        "y": 1265.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Acceleration",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 573.5,
+      "y": 1265.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 573.5,
+        "y": 1265.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Velocity",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 245.5,
+      "y": 1265.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 245.5,
+        "y": 1265.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Position",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 737.5,
+      "y": 1265.59,
+      "w": 148,
+      "h": 50,
+      "inner": {
+        "x": 737.5,
+        "y": 1265.59,
+        "w": 148,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "StraightLineDynamics",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 100.5,
+      "y": 106,
+      "w": 315,
+      "h": 225,
+      "inner": {
+        "x": 100.5,
+        "y": 106,
+        "w": 315,
+        "h": 225
+      },
+      "clipped": 0,
+      "title": "DynamicsAnalysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis def",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in deltaT:>ISQBase::duration",
+              "kind": "parameters"
+            },
+            {
+              "text": "in initialPosition:>ISQBase::length",
+              "kind": "parameters"
+            },
+            {
+              "text": "in initialSpeed:>ISQSpaceTime::speed",
+              "kind": "parameters"
+            },
+            {
+              "text": "in powerProfile:>ISQMechanics::power",
+              "kind": "parameters"
+            },
+            {
+              "text": "out accelerationProfile:>ISQSpaceTime::acceleration := ()",
+              "kind": "parameters"
+            }
+          ]
+        },
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "position := initialPosition",
+              "kind": "attributes"
+            },
+            {
+              "text": "speed := initialSpeed",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 48,
+      "y": 436.5,
+      "w": 143,
+      "h": 92,
+      "inner": {
+        "x": 48,
+        "y": 436.5,
+        "w": 143,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "^mass:>ISQBase::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f7",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 215,
+      "y": 415,
+      "w": 191,
+      "h": 135,
+      "inner": {
+        "x": 215,
+        "y": 415,
+        "w": 191,
+        "h": 135
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "for loop action",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in seq = 1..powerProfile->size()-1",
+              "kind": "parameters"
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "i",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 215,
+      "y": 634,
+      "w": 191,
+      "h": 128,
+      "inner": {
+        "x": 215,
+        "y": 634,
+        "w": 191,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "body",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [
+        {
+          "title": "successions",
+          "entries": [
+            {
+              "text": "noname first dynamics then null",
+              "kind": "successions"
+            },
+            {
+              "text": "noname first null then null",
+              "kind": "successions"
+            },
+            {
+              "text": "noname first null then null",
+              "kind": "successions"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 207,
+      "y": 846,
+      "w": 207,
+      "h": 164,
+      "inner": {
+        "x": 207,
+        "y": 846,
+        "w": 207,
+        "h": 164
+      },
+      "clipped": 0,
+      "title": "dynamics: StraightLineDynamics",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in delta_t = deltaT",
+              "kind": "parameters"
+            },
+            {
+              "text": "in mass = vehicle.mass",
+              "kind": "parameters"
+            },
+            {
+              "text": "in power = powerProfile#(i)",
+              "kind": "parameters"
+            },
+            {
+              "text": "in v_in = speed",
+              "kind": "parameters"
+            },
+            {
+              "text": "in x_in = position",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel→10d-Dynamics Analysis::VehicleModel#8",
+      "source": "10d-Dynamics Analysis::AnalysisModel",
+      "target": "10d-Dynamics Analysis::VehicleModel",
+      "d": "M159.97014306448267,1026 C159.97014306448267,1118.296875 130.9202778353722,1118.296875 130.9202778353722,1210.59375",
+      "start": {
+        "x": 159.97,
+        "y": 1026
+      },
+      "end": {
+        "x": 130.92,
+        "y": 1210.59
+      },
+      "length": 187.8,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel→10d-Dynamics Analysis::DynamicsModel#9",
+      "source": "10d-Dynamics Analysis::AnalysisModel",
+      "target": "10d-Dynamics Analysis::DynamicsModel",
+      "d": "M432,992.431784107946 C482.82330411187644,992.431784107946 533.6466082237529,1101.512767053973 533.6466082237529,1210.59375",
+      "start": {
+        "x": 432,
+        "y": 992.43
+      },
+      "end": {
+        "x": 533.65,
+        "y": 1210.59
+      },
+      "length": 256.79,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis→10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle#11",
+      "source": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis",
+      "target": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle",
+      "d": "M198.98011363636363,344 C198.98011363636363,390.25 143.63257575757575,390.25 143.63257575757575,436.5",
+      "start": {
+        "x": 198.98,
+        "y": 344
+      },
+      "end": {
+        "x": 143.63,
+        "y": 436.5
+      },
+      "length": 112.21,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle→10d-Dynamics Analysis::VehicleModel::Vehicle#12",
+      "source": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle",
+      "target": "10d-Dynamics Analysis::VehicleModel::Vehicle",
+      "d": "M119.5,528.5 C119.5,887.546875 119.5,887.546875 119.5,1246.59375",
+      "start": {
+        "x": 119.5,
+        "y": 528.5
+      },
+      "end": {
+        "x": 119.5,
+        "y": 1246.59
+      },
+      "length": 718.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis→00000000-0000-0000-0000-0000000000f7#13",
+      "source": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis",
+      "target": "00000000-0000-0000-0000-0000000000f7",
+      "d": "M280.3721590909091,344 C280.3721590909091,379.5 297.07670454545456,379.5 297.07670454545456,415",
+      "start": {
+        "x": 280.37,
+        "y": 344
+      },
+      "end": {
+        "x": 297.08,
+        "y": 415
+      },
+      "length": 73.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f7→body#14",
+      "source": "00000000-0000-0000-0000-0000000000f7",
+      "target": "body",
+      "d": "M310.5,563 C310.5,598.5 310.5,598.5 310.5,634",
+      "start": {
+        "x": 310.5,
+        "y": 563
+      },
+      "end": {
+        "x": 310.5,
+        "y": 634
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "body→body::dynamics#15",
+      "source": "body",
+      "target": "body::dynamics",
+      "d": "M310.5,775 C310.5,810.5 310.5,810.5 310.5,846",
+      "start": {
+        "x": 310.5,
+        "y": 775
+      },
+      "end": {
+        "x": 310.5,
+        "y": 846
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "body::dynamics→10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics#16",
+      "source": "body::dynamics",
+      "target": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics",
+      "d": "M414,1002.9070920658683 C595.4786046712057,1002.9070920658683 776.9572093424115,1124.7504210329341 776.9572093424115,1246.59375",
+      "start": {
+        "x": 414,
+        "y": 1002.91
+      },
+      "end": {
+        "x": 776.96,
+        "y": 1246.59
+      },
+      "length": 474.83,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 105.29,
+      "y": 1110.5,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "10d-Dynamics Analysis::AnalysisModel→10d-Dynamics Analysis::VehicleModel#8"
+    },
+    {
+      "x": 461.73,
+      "y": 1052.81,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "10d-Dynamics Analysis::AnalysisModel→10d-Dynamics Analysis::DynamicsModel#9"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "ffe6e28f0c0c7f68",
+  "unsettled": false
+}

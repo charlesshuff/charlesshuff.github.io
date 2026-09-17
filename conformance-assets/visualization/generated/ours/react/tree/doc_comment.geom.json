@@ -1,0 +1,86 @@
+{
+  "zoom": 4,
+  "nodes": [
+    {
+      "id": "DocComment",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 208,
+      "h": 153,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 208,
+        "h": 153
+      },
+      "clipped": 0,
+      "title": "DocComment",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "DocComment::Engine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 61,
+      "w": 176,
+      "h": 92,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 176,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The main engine component.",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "5a8090316a18a973",
+  "unsettled": false
+}

@@ -1,0 +1,4147 @@
+{
+  "zoom": 0.334214,
+  "nodes": [
+    {
+      "id": "7b-Variant Configurations",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 4542.31,
+      "h": 2228,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 4542.31,
+        "h": 2228
+      },
+      "clipped": 0,
+      "title": "7b-Variant Configurations",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::RequirementsModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 3606,
+      "y": 1131,
+      "w": 867,
+      "h": 245,
+      "inner": {
+        "x": 3606,
+        "y": 1131,
+        "w": 867,
+        "h": 245
+      },
+      "clipped": 0,
+      "title": "RequirementsModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 522.32,
+      "y": 1581,
+      "w": 2282.5,
+      "h": 647,
+      "inner": {
+        "x": 522.32,
+        "y": 1581,
+        "w": 2282.5,
+        "h": 647
+      },
+      "clipped": 0,
+      "title": "DesignModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 454.32,
+      "y": 1185.67,
+      "w": 1668,
+      "h": 158,
+      "inner": {
+        "x": 454.32,
+        "y": 1185.67,
+        "w": 1668,
+        "h": 158
+      },
+      "clipped": 0,
+      "title": "VariantDefinitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 141.32,
+      "y": 61,
+      "w": 3345.36,
+      "h": 970,
+      "inner": {
+        "x": 141.32,
+        "y": 61,
+        "w": 3345.36,
+        "h": 970
+      },
+      "clipped": 0,
+      "title": "VariabilityModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::RequirementsModel::EnginePerformanceRequirement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 4138,
+      "y": 1310,
+      "w": 210,
+      "h": 50,
+      "inner": {
+        "x": 4138,
+        "y": 1310,
+        "w": 210,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "EnginePerformanceRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::RequirementsModel::highPerformanceRequirement",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 4049,
+      "y": 1176,
+      "w": 388,
+      "h": 50,
+      "inner": {
+        "x": 4049,
+        "y": 1176,
+        "w": 388,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "highPerformanceRequirement: EnginePerformanceRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::RequirementsModel::normalPerformanceRequirement",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 3622,
+      "y": 1176,
+      "w": 403,
+      "h": 50,
+      "inner": {
+        "x": 3622,
+        "y": 1176,
+        "w": 403,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "normalPerformanceRequirement: EnginePerformanceRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2528.82,
+      "y": 1760,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2528.82,
+        "y": 1760,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::Engine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 957.32,
+      "y": 1894,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 957.32,
+        "y": 1894,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::Transmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 745.32,
+      "y": 1894,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 745.32,
+        "y": 1894,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::Clutch",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 745.32,
+      "y": 2028,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 745.32,
+        "y": 2028,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Clutch",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::Driveshaft",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2181.82,
+      "y": 1894,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2181.82,
+        "y": 1894,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Driveshaft",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::RearAxleAssembly",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1543.98,
+      "y": 1894,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1543.98,
+        "y": 1894,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "RearAxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::Wheel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 584.32,
+      "y": 2028,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 584.32,
+        "y": 2028,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::FuelCmdPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 1899.15,
+      "y": 2162,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1899.15,
+        "y": 2162,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FuelCmdPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::ClutchPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 538.32,
+      "y": 2162,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 538.32,
+        "y": 2162,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::ShaftPort_b",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 2538.32,
+      "y": 2028,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2538.32,
+        "y": 2028,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ShaftPort_b",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::ShaftPort_c",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 2354.82,
+      "y": 2028,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2354.82,
+        "y": 2028,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ShaftPort_c",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::ShaftPort_d",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 957.32,
+      "y": 1626,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 957.32,
+        "y": 1626,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ShaftPort_d",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::VehicleToRoadPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 2020.82,
+      "y": 1894,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2020.82,
+        "y": 1894,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "VehicleToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::WheelToRoadPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 1424.98,
+      "y": 2162,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1424.98,
+        "y": 2162,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "WheelToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2060.98,
+      "y": 1626,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2060.98,
+        "y": 1626,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::fuelCmdPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 2692.82,
+      "y": 1760,
+      "w": 96,
+      "h": 50,
+      "inner": {
+        "x": 2692.82,
+        "y": 1760,
+        "w": 96,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelCmdPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1846.48,
+      "y": 1760,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1846.48,
+        "y": 1760,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine: Engine[1]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::engine::fuelCmdPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1881.15,
+      "y": 2028,
+      "w": 176,
+      "h": 50,
+      "inner": {
+        "x": 1881.15,
+        "y": 2028,
+        "w": 176,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelCmdPort: FuelCmdPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1221.32,
+      "y": 1760,
+      "w": 192,
+      "h": 50,
+      "inner": {
+        "x": 1221.32,
+        "y": 1760,
+        "w": 192,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transmission: Transmission[1]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1140.32,
+      "y": 1894,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1140.32,
+        "y": 1894,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "clutch: Clutch[1]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch::clutchPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 909.32,
+      "y": 2028,
+      "w": 148,
+      "h": 50,
+      "inner": {
+        "x": 909.32,
+        "y": 2028,
+        "w": 148,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "clutchPort: ClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::driveshaft",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2344.82,
+      "y": 1760,
+      "w": 160,
+      "h": 50,
+      "inner": {
+        "x": 2344.82,
+        "y": 1760,
+        "w": 160,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "driveshaft: Driveshaft[1]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 2527.82,
+      "y": 1894,
+      "w": 161,
+      "h": 50,
+      "inner": {
+        "x": 2527.82,
+        "y": 1894,
+        "w": 161,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "shaftPort_b: ShaftPort_b",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_c",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 2345.82,
+      "y": 1894,
+      "w": 158,
+      "h": 50,
+      "inner": {
+        "x": 2345.82,
+        "y": 1894,
+        "w": 158,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "shaftPort_c: ShaftPort_c",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1457.32,
+      "y": 1760,
+      "w": 235,
+      "h": 50,
+      "inner": {
+        "x": 1457.32,
+        "y": 1760,
+        "w": 235,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearAxleAssembly: RearAxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1374.98,
+      "y": 1894,
+      "w": 145,
+      "h": 50,
+      "inner": {
+        "x": 1374.98,
+        "y": 1894,
+        "w": 145,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearWheels: Wheel[2]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels::wheelToRoadPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1356.15,
+      "y": 2028,
+      "w": 231,
+      "h": 50,
+      "inner": {
+        "x": 1356.15,
+        "y": 2028,
+        "w": 231,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "wheelToRoadPort: WheelToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 2010.48,
+      "y": 1760,
+      "w": 241,
+      "h": 50,
+      "inner": {
+        "x": 2010.48,
+        "y": 1760,
+        "w": 241,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleToRoadPort: VehicleToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort::wheelToRoadPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1611.15,
+      "y": 2028,
+      "w": 246,
+      "h": 50,
+      "inner": {
+        "x": 1611.15,
+        "y": 2028,
+        "w": 246,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "wheelToRoadPort: WheelToRoadPort[2]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::4CylEngine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1802.32,
+      "y": 1230.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1802.32,
+        "y": 1230.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "4CylEngine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::6CylEngine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1966.32,
+      "y": 1230.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1966.32,
+        "y": 1230.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "6CylEngine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::ManualTransmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1292.32,
+      "y": 1230.67,
+      "w": 141,
+      "h": 50,
+      "inner": {
+        "x": 1292.32,
+        "y": 1230.67,
+        "w": 141,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ManualTransmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::AutomaticTransmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1457.32,
+      "y": 1230.67,
+      "w": 157,
+      "h": 50,
+      "inner": {
+        "x": 1457.32,
+        "y": 1230.67,
+        "w": 157,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AutomaticTransmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::ManualClutch",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1128.32,
+      "y": 1230.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1128.32,
+        "y": 1230.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ManualClutch",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::AutomaticClutch",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 798.32,
+      "y": 1230.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 798.32,
+        "y": 1230.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AutomaticClutch",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::ManualClutchPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 1638.32,
+      "y": 1230.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1638.32,
+        "y": 1230.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ManualClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::AutomaticClutchPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 962.32,
+      "y": 1230.67,
+      "w": 142,
+      "h": 50,
+      "inner": {
+        "x": 962.32,
+        "y": 1230.67,
+        "w": 142,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AutomaticClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::NarrowRimWheel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 634.32,
+      "y": 1230.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 634.32,
+        "y": 1230.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "NarrowRimWheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::WideRimWheel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 470.32,
+      "y": 1230.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 470.32,
+        "y": 1230.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "WideRimWheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1418.82,
+      "y": 240,
+      "w": 255,
+      "h": 50,
+      "inner": {
+        "x": 1418.82,
+        "y": 240,
+        "w": 255,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "anyVehicleConfig :>DesignModel::vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 3065.68,
+      "y": 831,
+      "w": 312,
+      "h": 50,
+      "inner": {
+        "x": 3065.68,
+        "y": 831,
+        "w": 312,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engineRqtChoice: EnginePerformanceRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "variation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c3",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 3005.68,
+      "y": 965,
+      "w": 432,
+      "h": 50,
+      "inner": {
+        "x": 3005.68,
+        "y": 965,
+        "w": 432,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "highPerformanceRequirement ::> RequirementsModel::highPerformanceRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c6",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2549.68,
+      "y": 965,
+      "w": 432,
+      "h": 50,
+      "inner": {
+        "x": 2549.68,
+        "y": 965,
+        "w": 432,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "normalPerformanceRequirement ::> RequirementsModel::normalPerformanceRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2295.32,
+      "y": 443.6,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2295.32,
+        "y": 443.6,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engineChoice",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "variation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice::4cylEngine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2274.32,
+      "y": 595,
+      "w": 154,
+      "h": 50,
+      "inner": {
+        "x": 2274.32,
+        "y": 595,
+        "w": 154,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "4cylEngine: 4CylEngine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice::6cylEngine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2096.32,
+      "y": 595,
+      "w": 154,
+      "h": 50,
+      "inner": {
+        "x": 2096.32,
+        "y": 595,
+        "w": 154,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "6cylEngine: 6CylEngine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engine choice constraint",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 613.32,
+      "y": 374,
+      "w": 432,
+      "h": 122,
+      "inner": {
+        "x": 613.32,
+        "y": 374,
+        "w": 432,
+        "h": 122
+      },
+      "clipped": 0,
+      "title": "engine choice constraint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ if engineRqtChoice == engineRqtChoice::highPerformanceRequirement? engineChoice == engineChoice::'6cylEngine' else engineChoice == engineChoice::'4cylEngine' }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1069.32,
+      "y": 439.25,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1069.32,
+        "y": 439.25,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transmissionChoice",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "variation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::manualTransmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1150.32,
+      "y": 646,
+      "w": 264,
+      "h": 50,
+      "inner": {
+        "x": 1150.32,
+        "y": 646,
+        "w": 264,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "manualTransmission: ManualTransmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000112",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1210.82,
+      "y": 831,
+      "w": 143,
+      "h": 50,
+      "inner": {
+        "x": 1210.82,
+        "y": 831,
+        "w": 143,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "clutch: ManualClutch",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000116",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1187.32,
+      "y": 965,
+      "w": 190,
+      "h": 50,
+      "inner": {
+        "x": 1187.32,
+        "y": 965,
+        "w": 190,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "clutchPort: ManualClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::automaticTransmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 835.32,
+      "y": 646,
+      "w": 294,
+      "h": 50,
+      "inner": {
+        "x": 835.32,
+        "y": 646,
+        "w": 294,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "automaticTransmission: AutomaticTransmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000011d",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 903.32,
+      "y": 831,
+      "w": 158,
+      "h": 50,
+      "inner": {
+        "x": 903.32,
+        "y": 831,
+        "w": 158,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "clutch: AutomaticClutch",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000121",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 879.32,
+      "y": 965,
+      "w": 206,
+      "h": 50,
+      "inner": {
+        "x": 879.32,
+        "y": 965,
+        "w": 206,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "clutchPort: AutomaticClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engine-transmission selection constraint",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 157.32,
+      "y": 374,
+      "w": 432,
+      "h": 137,
+      "inner": {
+        "x": 157.32,
+        "y": 374,
+        "w": 432,
+        "h": 137
+      },
+      "clipped": 0,
+      "title": "engine-transmission selection constraint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ (engineChoice == engineChoice::'4cylEngine' and transmissionChoice == transmissionChoice::manualTransmission) xor (engineChoice == engineChoice::'6cylEngine' and transmissionChoice == transmissionChoice::automaticTransmission) }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016d",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1476.32,
+      "y": 439.25,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1476.32,
+        "y": 439.25,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearAxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "rearWheelChoice",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1476.32,
+      "y": 671.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1476.32,
+        "y": 671.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearWheelChoice",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "variation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "rearWheelChoice::narrowRimWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1670.32,
+      "y": 831,
+      "w": 227,
+      "h": 50,
+      "inner": {
+        "x": 1670.32,
+        "y": 831,
+        "w": 227,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "narrowRimWheel: NarrowRimWheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "rearWheelChoice::wideRimWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1446.32,
+      "y": 831,
+      "w": 200,
+      "h": 50,
+      "inner": {
+        "x": 1446.32,
+        "y": 831,
+        "w": 200,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "wideRimWheel: WideRimWheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "engine-wheel selection constraint",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1640.32,
+      "y": 595,
+      "w": 432,
+      "h": 152,
+      "inner": {
+        "x": 1640.32,
+        "y": 595,
+        "w": 432,
+        "h": 152
+      },
+      "clipped": 0,
+      "title": "engine-wheel selection constraint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ (engineChoice == engineChoice::'4cylEngine' and rearWheelChoice->forAll {in ref w; w == rearWheelChoice::narrowRimWheel}) xor (engineChoice == engineChoice::'6cylEngine' and rearWheelChoice->forAll {in ref w; w == rearWheelChoice::wideRimWheel}) }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::vehicleChoice",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1218.82,
+      "y": 106,
+      "w": 212,
+      "h": 50,
+      "inner": {
+        "x": 1218.82,
+        "y": 106,
+        "w": 212,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleChoice :>anyVehicleConfig",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "variation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::vehicleChoice::vehicle_c1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1254.82,
+      "y": 240,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1254.82,
+        "y": 240,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle_c1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::vehicleChoice::vehicle_c2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1090.82,
+      "y": 240,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1090.82,
+        "y": 240,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle_c2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "variant",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "7b-Variant Configurations→7b-Variant Configurations::RequirementsModel#0",
+      "source": "7b-Variant Configurations",
+      "target": "7b-Variant Configurations::RequirementsModel",
+      "d": "M4558,1290.0393044858524 C4751.851020172549,1290.0393044858524 3402.1465984658385,1222.9508857355274 3595.9976186383874,1222.9508857355274",
+      "start": {
+        "x": 4558,
+        "y": 1290.04
+      },
+      "end": {
+        "x": 3596,
+        "y": 1222.95
+      },
+      "length": 1041.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations→7b-Variant Configurations::DesignModel#1",
+      "source": "7b-Variant Configurations",
+      "target": "7b-Variant Configurations::DesignModel",
+      "d": "M1390.6460177882263,2244 C1390.6460177882263,2406.1390221384104 1924.1134237185727,1408.8609778615894 1924.1134237185727,1571",
+      "start": {
+        "x": 1390.65,
+        "y": 2244
+      },
+      "end": {
+        "x": 1924.11,
+        "y": 1571
+      },
+      "length": 926.95,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations→7b-Variant Configurations::VariantDefinitions#2",
+      "source": "7b-Variant Configurations",
+      "target": "7b-Variant Configurations::VariantDefinitions",
+      "d": "M16,1436.231224818446 C-253.41617699656973,1436.231224818446 1874.177956542643,1074.779090361138 1874.177956542643,1175.6666666666667",
+      "start": {
+        "x": 16,
+        "y": 1436.23
+      },
+      "end": {
+        "x": 1874.18,
+        "y": 1175.67
+      },
+      "length": 1936.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::RequirementsModel::highPerformanceRequirement→7b-Variant Configurations::RequirementsModel::EnginePerformanceRequirement#6",
+      "source": "7b-Variant Configurations::RequirementsModel::highPerformanceRequirement",
+      "target": "7b-Variant Configurations::RequirementsModel::EnginePerformanceRequirement",
+      "d": "M4242.997618638387,1226 C4242.997618638387,1258.5 4242.997618638387,1258.5 4242.997618638387,1291",
+      "start": {
+        "x": 4243,
+        "y": 1226
+      },
+      "end": {
+        "x": 4243,
+        "y": 1291
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::RequirementsModel::normalPerformanceRequirement→7b-Variant Configurations::RequirementsModel::EnginePerformanceRequirement#8",
+      "source": "7b-Variant Configurations::RequirementsModel::normalPerformanceRequirement",
+      "target": "7b-Variant Configurations::RequirementsModel::EnginePerformanceRequirement",
+      "d": "M3901.7625440115216,1226 C3901.7625440115216,1258.5 4164.732693265253,1258.5 4164.732693265253,1291",
+      "start": {
+        "x": 3901.76,
+        "y": 1226
+      },
+      "end": {
+        "x": 4164.73,
+        "y": 1291
+      },
+      "length": 277.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle→7b-Variant Configurations::DesignModel::Vehicle#25",
+      "source": "7b-Variant Configurations::DesignModel::vehicle",
+      "target": "7b-Variant Configurations::DesignModel::Vehicle",
+      "d": "M2200.9833998596478,1671.0498753117206 C2355.4000665263147,1671.0498753117206 2355.4000665263147,1764.9501246882794 2509.8167331929812,1764.9501246882794",
+      "start": {
+        "x": 2200.98,
+        "y": 1671.05
+      },
+      "end": {
+        "x": 2509.82,
+        "y": 1764.95
+      },
+      "length": 328.03,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle→7b-Variant Configurations::DesignModel::vehicle::fuelCmdPort#26",
+      "source": "7b-Variant Configurations::DesignModel::vehicle",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::fuelCmdPort",
+      "d": "M2213.9833998596478,1666.381251708117 C2453.4000665263147,1666.381251708117 2453.4000665263147,1774.452855971577 2692.8167331929812,1774.452855971577",
+      "start": {
+        "x": 2213.98,
+        "y": 1666.38
+      },
+      "end": {
+        "x": 2692.82,
+        "y": 1774.45
+      },
+      "length": 495.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::fuelCmdPort→7b-Variant Configurations::DesignModel::vehicle::engine::fuelCmdPort#27",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::fuelCmdPort",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::engine::fuelCmdPort",
+      "d": "M2692.8167331929812,1801.6704103671707 C2366.9753152825333,1801.6704103671707 2041.1338973720858,1914.8352051835855 2041.1338973720858,2028",
+      "start": {
+        "x": 2692.82,
+        "y": 1801.67
+      },
+      "end": {
+        "x": 2041.13,
+        "y": 2028
+      },
+      "length": 724.42,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle→7b-Variant Configurations::DesignModel::vehicle::engine#28",
+      "source": "7b-Variant Configurations::DesignModel::vehicle",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::engine",
+      "d": "M2090.96474314323,1689 C2090.96474314323,1724.5 1956.5020565760658,1724.5 1956.5020565760658,1760",
+      "start": {
+        "x": 2090.96,
+        "y": 1689
+      },
+      "end": {
+        "x": 1956.5,
+        "y": 1760
+      },
+      "length": 159.82,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::engine→7b-Variant Configurations::DesignModel::Engine#29",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::engine",
+      "target": "7b-Variant Configurations::DesignModel::Engine",
+      "d": "M1846.483399859648,1795.5492033739456 C1481.4000665263147,1795.5492033739456 1481.4000665263147,1908.4507966260544 1116.3167331929812,1908.4507966260544",
+      "start": {
+        "x": 1846.48,
+        "y": 1795.55
+      },
+      "end": {
+        "x": 1116.32,
+        "y": 1908.45
+      },
+      "length": 742.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::engine→7b-Variant Configurations::DesignModel::vehicle::engine::fuelCmdPort#30",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::engine",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::engine::fuelCmdPort",
+      "d": "M1921.3963351830312,1823 C1921.3963351830312,1925.5 1964.2371312029316,1925.5 1964.2371312029316,2028",
+      "start": {
+        "x": 1921.4,
+        "y": 1823
+      },
+      "end": {
+        "x": 1964.24,
+        "y": 2028
+      },
+      "length": 211.2,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::engine::fuelCmdPort→7b-Variant Configurations::DesignModel::FuelCmdPort#31",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::engine::fuelCmdPort",
+      "target": "7b-Variant Configurations::DesignModel::FuelCmdPort",
+      "d": "M1969.1500665263147,2078 C1969.1500665263147,2110.5 1969.1500665263147,2110.5 1969.1500665263147,2143",
+      "start": {
+        "x": 1969.15,
+        "y": 2078
+      },
+      "end": {
+        "x": 1969.15,
+        "y": 2143
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle→7b-Variant Configurations::DesignModel::vehicle::transmission#32",
+      "source": "7b-Variant Configurations::DesignModel::vehicle",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::transmission",
+      "d": "M2047.9833998596478,1662.5280622695616 C1730.6500665263145,1662.5280622695616 1730.6500665263145,1769.1900860303153 1413.3167331929812,1769.1900860303153",
+      "start": {
+        "x": 2047.98,
+        "y": 1662.53
+      },
+      "end": {
+        "x": 1413.32,
+        "y": 1769.19
+      },
+      "length": 647.2,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::transmission→7b-Variant Configurations::DesignModel::Transmission#33",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::transmission",
+      "target": "7b-Variant Configurations::DesignModel::Transmission",
+      "d": "M1223.6600167750707,1810 C1223.6600167750707,1855.1573705179283 1063.988374984026,1900.3147410358565 904.3167331929812,1900.3147410358565",
+      "start": {
+        "x": 1223.66,
+        "y": 1810
+      },
+      "end": {
+        "x": 904.32,
+        "y": 1900.31
+      },
+      "length": 344.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::transmission→7b-Variant Configurations::DesignModel::vehicle::transmission::clutch#34",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::transmission",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch",
+      "d": "M1297.354046625817,1823 C1297.354046625817,1858.5 1230.2794197601454,1858.5 1230.2794197601454,1894",
+      "start": {
+        "x": 1297.35,
+        "y": 1823
+      },
+      "end": {
+        "x": 1230.28,
+        "y": 1894
+      },
+      "length": 103.17,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch→7b-Variant Configurations::DesignModel::Clutch#35",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch",
+      "target": "7b-Variant Configurations::DesignModel::Clutch",
+      "d": "M1140.3167331929812,1942.746835443038 C1022.3167331929812,1942.746835443038 1022.3167331929812,2029.253164556962 904.3167331929812,2029.253164556962",
+      "start": {
+        "x": 1140.32,
+        "y": 1942.75
+      },
+      "end": {
+        "x": 904.32,
+        "y": 2029.25
+      },
+      "length": 256.84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch→7b-Variant Configurations::DesignModel::vehicle::transmission::clutch::clutchPort#36",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch::clutchPort",
+      "d": "M1167.9659869243246,1957 C1167.9659869243246,1992.5 1025.6674794616379,1992.5 1025.6674794616379,2028",
+      "start": {
+        "x": 1167.97,
+        "y": 1957
+      },
+      "end": {
+        "x": 1025.67,
+        "y": 2028
+      },
+      "length": 166.86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch::clutchPort→7b-Variant Configurations::DesignModel::ClutchPort#37",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch::clutchPort",
+      "target": "7b-Variant Configurations::DesignModel::ClutchPort",
+      "d": "M913.3540466258171,2078 C913.3540466258171,2120 805.3167331929812,2162 697.2794197601454,2162",
+      "start": {
+        "x": 913.35,
+        "y": 2078
+      },
+      "end": {
+        "x": 697.28,
+        "y": 2162
+      },
+      "length": 244.91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle→7b-Variant Configurations::DesignModel::vehicle::driveshaft#38",
+      "source": "7b-Variant Configurations::DesignModel::vehicle",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::driveshaft",
+      "d": "M2185.803051600941,1689 C2185.803051600941,1724.5 2369.997081451688,1724.5 2369.997081451688,1760",
+      "start": {
+        "x": 2185.8,
+        "y": 1689
+      },
+      "end": {
+        "x": 2370,
+        "y": 1760
+      },
+      "length": 205.35,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::driveshaft→7b-Variant Configurations::DesignModel::Driveshaft#39",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::driveshaft",
+      "target": "7b-Variant Configurations::DesignModel::Driveshaft",
+      "d": "M2392.5406137899963,1810 C2392.5406137899963,1842.5 2284.092852595966,1842.5 2284.092852595966,1875",
+      "start": {
+        "x": 2392.54,
+        "y": 1810
+      },
+      "end": {
+        "x": 2284.09,
+        "y": 1875
+      },
+      "length": 133.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::driveshaft→7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_b#40",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::driveshaft",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_b",
+      "d": "M2459.051807819847,1823 C2459.051807819847,1858.5 2574.0816585661155,1858.5 2574.0816585661155,1894",
+      "start": {
+        "x": 2459.05,
+        "y": 1823
+      },
+      "end": {
+        "x": 2574.08,
+        "y": 1894
+      },
+      "length": 142.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_b→7b-Variant Configurations::DesignModel::ShaftPort_b#41",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_b",
+      "target": "7b-Variant Configurations::DesignModel::ShaftPort_b",
+      "d": "M2608.3167331929812,1944 C2608.3167331929812,1976.5 2608.3167331929812,1976.5 2608.3167331929812,2009",
+      "start": {
+        "x": 2608.32,
+        "y": 1944
+      },
+      "end": {
+        "x": 2608.32,
+        "y": 2009
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::driveshaft→7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_c#42",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::driveshaft",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_c",
+      "d": "M2424.8167331929812,1823 C2424.8167331929812,1858.5 2424.8167331929812,1858.5 2424.8167331929812,1894",
+      "start": {
+        "x": 2424.82,
+        "y": 1823
+      },
+      "end": {
+        "x": 2424.82,
+        "y": 1894
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_c→7b-Variant Configurations::DesignModel::ShaftPort_c#43",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::driveshaft::shaftPort_c",
+      "target": "7b-Variant Configurations::DesignModel::ShaftPort_c",
+      "d": "M2424.8167331929812,1944 C2424.8167331929812,1976.5 2424.8167331929812,1976.5 2424.8167331929812,2009",
+      "start": {
+        "x": 2424.82,
+        "y": 1944
+      },
+      "end": {
+        "x": 2424.82,
+        "y": 2009
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle→7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly#44",
+      "source": "7b-Variant Configurations::DesignModel::vehicle",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly",
+      "d": "M2047.9833998596478,1667.865448007192 C1863.2812854317872,1667.865448007192 1678.5791710039264,1713.932724003596 1678.5791710039264,1760",
+      "start": {
+        "x": 2047.98,
+        "y": 1667.87
+      },
+      "end": {
+        "x": 1678.58,
+        "y": 1760
+      },
+      "length": 393.56,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly→7b-Variant Configurations::DesignModel::RearAxleAssembly#45",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly",
+      "target": "7b-Variant Configurations::DesignModel::RearAxleAssembly",
+      "d": "M1582.1239471233296,1810 C1582.1239471233296,1842.5 1606.6761859292997,1842.5 1606.6761859292997,1875",
+      "start": {
+        "x": 1582.12,
+        "y": 1810
+      },
+      "end": {
+        "x": 1606.68,
+        "y": 1875
+      },
+      "length": 71.07,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly→7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels#46",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels",
+      "d": "M1551.0605142875086,1823 C1551.0605142875086,1858.5 1471.2396187651207,1858.5 1471.2396187651207,1894",
+      "start": {
+        "x": 1551.06,
+        "y": 1823
+      },
+      "end": {
+        "x": 1471.24,
+        "y": 1894
+      },
+      "length": 113.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels→7b-Variant Configurations::DesignModel::Wheel#47",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels",
+      "target": "7b-Variant Configurations::DesignModel::Wheel",
+      "d": "M1374.983399859648,1931.248371506619 C1059.1500665263147,1931.248371506619 1059.1500665263147,2041.1739861315402 743.3167331929812,2041.1739861315402",
+      "start": {
+        "x": 1374.98,
+        "y": 1931.25
+      },
+      "end": {
+        "x": 743.32,
+        "y": 2041.17
+      },
+      "length": 645.02,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels→7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels::wheelToRoadPort#48",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels::wheelToRoadPort",
+      "d": "M1451.9921063273098,1957 C1451.9921063273098,1992.5 1467.141360058653,1992.5 1467.141360058653,2028",
+      "start": {
+        "x": 1451.99,
+        "y": 1957
+      },
+      "end": {
+        "x": 1467.14,
+        "y": 2028
+      },
+      "length": 73.24,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels::wheelToRoadPort→7b-Variant Configurations::DesignModel::WheelToRoadPort#49",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels::wheelToRoadPort",
+      "target": "7b-Variant Configurations::DesignModel::WheelToRoadPort",
+      "d": "M1476.0033003571605,2078 C1476.0033003571605,2110.5 1490.6301660288023,2110.5 1490.6301660288023,2143",
+      "start": {
+        "x": 1476,
+        "y": 2078
+      },
+      "end": {
+        "x": 1490.63,
+        "y": 2143
+      },
+      "length": 67.27,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle→7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort#50",
+      "source": "7b-Variant Configurations::DesignModel::vehicle",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort",
+      "d": "M2130.9833998596478,1689 C2130.9833998596478,1724.5 2130.9833998596478,1724.5 2130.9833998596478,1760",
+      "start": {
+        "x": 2130.98,
+        "y": 1689
+      },
+      "end": {
+        "x": 2130.98,
+        "y": 1760
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort→7b-Variant Configurations::DesignModel::VehicleToRoadPort#51",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort",
+      "target": "7b-Variant Configurations::DesignModel::VehicleToRoadPort",
+      "d": "M2123.48961876512,1810 C2123.48961876512,1842.5 2098.310514287509,1842.5 2098.310514287509,1875",
+      "start": {
+        "x": 2123.49,
+        "y": 1810
+      },
+      "end": {
+        "x": 2098.31,
+        "y": 1875
+      },
+      "length": 71.36,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort→7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort::wheelToRoadPort#52",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort::wheelToRoadPort",
+      "d": "M2093.9653650337773,1823 C2093.9653650337773,1925.5 1771.1681013521854,1925.5 1771.1681013521854,2028",
+      "start": {
+        "x": 2093.97,
+        "y": 1823
+      },
+      "end": {
+        "x": 1771.17,
+        "y": 2028
+      },
+      "length": 403.73,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort::wheelToRoadPort→7b-Variant Configurations::DesignModel::WheelToRoadPort#53",
+      "source": "7b-Variant Configurations::DesignModel::vehicle::vehicleToRoadPort::wheelToRoadPort",
+      "target": "7b-Variant Configurations::DesignModel::WheelToRoadPort",
+      "d": "M1689.5294197601456,2078 C1689.5294197601456,2110.5 1539.604046625817,2110.5 1539.604046625817,2143",
+      "start": {
+        "x": 1689.53,
+        "y": 2078
+      },
+      "end": {
+        "x": 1539.6,
+        "y": 2143
+      },
+      "length": 170.68,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::4CylEngine→7b-Variant Configurations::DesignModel::Engine#56",
+      "source": "7b-Variant Configurations::VariantDefinitions::4CylEngine",
+      "target": "7b-Variant Configurations::DesignModel::Engine",
+      "d": "M1840.4699995246394,1280.6666666666667 C1840.4699995246394,1577.8333333333335 1059.163466861323,1577.8333333333335 1059.163466861323,1875",
+      "start": {
+        "x": 1840.47,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 1059.16,
+        "y": 1875
+      },
+      "length": 1039.02,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::6CylEngine→7b-Variant Configurations::DesignModel::Engine#58",
+      "source": "7b-Variant Configurations::VariantDefinitions::6CylEngine",
+      "target": "7b-Variant Configurations::DesignModel::Engine",
+      "d": "M1998.2890950020264,1280.6666666666667 C1998.2890950020264,1577.8333333333335 1065.344371383936,1577.8333333333335 1065.344371383936,1875",
+      "start": {
+        "x": 1998.29,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 1065.34,
+        "y": 1875
+      },
+      "length": 1167.98,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::ManualTransmission→7b-Variant Configurations::DesignModel::Transmission#60",
+      "source": "7b-Variant Configurations::VariantDefinitions::ManualTransmission",
+      "target": "7b-Variant Configurations::DesignModel::Transmission",
+      "d": "M1342.1823110824284,1280.6666666666667 C1342.1823110824284,1577.8333333333335 835.951155303534,1577.8333333333335 835.951155303534,1875",
+      "start": {
+        "x": 1342.18,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 835.95,
+        "y": 1875
+      },
+      "length": 822.72,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::AutomaticTransmission→7b-Variant Configurations::DesignModel::Transmission#62",
+      "source": "7b-Variant Configurations::VariantDefinitions::AutomaticTransmission",
+      "target": "7b-Variant Configurations::DesignModel::Transmission",
+      "d": "M1508.6622105799158,1280.6666666666667 C1508.6622105799158,1577.8333333333335 842.4712558060465,1577.8333333333335 842.4712558060465,1875",
+      "start": {
+        "x": 1508.66,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 842.47,
+        "y": 1875
+      },
+      "length": 945.06,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::ManualClutch→7b-Variant Configurations::DesignModel::Clutch#64",
+      "source": "7b-Variant Configurations::VariantDefinitions::ManualClutch",
+      "target": "7b-Variant Configurations::DesignModel::Clutch",
+      "d": "M1186.3079539287671,1280.6666666666667 C1186.3079539287671,1644.8333333333335 827.3255124571953,1644.8333333333335 827.3255124571953,2009",
+      "start": {
+        "x": 1186.31,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 827.33,
+        "y": 2009
+      },
+      "length": 838.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::AutomaticClutch→7b-Variant Configurations::DesignModel::Clutch#66",
+      "source": "7b-Variant Configurations::VariantDefinitions::AutomaticClutch",
+      "target": "7b-Variant Configurations::DesignModel::Clutch",
+      "d": "M866.6549438953224,1280.6666666666667 C866.6549438953224,1644.8333333333335 816.9785224906401,1644.8333333333335 816.9785224906401,2009",
+      "start": {
+        "x": 866.65,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 816.98,
+        "y": 2009
+      },
+      "length": 730.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::ManualClutchPort→7b-Variant Configurations::DesignModel::ClutchPort#68",
+      "source": "7b-Variant Configurations::VariantDefinitions::ManualClutchPort",
+      "target": "7b-Variant Configurations::DesignModel::ClutchPort",
+      "d": "M1678.789174137863,1280.6666666666667 C1678.789174137863,1711.8333333333335 637.8442922480994,1711.8333333333335 637.8442922480994,2143",
+      "start": {
+        "x": 1678.79,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 637.84,
+        "y": 2143
+      },
+      "length": 1431.17,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::AutomaticClutchPort→7b-Variant Configurations::DesignModel::ClutchPort#70",
+      "source": "7b-Variant Configurations::VariantDefinitions::AutomaticClutchPort",
+      "target": "7b-Variant Configurations::DesignModel::ClutchPort",
+      "d": "M1021.9083581035038,1280.6666666666667 C1021.9083581035038,1711.8333333333335 619.7251082824587,1711.8333333333335 619.7251082824587,2143",
+      "start": {
+        "x": 1021.91,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 619.73,
+        "y": 2143
+      },
+      "length": 980.72,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::NarrowRimWheel→7b-Variant Configurations::DesignModel::Wheel#72",
+      "source": "7b-Variant Configurations::VariantDefinitions::NarrowRimWheel",
+      "target": "7b-Variant Configurations::DesignModel::Wheel",
+      "d": "M702.7490074404728,1280.6666666666667 C702.7490074404728,1644.8333333333335 655.8844589454897,1644.8333333333335 655.8844589454897,2009",
+      "start": {
+        "x": 702.75,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 655.88,
+        "y": 2009
+      },
+      "length": 730.48,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariantDefinitions::WideRimWheel→7b-Variant Configurations::DesignModel::Wheel#74",
+      "source": "7b-Variant Configurations::VariantDefinitions::WideRimWheel",
+      "target": "7b-Variant Configurations::DesignModel::Wheel",
+      "d": "M543.8911479087003,1280.6666666666667 C543.8911479087003,1644.8333333333335 650.7423184772622,1644.8333333333335 650.7423184772622,2009",
+      "start": {
+        "x": 543.89,
+        "y": 1280.67
+      },
+      "end": {
+        "x": 650.74,
+        "y": 2009
+      },
+      "length": 739.34,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig→7b-Variant Configurations::DesignModel::vehicle#77",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig",
+      "target": "7b-Variant Configurations::DesignModel::vehicle",
+      "d": "M1556.8626687389167,290 C1556.8626687389167,948.5 2120.437464313712,948.5 2120.437464313712,1607",
+      "start": {
+        "x": 1556.86,
+        "y": 290
+      },
+      "end": {
+        "x": 2120.44,
+        "y": 1607
+      },
+      "length": 1471.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice#78",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice",
+      "d": "M1617.1866211901227,303 C1617.1866211901227,567 3150.8109974482645,567 3150.8109974482645,831",
+      "start": {
+        "x": 1617.19,
+        "y": 303
+      },
+      "end": {
+        "x": 3150.81,
+        "y": 831
+      },
+      "length": 1680.68,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice→7b-Variant Configurations::RequirementsModel::EnginePerformanceRequirement#79",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice",
+      "target": "7b-Variant Configurations::RequirementsModel::EnginePerformanceRequirement",
+      "d": "M3274.985516614142,881 C3274.985516614142,1086 4189.692987469652,1086 4189.692987469652,1291",
+      "start": {
+        "x": 3274.99,
+        "y": 881
+      },
+      "end": {
+        "x": 4189.69,
+        "y": 1291
+      },
+      "length": 1048.15,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice→00000000-0000-0000-0000-0000000000c3#80",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice",
+      "target": "00000000-0000-0000-0000-0000000000c3",
+      "d": "M3221.680885445406,895 C3221.680885445406,930 3221.680885445406,930 3221.680885445406,965",
+      "start": {
+        "x": 3221.68,
+        "y": 895
+      },
+      "end": {
+        "x": 3221.68,
+        "y": 965
+      },
+      "length": 70,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice→00000000-0000-0000-0000-0000000000c6#81",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice",
+      "target": "00000000-0000-0000-0000-0000000000c6",
+      "d": "M3136.6062585797345,895 C3136.6062585797345,930 2850.755512311078,930 2850.755512311078,965",
+      "start": {
+        "x": 3136.61,
+        "y": 895
+      },
+      "end": {
+        "x": 2850.76,
+        "y": 965
+      },
+      "length": 301.62,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice#82",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice",
+      "d": "M1646.8815661988751,303 C1646.8815661988751,377.09914529914533 1971.0991496959282,451.1982905982906 2295.3167331929812,451.1982905982906",
+      "start": {
+        "x": 1646.88,
+        "y": 303
+      },
+      "end": {
+        "x": 2295.32,
+        "y": 451.2
+      },
+      "length": 685.16,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice→7b-Variant Configurations::DesignModel::vehicle::engine#83",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::engine",
+      "d": "M2356.7928549391577,493.6 C2356.7928549391577,1117.3000000000002 1925.0072781134716,1117.3 1925.0072781134716,1741",
+      "start": {
+        "x": 2356.79,
+        "y": 493.6
+      },
+      "end": {
+        "x": 1925.01,
+        "y": 1741
+      },
+      "length": 1346.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice::4cylEngine#84",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice::4cylEngine",
+      "d": "M2363.0049762577105,507.6 C2363.0049762577105,551.3 2353.628490128252,551.3 2353.628490128252,595",
+      "start": {
+        "x": 2363,
+        "y": 507.6
+      },
+      "end": {
+        "x": 2353.63,
+        "y": 595
+      },
+      "length": 88.11,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice::6cylEngine#85",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice::6cylEngine",
+      "d": "M2333.612638080696,507.6 C2333.612638080696,551.3 2205.0208283052666,551.3 2205.0208283052666,595",
+      "start": {
+        "x": 2333.61,
+        "y": 507.6
+      },
+      "end": {
+        "x": 2205.02,
+        "y": 595
+      },
+      "length": 164.36,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice#86",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice",
+      "d": "M2420.580294902611,493.6 C2420.580294902611,657.3 3166.4173237357763,657.3 3166.4173237357763,821",
+      "start": {
+        "x": 2420.58,
+        "y": 493.6
+      },
+      "end": {
+        "x": 3166.42,
+        "y": 821
+      },
+      "length": 851.12,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engine choice constraint#87",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engine choice constraint",
+      "d": "M1440.875556722393,303 C1440.875556722393,343.39330543933056 1243.096144957687,383.78661087866107 1045.3167331929812,383.78661087866107",
+      "start": {
+        "x": 1440.88,
+        "y": 303
+      },
+      "end": {
+        "x": 1045.32,
+        "y": 383.79
+      },
+      "length": 414.16,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice#88",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice",
+      "d": "M1495.2502338203337,303 C1495.2502338203337,371.125 1190.3832325656288,371.125 1190.3832325656288,439.25",
+      "start": {
+        "x": 1495.25,
+        "y": 303
+      },
+      "end": {
+        "x": 1190.38,
+        "y": 439.25
+      },
+      "length": 349.14,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice→7b-Variant Configurations::DesignModel::vehicle::transmission#89",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::transmission",
+      "d": "M1142.6860309404733,489.25 C1142.6860309404733,1115.125 1313.9474354454892,1115.125 1313.9474354454892,1741",
+      "start": {
+        "x": 1142.69,
+        "y": 489.25
+      },
+      "end": {
+        "x": 1313.95,
+        "y": 1741
+      },
+      "length": 1268.23,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::manualTransmission#90",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::manualTransmission",
+      "d": "M1156.6081479450972,503.25 C1156.6081479450972,574.625 1265.0253184408652,574.625 1265.0253184408652,646",
+      "start": {
+        "x": 1156.61,
+        "y": 503.25
+      },
+      "end": {
+        "x": 1265.03,
+        "y": 646
+      },
+      "length": 188.26,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::manualTransmission→00000000-0000-0000-0000-000000000112#91",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::manualTransmission",
+      "target": "00000000-0000-0000-0000-000000000112",
+      "d": "M1282.3167331929812,709 C1282.3167331929812,770 1282.3167331929812,770 1282.3167331929812,831",
+      "start": {
+        "x": 1282.32,
+        "y": 709
+      },
+      "end": {
+        "x": 1282.32,
+        "y": 831
+      },
+      "length": 122,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000112→7b-Variant Configurations::DesignModel::vehicle::transmission::clutch#92",
+      "source": "00000000-0000-0000-0000-000000000112",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch",
+      "d": "M1280.6234124027649,881 C1280.6234124027649,1378 1212.0100539831976,1378 1212.0100539831976,1875",
+      "start": {
+        "x": 1280.62,
+        "y": 881
+      },
+      "end": {
+        "x": 1212.01,
+        "y": 1875
+      },
+      "length": 997.36,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000112→7b-Variant Configurations::VariantDefinitions::ManualClutch#93",
+      "source": "00000000-0000-0000-0000-000000000112",
+      "target": "7b-Variant Configurations::VariantDefinitions::ManualClutch",
+      "d": "M1277.0623545441072,881 C1277.0623545441072,1046.3333333333335 1203.5711118418553,1046.3333333333335 1203.5711118418553,1211.6666666666667",
+      "start": {
+        "x": 1277.06,
+        "y": 881
+      },
+      "end": {
+        "x": 1203.57,
+        "y": 1211.67
+      },
+      "length": 341.93,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000112→00000000-0000-0000-0000-000000000116#94",
+      "source": "00000000-0000-0000-0000-000000000112",
+      "target": "00000000-0000-0000-0000-000000000116",
+      "d": "M1282.3167331929812,894 C1282.3167331929812,929.5 1282.3167331929812,929.5 1282.3167331929812,965",
+      "start": {
+        "x": 1282.32,
+        "y": 894
+      },
+      "end": {
+        "x": 1282.32,
+        "y": 965
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000116→7b-Variant Configurations::DesignModel::vehicle::transmission::clutch::clutchPort#95",
+      "source": "00000000-0000-0000-0000-000000000116",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch::clutchPort",
+      "d": "M1275.2847482447216,1015 C1275.2847482447216,1512 990.3487181412409,1512 990.3487181412409,2009",
+      "start": {
+        "x": 1275.28,
+        "y": 1015
+      },
+      "end": {
+        "x": 990.35,
+        "y": 2009
+      },
+      "length": 1049.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000116→7b-Variant Configurations::VariantDefinitions::ManualClutchPort#96",
+      "source": "00000000-0000-0000-0000-000000000116",
+      "target": "7b-Variant Configurations::VariantDefinitions::ManualClutchPort",
+      "d": "M1322.4045625530816,1015 C1322.4045625530816,1113.3333333333335 1668.2289038328809,1113.3333333333335 1668.2289038328809,1211.6666666666667",
+      "start": {
+        "x": 1322.4,
+        "y": 1015
+      },
+      "end": {
+        "x": 1668.23,
+        "y": 1211.67
+      },
+      "length": 418.98,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::automaticTransmission#97",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::automaticTransmission",
+      "d": "M1120.3324526609376,503.25 C1120.3324526609376,574.625 1001.3010137250247,574.625 1001.3010137250247,646",
+      "start": {
+        "x": 1120.33,
+        "y": 503.25
+      },
+      "end": {
+        "x": 1001.3,
+        "y": 646
+      },
+      "length": 195.76,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::automaticTransmission→00000000-0000-0000-0000-00000000011d#98",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::transmissionChoice::automaticTransmission",
+      "target": "00000000-0000-0000-0000-00000000011d",
+      "d": "M982.3167331929812,709 C982.3167331929812,770 982.3167331929812,770 982.3167331929812,831",
+      "start": {
+        "x": 982.32,
+        "y": 709
+      },
+      "end": {
+        "x": 982.32,
+        "y": 831
+      },
+      "length": 122,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000011d→7b-Variant Configurations::DesignModel::vehicle::transmission::clutch#99",
+      "source": "00000000-0000-0000-0000-00000000011d",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch",
+      "d": "M987.6789156953331,881 C987.6789156953331,1378 1204.9545506906295,1378 1204.9545506906295,1875",
+      "start": {
+        "x": 987.68,
+        "y": 881
+      },
+      "end": {
+        "x": 1204.95,
+        "y": 1875
+      },
+      "length": 1026.79,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000011d→7b-Variant Configurations::VariantDefinitions::AutomaticClutch#100",
+      "source": "00000000-0000-0000-0000-00000000011d",
+      "target": "7b-Variant Configurations::VariantDefinitions::AutomaticClutch",
+      "d": "M975.1857907409379,881 C975.1857907409379,1046.3333333333335 875.4476756450246,1046.3333333333335 875.4476756450246,1211.6666666666667",
+      "start": {
+        "x": 975.19,
+        "y": 881
+      },
+      "end": {
+        "x": 875.45,
+        "y": 1211.67
+      },
+      "length": 350.91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000011d→00000000-0000-0000-0000-000000000121#101",
+      "source": "00000000-0000-0000-0000-00000000011d",
+      "target": "00000000-0000-0000-0000-000000000121",
+      "d": "M982.3167331929812,894 C982.3167331929812,929.5 982.3167331929812,929.5 982.3167331929812,965",
+      "start": {
+        "x": 982.32,
+        "y": 894
+      },
+      "end": {
+        "x": 982.32,
+        "y": 965
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000121→7b-Variant Configurations::DesignModel::vehicle::transmission::clutch::clutchPort#102",
+      "source": "00000000-0000-0000-0000-000000000121",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::transmission::clutch::clutchPort",
+      "d": "M982.3402515372899,1015 C982.3402515372899,1512 983.2932148486727,1512 983.2932148486727,2009",
+      "start": {
+        "x": 982.34,
+        "y": 1015
+      },
+      "end": {
+        "x": 983.29,
+        "y": 2009
+      },
+      "length": 994,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000121→7b-Variant Configurations::VariantDefinitions::AutomaticClutchPort#103",
+      "source": "00000000-0000-0000-0000-000000000121",
+      "target": "7b-Variant Configurations::VariantDefinitions::AutomaticClutchPort",
+      "d": "M987.1159803698947,1015 C987.1159803698947,1113.3333333333335 1028.5174860160678,1113.3333333333335 1028.5174860160678,1211.6666666666667",
+      "start": {
+        "x": 987.12,
+        "y": 1015
+      },
+      "end": {
+        "x": 1028.52,
+        "y": 1211.67
+      },
+      "length": 202.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engine-transmission selection constraint#104",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engine-transmission selection constraint",
+      "d": "M1405.8167331929812,284.29347826086956 C997.5667331929812,284.29347826086956 997.5667331929812,409.8145780051151 589.3167331929812,409.8145780051151",
+      "start": {
+        "x": 1405.82,
+        "y": 284.29
+      },
+      "end": {
+        "x": 589.32,
+        "y": 409.81
+      },
+      "length": 830.03,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig→00000000-0000-0000-0000-00000000016d#105",
+      "source": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig",
+      "target": "00000000-0000-0000-0000-00000000016d",
+      "d": "M1546.3167331929812,303 C1546.3167331929812,371.125 1546.3167331929812,371.125 1546.3167331929812,439.25",
+      "start": {
+        "x": 1546.32,
+        "y": 303
+      },
+      "end": {
+        "x": 1546.32,
+        "y": 439.25
+      },
+      "length": 136.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016d→7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly#106",
+      "source": "00000000-0000-0000-0000-00000000016d",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly",
+      "d": "M1546.8561994053605,489.25 C1546.8561994053605,1115.125 1574.277266980602,1115.125 1574.277266980602,1741",
+      "start": {
+        "x": 1546.86,
+        "y": 489.25
+      },
+      "end": {
+        "x": 1574.28,
+        "y": 1741
+      },
+      "length": 1252.18,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016d→rearWheelChoice#107",
+      "source": "00000000-0000-0000-0000-00000000016d",
+      "target": "rearWheelChoice",
+      "d": "M1546.3167331929812,502.25 C1546.3167331929812,586.875 1546.3167331929812,586.875 1546.3167331929812,671.5",
+      "start": {
+        "x": 1546.32,
+        "y": 502.25
+      },
+      "end": {
+        "x": 1546.32,
+        "y": 671.5
+      },
+      "length": 169.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "rearWheelChoice→7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels#108",
+      "source": "rearWheelChoice",
+      "target": "7b-Variant Configurations::DesignModel::vehicle::rearAxleAssembly::rearWheels",
+      "d": "M1544.2956016319724,721.5 C1544.2956016319724,1298.25 1449.5045314206568,1298.25 1449.5045314206568,1875",
+      "start": {
+        "x": 1544.3,
+        "y": 721.5
+      },
+      "end": {
+        "x": 1449.5,
+        "y": 1875
+      },
+      "length": 1159.02,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "rearWheelChoice→rearWheelChoice::narrowRimWheel#109",
+      "source": "rearWheelChoice",
+      "target": "rearWheelChoice::narrowRimWheel",
+      "d": "M1583.542438522135,735.5 C1583.542438522135,783.25 1746.5910278638275,783.25 1746.5910278638275,831",
+      "start": {
+        "x": 1583.54,
+        "y": 735.5
+      },
+      "end": {
+        "x": 1746.59,
+        "y": 831
+      },
+      "length": 199.15,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "rearWheelChoice→rearWheelChoice::wideRimWheel#110",
+      "source": "rearWheelChoice",
+      "target": "rearWheelChoice::wideRimWheel",
+      "d": "M1546.3167331929812,735.5 C1546.3167331929812,783.25 1546.3167331929812,783.25 1546.3167331929812,831",
+      "start": {
+        "x": 1546.32,
+        "y": 735.5
+      },
+      "end": {
+        "x": 1546.32,
+        "y": 831
+      },
+      "length": 95.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016d→engine-wheel selection constraint#111",
+      "source": "00000000-0000-0000-0000-00000000016d",
+      "target": "engine-wheel selection constraint",
+      "d": "M1583.801618319946,502.25 C1583.801618319946,548.625 1742.362682407008,548.625 1742.362682407008,595",
+      "start": {
+        "x": 1583.8,
+        "y": 502.25
+      },
+      "end": {
+        "x": 1742.36,
+        "y": 595
+      },
+      "length": 193.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::vehicleChoice→7b-Variant Configurations::VariabilityModel::anyVehicleConfig#113",
+      "source": "7b-Variant Configurations::VariabilityModel::vehicleChoice",
+      "target": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig",
+      "d": "M1366.141360058653,156 C1366.141360058653,188.5 1504.9921063273096,188.5 1504.9921063273096,221",
+      "start": {
+        "x": 1366.14,
+        "y": 156
+      },
+      "end": {
+        "x": 1504.99,
+        "y": 221
+      },
+      "length": 160.54,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::vehicleChoice→7b-Variant Configurations::VariabilityModel::vehicleChoice::vehicle_c1#114",
+      "source": "7b-Variant Configurations::VariabilityModel::vehicleChoice",
+      "target": "7b-Variant Configurations::VariabilityModel::vehicleChoice::vehicle_c1",
+      "d": "M1324.8167331929812,170 C1324.8167331929812,205 1324.8167331929812,205 1324.8167331929812,240",
+      "start": {
+        "x": 1324.82,
+        "y": 170
+      },
+      "end": {
+        "x": 1324.82,
+        "y": 240
+      },
+      "length": 70,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7b-Variant Configurations::VariabilityModel::vehicleChoice→7b-Variant Configurations::VariabilityModel::vehicleChoice::vehicle_c2#115",
+      "source": "7b-Variant Configurations::VariabilityModel::vehicleChoice",
+      "target": "7b-Variant Configurations::VariabilityModel::vehicleChoice::vehicle_c2",
+      "d": "M1294.2197182676082,170 C1294.2197182676082,205 1191.4137481183543,205 1191.4137481183543,240",
+      "start": {
+        "x": 1294.22,
+        "y": 170
+      },
+      "end": {
+        "x": 1191.41,
+        "y": 240
+      },
+      "length": 131.48,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-circle-plus",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 4036.84,
+      "y": 1248.7,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "7b-Variant Configurations→7b-Variant Configurations::RequirementsModel#0"
+    },
+    {
+      "x": 1617.22,
+      "y": 1899.7,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "7b-Variant Configurations→7b-Variant Configurations::DesignModel#1"
+    },
+    {
+      "x": 803.9,
+      "y": 1260.32,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "7b-Variant Configurations→7b-Variant Configurations::VariantDefinitions#2"
+    },
+    {
+      "x": 2237.35,
+      "y": 1864.6,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "7b-Variant Configurations::DesignModel::vehicle::fuelCmdPort→7b-Variant Configurations::DesignModel::vehicle::engine::fuelCmdPort#27"
+    },
+    {
+      "x": 2757.81,
+      "y": 649.5,
+      "w": 71.37,
+      "h": 15.59,
+      "text": "<<satisfy>>",
+      "edge": "7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineChoice→7b-Variant Configurations::VariabilityModel::anyVehicleConfig::engineRqtChoice#86"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "09c2f388597e8844",
+  "unsettled": false
+}

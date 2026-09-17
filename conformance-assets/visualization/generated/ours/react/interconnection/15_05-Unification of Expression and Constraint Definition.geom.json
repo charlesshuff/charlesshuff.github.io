@@ -1,0 +1,629 @@
+{
+  "zoom": 1.06823,
+  "nodes": [
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1311,
+      "h": 894,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1311,
+        "h": 894
+      },
+      "clipped": 0,
+      "title": "15_05-Unification of Expression and Constraint Definition",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::DiscBrakeConstraint",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 585,
+      "y": 413,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 585,
+        "y": 413,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "DiscBrakeConstraint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "constraint def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::DiscBrakeFitConstraint_Alt",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 1138,
+      "y": 774,
+      "w": 173,
+      "h": 50,
+      "inner": {
+        "x": 1138,
+        "y": 774,
+        "w": 173,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "DiscBrakeFitConstraint_Alt",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "constraint def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 61,
+      "w": 464,
+      "h": 542,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 464,
+        "h": 542
+      },
+      "clipped": 0,
+      "title": "Vehicle_2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 585,
+      "y": 492,
+      "w": 464,
+      "h": 402,
+      "inner": {
+        "x": 585,
+        "y": 492,
+        "w": 464,
+        "h": 402
+      },
+      "clipped": 0,
+      "title": "WheelAssy",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1138,
+      "y": 572,
+      "w": 172,
+      "h": 178,
+      "inner": {
+        "x": 1138,
+        "y": 572,
+        "w": 172,
+        "h": 178
+      },
+      "clipped": 0,
+      "title": "DiscBrakeAssy",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 194,
+      "y": 247,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 194,
+        "y": 247,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "mass: MassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 1200 [kg]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::length",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 194,
+      "y": 131,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 194,
+        "y": 131,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "length: LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 4.82 [m]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::wheelAssy",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 330,
+      "y": 537,
+      "w": 150,
+      "h": 50,
+      "inner": {
+        "x": 330,
+        "y": 537,
+        "w": 150,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "wheelAssy: WheelAssy",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::discBrakeConstraint",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 48,
+      "y": 363,
+      "w": 432,
+      "h": 150,
+      "inner": {
+        "x": 48,
+        "y": 363,
+        "w": 432,
+        "h": 150
+      },
+      "clipped": 0,
+      "title": "discBrakeConstraint: DiscBrakeConstraint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "constraint",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "This constraint is computed, but not asserted. This means a tool can identify when it is violated without the model being inconsistent.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in wheelAssy = Vehicle_2::wheelAssy",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::wheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 747,
+      "y": 562,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 747,
+        "y": 562,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeAssy",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 841,
+      "y": 636,
+      "w": 192,
+      "h": 50,
+      "inner": {
+        "x": 841,
+        "y": 636,
+        "w": 192,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "discBrakeAssy: DiscBrakeAssy",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeFitConstraint_Alt",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 601,
+      "y": 710,
+      "w": 432,
+      "h": 168,
+      "inner": {
+        "x": 601,
+        "y": 710,
+        "w": 432,
+        "h": 168
+      },
+      "clipped": 0,
+      "title": "discBrakeFitConstraint_Alt: DiscBrakeFitConstraint_Alt",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "This constraint is asserted to be true, which means that the model is inconsistent if it the constraint is violated.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in discBrakeAssy = WheelAssy::discBrakeAssy",
+              "kind": "parameters"
+            },
+            {
+              "text": "in wheel = WheelAssy::wheel",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy::radius",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 1154,
+      "y": 642,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 1154,
+        "y": 642,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "radius: LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 95 [mm]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::wheelAssy→15_05-Unification of Expression and Constraint Definition::WheelAssy#0",
+      "source": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::wheelAssy",
+      "target": "15_05-Unification of Expression and Constraint Definition::WheelAssy",
+      "d": "M480,585.8470873786408 C523,585.8470873786408 523,619.2330097087379 566,619.2330097087379",
+      "start": {
+        "x": 480,
+        "y": 585.85
+      },
+      "end": {
+        "x": 566,
+        "y": 619.23
+      },
+      "length": 94.45,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::discBrakeConstraint→15_05-Unification of Expression and Constraint Definition::DiscBrakeConstraint#1",
+      "source": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::discBrakeConstraint",
+      "target": "15_05-Unification of Expression and Constraint Definition::DiscBrakeConstraint",
+      "d": "M480,438 C523,438 523,438 566,438",
+      "start": {
+        "x": 480,
+        "y": 438
+      },
+      "end": {
+        "x": 566,
+        "y": 438
+      },
+      "length": 86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeAssy→15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy#2",
+      "source": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeAssy",
+      "target": "15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy",
+      "d": "M1033,661 C1076,661 1076,661 1119,661",
+      "start": {
+        "x": 1033,
+        "y": 661
+      },
+      "end": {
+        "x": 1119,
+        "y": 661
+      },
+      "length": 86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeFitConstraint_Alt→15_05-Unification of Expression and Constraint Definition::DiscBrakeFitConstraint_Alt#3",
+      "source": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeFitConstraint_Alt",
+      "target": "15_05-Unification of Expression and Constraint Definition::DiscBrakeFitConstraint_Alt",
+      "d": "M1033,796.6503067484663 C1076,796.6503067484663 1076,797.9386503067485 1119,797.9386503067485",
+      "start": {
+        "x": 1033,
+        "y": 796.65
+      },
+      "end": {
+        "x": 1119,
+        "y": 797.94
+      },
+      "length": 86.01,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "e3927894eeef6b3a",
+  "unsettled": false
+}

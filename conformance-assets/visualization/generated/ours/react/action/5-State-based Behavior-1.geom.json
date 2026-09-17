@@ -1,0 +1,2290 @@
+{
+  "zoom": 0.453672,
+  "nodes": [
+    {
+      "id": "00000000-0000-0000-0000-000000000019",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 16,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Black box specifications for state definitions may also have input and output parameters, like activities, though none are used here.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000c",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 472,
+      "y": 16,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 472,
+        "y": 16,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The following declare that 'VehicleA' performs a 'provide power' action and exhibits some 'vehicle states', without giving details about these behaviors.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::VehicleA::provide power",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1986,
+      "y": 787.04,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1986,
+        "y": 787.04,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "provide power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::VehicleA::vehicle states",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2150,
+      "y": 1215.63,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2150,
+        "y": 1215.63,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle states",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "exhibit state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::VehicleController::controller states",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 5426,
+      "y": 408.66,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 5426,
+        "y": 408.66,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "controller states",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "exhibit state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::Vehicle States",
+      "type": "default",
+      "form": "definition",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-def fam-state",
+      "x": 3229,
+      "y": 1823.45,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3229,
+        "y": 1823.45,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle States",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::Controller States",
+      "type": "default",
+      "form": "definition",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-def fam-state",
+      "x": 5202,
+      "y": 787.04,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 5202,
+        "y": 787.04,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Controller States",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::Perform Self Test",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 4101,
+      "y": 2105.45,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4101,
+        "y": 2105.45,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Perform Self Test",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::Apply Parking Brake",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 4265,
+      "y": 2105.45,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4265,
+        "y": 2105.45,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Apply Parking Brake",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::Sense Temperature",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 3421,
+      "y": 1971.45,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3421,
+        "y": 1971.45,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Sense Temperature",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000039",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 928,
+      "y": 23.5,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 928,
+        "y": 23.5,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "These actions are used enabled in the state usage 'vehicle states', in addition to 'provide power'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::perform self test",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 4101,
+      "y": 1964.45,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4101,
+        "y": 1964.45,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "perform self test",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::apply parking brake",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 4265,
+      "y": 1964.45,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4265,
+        "y": 1964.45,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "apply parking brake",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::sense temperature",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 3393,
+      "y": 1823.45,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3393,
+        "y": 1823.45,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "sense temperature",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2314,
+      "y": 787.04,
+      "w": 2209.02,
+      "h": 907.19,
+      "inner": {
+        "x": 2314,
+        "y": 787.04,
+        "w": 2209.02,
+        "h": 907.19
+      },
+      "clipped": 0,
+      "title": "vehicle states",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000047",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 4640,
+      "y": 594.66,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 4640,
+        "y": 594.66,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This is a usage of the state definition 'Vehicle States'. Note that it depends specifically on on the part 'vehicle1_c1'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 4365,
+      "y": 609.66,
+      "w": 251,
+      "h": 60,
+      "inner": {
+        "x": 4365,
+        "y": 609.66,
+        "w": 251,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The state definition for this usage is implicit.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ab",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 3909,
+      "y": 579.66,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 3909,
+        "y": 579.66,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "A state may have a \"entry\" action that is performed on entry into the state, a \"do\" action that is performed while in the state and an \"exit\" action that is performed on exit from the state.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cb",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 3453,
+      "y": 594.66,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 3453,
+        "y": 594.66,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'health states' is concurrent with 'operational states', because the containing state usage is \"parallel\".",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d4",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 3082,
+      "y": 609.66,
+      "w": 347,
+      "h": 60,
+      "inner": {
+        "x": 3082,
+        "y": 609.66,
+        "w": 347,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "State-behavior actions may have input and output parameters.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::controller states",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 5096,
+      "y": 197.66,
+      "w": 305.67,
+      "h": 472,
+      "inner": {
+        "x": 5096,
+        "y": 197.66,
+        "w": 305.67,
+        "h": 472
+      },
+      "clipped": 0,
+      "title": "controller states",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001b4",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1384,
+      "y": 23.5,
+      "w": 404,
+      "h": 75,
+      "inner": {
+        "x": 1384,
+        "y": 23.5,
+        "w": 404,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "These attribute properties are used in the specification for 'vehicle states'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001bf",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1986,
+      "y": 408.66,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1986,
+        "y": 408.66,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "provide power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c3",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1812,
+      "y": 31,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 1812,
+        "y": 31,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "In the context of the 'vehicle1_c1' part, the 'provide power' action that is enabled in 'vehicle states' gets its input from the 'fuelCmdPort'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001cf",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2918,
+      "y": 478.99,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2918,
+        "y": 478.99,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle states",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "exhibit",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001d3",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 2772,
+      "y": 16,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 2772,
+        "y": 16,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This allocates the state usage 'vehicle states' as the detailed state-based behavior for 'vehicle1_c1' that fills in the generic declaration in 'VehicleA'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001d8",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 5202,
+      "y": 56,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 5202,
+        "y": 56,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "controller states",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "exhibit",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::Sense Temperature::temp",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3554,
+      "y": 1957.45,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3554,
+        "y": 1957.45,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "temp",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 3573.29,
+      "y": 862.04,
+      "w": 933.72,
+      "h": 811.19,
+      "inner": {
+        "x": 3573.29,
+        "y": 862.04,
+        "w": 933.72,
+        "h": 811.19
+      },
+      "clipped": 0,
+      "title": "operational states",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::health states",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2330,
+      "y": 959.57,
+      "w": 1219.28,
+      "h": 518.59,
+      "inner": {
+        "x": 2330,
+        "y": 959.57,
+        "w": 1219.28,
+        "h": 518.59
+      },
+      "clipped": 0,
+      "title": "health states",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::controller states::operational controller states",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 5112,
+      "y": 267.66,
+      "w": 273.67,
+      "h": 386,
+      "inner": {
+        "x": 5112,
+        "y": 267.66,
+        "w": 273.67,
+        "h": 386
+      },
+      "clipped": 0,
+      "title": "operational controller states",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001bf/fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1979,
+      "y": 394.66,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1979,
+        "y": 394.66,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states::off",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 4216.19,
+      "y": 1048.04,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4216.19,
+        "y": 1048.04,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "off",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states::starting",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 4192.86,
+      "y": 1282.63,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4192.86,
+        "y": 1282.63,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "starting",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states::on",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 4219.86,
+      "y": 1517.23,
+      "w": 172,
+      "h": 140,
+      "inner": {
+        "x": 4219.86,
+        "y": 1517.23,
+        "w": 172,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "on",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cf",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 3393.29,
+      "y": 1043.57,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3393.29,
+        "y": 1043.57,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "sense temperature",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::health states::normal",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2709.15,
+      "y": 1177.57,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2709.15,
+        "y": 1177.57,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "normal",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::health states::maintenance",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2377.36,
+      "y": 1412.16,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2377.36,
+        "y": 1412.16,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "maintenance",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::health states::degraded",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2727.82,
+      "y": 1412.16,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2727.82,
+        "y": 1412.16,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "degraded",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::controller states::operational controller states::off",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 5163.18,
+      "y": 587.66,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 5163.18,
+        "y": 587.66,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "off",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::controller states::operational controller states::on",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 5151.51,
+      "y": 337.66,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 5151.51,
+        "y": 337.66,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "on",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states::«start»",
+      "type": "actionInitial",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 4270.2,
+      "y": 932.04,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 4270.2,
+        "y": 932.04,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::health states::«start»",
+      "type": "actionInitial",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 2763.15,
+      "y": 1061.57,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 2763.15,
+        "y": 1061.57,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      "parent": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::controller states::operational controller states::«start»",
+      "type": "actionInitial",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 5337.67,
+      "y": 471.66,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 5337.67,
+        "y": 471.66,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b0",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 4235.86,
+      "y": 1587.23,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4235.86,
+        "y": 1587.23,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "doAction",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cf/temp",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3526.29,
+      "y": 1029.57,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3526.29,
+        "y": 1029.57,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "temp",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "5-State-based Behavior-1::Definitions::VehicleA::vehicle states→5-State-based Behavior-1::Definitions::Vehicle States#0",
+      "source": "5-State-based Behavior-1::Definitions::VehicleA::vehicle states",
+      "target": "5-State-based Behavior-1::Definitions::Vehicle States",
+      "d": "M2264.379745608224,1265.6318452380951 C2264.379745608224,1535.043005952381 3254.620254391776,1535.043005952381 3254.620254391776,1804.4541666666669",
+      "start": {
+        "x": 2264.38,
+        "y": 1265.63
+      },
+      "end": {
+        "x": 3254.62,
+        "y": 1804.45
+      },
+      "length": 1185.88,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Definitions::VehicleController::controller states→5-State-based Behavior-1::Definitions::Controller States#1",
+      "source": "5-State-based Behavior-1::Definitions::VehicleController::controller states",
+      "target": "5-State-based Behavior-1::Definitions::Controller States",
+      "d": "M5481.200100679587,458.65714285714284 C5481.200100679587,613.347619047619 5286.799899320413,613.347619047619 5286.799899320413,768.0380952380953",
+      "start": {
+        "x": 5481.2,
+        "y": 458.66
+      },
+      "end": {
+        "x": 5286.8,
+        "y": 768.04
+      },
+      "length": 381.11,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::perform self test→5-State-based Behavior-1::Definitions::Perform Self Test#2",
+      "source": "5-State-based Behavior-1::Usages::perform self test",
+      "target": "5-State-based Behavior-1::Definitions::Perform Self Test",
+      "d": "M4171,2014.4541666666669 C4171,2050.454166666667 4171,2050.454166666667 4171,2086.454166666667",
+      "start": {
+        "x": 4171,
+        "y": 2014.45
+      },
+      "end": {
+        "x": 4171,
+        "y": 2086.45
+      },
+      "length": 72,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::apply parking brake→5-State-based Behavior-1::Definitions::Apply Parking Brake#3",
+      "source": "5-State-based Behavior-1::Usages::apply parking brake",
+      "target": "5-State-based Behavior-1::Definitions::Apply Parking Brake",
+      "d": "M4335,2014.4541666666669 C4335,2050.454166666667 4335,2050.454166666667 4335,2086.454166666667",
+      "start": {
+        "x": 4335,
+        "y": 2014.45
+      },
+      "end": {
+        "x": 4335,
+        "y": 2086.45
+      },
+      "length": 72,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::sense temperature→5-State-based Behavior-1::Definitions::Sense Temperature#4",
+      "source": "5-State-based Behavior-1::Usages::sense temperature",
+      "target": "5-State-based Behavior-1::Definitions::Sense Temperature",
+      "d": "M3467.7297297297296,1873.4541666666669 C3467.7297297297296,1912.9541666666669 3486.2702702702704,1912.9541666666669 3486.2702702702704,1952.4541666666669",
+      "start": {
+        "x": 3467.73,
+        "y": 1873.45
+      },
+      "end": {
+        "x": 3486.27,
+        "y": 1952.45
+      },
+      "length": 81.99,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000047→5-State-based Behavior-1::Usages::vehicle states#5",
+      "source": "00000000-0000-0000-0000-000000000047",
+      "target": "5-State-based Behavior-1::Usages::vehicle states",
+      "d": "M4767.393922197871,669.6571428571428 C4767.393922197871,728.347619047619 4490.042834220414,728.347619047619 4490.042834220414,787.0380952380951",
+      "start": {
+        "x": 4767.39,
+        "y": 669.66
+      },
+      "end": {
+        "x": 4490.04,
+        "y": 787.04
+      },
+      "length": 314.31,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states→5-State-based Behavior-1::Definitions::Vehicle States#6",
+      "source": "5-State-based Behavior-1::Usages::vehicle states",
+      "target": "5-State-based Behavior-1::Definitions::Vehicle States",
+      "d": "M3329.354059389072,1694.0380952380951 C3329.354059389072,1749.246130952381 3303.9143296918924,1749.246130952381 3303.9143296918924,1804.4541666666669",
+      "start": {
+        "x": 3329.35,
+        "y": 1694.04
+      },
+      "end": {
+        "x": 3303.91,
+        "y": 1804.45
+      },
+      "length": 114.45,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e→5-State-based Behavior-1::Usages::vehicle states::operational states#7",
+      "source": "00000000-0000-0000-0000-00000000004e",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::operational states",
+      "d": "M4468.98927389817,669.6571428571428 C4468.98927389817,765.847619047619 4331.047474768971,765.847619047619 4331.047474768971,862.0380952380951",
+      "start": {
+        "x": 4468.99,
+        "y": 669.66
+      },
+      "end": {
+        "x": 4331.05,
+        "y": 862.04
+      },
+      "length": 248.13,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "[*]→5-State-based Behavior-1::Usages::vehicle states::operational states::off#8",
+      "source": "[*]",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::operational states::off",
+      "d": "M4286.194906214576,964.0380952380953 C4286.194906214576,1001.0380952380951 4286.194906214576,1001.0380952380951 4286.194906214576,1038.0380952380951",
+      "start": {
+        "x": 4286.19,
+        "y": 964.04
+      },
+      "end": {
+        "x": 4286.19,
+        "y": 1038.04
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states::off→5-State-based Behavior-1::Usages::vehicle states::operational states::starting#9",
+      "source": "5-State-based Behavior-1::Usages::vehicle states::operational states::off",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::operational states::starting",
+      "d": "M4283.708338122573,1098.0380952380951 C4283.708338122573,1185.3349702380951 4265.348140973245,1185.3349702380951 4265.348140973245,1272.6318452380951",
+      "start": {
+        "x": 4283.71,
+        "y": 1098.04
+      },
+      "end": {
+        "x": 4265.35,
+        "y": 1272.63
+      },
+      "length": 175.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states::starting→5-State-based Behavior-1::Usages::vehicle states::operational states::on#10",
+      "source": "5-State-based Behavior-1::Usages::vehicle states::operational states::starting",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::operational states::on",
+      "d": "M4266.706437081532,1332.6318452380951 C4266.706437081532,1419.9287202380951 4295.095953120428,1419.9287202380951 4295.095953120428,1507.2255952380951",
+      "start": {
+        "x": 4266.71,
+        "y": 1332.63
+      },
+      "end": {
+        "x": 4295.1,
+        "y": 1507.23
+      },
+      "length": 177.82,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ab→5-State-based Behavior-1::Usages::vehicle states::operational states::on#11",
+      "source": "00000000-0000-0000-0000-0000000000ab",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::operational states::on",
+      "d": "M4133.45526441213,669.6571428571428 C4133.45526441213,1093.441369047619 4292.7089393512615,1093.441369047619 4292.7089393512615,1517.2255952380951",
+      "start": {
+        "x": 4133.46,
+        "y": 669.66
+      },
+      "end": {
+        "x": 4292.71,
+        "y": 1517.23
+      },
+      "length": 868.39,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states::on→5-State-based Behavior-1::Usages::perform self test#12",
+      "source": "5-State-based Behavior-1::Usages::vehicle states::operational states::on",
+      "target": "5-State-based Behavior-1::Usages::perform self test",
+      "d": "M4282.3915591321975,1657.2255952380951 C4282.3915591321975,1805.839880952381 4179.382147767516,1805.839880952381 4179.382147767516,1954.4541666666669",
+      "start": {
+        "x": 4282.39,
+        "y": 1657.23
+      },
+      "end": {
+        "x": 4179.38,
+        "y": 1954.45
+      },
+      "length": 320.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states::on→5-State-based Behavior-1::Usages::apply parking brake#13",
+      "source": "5-State-based Behavior-1::Usages::vehicle states::operational states::on",
+      "target": "5-State-based Behavior-1::Usages::apply parking brake",
+      "d": "M4310.9325450677,1657.2255952380951 C4310.9325450677,1805.839880952381 4333.188938504836,1805.839880952381 4333.188938504836,1954.4541666666669",
+      "start": {
+        "x": 4310.93,
+        "y": 1657.23
+      },
+      "end": {
+        "x": 4333.19,
+        "y": 1954.45
+      },
+      "length": 298.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::operational states::on→5-State-based Behavior-1::Usages::vehicle states::operational states::off#14",
+      "source": "5-State-based Behavior-1::Usages::vehicle states::operational states::on",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::operational states::off",
+      "d": "M4303.184209727399,1517.2255952380951 C4303.184209727399,1312.6318452380951 4287.151107340948,1312.6318452380951 4287.151107340948,1108.0380952380951",
+      "start": {
+        "x": 4303.18,
+        "y": 1517.23
+      },
+      "end": {
+        "x": 4287.15,
+        "y": 1108.04
+      },
+      "length": 409.63,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cb→5-State-based Behavior-1::Usages::vehicle states::health states#15",
+      "source": "00000000-0000-0000-0000-0000000000cb",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::health states",
+      "d": "M3622.389536136712,669.6571428571428 C3622.389536136712,814.613244047619 3262.044409933951,814.613244047619 3262.044409933951,959.5693452380951",
+      "start": {
+        "x": 3622.39,
+        "y": 669.66
+      },
+      "end": {
+        "x": 3262.04,
+        "y": 959.57
+      },
+      "length": 489.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d4→00000000-0000-0000-0000-0000000000cf#16",
+      "source": "00000000-0000-0000-0000-0000000000d4",
+      "target": "00000000-0000-0000-0000-0000000000cf",
+      "d": "M3270.0340346443213,669.6571428571428 C3270.0340346443213,856.613244047619 3451.18246475563,856.613244047619 3451.18246475563,1043.5693452380951",
+      "start": {
+        "x": 3270.03,
+        "y": 669.66
+      },
+      "end": {
+        "x": 3451.18,
+        "y": 1043.57
+      },
+      "length": 428.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cf→5-State-based Behavior-1::Usages::sense temperature#17",
+      "source": "00000000-0000-0000-0000-0000000000cf",
+      "target": "5-State-based Behavior-1::Usages::sense temperature",
+      "d": "M3463.284730685638,1093.5693452380951 C3463.284730685638,1449.011755952381 3463.0094296069265,1449.011755952381 3463.0094296069265,1804.4541666666669",
+      "start": {
+        "x": 3463.28,
+        "y": 1093.57
+      },
+      "end": {
+        "x": 3463.01,
+        "y": 1804.45
+      },
+      "length": 710.88,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "[*]→5-State-based Behavior-1::Usages::vehicle states::health states::normal#18",
+      "source": "[*]",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::health states::normal",
+      "d": "M2779.14951908477,1093.5693452380951 C2779.14951908477,1130.5693452380951 2779.14951908477,1130.5693452380951 2779.14951908477,1167.5693452380951",
+      "start": {
+        "x": 2779.15,
+        "y": 1093.57
+      },
+      "end": {
+        "x": 2779.15,
+        "y": 1167.57
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::health states::normal→5-State-based Behavior-1::Usages::vehicle states::health states::maintenance#19",
+      "source": "5-State-based Behavior-1::Usages::vehicle states::health states::normal",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::health states::maintenance",
+      "d": "M2743.791782191679,1227.5693452380951 C2743.791782191679,1314.8662202380951 2482.7190924073184,1314.8662202380951 2482.7190924073184,1402.1630952380951",
+      "start": {
+        "x": 2743.79,
+        "y": 1227.57
+      },
+      "end": {
+        "x": 2482.72,
+        "y": 1402.16
+      },
+      "length": 331.91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::health states::normal→5-State-based Behavior-1::Usages::vehicle states::health states::degraded#20",
+      "source": "5-State-based Behavior-1::Usages::vehicle states::health states::normal",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::health states::degraded",
+      "d": "M2781.1387735583726,1227.5693452380951 C2781.1387735583726,1314.8662202380951 2795.8269312778343,1314.8662202380951 2795.8269312778343,1402.1630952380951",
+      "start": {
+        "x": 2781.14,
+        "y": 1227.57
+      },
+      "end": {
+        "x": 2795.83,
+        "y": 1402.16
+      },
+      "length": 175.47,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::health states::maintenance→5-State-based Behavior-1::Usages::vehicle states::health states::normal#21",
+      "source": "5-State-based Behavior-1::Usages::vehicle states::health states::maintenance",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::health states::normal",
+      "d": "M2482.7190924073184,1412.1630952380951 C2482.7190924073184,1324.8662202380951 2743.791782191679,1324.8662202380951 2743.791782191679,1237.5693452380951",
+      "start": {
+        "x": 2482.72,
+        "y": 1412.16
+      },
+      "end": {
+        "x": 2743.79,
+        "y": 1237.57
+      },
+      "length": 331.91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::vehicle states::health states::degraded→5-State-based Behavior-1::Usages::vehicle states::health states::normal#22",
+      "source": "5-State-based Behavior-1::Usages::vehicle states::health states::degraded",
+      "target": "5-State-based Behavior-1::Usages::vehicle states::health states::normal",
+      "d": "M2795.8269312778343,1412.1630952380951 C2795.8269312778343,1324.8662202380951 2781.1387735583726,1324.8662202380951 2781.1387735583726,1237.5693452380951",
+      "start": {
+        "x": 2795.83,
+        "y": 1412.16
+      },
+      "end": {
+        "x": 2781.14,
+        "y": 1237.57
+      },
+      "length": 175.47,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::controller states→5-State-based Behavior-1::Definitions::Controller States#23",
+      "source": "5-State-based Behavior-1::Usages::controller states",
+      "target": "5-State-based Behavior-1::Definitions::Controller States",
+      "d": "M5263.345330984143,669.6571428571428 C5263.345330984143,718.847619047619 5270.480367480493,718.847619047619 5270.480367480493,768.0380952380953",
+      "start": {
+        "x": 5263.35,
+        "y": 669.66
+      },
+      "end": {
+        "x": 5270.48,
+        "y": 768.04
+      },
+      "length": 98.75,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "[*]→5-State-based Behavior-1::Usages::controller states::operational controller states::off#24",
+      "source": "[*]",
+      "target": "5-State-based Behavior-1::Usages::controller states::operational controller states::off",
+      "d": "M5338.249198531842,503.65714285714284 C5297.763747042073,503.65714285714284 5257.278295552304,540.6571428571428 5257.278295552304,577.6571428571428",
+      "start": {
+        "x": 5338.25,
+        "y": 503.66
+      },
+      "end": {
+        "x": 5257.28,
+        "y": 577.66
+      },
+      "length": 120.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::controller states::operational controller states::off→5-State-based Behavior-1::Usages::controller states::operational controller states::on#25",
+      "source": "5-State-based Behavior-1::Usages::controller states::operational controller states::off",
+      "target": "5-State-based Behavior-1::Usages::controller states::operational controller states::on",
+      "d": "M5232.013145856014,587.6571428571428 C5232.013145856014,492.65714285714284 5222.6798125226815,492.65714285714284 5222.6798125226815,397.65714285714284",
+      "start": {
+        "x": 5232.01,
+        "y": 587.66
+      },
+      "end": {
+        "x": 5222.68,
+        "y": 397.66
+      },
+      "length": 190.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "5-State-based Behavior-1::Usages::controller states::operational controller states::on→5-State-based Behavior-1::Usages::controller states::operational controller states::off#26",
+      "source": "5-State-based Behavior-1::Usages::controller states::operational controller states::on",
+      "target": "5-State-based Behavior-1::Usages::controller states::operational controller states::off",
+      "d": "M5222.6798125226815,387.65714285714284 C5222.6798125226815,482.65714285714284 5232.013145856014,482.65714285714284 5232.013145856014,577.6571428571428",
+      "start": {
+        "x": 5222.68,
+        "y": 387.66
+      },
+      "end": {
+        "x": 5232.01,
+        "y": 577.66
+      },
+      "length": 190.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001c3→00000000-0000-0000-0000-0000000001bf#27",
+      "source": "00000000-0000-0000-0000-0000000001c3",
+      "target": "00000000-0000-0000-0000-0000000001bf",
+      "d": "M2030.8754743554634,106 C2030.8754743554634,257.3285714285714 2054.0830170963577,257.3285714285714 2054.0830170963577,408.65714285714284",
+      "start": {
+        "x": 2030.88,
+        "y": 106
+      },
+      "end": {
+        "x": 2054.08,
+        "y": 408.66
+      },
+      "length": 303.92,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001bf→5-State-based Behavior-1::Definitions::VehicleA::provide power#28",
+      "source": "00000000-0000-0000-0000-0000000001bf",
+      "target": "5-State-based Behavior-1::Definitions::VehicleA::provide power",
+      "d": "M2056,458.65714285714284 C2056,613.347619047619 2056,613.347619047619 2056,768.0380952380953",
+      "start": {
+        "x": 2056,
+        "y": 458.66
+      },
+      "end": {
+        "x": 2056,
+        "y": 768.04
+      },
+      "length": 309.38,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001d3→00000000-0000-0000-0000-0000000001cf#29",
+      "source": "00000000-0000-0000-0000-0000000001d3",
+      "target": "00000000-0000-0000-0000-0000000001cf",
+      "d": "M2988,106 C2988,292.49523809523805 2988,292.49523809523805 2988,478.99047619047616",
+      "start": {
+        "x": 2988,
+        "y": 106
+      },
+      "end": {
+        "x": 2988,
+        "y": 478.99
+      },
+      "length": 372.99,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001cf→5-State-based Behavior-1::Usages::vehicle states#30",
+      "source": "00000000-0000-0000-0000-0000000001cf",
+      "target": "5-State-based Behavior-1::Usages::vehicle states",
+      "d": "M3002.612089865848,528.9904761904761 C3002.612089865848,648.5142857142856 3153.436689833522,648.5142857142856 3153.436689833522,768.0380952380951",
+      "start": {
+        "x": 3002.61,
+        "y": 528.99
+      },
+      "end": {
+        "x": 3153.44,
+        "y": 768.04
+      },
+      "length": 294.86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001cf→5-State-based Behavior-1::Definitions::VehicleA::vehicle states#31",
+      "source": "00000000-0000-0000-0000-0000000001cf",
+      "target": "5-State-based Behavior-1::Definitions::VehicleA::vehicle states",
+      "d": "M2961.935756520404,528.9904761904761 C2961.935756520404,862.8111607142856 2246.064243479596,862.8111607142856 2246.064243479596,1196.6318452380951",
+      "start": {
+        "x": 2961.94,
+        "y": 528.99
+      },
+      "end": {
+        "x": 2246.06,
+        "y": 1196.63
+      },
+      "length": 1035.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001d8→5-State-based Behavior-1::Usages::controller states#32",
+      "source": "00000000-0000-0000-0000-0000000001d8",
+      "target": "5-State-based Behavior-1::Usages::controller states",
+      "d": "M5270.369521186098,106 C5270.369521186098,142.32857142857142 5264.391720003241,142.32857142857142 5264.391720003241,178.65714285714284",
+      "start": {
+        "x": 5270.37,
+        "y": 106
+      },
+      "end": {
+        "x": 5264.39,
+        "y": 178.66
+      },
+      "length": 73.01,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000001d8→5-State-based Behavior-1::Definitions::VehicleController::controller states#33",
+      "source": "00000000-0000-0000-0000-0000000001d8",
+      "target": "5-State-based Behavior-1::Definitions::VehicleController::controller states",
+      "d": "M5287.879445839747,106 C5287.879445839747,247.82857142857142 5480.120554160253,247.82857142857142 5480.120554160253,389.65714285714284",
+      "start": {
+        "x": 5287.88,
+        "y": 106
+      },
+      "end": {
+        "x": 5480.12,
+        "y": 389.66
+      },
+      "length": 358.44,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 3939.76,
+      "y": 1177.54,
+      "w": 669.53,
+      "h": 15.59,
+      "text": "Vehicle Start Signal \\n[vehicle1_c1.'brake pedal depressed']\\n/send new 'Start Signal'() to vehicle1_c1.vehicleController",
+      "edge": "5-State-based Behavior-1::Usages::vehicle states::operational states::off→5-State-based Behavior-1::Usages::vehicle states::operational states::starting#9"
+    },
+    {
+      "x": 4228.3,
+      "y": 1412.13,
+      "w": 105.2,
+      "h": 15.59,
+      "text": "Vehicle On Signal",
+      "edge": "5-State-based Behavior-1::Usages::vehicle states::operational states::starting→5-State-based Behavior-1::Usages::vehicle states::operational states::on#10"
+    },
+    {
+      "x": 4189.82,
+      "y": 1798.04,
+      "w": 82.12,
+      "h": 15.59,
+      "text": "<<perform>>",
+      "edge": "5-State-based Behavior-1::Usages::vehicle states::operational states::on→5-State-based Behavior-1::Usages::perform self test#12"
+    },
+    {
+      "x": 4281,
+      "y": 1798.04,
+      "w": 82.12,
+      "h": 15.59,
+      "text": "<<perform>>",
+      "edge": "5-State-based Behavior-1::Usages::vehicle states::operational states::on→5-State-based Behavior-1::Usages::apply parking brake#13"
+    },
+    {
+      "x": 4242.14,
+      "y": 1304.83,
+      "w": 106.05,
+      "h": 15.59,
+      "text": "Vehicle Off Signal",
+      "edge": "5-State-based Behavior-1::Usages::vehicle states::operational states::on→5-State-based Behavior-1::Usages::vehicle states::operational states::off#14"
+    },
+    {
+      "x": 2517.94,
+      "y": 1307.07,
+      "w": 190.64,
+      "h": 15.59,
+      "text": "at vehicle1_c1.maintenanceTime",
+      "edge": "5-State-based Behavior-1::Usages::vehicle states::health states::normal→5-State-based Behavior-1::Usages::vehicle states::health states::maintenance#19"
+    },
+    {
+      "x": 2474.93,
+      "y": 1307.07,
+      "w": 627.11,
+      "h": 15.59,
+      "text": "when 'sense temperature'.temp > vehicle1_c1.Tmax \\n/send new 'Over Temp'() to vehicle1_c1.vehicleController",
+      "edge": "5-State-based Behavior-1::Usages::vehicle states::health states::normal→5-State-based Behavior-1::Usages::vehicle states::health states::degraded#20"
+    },
+    {
+      "x": 2559.97,
+      "y": 1317.07,
+      "w": 106.58,
+      "h": 15.59,
+      "text": "Return to Normal",
+      "edge": "5-State-based Behavior-1::Usages::vehicle states::health states::maintenance→5-State-based Behavior-1::Usages::vehicle states::health states::normal#21"
+    },
+    {
+      "x": 2735.19,
+      "y": 1317.07,
+      "w": 106.58,
+      "h": 15.59,
+      "text": "Return to Normal",
+      "edge": "5-State-based Behavior-1::Usages::vehicle states::health states::degraded→5-State-based Behavior-1::Usages::vehicle states::health states::normal#22"
+    },
+    {
+      "x": 5191.16,
+      "y": 484.86,
+      "w": 72.37,
+      "h": 15.59,
+      "text": "Start Signal",
+      "edge": "5-State-based Behavior-1::Usages::controller states::operational controller states::off→5-State-based Behavior-1::Usages::controller states::operational controller states::on#25"
+    },
+    {
+      "x": 5195.82,
+      "y": 474.86,
+      "w": 63.06,
+      "h": 15.59,
+      "text": "Off Signal",
+      "edge": "5-State-based Behavior-1::Usages::controller states::operational controller states::on→5-State-based Behavior-1::Usages::controller states::operational controller states::off#26"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "dedbad84a305cfb7",
+  "unsettled": false
+}

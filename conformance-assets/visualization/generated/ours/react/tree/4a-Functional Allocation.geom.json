@@ -1,0 +1,1384 @@
+{
+  "zoom": 0.594595,
+  "nodes": [
+    {
+      "id": "4a-Functional Allocation",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 2553,
+      "h": 865,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 2553,
+        "h": 865
+      },
+      "clipped": 0,
+      "title": "4a-Functional Allocation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2302.5,
+      "y": 86,
+      "w": 210,
+      "h": 50,
+      "inner": {
+        "x": 2302.5,
+        "y": 86,
+        "w": 210,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1_functional_allocation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 32,
+      "y": 220,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 220,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000011",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 127,
+      "y": 220,
+      "w": 432,
+      "h": 165,
+      "inner": {
+        "x": 127,
+        "y": 220,
+        "w": 432,
+        "h": 165
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "This allocates the action '3a-Function-based Behavior-1'::'provide power' as an enacted performance of 'vehicle_c1_functional_allocation'.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in fuelCmd = fuelCmdPort.fuelCmd",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1194.5,
+      "y": 306.25,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1194.5,
+        "y": 306.25,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000023",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1264,
+      "y": 469,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1264,
+        "y": 469,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000029",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 969,
+      "y": 469,
+      "w": 271,
+      "h": 110,
+      "inner": {
+        "x": 969,
+        "y": 469,
+        "w": 271,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in fuelCmd = fuelCmdPort.fuelCmd",
+              "kind": "parameters"
+            },
+            {
+              "text": "out engineTorque = drivePwrPort.engineTorque",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002f",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1846.5,
+      "y": 61,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 1846.5,
+        "y": 61,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This allocates one of the sub-steps of 'provide power' to a sub-part of vehicle_c1.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000045",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 874,
+      "y": 469,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 874,
+        "y": 469,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 583,
+      "y": 306.25,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 583,
+        "y": 306.25,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 298,
+      "y": 469,
+      "w": 109,
+      "h": 92,
+      "inner": {
+        "x": 298,
+        "y": 469,
+        "w": 109,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in engineTorque",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000054",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 526,
+      "y": 469,
+      "w": 324,
+      "h": 110,
+      "inner": {
+        "x": 526,
+        "y": 469,
+        "w": 324,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in engineTorque = clutchPort.engineTorque",
+              "kind": "parameters"
+            },
+            {
+              "text": "out transmissionTorque = shaftPort_a.transmissionTorque",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 431,
+      "y": 469,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 431,
+        "y": 469,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2412.5,
+      "y": 306.25,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2412.5,
+        "y": 306.25,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000077",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 2387,
+      "y": 469,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 2387,
+        "y": 469,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000007d",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 2046,
+      "y": 469,
+      "w": 317,
+      "h": 110,
+      "inner": {
+        "x": 2046,
+        "y": 469,
+        "w": 317,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in transmissionTorque = shaftPort_b.transmissionTorque",
+              "kind": "parameters"
+            },
+            {
+              "text": "out driveshaftTorque = shaftPort_c.driveshaftTorque",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000097",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 2482,
+      "y": 469,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 2482,
+        "y": 469,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1715,
+      "y": 306.25,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1715,
+        "y": 306.25,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a0",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1523,
+      "y": 469,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1523,
+        "y": 469,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a6",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1618,
+      "y": 469,
+      "w": 404,
+      "h": 128,
+      "inner": {
+        "x": 1618,
+        "y": 469,
+        "w": 404,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in driveshaftTorque = shaftPort_d.driveshaftTorque",
+              "kind": "parameters"
+            },
+            {
+              "text": "out wheelTorque1 = rearAxle.leftHalfAxle.axleToWheelPort.wheelTorque",
+              "kind": "parameters"
+            },
+            {
+              "text": "out wheelTorque2 = rearAxle.rightHalfAxle.axleToWheelPort.wheelTorque",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1359,
+      "y": 521,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1359,
+        "y": 521,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d5",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1218.33,
+      "y": 681,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1218.33,
+        "y": 681,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d8",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1252.83,
+      "y": 815,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1252.83,
+        "y": 815,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000de",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1382.33,
+      "y": 681,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1382.33,
+        "y": 681,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1416.83,
+      "y": 815,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1416.83,
+        "y": 815,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-00000000000b#1",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-00000000000b",
+      "d": "M2289.5,117.01282051282051 C1196.25,117.01282051282051 1196.25,242.967094017094 103,242.967094017094",
+      "start": {
+        "x": 2289.5,
+        "y": 117.01
+      },
+      "end": {
+        "x": 103,
+        "y": 242.97
+      },
+      "length": 2191.66,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-000000000011#2",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-000000000011",
+      "d": "M2289.5,120.73964640348753 C1424.25,120.73964640348753 1424.25,282.4641559699685 559,282.4641559699685",
+      "start": {
+        "x": 2289.5,
+        "y": 120.74
+      },
+      "end": {
+        "x": 559,
+        "y": 282.46
+      },
+      "length": 1741.2,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-000000000020#3",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-000000000020",
+      "d": "M2289.5,131.23293963254594 C1812,131.23293963254594 1812,317.7613735783027 1334.5,317.7613735783027",
+      "start": {
+        "x": 2289.5,
+        "y": 131.23
+      },
+      "end": {
+        "x": 1334.5,
+        "y": 317.76
+      },
+      "length": 980.31,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020→00000000-0000-0000-0000-000000000023#4",
+      "source": "00000000-0000-0000-0000-000000000020",
+      "target": "00000000-0000-0000-0000-000000000023",
+      "d": "M1269.8763440860214,369.25 C1269.8763440860214,419.125 1294.1236559139784,419.125 1294.1236559139784,469",
+      "start": {
+        "x": 1269.88,
+        "y": 369.25
+      },
+      "end": {
+        "x": 1294.12,
+        "y": 469
+      },
+      "length": 103.79,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020→00000000-0000-0000-0000-000000000029#5",
+      "source": "00000000-0000-0000-0000-000000000020",
+      "target": "00000000-0000-0000-0000-000000000029",
+      "d": "M1243.747730220493,369.25 C1243.747730220493,419.125 1150.1549935149158,419.125 1150.1549935149158,469",
+      "start": {
+        "x": 1243.75,
+        "y": 369.25
+      },
+      "end": {
+        "x": 1150.16,
+        "y": 469
+      },
+      "length": 144.47,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020→00000000-0000-0000-0000-000000000045#6",
+      "source": "00000000-0000-0000-0000-000000000020",
+      "target": "00000000-0000-0000-0000-000000000045",
+      "d": "M1209.968509984639,369.25 C1209.968509984639,423.4875 1077.4842549923196,477.725 945,477.725",
+      "start": {
+        "x": 1209.97,
+        "y": 369.25
+      },
+      "end": {
+        "x": 945,
+        "y": 477.73
+      },
+      "length": 303.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-00000000004b#7",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-00000000004b",
+      "d": "M2289.5,124.18110572812768 C1506.25,124.18110572812768 1506.25,322.4625961812482 723,322.4625961812482",
+      "start": {
+        "x": 2289.5,
+        "y": 124.18
+      },
+      "end": {
+        "x": 723,
+        "y": 322.46
+      },
+      "length": 1584.19,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b→00000000-0000-0000-0000-00000000004e#8",
+      "source": "00000000-0000-0000-0000-00000000004b",
+      "target": "00000000-0000-0000-0000-00000000004e",
+      "d": "M612.1156462585034,369.25 C612.1156462585034,425.46214642262896 509.5578231292517,481.6742928452579 407,481.6742928452579",
+      "start": {
+        "x": 612.12,
+        "y": 369.25
+      },
+      "end": {
+        "x": 407,
+        "y": 481.67
+      },
+      "length": 251.72,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b→00000000-0000-0000-0000-000000000054#9",
+      "source": "00000000-0000-0000-0000-00000000004b",
+      "target": "00000000-0000-0000-0000-000000000054",
+      "d": "M657.5395590142672,369.25 C657.5395590142672,419.125 678.0129701686122,419.125 678.0129701686122,469",
+      "start": {
+        "x": 657.54,
+        "y": 369.25
+      },
+      "end": {
+        "x": 678.01,
+        "y": 469
+      },
+      "length": 102.66,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b→00000000-0000-0000-0000-00000000006e#10",
+      "source": "00000000-0000-0000-0000-00000000004b",
+      "target": "00000000-0000-0000-0000-00000000006e",
+      "d": "M624.3517665130569,369.25 C624.3517665130569,419.125 495.1482334869432,419.125 495.1482334869432,469",
+      "start": {
+        "x": 624.35,
+        "y": 369.25
+      },
+      "end": {
+        "x": 495.15,
+        "y": 469
+      },
+      "length": 172.78,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-000000000074#11",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-000000000074",
+      "d": "M2416.0130533484676,149 C2416.0130533484676,227.625 2473.9869466515324,227.625 2473.9869466515324,306.25",
+      "start": {
+        "x": 2416.01,
+        "y": 149
+      },
+      "end": {
+        "x": 2473.99,
+        "y": 306.25
+      },
+      "length": 171.29,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074→00000000-0000-0000-0000-000000000077#12",
+      "source": "00000000-0000-0000-0000-000000000074",
+      "target": "00000000-0000-0000-0000-000000000077",
+      "d": "M2473.2834101382487,369.25 C2473.2834101382487,419.125 2431.7165898617513,419.125 2431.7165898617513,469",
+      "start": {
+        "x": 2473.28,
+        "y": 369.25
+      },
+      "end": {
+        "x": 2431.72,
+        "y": 469
+      },
+      "length": 110.91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074→00000000-0000-0000-0000-00000000007d#13",
+      "source": "00000000-0000-0000-0000-000000000074",
+      "target": "00000000-0000-0000-0000-00000000007d",
+      "d": "M2446.4429312581065,369.25 C2446.4429312581065,419.125 2283.825551232166,419.125 2283.825551232166,469",
+      "start": {
+        "x": 2446.44,
+        "y": 369.25
+      },
+      "end": {
+        "x": 2283.83,
+        "y": 469
+      },
+      "length": 201.28,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074→00000000-0000-0000-0000-000000000097#14",
+      "source": "00000000-0000-0000-0000-000000000074",
+      "target": "00000000-0000-0000-0000-000000000097",
+      "d": "M2487.8763440860216,369.25 C2487.8763440860216,419.125 2512.1236559139784,419.125 2512.1236559139784,469",
+      "start": {
+        "x": 2487.88,
+        "y": 369.25
+      },
+      "end": {
+        "x": 2512.12,
+        "y": 469
+      },
+      "length": 103.79,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-00000000009d#15",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-00000000009d",
+      "d": "M2336.8416572077185,149 C2336.8416572077185,227.7414658634538 2095.9208286038593,306.4829317269076 1855,306.4829317269076",
+      "start": {
+        "x": 2336.84,
+        "y": 149
+      },
+      "end": {
+        "x": 1855,
+        "y": 306.48
+      },
+      "length": 530.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d→00000000-0000-0000-0000-0000000000a0#16",
+      "source": "00000000-0000-0000-0000-00000000009d",
+      "target": "00000000-0000-0000-0000-0000000000a0",
+      "d": "M1750.2073732718893,369.25 C1750.2073732718893,419.125 1671.75,469 1593.2926267281107,469",
+      "start": {
+        "x": 1750.21,
+        "y": 369.25
+      },
+      "end": {
+        "x": 1593.29,
+        "y": 469
+      },
+      "length": 201.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d→00000000-0000-0000-0000-0000000000a6#17",
+      "source": "00000000-0000-0000-0000-00000000009d",
+      "target": "00000000-0000-0000-0000-0000000000a6",
+      "d": "M1789.3370508054522,369.25 C1789.3370508054522,419.125 1808.897149938042,419.125 1808.897149938042,469",
+      "start": {
+        "x": 1789.34,
+        "y": 369.25
+      },
+      "end": {
+        "x": 1808.9,
+        "y": 469
+      },
+      "length": 102.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d→00000000-0000-0000-0000-0000000000d2#18",
+      "source": "00000000-0000-0000-0000-00000000009d",
+      "target": "00000000-0000-0000-0000-0000000000d2",
+      "d": "M1743.556461001164,369.25 C1743.556461001164,445.125 1470.443538998836,445.125 1470.443538998836,521",
+      "start": {
+        "x": 1743.56,
+        "y": 369.25
+      },
+      "end": {
+        "x": 1470.44,
+        "y": 521
+      },
+      "length": 328.85,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2→00000000-0000-0000-0000-0000000000d5#19",
+      "source": "00000000-0000-0000-0000-0000000000d2",
+      "target": "00000000-0000-0000-0000-0000000000d5",
+      "d": "M1407.0208333333333,584 C1407.0208333333333,632.5 1310.3125000000002,632.5 1310.3125000000002,681",
+      "start": {
+        "x": 1407.02,
+        "y": 584
+      },
+      "end": {
+        "x": 1310.31,
+        "y": 681
+      },
+      "length": 144.82,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d5→00000000-0000-0000-0000-0000000000d8#20",
+      "source": "00000000-0000-0000-0000-0000000000d5",
+      "target": "00000000-0000-0000-0000-0000000000d8",
+      "d": "M1288.3333333333335,744 C1288.3333333333335,779.5 1288.3333333333335,779.5 1288.3333333333335,815",
+      "start": {
+        "x": 1288.33,
+        "y": 744
+      },
+      "end": {
+        "x": 1288.33,
+        "y": 815
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2→00000000-0000-0000-0000-0000000000de#21",
+      "source": "00000000-0000-0000-0000-0000000000d2",
+      "target": "00000000-0000-0000-0000-0000000000de",
+      "d": "M1432.6458333333333,584 C1432.6458333333333,632.5 1448.6875000000002,632.5 1448.6875000000002,681",
+      "start": {
+        "x": 1432.65,
+        "y": 584
+      },
+      "end": {
+        "x": 1448.69,
+        "y": 681
+      },
+      "length": 98.86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000de→00000000-0000-0000-0000-0000000000e1#22",
+      "source": "00000000-0000-0000-0000-0000000000de",
+      "target": "00000000-0000-0000-0000-0000000000e1",
+      "d": "M1452.3333333333335,744 C1452.3333333333335,779.5 1452.3333333333335,779.5 1452.3333333333335,815",
+      "start": {
+        "x": 1452.33,
+        "y": 744
+      },
+      "end": {
+        "x": 1452.33,
+        "y": 815
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "fe92dddc559c08e7",
+  "unsettled": false
+}

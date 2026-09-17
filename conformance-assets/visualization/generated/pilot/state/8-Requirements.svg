@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="146px" preserveAspectRatio="none" style="width:749px;height:146px;background:#FFFFFF;" version="1.1" viewBox="0 0 749 146" width="749px" zoomAndPan="magnify"><defs><filter height="300%" id="fk7c7xsx0tfjk" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><g id="elem_E1"><path d="M6,59 L6,86.706 L36,86.706 L36,69 L26,59 L6,59 " fill="#FEFFDD" filter="url(#fk7c7xsx0tfjk)" style="stroke:#181818;stroke-width:0.5;"/><path d="M26,59 L26,69 L36,69 L26,59 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="9" x="12" y="77.897">...</text></g><g id="elem_E3"><path d="M71.5,6 L71.5,139.9421 L392.5,139.9421 L392.5,16 L382.5,6 L71.5,6 " fill="#FEFFDD" filter="url(#fk7c7xsx0tfjk)" style="stroke:#181818;stroke-width:0.5;"/><path d="M382.5,6 L382.5,16 L392.5,16 L382.5,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="77.5" y="24.897">The optional requirement ID  of this requirement</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="279" x="77.5" y="42.603">('1') is given after the keyword "id" (using name</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="47" x="77.5" y="60.309">syntax).</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="300" x="77.5" y="78.0151">Every requirement is parameterized by a "subject".</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="264" x="77.5" y="95.7211">The "subject" of this requirement is implicitly</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="77.5" y="113.4271">"Anything".</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="77.5" y="131.1331"> </text></g><g id="elem_E4"><path d="M428,50.5 L428,95.912 L742,95.912 L742,60.5 L732,50.5 L428,50.5 " fill="#FEFFDD" filter="url(#fk7c7xsx0tfjk)" style="stroke:#181818;stroke-width:0.5;"/><path d="M732,50.5 L732,60.5 L742,60.5 L732,50.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="434" y="69.397">The actual mass shall be less than or equal to the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="434" y="87.103">required mass.</text></g><!--MD5=[08981454556032736ab3499deca729c0]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+
+note as E1
+...
+end note 
+note as E3
+The optional requirement ID  of this requirement ('1') is given after the keyword "id" (using name syntax).
+Every requirement is parameterized by a "subject". The "subject" of this requirement is implicitly "Anything".
+
+end note 
+note as E4
+The actual mass shall be less than or equal to the required mass.
+end note 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,885 @@
+{
+  "zoom": 1.3402,
+  "nodes": [
+    {
+      "id": "00000000-0000-0000-0000-000000000011",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 273.81,
+      "w": 380,
+      "h": 45,
+      "inner": {
+        "x": 16,
+        "y": 273.81,
+        "w": 380,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The actual mass shall be less than or equal to the required mass limit.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::MassTest",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 712,
+      "y": 577.4,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 712,
+        "y": 577.4,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "MassTest",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "verification def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 679,
+      "y": 133.31,
+      "w": 462.66,
+      "h": 326,
+      "inner": {
+        "x": 679,
+        "y": 133.31,
+        "w": 462.66,
+        "h": 326
+      },
+      "clipped": 0,
+      "title": "vehicleMassTest",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "verification",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 453,
+      "y": 577.4,
+      "w": 172,
+      "h": 171,
+      "inner": {
+        "x": 453,
+        "y": 577.4,
+        "w": 172,
+        "h": 171
+      },
+      "clipped": 0,
+      "title": "vehicleMassTest",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000da",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 420,
+      "y": 409.31,
+      "w": 181,
+      "h": 50,
+      "inner": {
+        "x": 420,
+        "y": 409.31,
+        "w": 181,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleMassTest.collectData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::testVehicle",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 672,
+      "y": 459.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 672,
+        "y": 459.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "testVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::collectData",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 695,
+      "y": 224.31,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 695,
+        "y": 224.31,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "collectData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::processData",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 859,
+      "y": 224.31,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 859,
+        "y": 224.31,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "processData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::evaluateData",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 985.67,
+      "y": 386.31,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 985.67,
+        "y": 386.31,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "evaluateData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::verdict",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1134.67,
+      "y": 119.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1134.67,
+        "y": 119.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "verdict",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cb",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 446,
+      "y": 748.4,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 446,
+        "y": 748.4,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "testVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 469,
+      "y": 661.4,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 469,
+        "y": 661.4,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^collectData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e0",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 413,
+      "y": 395.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 413,
+        "y": 395.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "testVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ed",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 594,
+      "y": 395.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 594,
+        "y": 395.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "massMeasured",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 688,
+      "y": 274.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 688,
+        "y": 274.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "testVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::collectData::massMeasured",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 828,
+      "y": 210.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 828,
+        "y": 210.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "massMeasured",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::processData::massMeasured",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 852,
+      "y": 210.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 852,
+        "y": 210.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "massMeasured",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::processData::massProcessed",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 992,
+      "y": 210.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 992,
+        "y": 210.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "massProcessed",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::evaluateData::massProcessed",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 978.67,
+      "y": 372.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 978.67,
+        "y": 372.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "massProcessed",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::evaluateData::verdict",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1118.67,
+      "y": 372.31,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1118.67,
+        "y": 372.31,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "verdict",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 462,
+      "y": 711.4,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 462,
+        "y": 711.4,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "testVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::massMeasured",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 602,
+      "y": 647.4,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 602,
+        "y": 647.4,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "massMeasured",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest→9-Verification-simplified::Definitions::MassTest#0",
+      "source": "9-Verification-simplified::Usages::vehicleMassTest",
+      "target": "9-Verification-simplified::Definitions::MassTest",
+      "d": "M842.0698217119387,459.3142857142857 C842.0698217119387,508.85714285714283 792.4954261178008,508.85714285714283 792.4954261178008,558.4",
+      "start": {
+        "x": 842.07,
+        "y": 459.31
+      },
+      "end": {
+        "x": 792.5,
+        "y": 558.4
+      },
+      "length": 114.51,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle→9-Verification-simplified::Usages::vehicleMassTest::testVehicle#1",
+      "source": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle",
+      "target": "9-Verification-simplified::Usages::vehicleMassTest::testVehicle",
+      "d": "M694.3945945945947,288.3142857142857 C694.3945945945947,373.8142857142857 679.6054054054053,373.8142857142857 679.6054054054053,459.3142857142857",
+      "start": {
+        "x": 694.39,
+        "y": 288.31
+      },
+      "end": {
+        "x": 679.61,
+        "y": 459.31
+      },
+      "length": 171.91,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::verdict→9-Verification-simplified::Usages::vehicleMassTest::evaluateData::verdict#2",
+      "source": "9-Verification-simplified::Usages::vehicleMassTest::verdict",
+      "target": "9-Verification-simplified::Usages::vehicleMassTest::evaluateData::verdict",
+      "d": "M1141.2239789196312,133.31428571428572 C1141.2239789196312,252.8142857142857 1126.1093544137022,252.8142857142857 1126.1093544137022,372.3142857142857",
+      "start": {
+        "x": 1141.22,
+        "y": 133.31
+      },
+      "end": {
+        "x": 1126.11,
+        "y": 372.31
+      },
+      "length": 239.68,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8→9-Verification-simplified::Usages::vehicleMassTest#3",
+      "source": "00000000-0000-0000-0000-0000000000c8",
+      "target": "9-Verification-simplified::Usages::vehicleMassTest",
+      "d": "M625,578.0376273793502 C685.1574470987101,578.0376273793502 745.3148941974202,528.1759565468179 745.3148941974202,478.3142857142857",
+      "start": {
+        "x": 625,
+        "y": 578.04
+      },
+      "end": {
+        "x": 745.31,
+        "y": 478.31
+      },
+      "length": 170.82,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle→9-Verification-simplified::Usages::vehicleMassTest::testVehicle#4",
+      "source": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle",
+      "target": "9-Verification-simplified::Usages::vehicleMassTest::testVehicle",
+      "d": "M474.83134988099283,711.4 C574,711.4 574,473.3142857142857 673.1686501190071,473.3142857142857",
+      "start": {
+        "x": 474.83,
+        "y": 711.4
+      },
+      "end": {
+        "x": 673.17,
+        "y": 473.31
+      },
+      "length": 328.09,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000da→00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData#5",
+      "source": "00000000-0000-0000-0000-0000000000da",
+      "target": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData",
+      "d": "M513.3264195851751,459.3142857142857 C513.3264195851751,550.8571428571429 536.1735804148249,550.8571428571429 536.1735804148249,642.4",
+      "start": {
+        "x": 513.33,
+        "y": 459.31
+      },
+      "end": {
+        "x": 536.17,
+        "y": 642.4
+      },
+      "length": 185.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 679.56,
+      "y": 366.02,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle→9-Verification-simplified::Usages::vehicleMassTest::testVehicle#1"
+    },
+    {
+      "x": 1126.23,
+      "y": 245.02,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "9-Verification-simplified::Usages::vehicleMassTest::verdict→9-Verification-simplified::Usages::vehicleMassTest::evaluateData::verdict#2"
+    },
+    {
+      "x": 566.56,
+      "y": 584.56,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle→9-Verification-simplified::Usages::vehicleMassTest::testVehicle#4"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "805804736e21590a",
+  "unsettled": false
+}

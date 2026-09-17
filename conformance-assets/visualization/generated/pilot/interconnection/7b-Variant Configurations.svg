@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="681px" preserveAspectRatio="none" style="width:944px;height:681px;background:#000000;" version="1.1" viewBox="0 0 944 681" width="944px" zoomAndPan="magnify"><defs/><g><rect fill="#130101" height="1" style="stroke:#130101;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="3" x="5" y="33.3441"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="338" x="5" y="49.6882">&lt;b&gt;This version of PlantUML is 1457 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="346" x="5" y="66.0323">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="24.0679" style="stroke:#33FF02;stroke-width:1.0;" width="932" x="5" y="78.3765"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="155" x="6" y="93.3765">[From string (line 94) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="116.4444"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="5" y="135.5123">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="80" x="5" y="154.5802">skin sysmlc</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="183" x="5" y="173.6481">skinparam wrapWidth 300</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="70" x="5" y="192.716">hide circle</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="154" x="5" y="211.784">skinparam ranksep 10</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="12" x="5" y="230.8519">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="5" y="249.9198">... ( skipping 69 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="12" x="5" y="268.9877">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="288.0556">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="394" x="5" y="307.1235">rec def "AutomaticClutch" as E42  &lt;&lt;(T,blue) part  def&gt;&gt; {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="326.1915">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="368" x="5" y="345.2594">def "ManualClutchPort" as E43  &lt;&lt;(T,blue) port  def&gt;&gt;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="364.3273">def "AutomaticClutchPort" as E44  &lt;&lt;(T,blue) port  def&gt;&gt;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="383.3952">rec def "NarrowRimWheel" as E45  &lt;&lt;(T,blue) part  def&gt;&gt; {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="402.4631">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="382" x="5" y="421.531">rec def "WideRimWheel" as E46  &lt;&lt;(T,blue) part  def&gt;&gt; {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="440.599">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="459.6669">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="254" x="5" y="478.7348">package "VariabilityModel" as E47   {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="418" x="5" y="497.8027">rec usage "anyVehicleConfig:&gt;DesignModel::vehicle" as E48 {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="860" x="5" y="516.8706">comp usage "&lt;i&gt;engineRqtChoice&lt;/i&gt;: EnginePerformanceRequirement  " as E49  &lt;&lt;variation&gt;&gt;\n &lt;&lt;(T,blue) requirement&gt;&gt; {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="535.9385">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="920" x="5" y="555.0065">comp usage "highPerformanceRequirement  ::&gt; RequirementsModel::highPerformanceRequirement" as E50 &lt;&lt;variant&gt;&gt;\n &lt;&lt;(T,blu ...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="574.0744">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="932" x="5" y="593.1423">comp usage "normalPerformanceRequirement  ::&gt; RequirementsModel::normalPerformanceRequirement" as E51 &lt;&lt;variant&gt;&gt;\n &lt;&lt;(T ...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="612.2102">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="523" x="5" y="631.2781">rec usage "&lt;&amp;bar-trig&gt; &lt;i&gt;engineChoice&lt;/i&gt; &lt;s&gt;vehicle::engine&lt;/s&gt;" as E52 {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="421" x="5" y="650.346">comp usage "4cylEngine: 4CylEngine  " as E53 &lt;&lt;variant&gt;&gt;\n{</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="93" x="9" y="669.414">Syntax Error?</text><!--MD5=[d186ae9edd5c40114811c1e9388683f0]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+skinparam ranksep 10
+skinparam rectangle {
+ backgroundColor<<block>> LightGreen
+}
+
+package "7b-Variant Configurations" as E1   {
+package "RequirementsModel" as E2   {
+comp def "EnginePerformanceRequirement" as E3  <<(T,blue) requirement  def>> {
+}
+comp usage "highPerformanceRequirement: EnginePerformanceRequirement  " as E4  <<(T,blue) requirement>> {
+}
+comp usage "normalPerformanceRequirement: EnginePerformanceRequirement  " as E5  <<(T,blue) requirement>> {
+}
+}
+package "DesignModel" as E6   {
+rec def "Vehicle" as E7  <<(T,blue) part  def>> {
+}
+rec def "Engine" as E8  <<(T,blue) part  def>> {
+}
+rec def "Transmission" as E9  <<(T,blue) part  def>> {
+}
+rec def "Clutch" as E10  <<(T,blue) part  def>> {
+}
+rec def "Driveshaft" as E11  <<(T,blue) part  def>> {
+}
+rec def "RearAxleAssembly" as E12  <<(T,blue) part  def>> {
+}
+rec def "Wheel" as E13  <<(T,blue) part  def>> {
+}
+def "FuelCmdPort" as E14  <<(T,blue) port  def>> 
+def "ClutchPort" as E15  <<(T,blue) port  def>> 
+def "ShaftPort_b" as E16  <<(T,blue) port  def>> 
+def "ShaftPort_c" as E17  <<(T,blue) port  def>> 
+def "ShaftPort_d" as E18  <<(T,blue) port  def>> 
+def "VehicleToRoadPort" as E19  <<(T,blue) port  def>> 
+def "WheelToRoadPort" as E20  <<(T,blue) port  def>> 
+rec usage "vehicle: Vehicle" as E21 {
+portout "fuelCmdPort  " as E22  <<(T,blue) port>> 
+rec usage "engine: Engine" as E23 {
+portin "fuelCmdPort: FuelCmdPort  " as E24  <<(T,blue) port>> 
+}
+rec usage "transmission: Transmission" as E25 {
+rec usage "clutch: Clutch" as E26 {
+portin "clutchPort: ClutchPort  " as E27  <<(T,blue) port>> 
+}
+}
+rec usage "driveshaft: Driveshaft" as E28 {
+portin "shaftPort_b: ShaftPort_b  " as E29  <<(T,blue) port>> 
+portin "shaftPort_c: ShaftPort_c  " as E30  <<(T,blue) port>> 
+}
+rec usage "rearAxleAssembly: RearAxleAssembly" as E31 {
+rec usage "rearWheels: Wheel" as E32 {
+portin "wheelToRoadPort: WheelToRoadPort  " as E33  <<(T,blue) port>> 
+}
+}
+rec usage "vehicleToRoadPort: VehicleToRoadPort  " as E35  <<(T,blue) port>> {
+portin "wheelToRoadPort: WheelToRoadPort  " as E34  <<(T,blue) port>> 
+}
+}
+}
+package "VariantDefinitions" as E36   {
+rec def "4CylEngine" as E37  <<(T,blue) part  def>> {
+}
+rec def "6CylEngine" as E38  <<(T,blue) part  def>> {
+}
+rec def "ManualTransmission" as E39  <<(T,blue) part  def>> {
+}
+rec def "AutomaticTransmission" as E40  <<(T,blue) part  def>> {
+}
+rec def "ManualClutch" as E41  <<(T,blue) part  def>> {
+}
+rec def "AutomaticClutch" as E42  <<(T,blue) part  def>> {
+}
+def "ManualClutchPort" as E43  <<(T,blue) port  def>> 
+def "AutomaticClutchPort" as E44  <<(T,blue) port  def>> 
+rec def "NarrowRimWheel" as E45  <<(T,blue) part  def>> {
+}
+rec def "WideRimWheel" as E46  <<(T,blue) part  def>> {
+}
+}
+package "VariabilityModel" as E47   {
+rec usage "anyVehicleConfig:>DesignModel::vehicle" as E48 {
+comp usage "<i>engineRqtChoice</i>: EnginePerformanceRequirement  " as E49  <<variation>>\n <<(T,blue) requirement>> {
+}
+comp usage "highPerformanceRequirement  ::> RequirementsModel::highPerformanceRequirement" as E50 <<variant>>\n <<(T,blue) reference>> {
+}
+comp usage "normalPerformanceRequirement  ::> RequirementsModel::normalPerformanceRequirement" as E51 <<variant>>\n <<(T,blue) reference>> {
+}
+rec usage "<&bar-trig> <i>engineChoice</i> <s>vehicle::engine</s>" as E52 {
+comp usage "4cylEngine: 4CylEngine  " as E53 <<variant>>\n{
+}
+comp usage "6cylEngine: 6CylEngine  " as E54 <<variant>>\n{
+}
+}
+comp usage "engine choice constraint  " as E55  << assert constraint>> {
+##//operator expressions//##
+ { if engineRqtChoice <U+003D><U+003D> engineRqtChoice::highPerformanceRequirement? 					engineChoice <U+003D><U+003D> engineChoice::<U+0027>6cylEngine<U+0027> 				else					engineChoice <U+003D><U+003D> engineChoice::<U+0027>4cylEngine<U+0027> }
+}
+rec usage "<&bar-trig> <i>transmissionChoice</i> <s>vehicle::transmission</s>" as E56 {
+comp usage "manualTransmission: ManualTransmission  " as E57 <<variant>>\n{
+}
+comp usage "clutch: ManualClutch  " as E58 {
+}
+comp usage "clutchPort: ManualClutchPort  " as E59  <<(T,blue) port>> {
+}
+comp usage "automaticTransmission: AutomaticTransmission  " as E60 <<variant>>\n{
+}
+comp usage "clutch: AutomaticClutch  " as E61 {
+}
+comp usage "clutchPort: AutomaticClutchPort  " as E62  <<(T,blue) port>> {
+}
+}
+comp usage "engine-transmission selection constraint  " as E63  << assert constraint>> {
+##//operator expressions//##
+ { (engineChoice <U+003D><U+003D> engineChoice::<U+0027>4cylEngine<U+0027> and transmissionChoice <U+003D><U+003D> transmissionChoice::manualTransmission) xor				(engineChoice <U+003D><U+003D> engineChoice::<U+0027>6cylEngine<U+0027> and transmissionChoice <U+003D><U+003D> transmissionChoice::automaticTransmission) }
+}
+rec usage "<&bar-trig> rearAxleAssembly <s>vehicle::rearAxleAssembly</s>" as E64 {
+rec usage "<&bar-trig> <i>rearWheelChoice</i> <s>rearAxleAssembly::rearWheels</s>" as E65 {
+comp usage "narrowRimWheel: NarrowRimWheel  " as E66 <<variant>>\n{
+}
+comp usage "wideRimWheel: WideRimWheel  " as E67 <<variant>>\n{
+}
+}
+comp usage "engine-wheel selection constraint  " as E68  << assert constraint>> {
+##//operator expressions//##
+ { (engineChoice <U+003D><U+003D> engineChoice::<U+0027>4cylEngine<U+0027> and     					rearWheelChoice<U+002D>>forAll {in ref w; w <U+003D><U+003D> rearWheelChoice::narrowRimWheel}) xor    				(engineChoice <U+003D><U+003D> engineChoice::<U+0027>6cylEngine<U+0027> and     					rearWheelChoice<U+002D>>forAll {in ref w; w <U+003D><U+003D> rearWheelChoice::wideRimWheel}) }
+}
+}
+}
+rec usage "<i>vehicleChoice</i>:>anyVehicleConfig" as E69 {
+comp usage "vehicle_c1  " as E70 <<variant>>\n{
+}
+comp usage "vehicle_c2  " as E71 <<variant>>\n{
+}
+}
+}
+}
+E1 ..> E2 : <<import>>*
+E4 - -:|> E3 
+E5 - -:|> E3 
+E1 ..> E6 : <<import>>*
+E22 -[thickness=5,#red]- E24 : =
+E23 - -:|> E8 
+E26 - -:|> E10 
+E25 - -:|> E9 
+E28 - -:|> E11 
+E32 - -:|> E13 
+E31 - -:|> E12 
+E21 - -:|> E7 
+E1 ..> E36 : <<import>>*
+E37 - -|> E8 
+E38 - -|> E8 
+E39 - -|> E9 
+E40 - -|> E9 
+E41 - -|> E10 
+E42 - -|> E10 
+E43 - -|> E15 
+E44 - -|> E15 
+E45 - -|> E13 
+E46 - -|> E13 
+E49 - -:|> E3 
+E49 +- - - E50 
+E49 +- - - E51 
+E52 - -||> E23 
+E52 - -> E49 : <<satisfy>>
+E57 *- - E58 
+E58 - -||> E26 
+E58 - -:|> E41 
+E58 o- - E59 
+E59 - -||> E27 
+E59 - -:|> E43 
+E60 *- - E61 
+E61 - -||> E26 
+E61 - -:|> E42 
+E61 o- - E62 
+E62 - -||> E27 
+E62 - -:|> E44 
+E56 - -||> E25 
+E65 - -||> E32 
+E64 - -||> E31 
+E48 - -|> E21 
+E69 - -|> E48 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

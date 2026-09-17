@@ -1,0 +1,266 @@
+{
+  "zoom": 1.79221,
+  "nodes": [
+    {
+      "id": "15_12-Compound Value Type",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 847,
+      "h": 382,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 847,
+        "h": 382
+      },
+      "clipped": 0,
+      "title": "15_12-Compound Value Type",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000007",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 415,
+      "y": 270.5,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 415,
+        "y": 270.5,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Real world user models would use quantity and vector types from library models. They are included here for the purpose of showing how such attribute defs can be defined.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_12-Compound Value Type::PositionVector",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 111.5,
+      "y": 61,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 111.5,
+        "y": 61,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "PositionVector",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_12-Compound Value Type::LengthValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 111.5,
+      "y": 332,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 111.5,
+        "y": 332,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_12-Compound Value Type::TireInfo",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 415,
+      "y": 196.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 415,
+        "y": 196.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TireInfo",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_12-Compound Value Type::frenchTireInfo",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 32,
+      "y": 135,
+      "w": 299,
+      "h": 173,
+      "inner": {
+        "x": 32,
+        "y": 135,
+        "w": 299,
+        "h": 173
+      },
+      "clipped": 0,
+      "title": "frenchTireInfo: TireInfo",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "manufacturer = \"Michelin\" :>>TireInfo::manufacturer",
+              "kind": "attributes"
+            },
+            {
+              "text": "hubDiameter = 18.0['in'] :>>TireInfo::hubDiameter",
+              "kind": "attributes"
+            },
+            {
+              "text": "width = 245 :>>TireInfo::width",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000-0000-0000-0000-000000000007→15_12-Compound Value Type#0",
+      "source": "00000000-0000-0000-0000-000000000007",
+      "target": "15_12-Compound Value Type",
+      "d": "M551.5760368663595,270.5 C551.5760368663595,199.92756380852364 776.610599078341,468.57243619147636 776.610599078341,398",
+      "start": {
+        "x": 551.58,
+        "y": 270.5
+      },
+      "end": {
+        "x": 776.61,
+        "y": 398
+      },
+      "length": 292.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "15_12-Compound Value Type::frenchTireInfo→15_12-Compound Value Type::TireInfo#1",
+      "source": "15_12-Compound Value Type::frenchTireInfo",
+      "target": "15_12-Compound Value Type::TireInfo",
+      "d": "M331,221.5 C363.5,221.5 363.5,221.5 396,221.5",
+      "start": {
+        "x": 331,
+        "y": 221.5
+      },
+      "end": {
+        "x": 396,
+        "y": 221.5
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "11b983998dad1e57",
+  "unsettled": false
+}

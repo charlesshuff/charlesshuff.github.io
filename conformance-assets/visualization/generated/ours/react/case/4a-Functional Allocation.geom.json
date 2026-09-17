@@ -1,0 +1,1272 @@
+{
+  "zoom": 0.867429,
+  "nodes": [
+    {
+      "id": "4a-Functional Allocation",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1750,
+      "h": 729,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1750,
+        "h": 729
+      },
+      "clipped": 0,
+      "title": "4a-Functional Allocation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 816,
+      "y": 101,
+      "w": 210,
+      "h": 50,
+      "inner": {
+        "x": 816,
+        "y": 101,
+        "w": 210,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1_functional_allocation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 756,
+      "y": 235,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 756,
+        "y": 235,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000011",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 178,
+      "y": 235,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 178,
+        "y": 235,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000014",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 32,
+      "y": 61,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This allocates the action '3a-Function-based Behavior-1'::'provide power' as an enacted performance of 'vehicle_c1_functional_allocation'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1300,
+      "y": 235,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1300,
+        "y": 235,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000023",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1406.17,
+      "y": 369,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1406.17,
+        "y": 369,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000029",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1464,
+      "y": 235,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1464,
+        "y": 235,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002f",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1318,
+      "y": 76,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 1318,
+        "y": 76,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This allocates one of the sub-steps of 'provide power' to a sub-part of vehicle_c1.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000045",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1311.17,
+      "y": 369,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1311.17,
+        "y": 369,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 342,
+      "y": 235,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 342,
+        "y": 235,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 334.17,
+      "y": 369,
+      "w": 109,
+      "h": 92,
+      "inner": {
+        "x": 334.17,
+        "y": 369,
+        "w": 109,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in engineTorque",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000054",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 488,
+      "y": 81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 488,
+        "y": 81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 467.17,
+      "y": 369,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 467.17,
+        "y": 369,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 851,
+      "y": 235,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 851,
+        "y": 235,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000077",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 957.17,
+      "y": 369,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 957.17,
+        "y": 369,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000007d",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 652,
+      "y": 81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 652,
+        "y": 81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000097",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 862.17,
+      "y": 369,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 862.17,
+        "y": 369,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1075.5,
+      "y": 235,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1075.5,
+        "y": 235,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a0",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1216.17,
+      "y": 369,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1216.17,
+        "y": 369,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a6",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1050,
+      "y": 81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1050,
+        "y": 81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1052.17,
+      "y": 397,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1052.17,
+        "y": 397,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d5",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1028.83,
+      "y": 545,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1028.83,
+        "y": 545,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d8",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1063.33,
+      "y": 679,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1063.33,
+        "y": 679,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000de",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1192.83,
+      "y": 545,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1192.83,
+        "y": 545,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1227.33,
+      "y": 679,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1227.33,
+        "y": 679,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-00000000000b#1",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-00000000000b",
+      "d": "M896.8395522388059,164 C896.8395522388059,199.5 815.6604477611941,199.5 815.6604477611941,235",
+      "start": {
+        "x": 896.84,
+        "y": 164
+      },
+      "end": {
+        "x": 815.66,
+        "y": 235
+      },
+      "length": 114.17,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000014→00000000-0000-0000-0000-000000000011#2",
+      "source": "00000000-0000-0000-0000-000000000014",
+      "target": "00000000-0000-0000-0000-000000000011",
+      "d": "M248,151 C248,193 248,193 248,235",
+      "start": {
+        "x": 248,
+        "y": 151
+      },
+      "end": {
+        "x": 248,
+        "y": 235
+      },
+      "length": 84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-000000000020#3",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-000000000020",
+      "d": "M1004.7686567164178,164 C1004.7686567164178,201.554565701559 1152.3843283582087,239.10913140311803 1299.9999999999998,239.10913140311803",
+      "start": {
+        "x": 1004.77,
+        "y": 164
+      },
+      "end": {
+        "x": 1300,
+        "y": 239.11
+      },
+      "length": 315.17,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020→00000000-0000-0000-0000-000000000023#4",
+      "source": "00000000-0000-0000-0000-000000000020",
+      "target": "00000000-0000-0000-0000-000000000023",
+      "d": "M1383.3706467661689,298 C1383.3706467661689,333.5 1428.2960199004974,333.5 1428.2960199004974,369",
+      "start": {
+        "x": 1383.37,
+        "y": 298
+      },
+      "end": {
+        "x": 1428.3,
+        "y": 369
+      },
+      "length": 87.66,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002f→00000000-0000-0000-0000-000000000029#5",
+      "source": "00000000-0000-0000-0000-00000000002f",
+      "target": "00000000-0000-0000-0000-000000000029",
+      "d": "M1533.9999999999998,151 C1533.9999999999998,193 1533.9999999999998,193 1533.9999999999998,235",
+      "start": {
+        "x": 1534,
+        "y": 151
+      },
+      "end": {
+        "x": 1534,
+        "y": 235
+      },
+      "length": 84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020→00000000-0000-0000-0000-000000000045#6",
+      "source": "00000000-0000-0000-0000-000000000020",
+      "target": "00000000-0000-0000-0000-000000000045",
+      "d": "M1365.646766169154,298 C1365.646766169154,333.5 1351.0199004975123,333.5 1351.0199004975123,369",
+      "start": {
+        "x": 1365.65,
+        "y": 298
+      },
+      "end": {
+        "x": 1351.02,
+        "y": 369
+      },
+      "length": 73.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-00000000004b#7",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-00000000004b",
+      "d": "M826.0373134328358,164 C826.0373134328358,202.78585461689588 654.0186567164179,241.57170923379175 482,241.57170923379175",
+      "start": {
+        "x": 826.04,
+        "y": 164
+      },
+      "end": {
+        "x": 482,
+        "y": 241.57
+      },
+      "length": 363.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b→00000000-0000-0000-0000-00000000004e#8",
+      "source": "00000000-0000-0000-0000-00000000004b",
+      "target": "00000000-0000-0000-0000-00000000004e",
+      "d": "M408.23655913978496,298 C408.23655913978496,333.5 395.5913978494624,333.5 395.5913978494624,369",
+      "start": {
+        "x": 408.24,
+        "y": 298
+      },
+      "end": {
+        "x": 395.59,
+        "y": 369
+      },
+      "length": 72.57,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b→00000000-0000-0000-0000-00000000006e#9",
+      "source": "00000000-0000-0000-0000-00000000004b",
+      "target": "00000000-0000-0000-0000-00000000006e",
+      "d": "M428.9154228855721,298 C428.9154228855721,333.5 485.75124378109456,333.5 485.75124378109456,369",
+      "start": {
+        "x": 428.92,
+        "y": 298
+      },
+      "end": {
+        "x": 485.75,
+        "y": 369
+      },
+      "length": 95.67,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-000000000074#10",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-000000000074",
+      "d": "M921,164 C921,199.5 921,199.5 921,235",
+      "start": {
+        "x": 921,
+        "y": 164
+      },
+      "end": {
+        "x": 921,
+        "y": 235
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074→00000000-0000-0000-0000-000000000077#11",
+      "source": "00000000-0000-0000-0000-000000000074",
+      "target": "00000000-0000-0000-0000-000000000077",
+      "d": "M934.3706467661691,298 C934.3706467661691,333.5 979.2960199004975,333.5 979.2960199004975,369",
+      "start": {
+        "x": 934.37,
+        "y": 298
+      },
+      "end": {
+        "x": 979.3,
+        "y": 369
+      },
+      "length": 87.66,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074→00000000-0000-0000-0000-000000000097#12",
+      "source": "00000000-0000-0000-0000-000000000074",
+      "target": "00000000-0000-0000-0000-000000000097",
+      "d": "M916.6467661691543,298 C916.6467661691543,333.5 902.0199004975124,333.5 902.0199004975124,369",
+      "start": {
+        "x": 916.65,
+        "y": 298
+      },
+      "end": {
+        "x": 902.02,
+        "y": 369
+      },
+      "length": 73.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-00000000009d#13",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-00000000009d",
+      "d": "M962.8843283582089,164 C962.8843283582089,199.5 1103.615671641791,199.5 1103.615671641791,235",
+      "start": {
+        "x": 962.88,
+        "y": 164
+      },
+      "end": {
+        "x": 1103.62,
+        "y": 235
+      },
+      "length": 165.45,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d→00000000-0000-0000-0000-0000000000a0#14",
+      "source": "00000000-0000-0000-0000-00000000009d",
+      "target": "00000000-0000-0000-0000-0000000000a0",
+      "d": "M1165.3072139303483,298 C1165.3072139303483,333.5 1231.8594527363182,333.5 1231.8594527363182,369",
+      "start": {
+        "x": 1165.31,
+        "y": 298
+      },
+      "end": {
+        "x": 1231.86,
+        "y": 369
+      },
+      "length": 102.78,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d→00000000-0000-0000-0000-0000000000d2#15",
+      "source": "00000000-0000-0000-0000-00000000009d",
+      "target": "00000000-0000-0000-0000-0000000000d2",
+      "d": "M1141.8991769547324,298 C1141.8991769547324,347.5 1125.767489711934,347.5 1125.767489711934,397",
+      "start": {
+        "x": 1141.9,
+        "y": 298
+      },
+      "end": {
+        "x": 1125.77,
+        "y": 397
+      },
+      "length": 100.84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2→00000000-0000-0000-0000-0000000000d5#16",
+      "source": "00000000-0000-0000-0000-0000000000d2",
+      "target": "00000000-0000-0000-0000-0000000000d5",
+      "d": "M1118.2252252252251,460 C1118.2252252252251,502.5 1102.7747747747746,502.5 1102.7747747747746,545",
+      "start": {
+        "x": 1118.23,
+        "y": 460
+      },
+      "end": {
+        "x": 1102.77,
+        "y": 545
+      },
+      "length": 86.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d5→00000000-0000-0000-0000-0000000000d8#17",
+      "source": "00000000-0000-0000-0000-0000000000d5",
+      "target": "00000000-0000-0000-0000-0000000000d8",
+      "d": "M1098.8333333333333,608 C1098.8333333333333,643.5 1098.8333333333333,643.5 1098.8333333333333,679",
+      "start": {
+        "x": 1098.83,
+        "y": 608
+      },
+      "end": {
+        "x": 1098.83,
+        "y": 679
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2→00000000-0000-0000-0000-0000000000de#18",
+      "source": "00000000-0000-0000-0000-0000000000d2",
+      "target": "00000000-0000-0000-0000-0000000000de",
+      "d": "M1145.9279279279278,460 C1145.9279279279278,502.5 1239.072072072072,502.5 1239.072072072072,545",
+      "start": {
+        "x": 1145.93,
+        "y": 460
+      },
+      "end": {
+        "x": 1239.07,
+        "y": 545
+      },
+      "length": 133.46,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000de→00000000-0000-0000-0000-0000000000e1#19",
+      "source": "00000000-0000-0000-0000-0000000000de",
+      "target": "00000000-0000-0000-0000-0000000000e1",
+      "d": "M1262.8333333333333,608 C1262.8333333333333,643.5 1262.8333333333333,643.5 1262.8333333333333,679",
+      "start": {
+        "x": 1262.83,
+        "y": 608
+      },
+      "end": {
+        "x": 1262.83,
+        "y": 679
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "ead36e853a676cd8",
+  "unsettled": false
+}

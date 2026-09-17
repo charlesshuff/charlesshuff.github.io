@@ -1,0 +1,185 @@
+{
+  "zoom": 2.51979,
+  "nodes": [
+    {
+      "id": "CompositePart",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 172,
+      "h": 379,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 172,
+        "h": 379
+      },
+      "clipped": 0,
+      "title": "CompositePart",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "CompositePart::Engine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 329,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 329,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "CompositePart::Car",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 61,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Car",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "CompositePart::Car::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 32,
+      "y": 195,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 195,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine: Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "CompositePart::Car→CompositePart::Car::engine#2",
+      "source": "CompositePart::Car",
+      "target": "CompositePart::Car::engine",
+      "d": "M102,124 C102,159.5 102,159.5 102,195",
+      "start": {
+        "x": 102,
+        "y": 124
+      },
+      "end": {
+        "x": 102,
+        "y": 195
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "CompositePart::Car::engine→CompositePart::Engine#3",
+      "source": "CompositePart::Car::engine",
+      "target": "CompositePart::Engine",
+      "d": "M102,245 C102,277.5 102,277.5 102,310",
+      "start": {
+        "x": 102,
+        "y": 245
+      },
+      "end": {
+        "x": 102,
+        "y": 310
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "62d590a5472514e2",
+  "unsettled": false
+}

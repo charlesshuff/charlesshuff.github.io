@@ -1,0 +1,2874 @@
+{
+  "zoom": 0.400304,
+  "nodes": [
+    {
+      "id": "10c-Fuel Economy Analysis",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 3836.32,
+      "h": 1750,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 3836.32,
+        "h": 1750
+      },
+      "clipped": 0,
+      "title": "10c-Fuel Economy Analysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::distancePerVolume",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 3583.32,
+      "y": 255.15,
+      "w": 253,
+      "h": 92,
+      "inner": {
+        "x": 3583.32,
+        "y": 255.15,
+        "w": 253,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "distancePerVolume: ScalarQuantityValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= length / volume",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::gallon",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 735,
+      "y": 61,
+      "w": 168,
+      "h": 92,
+      "inner": {
+        "x": 735,
+        "y": 61,
+        "w": 168,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "gallon: MeasurementUnit",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 231.0 * 'in'^3",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1877.32,
+      "y": 1230.07,
+      "w": 939,
+      "h": 310,
+      "inner": {
+        "x": 1877.32,
+        "y": 1230.07,
+        "w": 939,
+        "h": 310
+      },
+      "clipped": 0,
+      "title": "FuelEconomyRequirementsModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1877.32,
+      "y": 71.81,
+      "w": 1617,
+      "h": 669,
+      "inner": {
+        "x": 1877.32,
+        "y": 71.81,
+        "w": 1617,
+        "h": 669
+      },
+      "clipped": 0,
+      "title": "VehicleDesignModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 177,
+      "w": 1569,
+      "h": 1573,
+      "inner": {
+        "x": 32,
+        "y": 177,
+        "w": 1569,
+        "h": 1573
+      },
+      "clipped": 0,
+      "title": "FuelEconomyAnalysisModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::FuelEconomyRequirement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 2409.32,
+      "y": 1355.82,
+      "w": 391,
+      "h": 153,
+      "inner": {
+        "x": 2409.32,
+        "y": 1355.82,
+        "w": 391,
+        "h": 153
+      },
+      "clipped": 0,
+      "title": "FuelEconomyRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "actualFuelEconomy:>10c-Fuel Economy Analysis::distancePerVolume",
+              "kind": "attributes"
+            },
+            {
+              "text": "requiredFuelEconomy:>10c-Fuel Economy Analysis::distancePerVolume",
+              "kind": "attributes"
+            }
+          ]
+        },
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "require { actualFuelEconomy >= requiredFuelEconomy }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::cityFuelEconomyRequirement",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1893.32,
+      "y": 1417.07,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 1893.32,
+        "y": 1417.07,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "cityFuelEconomyRequirement: FuelEconomyRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "requiredFuelEconomy = 25 [mi/gallon] :>>FuelEconomyRequirement::requiredFuelEconomy",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::highwayFuelEconomyRequirement",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1893.32,
+      "y": 1286.07,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 1893.32,
+        "y": 1286.07,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "highwayFuelEconomyRequirement: FuelEconomyRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "requiredFuelEconomy = 30 [mi/gallon] :>>FuelEconomyRequirement::requiredFuelEconomy",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3011.32,
+      "y": 116.81,
+      "w": 462,
+      "h": 284,
+      "inner": {
+        "x": 3011.32,
+        "y": 116.81,
+        "w": 462,
+        "h": 284
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::Engine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3011.32,
+      "y": 658.81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3011.32,
+        "y": 658.81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::Transmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3011.32,
+      "y": 495.81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3011.32,
+        "y": 495.81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1893.32,
+      "y": 336.81,
+      "w": 1024,
+      "h": 388,
+      "inner": {
+        "x": 1893.32,
+        "y": 336.81,
+        "w": 1024,
+        "h": 388
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::ScenarioState",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 194,
+      "y": 366,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 194,
+        "y": 366,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ScenarioState",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::NominalScenario",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 1167,
+      "y": 976.33,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1167,
+        "y": 976.33,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "NominalScenario",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::cityScenario",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 845,
+      "y": 1103,
+      "w": 195,
+      "h": 50,
+      "inner": {
+        "x": 845,
+        "y": 1103,
+        "w": 195,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "cityScenario: NominalScenario",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::highwayScenario",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 830.5,
+      "y": 1029,
+      "w": 224,
+      "h": 50,
+      "inner": {
+        "x": 830.5,
+        "y": 1029,
+        "w": 224,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "highwayScenario: NominalScenario",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 571.67,
+      "y": 1242.67,
+      "w": 145,
+      "h": 50,
+      "inner": {
+        "x": 571.67,
+        "y": 1242.67,
+        "w": 145,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FuelEconomyAnalysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1445,
+      "y": 697,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1445,
+        "y": 697,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::scenario",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 894,
+      "y": 955,
+      "w": 175,
+      "h": 50,
+      "inner": {
+        "x": 894,
+        "y": 955,
+        "w": 175,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "scenario: NominalScenario",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelEconomyRequirement",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1259,
+      "y": 884,
+      "w": 326,
+      "h": 50,
+      "inner": {
+        "x": 1259,
+        "y": 884,
+        "w": 326,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelEconomyRequirement: FuelEconomyRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelEconomyAnalysisObjective",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1153,
+      "y": 1161.17,
+      "w": 432,
+      "h": 213,
+      "inner": {
+        "x": 1153,
+        "y": 1161.17,
+        "w": 432,
+        "h": 213
+      },
+      "clipped": 0,
+      "title": "fuelEconomyAnalysisObjective",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The objective of this analysis is to determine whether the current vehicle design configuration can satisfy the fuel economy requirement.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "assume { doc /* wheelDiameter == 33 inches * drive train efficiency == 0.4 */ }",
+              "kind": "constraints"
+            },
+            {
+              "text": "require fuelEconomyRequirement { :>> actualFuelEconomy = calculatedFuelEconomy; }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::dynamicsAnalysis",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 564,
+      "y": 257,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 564,
+        "y": 257,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "dynamicsAnalysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010a",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 48,
+      "y": 222,
+      "w": 432,
+      "h": 120,
+      "inner": {
+        "x": 48,
+        "y": 222,
+        "w": 432,
+        "h": 120
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Solve for the required engine power as a function of time to support the nominal scenarios. Note: Vehicle force = power/speed Note: EngineRPM * EngineGearRatio/WheelRPM = constant",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelConsumptionAnalysis",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 564,
+      "y": 460,
+      "w": 168,
+      "h": 50,
+      "inner": {
+        "x": 564,
+        "y": 460,
+        "w": 168,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelConsumptionAnalysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010e",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 48,
+      "y": 440,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 48,
+        "y": 440,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Solve the engine equations to determine how much fuel is consumed. The engine RPM is a function of the speed of the vehicle and the gear state.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 816,
+      "y": 784,
+      "w": 253,
+      "h": 50,
+      "inner": {
+        "x": 816,
+        "y": 784,
+        "w": 253,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleFuelEconomyRequirementsGroup",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1186,
+      "y": 545,
+      "w": 399,
+      "h": 128,
+      "inner": {
+        "x": 1186,
+        "y": 545,
+        "w": 399,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "^cargoWeight: MassValue",
+              "kind": "attributes"
+            },
+            {
+              "text": "^fuelEconomy_city:>10c-Fuel Economy Analysis::distancePerVolume",
+              "kind": "attributes"
+            },
+            {
+              "text": "^fuelEconomy_highway:>10c-Fuel Economy Analysis::distancePerVolume",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup::vehicleFuelEconomyRequirement_city",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1153,
+      "y": 1515,
+      "w": 432,
+      "h": 208,
+      "inner": {
+        "x": 1153,
+        "y": 1515,
+        "w": 432,
+        "h": 208
+      },
+      "clipped": 0,
+      "title": "vehicleFuelEconomyRequirement_city :>FuelEconomyRequirementsModel::cityFuelEconomyRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The vehicle shall provide a fuel economy that is greater than or equal to 25 miles per gallon for the nominal city driving scenarios.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "actualFuelEconomy = vehicle.fuelEconomy_city :>>FuelEconomyRequirement::actualFuelEconomy",
+              "kind": "references"
+            }
+          ]
+        },
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "assume { vehicle.cargoWeight == 1000 [lb] }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup::vehicleFuelEconomyRequirement_highway",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1153,
+      "y": 316,
+      "w": 432,
+      "h": 208,
+      "inner": {
+        "x": 1153,
+        "y": 316,
+        "w": 432,
+        "h": 208
+      },
+      "clipped": 0,
+      "title": "vehicleFuelEconomyRequirement_highway :>FuelEconomyRequirementsModel::highwayFuelEconomyRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The vehicle shall provide a fuel economy that is greater than or equal to 30 miles per gallon for the nominal highway driving scenarios.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "actualFuelEconomy = vehicle.fuelEconomy_highway :>>FuelEconomyRequirement::actualFuelEconomy",
+              "kind": "references"
+            }
+          ]
+        },
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "assume { vehicle.cargoWeight == 1000 [lb] }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 61,
+      "y": 634,
+      "w": 414,
+      "h": 932,
+      "inner": {
+        "x": 61,
+        "y": 634,
+        "w": 414,
+        "h": 932
+      },
+      "clipped": 0,
+      "title": "analysisContext",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1445,
+      "y": 1399,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 1445,
+        "y": 1399,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= vehicle1_c1",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1445,
+      "y": 771,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 1445,
+        "y": 771,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= vehicle1_c1",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_city",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 3041.82,
+      "y": 334.81,
+      "w": 401,
+      "h": 50,
+      "inner": {
+        "x": 3041.82,
+        "y": 334.81,
+        "w": 401,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelEconomy_city :>10c-Fuel Economy Analysis::distancePerVolume",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_highway",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 3027.32,
+      "y": 260.81,
+      "w": 430,
+      "h": 50,
+      "inner": {
+        "x": 3027.32,
+        "y": 260.81,
+        "w": 430,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelEconomy_highway :>10c-Fuel Economy Analysis::distancePerVolume",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::cargoWeight",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 3160.82,
+      "y": 186.81,
+      "w": 163,
+      "h": 50,
+      "inner": {
+        "x": 3160.82,
+        "y": 186.81,
+        "w": 163,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "cargoWeight: MassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2761.32,
+      "y": 658.81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2761.32,
+        "y": 658.81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine: Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1909.32,
+      "y": 406.81,
+      "w": 992,
+      "h": 228,
+      "inner": {
+        "x": 1909.32,
+        "y": 406.81,
+        "w": 992,
+        "h": 228
+      },
+      "clipped": 0,
+      "title": "transmission: Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::NominalScenario::t",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1160,
+      "y": 991,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1160,
+        "y": 991,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "t",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::NominalScenario::result",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1300,
+      "y": 1008.67,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1300,
+        "y": 1008.67,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "result",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 132,
+      "y": 1140,
+      "w": 292,
+      "h": 178,
+      "inner": {
+        "x": 132,
+        "y": 1140,
+        "w": 292,
+        "h": 178
+      },
+      "clipped": 0,
+      "title": "cityFuelEconomyAnalysis: FuelEconomyAnalysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::fuelEconomyRequirement",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 236,
+      "y": 1342,
+      "w": 188,
+      "h": 92,
+      "inner": {
+        "x": 236,
+        "y": 1342,
+        "w": 188,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "fuelEconomyRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= cityFuelEconomyRequirement",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 104,
+      "y": 938,
+      "w": 320,
+      "h": 178,
+      "inner": {
+        "x": 104,
+        "y": 938,
+        "w": 320,
+        "h": 178
+      },
+      "clipped": 0,
+      "title": "highwayFuelEconomyAnalysis: FuelEconomyAnalysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::fuelEconomyRequirement",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 211,
+      "y": 1458,
+      "w": 213,
+      "h": 92,
+      "inner": {
+        "x": 211,
+        "y": 1458,
+        "w": 213,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "fuelEconomyRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= highwayFuelEconomyRequirement",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::vehicle1_c1_analysized",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 77,
+      "y": 704,
+      "w": 347,
+      "h": 210,
+      "inner": {
+        "x": 77,
+        "y": 704,
+        "w": 347,
+        "h": 210
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1_analysized:>VehicleDesignModel::vehicle1_c1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 1925.32,
+      "y": 476.81,
+      "w": 960,
+      "h": 142,
+      "inner": {
+        "x": 1925.32,
+        "y": 476.81,
+        "w": 960,
+        "h": 142
+      },
+      "clipped": 0,
+      "title": "transmissionState",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::scenario",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 148,
+      "y": 1210,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 148,
+        "y": 1210,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "scenario",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= cityScenario",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::scenario",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 120,
+      "y": 1008,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 120,
+        "y": 1008,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "scenario",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= highwayScenario",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000194",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 104,
+      "y": 848,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 104,
+        "y": 848,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelEconomy_city",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000019f",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 93,
+      "y": 774,
+      "w": 151,
+      "h": 50,
+      "inner": {
+        "x": 93,
+        "y": 774,
+        "w": 151,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuelEconomy_highway",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 2057.32,
+      "y": 552.81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2057.32,
+        "y": 552.81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "1stGear",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 2281.32,
+      "y": 552.81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2281.32,
+        "y": 552.81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "2ndGear",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 2505.32,
+      "y": 552.81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2505.32,
+        "y": 552.81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "3rdGear",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::4thGear",
+      "type": "state",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-state-node fam-state",
+      "x": 2729.32,
+      "y": 552.81,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2729.32,
+        "y": 552.81,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "4thGear",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "6px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::«start»",
+      "type": "actionInitial",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 1941.32,
+      "y": 561.81,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 1941.32,
+        "y": 561.81,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::cityFuelEconomyRequirement→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::FuelEconomyRequirement#0",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::cityFuelEconomyRequirement",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::FuelEconomyRequirement",
+      "d": "M2325.3167331929812,1453.8988500672722 C2357.8167331929812,1453.8988500672722 2357.8167331929812,1447.4144908341743 2390.3167331929812,1447.4144908341743",
+      "start": {
+        "x": 2325.32,
+        "y": 1453.9
+      },
+      "end": {
+        "x": 2390.32,
+        "y": 1447.41
+      },
+      "length": 65.46,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::highwayFuelEconomyRequirement→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::FuelEconomyRequirement#1",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::highwayFuelEconomyRequirement",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::FuelEconomyRequirement",
+      "d": "M2325.3167331929812,1380.0048036495123 C2357.8167331929812,1380.0048036495123 2357.8167331929812,1395.7283152539524 2390.3167331929812,1395.7283152539524",
+      "start": {
+        "x": 2325.32,
+        "y": 1380
+      },
+      "end": {
+        "x": 2390.32,
+        "y": 1395.73
+      },
+      "length": 67.61,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_city→10c-Fuel Economy Analysis::distancePerVolume#2",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_city",
+      "target": "10c-Fuel Economy Analysis::distancePerVolume",
+      "d": "M3441.5354831929812,334.8125 C3502.9261081929812,334.8125 3502.9261081929812,317.02034313725494 3564.3167331929812,317.02034313725494",
+      "start": {
+        "x": 3441.54,
+        "y": 334.81
+      },
+      "end": {
+        "x": 3564.32,
+        "y": 317.02
+      },
+      "length": 124.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_highway→10c-Fuel Economy Analysis::distancePerVolume#3",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_highway",
+      "target": "10c-Fuel Economy Analysis::distancePerVolume",
+      "d": "M3457.3167331929812,292.8641934046346 C3510.8167331929812,292.8641934046346 3510.8167331929812,296.9968137254902 3564.3167331929812,296.9968137254902",
+      "start": {
+        "x": 3457.32,
+        "y": 292.86
+      },
+      "end": {
+        "x": 3564.32,
+        "y": 297
+      },
+      "length": 107.11,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1→10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle#4",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle",
+      "d": "M2917.3167331929812,364.42779271206695 C2954.8167331929812,364.42779271206695 2954.8167331929812,333.88060035842295 2992.3167331929812,333.88060035842295",
+      "start": {
+        "x": 2917.32,
+        "y": 364.43
+      },
+      "end": {
+        "x": 2992.32,
+        "y": 333.88
+      },
+      "length": 83.05,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::engine→10c-Fuel Economy Analysis::VehicleDesignModel::Engine#5",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::engine",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::Engine",
+      "d": "M2901.3167331929812,683.8125 C2946.8167331929812,683.8125 2946.8167331929812,683.8125 2992.3167331929812,683.8125",
+      "start": {
+        "x": 2901.32,
+        "y": 683.81
+      },
+      "end": {
+        "x": 2992.32,
+        "y": 683.81
+      },
+      "length": 91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission→10c-Fuel Economy Analysis::VehicleDesignModel::Transmission#6",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::Transmission",
+      "d": "M2901.3167331929812,520.8125 C2946.8167331929812,520.8125 2946.8167331929812,520.8125 2992.3167331929812,520.8125",
+      "start": {
+        "x": 2901.32,
+        "y": 520.81
+      },
+      "end": {
+        "x": 2992.32,
+        "y": 520.81
+      },
+      "length": 91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "[*]→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear#7",
+      "source": "[*]",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear",
+      "d": "M1973.3167331929812,577.8125 C2010.3167331929812,577.8125 2010.3167331929812,577.8125 2047.3167331929812,577.8125",
+      "start": {
+        "x": 1973.32,
+        "y": 577.81
+      },
+      "end": {
+        "x": 2047.32,
+        "y": 577.81
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear#8",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::1stGear",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear",
+      "d": "M2197.3167331929812,577.8125 C2234.3167331929812,577.8125 2234.3167331929812,577.8125 2271.3167331929812,577.8125",
+      "start": {
+        "x": 2197.32,
+        "y": 577.81
+      },
+      "end": {
+        "x": 2271.32,
+        "y": 577.81
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear#9",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::2ndGear",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear",
+      "d": "M2421.3167331929812,577.8125 C2458.3167331929812,577.8125 2458.3167331929812,577.8125 2495.3167331929812,577.8125",
+      "start": {
+        "x": 2421.32,
+        "y": 577.81
+      },
+      "end": {
+        "x": 2495.32,
+        "y": 577.81
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::4thGear#10",
+      "source": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::3rdGear",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1::transmission::transmissionState::4thGear",
+      "d": "M2645.3167331929812,577.8125 C2682.3167331929812,577.8125 2682.3167331929812,577.8125 2719.3167331929812,577.8125",
+      "start": {
+        "x": 2645.32,
+        "y": 577.81
+      },
+      "end": {
+        "x": 2719.32,
+        "y": 577.81
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel→10c-Fuel Economy Analysis::VehicleDesignModel#11",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel",
+      "d": "M1601,729.6639753240929 C1734.1583665964904,729.6639753240929 1734.1583665964904,647.302208031193 1867.316733192981,647.302208031193",
+      "start": {
+        "x": 1601,
+        "y": 729.66
+      },
+      "end": {
+        "x": 1867.32,
+        "y": 647.3
+      },
+      "length": 283.42,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel#12",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel",
+      "d": "M1601,1179.6147074664404 C1734.1583665964906,1179.6147074664404 1734.1583665964906,1255.7346691771909 1867.3167331929812,1255.7346691771909",
+      "start": {
+        "x": 1601,
+        "y": 1179.61
+      },
+      "end": {
+        "x": 1867.32,
+        "y": 1255.73
+      },
+      "length": 281.04,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::cityScenario→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::NominalScenario#13",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::cityScenario",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::NominalScenario",
+      "d": "M1000.625,1103 C1000.625,1074.1666666666667 1178.875,1074.1666666666667 1178.875,1045.3333333333335",
+      "start": {
+        "x": 1000.63,
+        "y": 1103
+      },
+      "end": {
+        "x": 1178.88,
+        "y": 1045.33
+      },
+      "length": 193.71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::highwayScenario→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::NominalScenario#14",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::highwayScenario",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::NominalScenario",
+      "d": "M1054.5,1033.970571590266 C1101.25,1033.970571590266 1101.25,1013.8517260894171 1148,1013.8517260894171",
+      "start": {
+        "x": 1054.5,
+        "y": 1033.97
+      },
+      "end": {
+        "x": 1148,
+        "y": 1013.85
+      },
+      "length": 96.49,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::vehicle→10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle#15",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::vehicle",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle",
+      "d": "M1585,703.2291953311509 C2288.658366596491,703.2291953311509 2288.658366596491,320.7561554072021 2992.3167331929812,320.7561554072021",
+      "start": {
+        "x": 1585,
+        "y": 703.23
+      },
+      "end": {
+        "x": 2992.32,
+        "y": 320.76
+      },
+      "length": 1477.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::scenario→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::NominalScenario#17",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::scenario",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::NominalScenario",
+      "d": "M1069,987.3059360730593 C1108.5,987.3059360730593 1108.5,995.4885844748859 1148,995.4885844748859",
+      "start": {
+        "x": 1069,
+        "y": 987.31
+      },
+      "end": {
+        "x": 1148,
+        "y": 995.49
+      },
+      "length": 79.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelEconomyRequirement→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::FuelEconomyRequirement#19",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelEconomyRequirement",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::FuelEconomyRequirement",
+      "d": "M1478.5051087733266,934 C1478.5051087733266,1135.4114583333335 2431.911100346602,1135.4114583333335 2431.911100346602,1336.8229166666667",
+      "start": {
+        "x": 1478.51,
+        "y": 934
+      },
+      "end": {
+        "x": 2431.91,
+        "y": 1336.82
+      },
+      "length": 1080.11,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelEconomyAnalysisObjective#21",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelEconomyAnalysisObjective",
+      "d": "M716.6666666666666,1267.6666666666665 C929.8333333333333,1267.6666666666665 929.8333333333333,1267.6666666666665 1143,1267.6666666666665",
+      "start": {
+        "x": 716.67,
+        "y": 1267.67
+      },
+      "end": {
+        "x": 1143,
+        "y": 1267.67
+      },
+      "length": 426.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010a→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::dynamicsAnalysis#22",
+      "source": "00000000-0000-0000-0000-00000000010a",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::dynamicsAnalysis",
+      "d": "M480,282 C522,282 522,282 564,282",
+      "start": {
+        "x": 480,
+        "y": 282
+      },
+      "end": {
+        "x": 564,
+        "y": 282
+      },
+      "length": 84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000010e→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelConsumptionAnalysis#24",
+      "source": "00000000-0000-0000-0000-00000000010e",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelConsumptionAnalysis",
+      "d": "M480,485 C522,485 522,485 564,485",
+      "start": {
+        "x": 480,
+        "y": 485
+      },
+      "end": {
+        "x": 564,
+        "y": 485
+      },
+      "length": 84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup::vehicle→10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle#26",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup::vehicle",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle",
+      "d": "M1585,571.3751741347868 C2288.658366596491,571.3751741347868 2288.658366596491,302.3780878439311 2992.3167331929812,302.3780878439311",
+      "start": {
+        "x": 1585,
+        "y": 571.38
+      },
+      "end": {
+        "x": 2992.32,
+        "y": 302.38
+      },
+      "length": 1443.07,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup::vehicleFuelEconomyRequirement_city→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::cityFuelEconomyRequirement#28",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup::vehicleFuelEconomyRequirement_city",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::cityFuelEconomyRequirement",
+      "d": "M1585,1575.6938736320003 C1729.6583665964906,1575.6938736320003 1729.6583665964906,1513.8790430346664 1874.3167331929812,1513.8790430346664",
+      "start": {
+        "x": 1585,
+        "y": 1575.69
+      },
+      "end": {
+        "x": 1874.32,
+        "y": 1513.88
+      },
+      "length": 298.45,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup::vehicleFuelEconomyRequirement_highway→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::highwayFuelEconomyRequirement#30",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup::vehicleFuelEconomyRequirement_highway",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::highwayFuelEconomyRequirement",
+      "d": "M1452.7268462963866,524 C1452.7268462963866,895.5364583333334 2066.2457113001283,895.5364583333334 2066.2457113001283,1267.0729166666667",
+      "start": {
+        "x": 1452.73,
+        "y": 524
+      },
+      "end": {
+        "x": 2066.25,
+        "y": 1267.07
+      },
+      "length": 1014.61,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis#32",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis",
+      "d": "M424,1244.4173873463815 C488.3333333333333,1244.4173873463815 488.3333333333333,1260.01077226521 552.6666666666666,1260.01077226521",
+      "start": {
+        "x": 424,
+        "y": 1244.42
+      },
+      "end": {
+        "x": 552.67,
+        "y": 1260.01
+      },
+      "length": 130,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::vehicle→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1#33",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::vehicle",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1",
+      "d": "M1559.7988730177094,1399 C1559.7988730177094,1061.90625 2216.3823556835114,1061.90625 2216.3823556835114,724.8125",
+      "start": {
+        "x": 1559.8,
+        "y": 1399
+      },
+      "end": {
+        "x": 2216.38,
+        "y": 724.81
+      },
+      "length": 994.61,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::scenario→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::cityScenario#35",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::scenario",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::cityScenario",
+      "d": "M288,1243.6328502415458 C566.5,1243.6328502415458 566.5,1145.2256728778468 845,1145.2256728778468",
+      "start": {
+        "x": 288,
+        "y": 1243.63
+      },
+      "end": {
+        "x": 845,
+        "y": 1145.23
+      },
+      "length": 569.13,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::fuelEconomyRequirement→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::cityFuelEconomyRequirement#37",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::fuelEconomyRequirement",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::cityFuelEconomyRequirement",
+      "d": "M424,1392.3622667183813 C1158.6583665964906,1392.3622667183813 1158.6583665964906,1460.5489846329394 1893.3167331929812,1460.5489846329394",
+      "start": {
+        "x": 424,
+        "y": 1392.36
+      },
+      "end": {
+        "x": 1893.32,
+        "y": 1460.55
+      },
+      "length": 1471.57,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis#38",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis",
+      "d": "M404.58795013850425,1116 C404.58795013850425,1169.8333333333333 604.6756694367497,1169.8333333333333 604.6756694367497,1223.6666666666665",
+      "start": {
+        "x": 404.59,
+        "y": 1116
+      },
+      "end": {
+        "x": 604.68,
+        "y": 1223.67
+      },
+      "length": 238.94,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::vehicle→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1#39",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::vehicle",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1",
+      "d": "M1585,794.498878485464 C1739.1583665964906,794.498878485464 1739.1583665964906,695.3921316491776 1893.3167331929812,695.3921316491776",
+      "start": {
+        "x": 1585,
+        "y": 794.5
+      },
+      "end": {
+        "x": 1893.32,
+        "y": 695.39
+      },
+      "length": 329.61,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::scenario→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::highwayScenario#41",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::scenario",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::highwayScenario",
+      "d": "M260,1054 C545.25,1054 545.25,1054 830.5,1054",
+      "start": {
+        "x": 260,
+        "y": 1054
+      },
+      "end": {
+        "x": 830.5,
+        "y": 1054
+      },
+      "length": 570.5,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::fuelEconomyRequirement→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::highwayFuelEconomyRequirement#43",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::fuelEconomyRequirement",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::highwayFuelEconomyRequirement",
+      "d": "M424,1494.2269668261247 C1158.6583665964906,1494.2269668261247 1158.6583665964906,1359.3942797235406 1893.3167331929812,1359.3942797235406",
+      "start": {
+        "x": 424,
+        "y": 1494.23
+      },
+      "end": {
+        "x": 1893.32,
+        "y": 1359.39
+      },
+      "length": 1478.08,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::vehicle1_c1_analysized→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1#44",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::vehicle1_c1_analysized",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1",
+      "d": "M424,786.6010968791389 C1149.1583665964906,786.6010968791389 1149.1583665964906,596.9118567601204 1874.3167331929812,596.9118567601204",
+      "start": {
+        "x": 424,
+        "y": 786.6
+      },
+      "end": {
+        "x": 1874.32,
+        "y": 596.91
+      },
+      "length": 1467.79,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000194→10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_city#45",
+      "source": "00000000-0000-0000-0000-000000000194",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_city",
+      "d": "M244,861.2922370394867 C1668.4216297022517,861.2922370394867 3092.8432594045034,632.5523685197434 3092.8432594045034,403.8125",
+      "start": {
+        "x": 244,
+        "y": 861.29
+      },
+      "end": {
+        "x": 3092.84,
+        "y": 403.81
+      },
+      "length": 2938.43,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000019f→10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_highway#46",
+      "source": "00000000-0000-0000-0000-00000000019f",
+      "target": "10c-Fuel Economy Analysis::VehicleDesignModel::Vehicle::fuelEconomy_highway",
+      "d": "M244,786.3949361288849 C1668.2876630721214,786.3949361288849 3092.575326144243,558.1037180644424 3092.575326144243,329.8125",
+      "start": {
+        "x": 244,
+        "y": 786.39
+      },
+      "end": {
+        "x": 3092.58,
+        "y": 329.81
+      },
+      "length": 2937.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::vehicle1_c1_analysized→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup#47",
+      "source": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::vehicle1_c1_analysized",
+      "target": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup",
+      "d": "M424,809 C615,809 615,809 806,809",
+      "start": {
+        "x": 424,
+        "y": 809
+      },
+      "end": {
+        "x": 806,
+        "y": 809
+      },
+      "length": 382,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 1694,
+      "y": 680.69,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel→10c-Fuel Economy Analysis::VehicleDesignModel#11"
+    },
+    {
+      "x": 1694,
+      "y": 1209.88,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel#12"
+    },
+    {
+      "x": 894.44,
+      "y": 1259.87,
+      "w": 70.78,
+      "h": 15.59,
+      "text": "«objective»",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::FuelEconomyAnalysis::fuelEconomyAnalysisObjective#21"
+    },
+    {
+      "x": 1880.65,
+      "y": 1054.11,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::vehicle→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1#33"
+    },
+    {
+      "x": 559.06,
+      "y": 1186.63,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::scenario→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::cityScenario#35"
+    },
+    {
+      "x": 1151.22,
+      "y": 1418.66,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::cityFuelEconomyAnalysis::fuelEconomyRequirement→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::cityFuelEconomyRequirement#37"
+    },
+    {
+      "x": 1731.72,
+      "y": 737.15,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::vehicle→10c-Fuel Economy Analysis::VehicleDesignModel::vehicle1_c1#39"
+    },
+    {
+      "x": 537.81,
+      "y": 1046.2,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::scenario→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::highwayScenario#41"
+    },
+    {
+      "x": 1151.22,
+      "y": 1419.02,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::highwayFuelEconomyAnalysis::fuelEconomyRequirement→10c-Fuel Economy Analysis::FuelEconomyRequirementsModel::highwayFuelEconomyRequirement#43"
+    },
+    {
+      "x": 579.31,
+      "y": 801.2,
+      "w": 71.38,
+      "h": 15.59,
+      "text": "<<satisfy>>",
+      "edge": "10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::analysisContext::vehicle1_c1_analysized→10c-Fuel Economy Analysis::FuelEconomyAnalysisModel::vehicleFuelEconomyRequirementsGroup#47"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "fc37edcb6f11ff3b",
+  "unsettled": false
+}

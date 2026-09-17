@@ -1,0 +1,647 @@
+{
+  "zoom": 0.768997,
+  "nodes": [
+    {
+      "id": "15_04-Logical Expressions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1974,
+      "h": 493,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1974,
+        "h": 493
+      },
+      "clipped": 0,
+      "title": "15_04-Logical Expressions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Engine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 652,
+      "y": 443,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 652,
+        "y": 443,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_04-Logical Expressions::4CylEngine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 816,
+      "y": 309,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 816,
+        "y": 309,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "4CylEngine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_04-Logical Expressions::6CylEngine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 652,
+      "y": 309,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 652,
+        "y": 309,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "6CylEngine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Transmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1204.5,
+      "y": 443,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1204.5,
+        "y": 443,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_04-Logical Expressions::ManualTransmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1377,
+      "y": 309,
+      "w": 141,
+      "h": 50,
+      "inner": {
+        "x": 1377,
+        "y": 309,
+        "w": 141,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ManualTransmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_04-Logical Expressions::AutomaticTransmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1196,
+      "y": 309,
+      "w": 157,
+      "h": 50,
+      "inner": {
+        "x": 1196,
+        "y": 309,
+        "w": 157,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AutomaticTransmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 213.4,
+      "y": 61,
+      "w": 173,
+      "h": 92,
+      "inner": {
+        "x": 213.4,
+        "y": 61,
+        "w": 173,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "isHighPerformance: Boolean",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Vehicle::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 488,
+      "y": 273,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 488,
+        "y": 273,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine: Engine[1]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Vehicle::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 980,
+      "y": 273,
+      "w": 192,
+      "h": 50,
+      "inner": {
+        "x": 980,
+        "y": 273,
+        "w": 192,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transmission: Transmission[1]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000029",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 32,
+      "y": 237,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 32,
+        "y": 237,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ if isHighPerformance? engine istype '6CylEngine' else engine istype '4CylEngine' }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1542,
+      "y": 237,
+      "w": 432,
+      "h": 122,
+      "inner": {
+        "x": 1542,
+        "y": 237,
+        "w": 432,
+        "h": 122
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ (engine istype '4CylEngine' and transmission istype ManualTransmission) xor (engine istype '6CylEngine' and transmission istype AutomaticTransmission) }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "15_04-Logical Expressions::4CylEngine→15_04-Logical Expressions::Engine#2",
+      "source": "15_04-Logical Expressions::4CylEngine",
+      "target": "15_04-Logical Expressions::Engine",
+      "d": "M855.4029850746268,359 C855.4029850746268,391.5 752.5970149253732,391.5 752.5970149253732,424",
+      "start": {
+        "x": 855.4,
+        "y": 359
+      },
+      "end": {
+        "x": 752.6,
+        "y": 424
+      },
+      "length": 128.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_04-Logical Expressions::6CylEngine→15_04-Logical Expressions::Engine#4",
+      "source": "15_04-Logical Expressions::6CylEngine",
+      "target": "15_04-Logical Expressions::Engine",
+      "d": "M722,359 C722,391.5 722,391.5 722,424",
+      "start": {
+        "x": 722,
+        "y": 359
+      },
+      "end": {
+        "x": 722,
+        "y": 424
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_04-Logical Expressions::ManualTransmission→15_04-Logical Expressions::Transmission#7",
+      "source": "15_04-Logical Expressions::ManualTransmission",
+      "target": "15_04-Logical Expressions::Transmission",
+      "d": "M1415.2238805970148,359 C1415.2238805970148,391.5 1306.7761194029852,391.5 1306.7761194029852,424",
+      "start": {
+        "x": 1415.22,
+        "y": 359
+      },
+      "end": {
+        "x": 1306.78,
+        "y": 424
+      },
+      "length": 133.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_04-Logical Expressions::AutomaticTransmission→15_04-Logical Expressions::Transmission#9",
+      "source": "15_04-Logical Expressions::AutomaticTransmission",
+      "target": "15_04-Logical Expressions::Transmission",
+      "d": "M1274.5,359 C1274.5,391.5 1274.5,391.5 1274.5,424",
+      "start": {
+        "x": 1274.5,
+        "y": 359
+      },
+      "end": {
+        "x": 1274.5,
+        "y": 424
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Vehicle→15_04-Logical Expressions::Vehicle::engine#11",
+      "source": "15_04-Logical Expressions::Vehicle",
+      "target": "15_04-Logical Expressions::Vehicle::engine",
+      "d": "M362.0602094240837,166 C362.0602094240837,219.5 524.217277486911,219.5 524.217277486911,273",
+      "start": {
+        "x": 362.06,
+        "y": 166
+      },
+      "end": {
+        "x": 524.22,
+        "y": 273
+      },
+      "length": 205.27,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Vehicle::engine→15_04-Logical Expressions::Engine#12",
+      "source": "15_04-Logical Expressions::Vehicle::engine",
+      "target": "15_04-Logical Expressions::Engine",
+      "d": "M582.1176470588235,323 C582.1176470588235,373.5 697.8823529411765,373.5 697.8823529411765,424",
+      "start": {
+        "x": 582.12,
+        "y": 323
+      },
+      "end": {
+        "x": 697.88,
+        "y": 424
+      },
+      "length": 162.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Vehicle→15_04-Logical Expressions::Vehicle::transmission#13",
+      "source": "15_04-Logical Expressions::Vehicle",
+      "target": "15_04-Logical Expressions::Vehicle::transmission",
+      "d": "M399.4,128.28784950392992 C689.7,128.28784950392992 689.7,274.37417858523384 980,274.37417858523384",
+      "start": {
+        "x": 399.4,
+        "y": 128.29
+      },
+      "end": {
+        "x": 980,
+        "y": 274.37
+      },
+      "length": 605.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Vehicle::transmission→15_04-Logical Expressions::Transmission#14",
+      "source": "15_04-Logical Expressions::Vehicle::transmission",
+      "target": "15_04-Logical Expressions::Transmission",
+      "d": "M1105.1911764705883,323 C1105.1911764705883,373.5 1245.3088235294117,373.5 1245.3088235294117,424",
+      "start": {
+        "x": 1105.19,
+        "y": 323
+      },
+      "end": {
+        "x": 1245.31,
+        "y": 424
+      },
+      "length": 182.73,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Vehicle→00000000-0000-0000-0000-000000000029#15",
+      "source": "15_04-Logical Expressions::Vehicle",
+      "target": "00000000-0000-0000-0000-000000000029",
+      "d": "M286.88964577656674,166 C286.88964577656674,201.5 263.1316076294278,201.5 263.1316076294278,237",
+      "start": {
+        "x": 286.89,
+        "y": 166
+      },
+      "end": {
+        "x": 263.13,
+        "y": 237
+      },
+      "length": 76.29,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_04-Logical Expressions::Vehicle→00000000-0000-0000-0000-00000000004e#16",
+      "source": "15_04-Logical Expressions::Vehicle",
+      "target": "00000000-0000-0000-0000-00000000004e",
+      "d": "M399.4,118.33084150606955 C970.6999999999999,118.33084150606955 970.7,269.7056443316645 1542,269.7056443316645",
+      "start": {
+        "x": 399.4,
+        "y": 118.33
+      },
+      "end": {
+        "x": 1542,
+        "y": 269.71
+      },
+      "length": 1156.72,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "ec782b58a0288a39",
+  "unsettled": false
+}

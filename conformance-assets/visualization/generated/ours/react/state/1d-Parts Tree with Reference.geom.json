@@ -1,0 +1,70 @@
+{
+  "zoom": 1.70946,
+  "nodes": [
+    {
+      "id": "00000000-0000-0000-0000-00000000001c",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 16,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'vehicle1_c1'::'hitchBall' is a reference property that references a hitch ball that is not part of this vehicle. If 'vehicle1_c1' is removed or destroyed, this does not effect the hitchBall referenced here.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000045",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 472,
+      "y": 16,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 472,
+        "y": 16,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This is a shorthand for a binding connector between the 'trailerCoupler' here and the 'trailerCoupler' in 'trailerHitch'. The binding connector is now contained within the 'trailer1' part, though, rather than being at the system level.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "27447f7e75b9991c",
+  "unsettled": false
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="310px" preserveAspectRatio="none" style="width:496px;height:310px;background:#FFFFFF;" version="1.1" viewBox="0 0 496 310" width="496px" zoomAndPan="magnify"><defs><filter height="300%" id="fv3g4o5k0ul9x" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fbc87193dbaf4d95561dea2c320d4a47]
+cluster E1--><g id="cluster_E1"><polygon fill="none" filter="url(#fv3g4o5k0ul9x)" points="16,6.602,187,6.602,194,31.6699,410,31.6699,410,303.602,16,303.602,16,6.602" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="194" y1="31.6699" y2="31.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="165" x="20" y="23.5679">15_08-Range Restriction</text></g><!--MD5=[e4f7fae6ed58524ba242bb0b0d3be6b7]
+cluster E2--><g id="cluster_E2"><rect fill="#FFFFFF" filter="url(#fv3g4o5k0ul9x)" height="126" id="E2" style="stroke:#A80036;stroke-width:1.5;" width="322" x="48" y="60.602"/><rect fill="#FFFACD" height="45.412" style="stroke:#A80036;stroke-width:1.5;" width="322" x="48" y="60.602"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="180" y="78.4301">«part  def»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="143" y="96.912">HeadLightsTiltKnob</text></g><g><rect fill="#FFFACD" filter="url(#fv3g4o5k0ul9x)" height="50.412" id="E4" style="stroke:#A80036;stroke-width:1.5;" width="180" x="119" y="229.602"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="82" x="168" y="247.4301">«attribute  def»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="124.5" y="265.912">LightBeamTiltAngleValue</text></g><!--MD5=[09b614a08d8cba4a07c9adeb5e0fee81]
+class E3--><g id="elem_E3"><rect fill="#FFFACD" filter="url(#fv3g4o5k0ul9x)" height="53.412" id="E3" rx="10" ry="10" style="stroke:#181818;stroke-width:0.5;" width="290" x="64" y="117.602"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="179.5" y="135.4301">«attribute»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="276" x="67" y="153.912">headLightsTile: LightBeamTiltAngleValue</text><line style="stroke:#181818;stroke-width:0.5;" x1="65" x2="353" y1="163.014" y2="163.014"/></g><ellipse cx="444" cy="254.602" fill="none" filter="url(#fv3g4o5k0ul9x)" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="444.5" cy="255.102" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><!--MD5=[c3ccf897f375b40457c1742cc5c9dfd9]
+link E1 to *end--><g id="link_E1_*end"><path d="M410.0945,166.0126 C410.1452,166.1434 410.196,166.2747 410.247,166.4064 C410.3489,166.6698 410.4515,166.9348 410.5548,167.2015 C410.7612,167.7349 410.9702,168.2747 411.1815,168.8207 C412.8722,173.1884 414.7144,177.9476 416.635,182.9095 C424.3175,202.757 433.255,225.847 438.77,240.092 " fill="none" id="E1-to-*end" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="440.66,244.982,441.1202,235.1439,438.845,240.323,433.6659,238.0479,440.66,244.982" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="433" y="217.499">«import»</text></g><!--MD5=[af87c684e3b0d8be13c1a698a818ef1e]
+link E3 to E4--><g id="link_E3_E4"><path d="M209,170.812 C209,182.352 209,196.302 209,209.432 " fill="none" id="E3-to-E4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="209,229.562,202,210.562,216,210.562,209,229.562" style="stroke:#181818;stroke-width:1.0;"/><ellipse cx="204" cy="204.862" fill="#181818" rx="2" ry="2" style="stroke:#181818;stroke-width:1.0;"/><ellipse cx="214" cy="204.862" fill="#181818" rx="2" ry="2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[11d730097f78fee9cb36294f29bf7397]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+skinparam ranksep 10
+skinparam rectangle {
+ backgroundColor<<block>> LightGreen
+}
+
+package "15_08-Range Restriction" as E1   {
+rec def "HeadLightsTiltKnob" as E2  <<(T,blue) part  def>> {
+comp usage "headLightsTile: LightBeamTiltAngleValue  " as E3  <<(T,blue) attribute>> {
+}
+}
+def "LightBeamTiltAngleValue" as E4  <<(T,blue) attribute  def>> 
+}
+E1 ..> [*] : <<import>>
+E3 - -:|> E4 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

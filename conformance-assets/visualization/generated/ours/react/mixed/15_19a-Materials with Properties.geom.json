@@ -1,0 +1,993 @@
+{
+  "zoom": 0.506338,
+  "nodes": [
+    {
+      "id": "15_19a-Materials with Properties",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 2998,
+      "h": 853,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 2998,
+        "h": 853
+      },
+      "clipped": 0,
+      "title": "15_19a-Materials with Properties",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000c",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1339.83,
+      "y": 808,
+      "w": 426,
+      "h": 45,
+      "inner": {
+        "x": 1339.83,
+        "y": 808,
+        "w": 426,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Example declarations of a quantity and unit that are not specified in ISQ and SI",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a0",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1789.83,
+      "y": 703,
+      "w": 432,
+      "h": 150,
+      "inner": {
+        "x": 1789.83,
+        "y": 703,
+        "w": 432,
+        "h": 150
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The classification of materials into metals and alloys is grossly simplified and not exhaustive. A more complete classification would include: ChemicalSubstance, PureMaterial, MixedMaterial, Class, Ceramic, OrganicMaterial, AnorganicMaterial, Polymer, HybridMaterial, CompositeMaterial, etc.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cb",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 936.83,
+      "y": 793,
+      "w": 379,
+      "h": 60,
+      "inner": {
+        "x": 936.83,
+        "y": 793,
+        "w": 379,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Value properties bound to specifically constructed compound values.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::AtomicMassValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1231,
+      "y": 125.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1231,
+        "y": 125.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AtomicMassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::TensileStrengthUnit",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 2267.5,
+      "y": 324,
+      "w": 404,
+      "h": 161,
+      "inner": {
+        "x": 2267.5,
+        "y": 324,
+        "w": 404,
+        "h": 161
+      },
+      "clipped": 0,
+      "title": "TensileStrengthUnit",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "quantityDimension :>>ScalarMeasurementReference::quantityDimension",
+              "kind": "attributes"
+            },
+            {
+              "text": "durationPF: QuantityPowerFactor",
+              "kind": "attributes"
+            },
+            {
+              "text": "lengthPF: QuantityPowerFactor",
+              "kind": "attributes"
+            },
+            {
+              "text": "massPF: QuantityPowerFactor",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::TensileStrengthValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 2680,
+      "y": 80.5,
+      "w": 318,
+      "h": 140,
+      "inner": {
+        "x": 2680,
+        "y": 80.5,
+        "w": 318,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "TensileStrengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "num: Real :>>TensorQuantityValue::num",
+              "kind": "attributes"
+            },
+            {
+              "text": "mRef: TensileStrengthUnit :>>ScalarQuantityValue::mRef",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::newton per square millimetre",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 2283,
+      "y": 148,
+      "w": 373,
+      "h": 92,
+      "inner": {
+        "x": 2283,
+        "y": 148,
+        "w": 373,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "~<N/mm²> newton per square millimetre: TensileStrengthUnit",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= N / mm^2",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Substance",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 772.83,
+      "y": 703,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 772.83,
+        "y": 703,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Substance",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Material",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 772.83,
+      "y": 569,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 772.83,
+        "y": 569,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Material",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Metal",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1735.5,
+      "y": 341.25,
+      "w": 183,
+      "h": 92,
+      "inner": {
+        "x": 1735.5,
+        "y": 341.25,
+        "w": 183,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Metal",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "atomicMass: AtomicMassValue",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Alloy",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 739.5,
+      "y": 358.5,
+      "w": 160,
+      "h": 92,
+      "inner": {
+        "x": 739.5,
+        "y": 358.5,
+        "w": 160,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Alloy",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "fractions: MaterialFraction",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::MaterialFraction",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1011,
+      "y": 95.5,
+      "w": 196,
+      "h": 110,
+      "inner": {
+        "x": 1011,
+        "y": 95.5,
+        "w": 196,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "MaterialFraction",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "massFraction: MassFractionValue",
+              "kind": "attributes"
+            },
+            {
+              "text": "material: Material",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::MassFractionValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 32,
+      "y": 125.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 125.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "MassFractionValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Iron",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 1987,
+      "y": 133,
+      "w": 272,
+      "h": 107,
+      "inner": {
+        "x": 1987,
+        "y": 133,
+        "w": 272,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "Iron: Metal",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "atomicMass = 55.845[Da] :>>Metal::atomicMass",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Carbon",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 1691,
+      "y": 133,
+      "w": 272,
+      "h": 107,
+      "inner": {
+        "x": 1691,
+        "y": 133,
+        "w": 272,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "Carbon: Metal",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "atomicMass = 12.011[Da] :>>Metal::atomicMass",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Manganese",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 1395,
+      "y": 133,
+      "w": 272,
+      "h": 107,
+      "inner": {
+        "x": 1395,
+        "y": 133,
+        "w": 272,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "Manganese: Metal",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "atomicMass = 54.938[Da] :>>Metal::atomicMass",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Steel_980",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 652,
+      "y": 61,
+      "w": 335,
+      "h": 179,
+      "inner": {
+        "x": 652,
+        "y": 61,
+        "w": 335,
+        "h": 179
+      },
+      "clipped": 0,
+      "title": "Steel_980: Alloy",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "fractions = (fraction1, fraction2, fraction3) :>>Alloy::fractions",
+              "kind": "attributes"
+            },
+            {
+              "text": "fraction1: MaterialFraction",
+              "kind": "attributes"
+            },
+            {
+              "text": "fraction2: MaterialFraction",
+              "kind": "attributes"
+            },
+            {
+              "text": "fraction3: MaterialFraction",
+              "kind": "attributes"
+            },
+            {
+              "text": "tensileStrength: TensileStrengthValue = 980 ['N/mm²']",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000103",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 196,
+      "y": 113,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 196,
+        "y": 113,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Value property with redefined/added sub-properties. (Particular example of high tensile strength steel.)",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000-0000-0000-0000-00000000000c→15_19a-Materials with Properties#0",
+      "source": "00000000-0000-0000-0000-00000000000c",
+      "target": "15_19a-Materials with Properties",
+      "d": "M1550.6393900343644,808 C1550.6393900343644,759.1859395255834 1556.5874140893472,917.8140604744166 1556.5874140893472,869",
+      "start": {
+        "x": 1550.64,
+        "y": 808
+      },
+      "end": {
+        "x": 1556.59,
+        "y": 869
+      },
+      "length": 99.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a0→15_19a-Materials with Properties#1",
+      "source": "00000000-0000-0000-0000-0000000000a0",
+      "target": "15_19a-Materials with Properties",
+      "d": "M1896.1090412319923,703 C1896.1090412319923,622.4743829579679 2138.9654744162945,949.5256170420321 2138.9654744162945,869",
+      "start": {
+        "x": 1896.11,
+        "y": 703
+      },
+      "end": {
+        "x": 2138.97,
+        "y": 869
+      },
+      "length": 334.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cb→15_19a-Materials with Properties#2",
+      "source": "00000000-0000-0000-0000-0000000000cb",
+      "target": "15_19a-Materials with Properties",
+      "d": "M1156.977222952256,793 C1156.977222952256,738.5137632057416 1079.3460359176524,923.4862367942584 1079.3460359176524,869",
+      "start": {
+        "x": 1156.98,
+        "y": 793
+      },
+      "end": {
+        "x": 1079.35,
+        "y": 869
+      },
+      "length": 144.24,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::newton per square millimetre→15_19a-Materials with Properties::TensileStrengthUnit#7",
+      "source": "15_19a-Materials with Properties::newton per square millimetre",
+      "target": "15_19a-Materials with Properties::TensileStrengthUnit",
+      "d": "M2469.5,240 C2469.5,272.5 2469.5,272.5 2469.5,305",
+      "start": {
+        "x": 2469.5,
+        "y": 240
+      },
+      "end": {
+        "x": 2469.5,
+        "y": 305
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Material→15_19a-Materials with Properties::Substance#10",
+      "source": "15_19a-Materials with Properties::Material",
+      "target": "15_19a-Materials with Properties::Substance",
+      "d": "M842.8333333333334,619 C842.8333333333334,651.5 842.8333333333334,651.5 842.8333333333334,684",
+      "start": {
+        "x": 842.83,
+        "y": 619
+      },
+      "end": {
+        "x": 842.83,
+        "y": 684
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Metal→15_19a-Materials with Properties::Material#12",
+      "source": "15_19a-Materials with Properties::Metal",
+      "target": "15_19a-Materials with Properties::Material",
+      "d": "M1735.5,406.47197290431836 C1333.6666666666667,406.47197290431836 1333.6666666666667,579.29466553768 931.8333333333334,579.29466553768",
+      "start": {
+        "x": 1735.5,
+        "y": 406.47
+      },
+      "end": {
+        "x": 931.83,
+        "y": 579.29
+      },
+      "length": 829.35,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Alloy→15_19a-Materials with Properties::Material#14",
+      "source": "15_19a-Materials with Properties::Alloy",
+      "target": "15_19a-Materials with Properties::Material",
+      "d": "M825.1640281442392,450.5 C825.1640281442392,500.25 839.7550571679859,500.25 839.7550571679859,550",
+      "start": {
+        "x": 825.16,
+        "y": 450.5
+      },
+      "end": {
+        "x": 839.76,
+        "y": 550
+      },
+      "length": 101,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Iron→15_19a-Materials with Properties::Metal#18",
+      "source": "15_19a-Materials with Properties::Iron",
+      "target": "15_19a-Materials with Properties::Metal",
+      "d": "M2044.115815691158,240 C2044.115815691158,281.125 1894.8256537982566,281.125 1894.8256537982566,322.25",
+      "start": {
+        "x": 2044.12,
+        "y": 240
+      },
+      "end": {
+        "x": 1894.83,
+        "y": 322.25
+      },
+      "length": 179.36,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Carbon→15_19a-Materials with Properties::Metal#20",
+      "source": "15_19a-Materials with Properties::Carbon",
+      "target": "15_19a-Materials with Properties::Metal",
+      "d": "M1827,240 C1827,281.125 1827,281.125 1827,322.25",
+      "start": {
+        "x": 1827,
+        "y": 240
+      },
+      "end": {
+        "x": 1827,
+        "y": 322.25
+      },
+      "length": 82.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Manganese→15_19a-Materials with Properties::Metal#22",
+      "source": "15_19a-Materials with Properties::Manganese",
+      "target": "15_19a-Materials with Properties::Metal",
+      "d": "M1609.884184308842,240 C1609.884184308842,281.125 1759.1743462017434,281.125 1759.1743462017434,322.25",
+      "start": {
+        "x": 1609.88,
+        "y": 240
+      },
+      "end": {
+        "x": 1759.17,
+        "y": 322.25
+      },
+      "length": 179.36,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_19a-Materials with Properties::Steel_980→15_19a-Materials with Properties::Alloy#24",
+      "source": "15_19a-Materials with Properties::Steel_980",
+      "target": "15_19a-Materials with Properties::Alloy",
+      "d": "M819.5,240 C819.5,289.75 819.5,289.75 819.5,339.5",
+      "start": {
+        "x": 819.5,
+        "y": 240
+      },
+      "end": {
+        "x": 819.5,
+        "y": 339.5
+      },
+      "length": 99.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "f829a681e8b1dfe3",
+  "unsettled": false
+}

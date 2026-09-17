@@ -1,0 +1,1232 @@
+{
+  "zoom": 0.766471,
+  "nodes": [
+    {
+      "id": "12b-Allocation-1",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 2673.44,
+      "h": 723.78,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 2673.44,
+        "h": 723.78
+      },
+      "clipped": 0,
+      "title": "12b-Allocation-1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 203.32,
+      "y": 370.19,
+      "w": 366,
+      "h": 313,
+      "inner": {
+        "x": 203.32,
+        "y": 370.19,
+        "w": 366,
+        "h": 313
+      },
+      "clipped": 0,
+      "title": "RequirementModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 952.32,
+      "y": 296.19,
+      "w": 787,
+      "h": 387,
+      "inner": {
+        "x": 952.32,
+        "y": 296.19,
+        "w": 787,
+        "h": 387
+      },
+      "clipped": 0,
+      "title": "LogicalModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 2001.45,
+      "y": 145.59,
+      "w": 657,
+      "h": 218,
+      "inner": {
+        "x": 2001.45,
+        "y": 145.59,
+        "w": 657,
+        "h": 218
+      },
+      "clipped": 0,
+      "title": "PhysicalModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalToPhysical",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 658.32,
+      "y": 105.59,
+      "w": 200,
+      "h": 210,
+      "inner": {
+        "x": 658.32,
+        "y": 105.59,
+        "w": 200,
+        "h": 210
+      },
+      "clipped": 0,
+      "title": "LogicalToPhysical",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "allocation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 219.32,
+      "y": 415.19,
+      "w": 334,
+      "h": 92,
+      "inner": {
+        "x": 219.32,
+        "y": 415.19,
+        "w": 334,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "torqueGeneration",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "require { generator.generateTorque.torque > 0.0 [N*m] }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 362.32,
+      "y": 531.19,
+      "w": 186,
+      "h": 136,
+      "inner": {
+        "x": 362.32,
+        "y": 531.19,
+        "w": 186,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "generator",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::GenerateTorque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 1583.32,
+      "y": 600.79,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1583.32,
+        "y": 600.79,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "GenerateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::LogicalElement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1583.32,
+      "y": 400.85,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1583.32,
+        "y": 400.85,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "LogicalElement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::TorqueGenerator",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1308.32,
+      "y": 363.19,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 1308.32,
+        "y": 363.19,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "TorqueGenerator",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::providePower",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1308.32,
+      "y": 520.19,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 1308.32,
+        "y": 520.19,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "providePower",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::torqueGenerator",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 968.32,
+      "y": 402.52,
+      "w": 246,
+      "h": 136,
+      "inner": {
+        "x": 968.32,
+        "y": 402.52,
+        "w": 246,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "torqueGenerator: TorqueGenerator",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::PhysicalElement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2502.44,
+      "y": 238.26,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2502.44,
+        "y": 238.26,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "PhysicalElement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::PowerTrain",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2278.44,
+      "y": 246.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2278.44,
+        "y": 246.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "PowerTrain",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::powerTrain",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2017.45,
+      "y": 211.59,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 2017.45,
+        "y": 211.59,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "powerTrain: PowerTrain",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalToPhysical::logical",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 689.32,
+      "y": 249.59,
+      "w": 153,
+      "h": 50,
+      "inner": {
+        "x": 689.32,
+        "y": 249.59,
+        "w": 153,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "logical: LogicalElement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalToPhysical::physical",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 674.32,
+      "y": 175.59,
+      "w": 168,
+      "h": 50,
+      "inner": {
+        "x": 674.32,
+        "y": 175.59,
+        "w": 168,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "physical: PhysicalElement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator/^12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 392.32,
+      "y": 601.19,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 392.32,
+        "y": 601.19,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^generateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::GenerateTorque::torque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1716.32,
+      "y": 629.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1716.32,
+        "y": 629.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1324.32,
+      "y": 433.19,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1324.32,
+        "y": 433.19,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::providePower::generateTorque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1324.32,
+      "y": 590.19,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1324.32,
+        "y": 590.19,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 984.32,
+      "y": 472.52,
+      "w": 194,
+      "h": 50,
+      "inner": {
+        "x": 984.32,
+        "y": 472.52,
+        "w": 194,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "providePower.generateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::powerTrain::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2033.45,
+      "y": 281.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2033.45,
+        "y": 281.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator/^12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque/^12b-Allocation-1::LogicalModel::GenerateTorque::torque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 525.32,
+      "y": 619.19,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 525.32,
+        "y": 619.19,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "12b-Allocation-1→12b-Allocation-1::RequirementModel#0",
+      "source": "12b-Allocation-1",
+      "target": "12b-Allocation-1::RequirementModel",
+      "d": "M16,583.6761388620608 C-132.33934033273448,583.6761388620608 727.6560735257158,498.52533508286035 579.3167331929812,498.52533508286035",
+      "start": {
+        "x": 16,
+        "y": 583.68
+      },
+      "end": {
+        "x": 579.32,
+        "y": 498.53
+      },
+      "length": 639.4,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1→12b-Allocation-1::LogicalModel#1",
+      "source": "12b-Allocation-1",
+      "target": "12b-Allocation-1::LogicalModel",
+      "d": "M1330.8382868795452,740 C1330.8382868795452,873.1429712048293 1357.395577084716,153.04452879517072 1357.395577084716,286.1875",
+      "start": {
+        "x": 1330.84,
+        "y": 740
+      },
+      "end": {
+        "x": 1357.4,
+        "y": 286.19
+      },
+      "length": 520.75,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1→12b-Allocation-1::PhysicalModel#2",
+      "source": "12b-Allocation-1",
+      "target": "12b-Allocation-1::PhysicalModel",
+      "d": "M2689,209.26175695150073 C2854.0703449195926,209.26175695150073 1826.37525452045,296.06813297151666 1991.4455994400428,296.06813297151666",
+      "start": {
+        "x": 2689,
+        "y": 209.26
+      },
+      "end": {
+        "x": 1991.45,
+        "y": 296.07
+      },
+      "length": 775.58,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator→12b-Allocation-1::LogicalModel::TorqueGenerator#3",
+      "source": "12b-Allocation-1::RequirementModel::torqueGeneration::generator",
+      "target": "12b-Allocation-1::LogicalModel::TorqueGenerator",
+      "d": "M548.3167331929812,582.5485223642172 C918.8167331929812,582.5485223642172 918.8167331929812,446.57408146964855 1289.3167331929812,446.57408146964855",
+      "start": {
+        "x": 548.32,
+        "y": 582.55
+      },
+      "end": {
+        "x": 1289.32,
+        "y": 446.57
+      },
+      "length": 758.38,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::RequirementModel::torqueGeneration::generator/^12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque→12b-Allocation-1::LogicalModel::GenerateTorque#5",
+      "source": "12b-Allocation-1::RequirementModel::torqueGeneration::generator/^12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "target": "12b-Allocation-1::LogicalModel::GenerateTorque",
+      "d": "M532.3167331929812,626.1639903442485 C1048.3167331929812,626.1639903442485 1048.3167331929812,625.8110096557515 1564.3167331929812,625.8110096557515",
+      "start": {
+        "x": 532.32,
+        "y": 626.16
+      },
+      "end": {
+        "x": 1564.32,
+        "y": 625.81
+      },
+      "length": 1032,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::TorqueGenerator→12b-Allocation-1::LogicalModel::LogicalElement#7",
+      "source": "12b-Allocation-1::LogicalModel::TorqueGenerator",
+      "target": "12b-Allocation-1::LogicalModel::LogicalElement",
+      "d": "M1480.3167331929812,429.41658622908625 C1522.3167331929812,429.41658622908625 1522.3167331929812,427.2956081081081 1564.3167331929812,427.2956081081081",
+      "start": {
+        "x": 1480.32,
+        "y": 429.42
+      },
+      "end": {
+        "x": 1564.32,
+        "y": 427.3
+      },
+      "length": 84.04,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque→12b-Allocation-1::LogicalModel::GenerateTorque#8",
+      "source": "12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "target": "12b-Allocation-1::LogicalModel::GenerateTorque",
+      "d": "M1432.9503847442938,483.1875 C1432.9503847442938,532.4875 1614.6830816416687,532.4875 1614.6830816416687,581.7875",
+      "start": {
+        "x": 1432.95,
+        "y": 483.19
+      },
+      "end": {
+        "x": 1614.68,
+        "y": 581.79
+      },
+      "length": 217.48,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::providePower::generateTorque→12b-Allocation-1::LogicalModel::GenerateTorque#9",
+      "source": "12b-Allocation-1::LogicalModel::providePower::generateTorque",
+      "target": "12b-Allocation-1::LogicalModel::GenerateTorque",
+      "d": "M1464.3167331929812,618.0523648648649 C1514.3167331929812,618.0523648648649 1514.3167331929812,622.9226351351351 1564.3167331929812,622.9226351351351",
+      "start": {
+        "x": 1464.32,
+        "y": 618.05
+      },
+      "end": {
+        "x": 1564.32,
+        "y": 622.92
+      },
+      "length": 100.17,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::torqueGenerator→12b-Allocation-1::LogicalModel::TorqueGenerator#10",
+      "source": "12b-Allocation-1::LogicalModel::torqueGenerator",
+      "target": "12b-Allocation-1::LogicalModel::TorqueGenerator",
+      "d": "M1214.3167331929812,454.55383663366337 C1251.8167331929812,454.55383663366337 1251.8167331929812,442.35141639163913 1289.3167331929812,442.35141639163913",
+      "start": {
+        "x": 1214.32,
+        "y": 454.55
+      },
+      "end": {
+        "x": 1289.32,
+        "y": 442.35
+      },
+      "length": 76.39,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e→12b-Allocation-1::LogicalModel::providePower::generateTorque#11",
+      "source": "00000000-0000-0000-0000-00000000004e",
+      "target": "12b-Allocation-1::LogicalModel::providePower::generateTorque",
+      "d": "M1147.8181496235761,522.5208333333333 C1147.8181496235761,546.8541666666666 1327.8153167623864,546.8541666666666 1327.8153167623864,571.1875",
+      "start": {
+        "x": 1147.82,
+        "y": 522.52
+      },
+      "end": {
+        "x": 1327.82,
+        "y": 571.19
+      },
+      "length": 191.67,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e→12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque#12",
+      "source": "00000000-0000-0000-0000-00000000004e",
+      "target": "12b-Allocation-1::LogicalModel::TorqueGenerator::generateTorque",
+      "d": "M1178.3167331929812,485.3312699680511 C1241.8167331929812,485.3312699680511 1241.8167331929812,466.98409211927583 1305.3167331929812,466.98409211927583",
+      "start": {
+        "x": 1178.32,
+        "y": 485.33
+      },
+      "end": {
+        "x": 1305.32,
+        "y": 466.98
+      },
+      "length": 128.86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::torqueGenerator→12b-Allocation-1::RequirementModel::torqueGeneration#13",
+      "source": "12b-Allocation-1::LogicalModel::torqueGenerator",
+      "target": "12b-Allocation-1::RequirementModel::torqueGeneration",
+      "d": "M968.3167331929812,468.89246453900705 C765.8167331929812,468.89246453900705 765.8167331929812,463.39837470449174 563.3167331929812,463.39837470449174",
+      "start": {
+        "x": 968.32,
+        "y": 468.89
+      },
+      "end": {
+        "x": 563.32,
+        "y": 463.4
+      },
+      "length": 405.05,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::PowerTrain→12b-Allocation-1::PhysicalModel::PhysicalElement#14",
+      "source": "12b-Allocation-1::PhysicalModel::PowerTrain",
+      "target": "12b-Allocation-1::PhysicalModel::PhysicalElement",
+      "d": "M2418.4455994400428,268.9895833333333 C2450.9455994400428,268.9895833333333 2450.9455994400428,265.8645833333333 2483.4455994400428,265.8645833333333",
+      "start": {
+        "x": 2418.45,
+        "y": 268.99
+      },
+      "end": {
+        "x": 2483.45,
+        "y": 265.86
+      },
+      "length": 65.11,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::powerTrain→12b-Allocation-1::PhysicalModel::PowerTrain#15",
+      "source": "12b-Allocation-1::PhysicalModel::powerTrain",
+      "target": "12b-Allocation-1::PhysicalModel::PowerTrain",
+      "d": "M2189.4455994400428,276.7855867346939 C2224.4455994400428,276.7855867346939 2224.4455994400428,273.8794642857143 2259.4455994400428,273.8794642857143",
+      "start": {
+        "x": 2189.45,
+        "y": 276.79
+      },
+      "end": {
+        "x": 2259.45,
+        "y": 273.88
+      },
+      "length": 70.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::PhysicalModel::powerTrain::engine→12b-Allocation-1::LogicalModel::providePower::generateTorque#16",
+      "source": "12b-Allocation-1::PhysicalModel::powerTrain::engine",
+      "target": "12b-Allocation-1::LogicalModel::providePower::generateTorque",
+      "d": "M2045.9971849592682,331.59375 C2045.9971849592682,455.890625 1451.7651476737558,455.890625 1451.7651476737558,580.1875",
+      "start": {
+        "x": 2046,
+        "y": 331.59
+      },
+      "end": {
+        "x": 1451.77,
+        "y": 580.19
+      },
+      "length": 671.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalToPhysical::logical→12b-Allocation-1::LogicalModel::LogicalElement#17",
+      "source": "12b-Allocation-1::LogicalToPhysical::logical",
+      "target": "12b-Allocation-1::LogicalModel::LogicalElement",
+      "d": "M842.3167331929812,287.6319718309859 C1203.3167331929812,287.6319718309859 1203.3167331929812,413.9237676056338 1564.3167331929812,413.9237676056338",
+      "start": {
+        "x": 842.32,
+        "y": 287.63
+      },
+      "end": {
+        "x": 1564.32,
+        "y": 413.92
+      },
+      "length": 737.42,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalToPhysical::physical→12b-Allocation-1::PhysicalModel::PhysicalElement#18",
+      "source": "12b-Allocation-1::LogicalToPhysical::physical",
+      "target": "12b-Allocation-1::PhysicalModel::PhysicalElement",
+      "d": "M842.3167331929812,203.4954181769084 C1662.881166316512,203.4954181769084 1662.881166316512,260.8423598525763 2483.4455994400428,260.8423598525763",
+      "start": {
+        "x": 842.32,
+        "y": 203.5
+      },
+      "end": {
+        "x": 2483.45,
+        "y": 260.84
+      },
+      "length": 1642.56,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "12b-Allocation-1::LogicalModel::torqueGenerator→12b-Allocation-1::PhysicalModel::powerTrain#19",
+      "source": "12b-Allocation-1::LogicalModel::torqueGenerator",
+      "target": "12b-Allocation-1::PhysicalModel::powerTrain",
+      "d": "M1214.3167331929812,447.3182234353685 C1610.881166316512,447.3182234353685 1610.881166316512,295.8167130180892 2007.4455994400428,295.8167130180892",
+      "start": {
+        "x": 1214.32,
+        "y": 447.32
+      },
+      "end": {
+        "x": 2007.45,
+        "y": 295.82
+      },
+      "length": 813.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": "2 3",
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 257.5,
+      "y": 533.3,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "12b-Allocation-1→12b-Allocation-1::RequirementModel#0"
+    },
+    {
+      "x": 1303.96,
+      "y": 505.3,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "12b-Allocation-1→12b-Allocation-1::LogicalModel#1"
+    },
+    {
+      "x": 2300.07,
+      "y": 244.87,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "12b-Allocation-1→12b-Allocation-1::PhysicalModel#2"
+    },
+    {
+      "x": 730.13,
+      "y": 458.35,
+      "w": 71.37,
+      "h": 15.59,
+      "text": "<<satisfy>>",
+      "edge": "12b-Allocation-1::LogicalModel::torqueGenerator→12b-Allocation-1::RequirementModel::torqueGeneration#13"
+    },
+    {
+      "x": 1707.82,
+      "y": 448.09,
+      "w": 82.12,
+      "h": 15.59,
+      "text": "<<perform>>",
+      "edge": "12b-Allocation-1::PhysicalModel::powerTrain::engine→12b-Allocation-1::LogicalModel::providePower::generateTorque#16"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "367a0ebddcd2388f",
+  "unsettled": false
+}

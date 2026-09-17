@@ -1,0 +1,545 @@
+{
+  "zoom": 0.565996,
+  "nodes": [
+    {
+      "id": "00000000-0000-0000-0000-000000000011",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 23.5,
+      "w": 412,
+      "h": 75,
+      "inner": {
+        "x": 16,
+        "y": 23.5,
+        "w": 412,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Note that space and time coordinatization have not been fully specified yet.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2343,
+      "y": 333.91,
+      "w": 195.33,
+      "h": 386,
+      "inner": {
+        "x": 2343,
+        "y": 333.91,
+        "w": 195.33,
+        "h": 386
+      },
+      "clipped": 0,
+      "title": "vehicleStates",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "exhibit state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 452,
+      "y": 23.5,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 452,
+        "y": 23.5,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "An individual definition restricts the instances of a part def to those that are portions of the same life (\"identity\").",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a3",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 908,
+      "y": 16,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 908,
+        "y": 16,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "An individual usage must be typed by an individual definition, representing the condition of that individual during some or all of its life.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ae",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1364,
+      "y": 23.5,
+      "w": 420,
+      "h": 75,
+      "inner": {
+        "x": 1364,
+        "y": 23.5,
+        "w": 420,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This is a concise notation for showing the redefinition of a attribute property.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b3",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1808,
+      "y": 23.5,
+      "w": 416,
+      "h": 75,
+      "inner": {
+        "x": 1808,
+        "y": 23.5,
+        "w": 416,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "A snapshot is a kind of individual usage restricted to a single instant of time.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cd",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2394,
+      "y": 190,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2394,
+        "y": 190,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleStates.on",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "exhibit",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d3",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 2248,
+      "y": 16,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 2248,
+        "y": 16,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This asserts that the snapshot exhibits the referenced state, which means that the vehicle must me in the state at the time of the snapshot.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000108",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2230,
+      "y": 190,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2230,
+        "y": 190,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleStates.on",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "exhibit",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000141",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2558,
+      "y": 190,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2558,
+        "y": 190,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleStates.off",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "exhibit",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::on",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2359,
+      "y": 519.91,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2359,
+        "y": 519.91,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "on",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::off",
+      "type": "default",
+      "form": "usage",
+      "fam": "#9b6dd0",
+      "classes": "smlml-node smlml-usage fam-state",
+      "x": 2382.33,
+      "y": 653.91,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2382.33,
+        "y": 653.91,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "off",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "state",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.921569 0.88549 0.963137)"
+      },
+      "parent": null
+    },
+    {
+      "id": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::«start»",
+      "type": "actionInitial",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 2378,
+      "y": 403.91,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 2378,
+        "y": 403.91,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "[*]→6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::on#0",
+      "source": "[*]",
+      "target": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::on",
+      "d": "M2398.48,435.9142857142857 C2398.48,472.9142857142857 2422,472.9142857142857 2422,509.9142857142857",
+      "start": {
+        "x": 2398.48,
+        "y": 435.91
+      },
+      "end": {
+        "x": 2422,
+        "y": 509.91
+      },
+      "length": 79,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::on→6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::off#1",
+      "source": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::on",
+      "target": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::off",
+      "d": "M2433.353233830846,569.9142857142857 C2433.353233830846,606.9142857142857 2447.9800995024875,606.9142857142857 2447.9800995024875,643.9142857142857",
+      "start": {
+        "x": 2433.35,
+        "y": 569.91
+      },
+      "end": {
+        "x": 2447.98,
+        "y": 643.91
+      },
+      "length": 76.01,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d3→00000000-0000-0000-0000-0000000000cd#2",
+      "source": "00000000-0000-0000-0000-0000000000d3",
+      "target": "00000000-0000-0000-0000-0000000000cd",
+      "d": "M2464,106 C2464,148 2464,148 2464,190",
+      "start": {
+        "x": 2464,
+        "y": 106
+      },
+      "end": {
+        "x": 2464,
+        "y": 190
+      },
+      "length": 84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cd→6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::on#3",
+      "source": "00000000-0000-0000-0000-0000000000cd",
+      "target": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::on",
+      "d": "M2461.3477959643196,240 C2461.3477959643196,370.45714285714286 2431.6522040356804,370.45714285714286 2431.6522040356804,500.9142857142857",
+      "start": {
+        "x": 2461.35,
+        "y": 240
+      },
+      "end": {
+        "x": 2431.65,
+        "y": 500.91
+      },
+      "length": 263.3,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000108→6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::on#4",
+      "source": "00000000-0000-0000-0000-000000000108",
+      "target": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::on",
+      "d": "M2309.775266302936,240 C2309.775266302936,370.45714285714286 2419.224733697064,370.45714285714286 2419.224733697064,500.9142857142857",
+      "start": {
+        "x": 2309.78,
+        "y": 240
+      },
+      "end": {
+        "x": 2419.22,
+        "y": 500.91
+      },
+      "length": 290.47,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000141→6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::off#5",
+      "source": "00000000-0000-0000-0000-000000000141",
+      "target": "6-Individual and Snapshots::Part Definitions::VehicleA::vehicleStates::off",
+      "d": "M2618.533452402948,240 C2618.533452402948,437.45714285714286 2461.7998809303854,437.45714285714286 2461.7998809303854,634.9142857142857",
+      "start": {
+        "x": 2618.53,
+        "y": 240
+      },
+      "end": {
+        "x": 2461.8,
+        "y": 634.91
+      },
+      "length": 435.32,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "609bf4f26bba3874",
+  "unsettled": false
+}

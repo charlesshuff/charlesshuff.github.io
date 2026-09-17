@@ -1,0 +1,1831 @@
+{
+  "zoom": 0.9276,
+  "nodes": [
+    {
+      "id": "3a-Function-based Behavior-5",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 2060.31,
+      "h": 801.19,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 2060.31,
+        "h": 801.19
+      },
+      "clipped": 0,
+      "title": "3a-Function-based Behavior-5",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1874.32,
+      "y": 61,
+      "w": 186,
+      "h": 703,
+      "inner": {
+        "x": 1874.32,
+        "y": 61,
+        "w": 186,
+        "h": 703
+      },
+      "clipped": 0,
+      "title": "Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 198.32,
+      "y": 258.6,
+      "w": 1582,
+      "h": 512,
+      "inner": {
+        "x": 198.32,
+        "y": 258.6,
+        "w": 1582,
+        "h": 512
+      },
+      "clipped": 0,
+      "title": "Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "TorqueValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1897.32,
+      "y": 180,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1897.32,
+        "y": 180,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TorqueValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::FuelCmd",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1897.32,
+      "y": 402,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1897.32,
+        "y": 402,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::EngineStart",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1897.32,
+      "y": 106,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1897.32,
+        "y": 106,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "EngineStart",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::EngineOff",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1897.32,
+      "y": 550,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1897.32,
+        "y": 550,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "EngineOff",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Generate Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 1904.32,
+      "y": 624,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1904.32,
+        "y": 624,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Generate Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Amplify Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 1904.32,
+      "y": 254,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1904.32,
+        "y": 254,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Amplify Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Transfer Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 1904.32,
+      "y": 328,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1904.32,
+        "y": 328,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Transfer Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Distribute Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 1904.32,
+      "y": 476,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1904.32,
+        "y": 476,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Distribute Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Provide Power",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 1904.32,
+      "y": 698,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1904.32,
+        "y": 698,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Provide Power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Usages::provide power",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 214.32,
+      "y": 303.6,
+      "w": 1536,
+      "h": 451,
+      "inner": {
+        "x": 214.32,
+        "y": 303.6,
+        "w": 1536,
+        "h": 451
+      },
+      "clipped": 0,
+      "title": "provide power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Generate Torque::fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1897.32,
+      "y": 654.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1897.32,
+        "y": 654.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Generate Torque::engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2037.32,
+      "y": 635,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2037.32,
+        "y": 635,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Amplify Torque::engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1897.32,
+      "y": 284.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1897.32,
+        "y": 284.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Amplify Torque::transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2037.32,
+      "y": 265,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2037.32,
+        "y": 265,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Transfer Torque::transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1897.32,
+      "y": 358.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1897.32,
+        "y": 358.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Transfer Torque::driveshaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2037.32,
+      "y": 339,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2037.32,
+        "y": 339,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "driveshaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Distribute Torque::driveShaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1897.32,
+      "y": 479.2,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1897.32,
+        "y": 479.2,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "driveShaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Distribute Torque::wheelTorque1",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2037.32,
+      "y": 494.8,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2037.32,
+        "y": 494.8,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Distribute Torque::wheelTorque2",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2037.32,
+      "y": 510.4,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2037.32,
+        "y": 510.4,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Provide Power::fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1897.32,
+      "y": 701.2,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1897.32,
+        "y": 701.2,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Provide Power::wheelTorque1",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2037.32,
+      "y": 716.8,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2037.32,
+        "y": 716.8,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Definitions::Provide Power::wheelTorque2",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2037.32,
+      "y": 732.4,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2037.32,
+        "y": 732.4,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Usages::provide power::fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 207.32,
+      "y": 548.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 207.32,
+        "y": 548.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Usages::provide power::wheelTorque1",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1743.32,
+      "y": 572.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1743.32,
+        "y": 572.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Usages::provide power::wheelTorque2",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1743.32,
+      "y": 596.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1743.32,
+        "y": 596.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004c",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 230.32,
+      "y": 373.6,
+      "w": 1490,
+      "h": 365,
+      "inner": {
+        "x": 230.32,
+        "y": 373.6,
+        "w": 1490,
+        "h": 365
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "while loop action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "whileTest",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 223.32,
+      "y": 596.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 223.32,
+        "y": 596.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "whileTest",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 246.32,
+      "y": 443.6,
+      "w": 1453,
+      "h": 279,
+      "inner": {
+        "x": 246.32,
+        "y": 443.6,
+        "w": 1453,
+        "h": 279
+      },
+      "clipped": 0,
+      "title": "body",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000052",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 262.32,
+      "y": 560.6,
+      "w": 162,
+      "h": 50,
+      "inner": {
+        "x": 262.32,
+        "y": 560.6,
+        "w": 162,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engineStart: EngineStart",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "accept action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005d",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 508.32,
+      "y": 513.6,
+      "w": 942,
+      "h": 193,
+      "inner": {
+        "x": 508.32,
+        "y": 513.6,
+        "w": 942,
+        "h": 193
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b8",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1539.32,
+      "y": 560.6,
+      "w": 144,
+      "h": 50,
+      "inner": {
+        "x": 1539.32,
+        "y": 560.6,
+        "w": 144,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engineOff: EngineOff",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "accept action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "generate torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 538.32,
+      "y": 589.6,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 538.32,
+        "y": 589.6,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generate torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "amplify torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 790.32,
+      "y": 583.6,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 790.32,
+        "y": 583.6,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "amplify torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "transfer torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1042.32,
+      "y": 606.6,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1042.32,
+        "y": 606.6,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transfer torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "distribute torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1294.32,
+      "y": 629.6,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1294.32,
+        "y": 629.6,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "distribute torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "generate torque::fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 531.32,
+      "y": 607.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 531.32,
+        "y": 607.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "generate torque::engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 671.32,
+      "y": 601.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 671.32,
+        "y": 601.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "amplify torque::engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 783.32,
+      "y": 601.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 783.32,
+        "y": 601.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "amplify torque::transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 923.32,
+      "y": 607.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 923.32,
+        "y": 607.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "transfer torque::transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1035.32,
+      "y": 624.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1035.32,
+        "y": 624.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "transfer torque::driveshaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1175.32,
+      "y": 630.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1175.32,
+        "y": 630.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "driveshaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "distribute torque::driveshaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1287.32,
+      "y": 631.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1287.32,
+        "y": 631.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "driveshaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "distribute torque::wheelTorque1",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1427.32,
+      "y": 663.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1427.32,
+        "y": 663.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "distribute torque::wheelTorque2",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1427.32,
+      "y": 647.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1427.32,
+        "y": 647.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "3a-Function-based Behavior-5→3a-Function-based Behavior-5::Definitions#0",
+      "source": "3a-Function-based Behavior-5",
+      "target": "3a-Function-based Behavior-5::Definitions",
+      "d": "M2076,412.02813939922544 C2166.933369065757,412.02813939922544 1773.3833641272242,412.90376993773987 1864.3167331929812,412.90376993773987",
+      "start": {
+        "x": 2076,
+        "y": 412.03
+      },
+      "end": {
+        "x": 1864.32,
+        "y": 412.9
+      },
+      "length": 266.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5→3a-Function-based Behavior-5::Usages#1",
+      "source": "3a-Function-based Behavior-5",
+      "target": "3a-Function-based Behavior-5::Usages",
+      "d": "M814.5866630355657,817 C814.5866630355657,966.007130701856 1137.236369305079,99.59286929814402 1137.236369305079,248.60000000000002",
+      "start": {
+        "x": 814.59,
+        "y": 817
+      },
+      "end": {
+        "x": 1137.24,
+        "y": 248.6
+      },
+      "length": 722.18,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-5::Usages::provide power→3a-Function-based Behavior-5::Definitions::Provide Power#2",
+      "source": "3a-Function-based Behavior-5::Usages::provide power",
+      "target": "3a-Function-based Behavior-5::Definitions::Provide Power",
+      "d": "M1750.3167331929812,679.2161290322581 C1817.8167331929812,679.2161290322581 1817.8167331929812,709.3175403225806 1885.3167331929812,709.3175403225806",
+      "start": {
+        "x": 1750.32,
+        "y": 679.22
+      },
+      "end": {
+        "x": 1885.32,
+        "y": 709.32
+      },
+      "length": 139.63,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000052→00000000-0000-0000-0000-00000000005d#3",
+      "source": "00000000-0000-0000-0000-000000000052",
+      "target": "00000000-0000-0000-0000-00000000005d",
+      "d": "M424.31673319298125,588.7202830188679 C461.31673319298125,588.7202830188679 461.31673319298125,591.9561320754717 498.31673319298125,591.9561320754717",
+      "start": {
+        "x": 424.32,
+        "y": 588.72
+      },
+      "end": {
+        "x": 498.32,
+        "y": 591.96
+      },
+      "length": 74.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "generate torque→3a-Function-based Behavior-5::Definitions::Generate Torque#4",
+      "source": "generate torque",
+      "target": "3a-Function-based Behavior-5::Definitions::Generate Torque",
+      "d": "M678.3167331929812,616.3628111273792 C1281.8167331929812,616.3628111273792 1281.8167331929812,647.2371888726208 1885.3167331929812,647.2371888726208",
+      "start": {
+        "x": 678.32,
+        "y": 616.36
+      },
+      "end": {
+        "x": 1885.32,
+        "y": 647.24
+      },
+      "length": 1207.56,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "generate torque::engineTorque→amplify torque::engineTorque#5",
+      "source": "generate torque::engineTorque",
+      "target": "amplify torque::engineTorque",
+      "d": "M685.3167331929812,608.6 C729.3167331929812,608.6 729.3167331929812,608.6 773.3167331929812,608.6",
+      "start": {
+        "x": 685.32,
+        "y": 608.6
+      },
+      "end": {
+        "x": 773.32,
+        "y": 608.6
+      },
+      "length": 88,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "amplify torque→3a-Function-based Behavior-5::Definitions::Amplify Torque#6",
+      "source": "amplify torque",
+      "target": "3a-Function-based Behavior-5::Definitions::Amplify Torque",
+      "d": "M930.3167331929812,587.8890484739677 C1407.8167331929812,587.8890484739677 1407.8167331929812,299.7109515260323 1885.3167331929812,299.7109515260323",
+      "start": {
+        "x": 930.32,
+        "y": 587.89
+      },
+      "end": {
+        "x": 1885.32,
+        "y": 299.71
+      },
+      "length": 1013.52,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "amplify torque::transmissionTorque→transfer torque::transmissionTorque#7",
+      "source": "amplify torque::transmissionTorque",
+      "target": "transfer torque::transmissionTorque",
+      "d": "M937.3167331929812,615.6625 C981.3167331929812,615.6625 981.3167331929812,630.5375 1025.3167331929812,630.5375",
+      "start": {
+        "x": 937.32,
+        "y": 615.66
+      },
+      "end": {
+        "x": 1025.32,
+        "y": 630.54
+      },
+      "length": 89.76,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "transfer torque→3a-Function-based Behavior-5::Definitions::Transfer Torque#8",
+      "source": "transfer torque",
+      "target": "3a-Function-based Behavior-5::Definitions::Transfer Torque",
+      "d": "M1182.3167331929812,608.9758700696055 C1533.8167331929812,608.9758700696055 1533.8167331929812,375.6241299303944 1885.3167331929812,375.6241299303944",
+      "start": {
+        "x": 1182.32,
+        "y": 608.98
+      },
+      "end": {
+        "x": 1885.32,
+        "y": 375.62
+      },
+      "length": 754.58,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "transfer torque::driveshaftTorque→distribute torque::driveshaftTorque#9",
+      "source": "transfer torque::driveshaftTorque",
+      "target": "distribute torque::driveshaftTorque",
+      "d": "M1189.3167331929812,637.6625 C1233.3167331929812,637.6625 1233.3167331929812,638.5375 1277.3167331929812,638.5375",
+      "start": {
+        "x": 1189.32,
+        "y": 637.66
+      },
+      "end": {
+        "x": 1277.32,
+        "y": 638.54
+      },
+      "length": 88.01,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "distribute torque→3a-Function-based Behavior-5::Definitions::Distribute Torque#10",
+      "source": "distribute torque",
+      "target": "3a-Function-based Behavior-5::Definitions::Distribute Torque",
+      "d": "M1434.3167331929812,636.9737704918033 C1659.8167331929812,636.9737704918033 1659.8167331929812,518.6262295081967 1885.3167331929812,518.6262295081967",
+      "start": {
+        "x": 1434.32,
+        "y": 636.97
+      },
+      "end": {
+        "x": 1885.32,
+        "y": 518.63
+      },
+      "length": 472.17,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005d→00000000-0000-0000-0000-0000000000b8#11",
+      "source": "00000000-0000-0000-0000-00000000005d",
+      "target": "00000000-0000-0000-0000-0000000000b8",
+      "d": "M1450.3167331929812,591.8412974683545 C1489.8167331929812,591.8412974683545 1489.8167331929812,588.3911392405064 1529.3167331929812,588.3911392405064",
+      "start": {
+        "x": 1450.32,
+        "y": 591.84
+      },
+      "end": {
+        "x": 1529.32,
+        "y": 588.39
+      },
+      "length": 79.11,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 1930,
+      "y": 404.67,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "3a-Function-based Behavior-5→3a-Function-based Behavior-5::Definitions#0"
+    },
+    {
+      "x": 935.76,
+      "y": 525,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "3a-Function-based Behavior-5→3a-Function-based Behavior-5::Usages#1"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "5eefb8e146178d98",
+  "unsettled": false
+}

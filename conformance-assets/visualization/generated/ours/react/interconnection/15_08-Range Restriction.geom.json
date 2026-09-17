@@ -1,0 +1,224 @@
+{
+  "zoom": 2.2,
+  "nodes": [
+    {
+      "id": "15_08-Range Restriction",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 101.49,
+      "y": 16,
+      "w": 574,
+      "h": 197,
+      "inner": {
+        "x": 101.49,
+        "y": 16,
+        "w": 574,
+        "h": 197
+      },
+      "clipped": 0,
+      "title": "15_08-Range Restriction",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "«done»",
+      "type": "actionFinal",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 759.49,
+      "y": 258,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 759.49,
+        "y": 258,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "50%",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.595686 0.394314 0.152157)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_08-Range Restriction::HeadLightsTiltKnob",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 117.49,
+      "y": 61,
+      "w": 287,
+      "h": 136,
+      "inner": {
+        "x": 117.49,
+        "y": 61,
+        "w": 287,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "HeadLightsTiltKnob",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_08-Range Restriction::LightBeamTiltAngleValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 493.49,
+      "y": 131,
+      "w": 166,
+      "h": 50,
+      "inner": {
+        "x": 493.49,
+        "y": 131,
+        "w": 166,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "LightBeamTiltAngleValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_08-Range Restriction::HeadLightsTiltKnob::headLightsTile",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 133.49,
+      "y": 131,
+      "w": 255,
+      "h": 50,
+      "inner": {
+        "x": 133.49,
+        "y": 131,
+        "w": 255,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "headLightsTile: LightBeamTiltAngleValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "15_08-Range Restriction→[*]#0",
+      "source": "15_08-Range Restriction",
+      "target": "[*]",
+      "d": "M627.4794446932378,213 C627.4794446932378,240.202842377261 688.482579489476,267.405684754522 749.4857142857143,267.405684754522",
+      "start": {
+        "x": 627.48,
+        "y": 213
+      },
+      "end": {
+        "x": 749.49,
+        "y": 267.41
+      },
+      "length": 142.19,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "15_08-Range Restriction::HeadLightsTiltKnob::headLightsTile→15_08-Range Restriction::LightBeamTiltAngleValue#1",
+      "source": "15_08-Range Restriction::HeadLightsTiltKnob::headLightsTile",
+      "target": "15_08-Range Restriction::LightBeamTiltAngleValue",
+      "d": "M388.48571428571427,156 C431.48571428571427,156 431.48571428571427,156 474.48571428571427,156",
+      "start": {
+        "x": 388.49,
+        "y": 156
+      },
+      "end": {
+        "x": 474.49,
+        "y": 156
+      },
+      "length": 86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 628.75,
+      "y": 242.61,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "15_08-Range Restriction→[*]#0"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "f7f8edf2db4fef69",
+  "unsettled": false
+}

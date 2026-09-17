@@ -1,0 +1,546 @@
+{
+  "zoom": 0.686567,
+  "nodes": [
+    {
+      "id": "15_13-Discretely Sampled Function Value",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 2211,
+      "h": 655,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 2211,
+        "h": 655
+      },
+      "clipped": 0,
+      "title": "15_13-Discretely Sampled Function Value",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::MissionElapsedTimeScale",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 265,
+      "y": 349,
+      "w": 432,
+      "h": 216,
+      "inner": {
+        "x": 265,
+        "y": 349,
+        "w": 432,
+        "h": 216
+      },
+      "clipped": 0,
+      "title": "MissionElapsedTimeScale",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "definitionalEpoch :>>TimeScale::definitionalEpoch",
+              "kind": "attributes"
+            },
+            {
+              "text": "transformation: CoordinateFramePlacement :>>CoordinateFrame::transformation",
+              "kind": "attributes"
+            },
+            {
+              "text": "definitionalEpochInUTC: Iso8601DateTime",
+              "kind": "attributes"
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "unit = s :>>TimeScale::unit",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::mets",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 265,
+      "y": 100,
+      "w": 432,
+      "h": 165,
+      "inner": {
+        "x": 265,
+        "y": 100,
+        "w": 432,
+        "h": 165
+      },
+      "clipped": 0,
+      "title": "mets: MissionElapsedTimeScale",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Define mission elapsed time scale starting at given UTC date time (in microsecond resolution)",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "definitionalEpochInUTC :>>MissionElapsedTimeScale::definitionalEpochInUTC",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::MissionElapsedTimeValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 721,
+      "y": 88,
+      "w": 323,
+      "h": 150,
+      "inner": {
+        "x": 721,
+        "y": 88,
+        "w": 323,
+        "h": 150
+      },
+      "clipped": 0,
+      "title": "MissionElapsedTimeValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Define scalar quantity value type for mission elapsed time",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "mRef = mets :>>TimeInstantValue::mRef",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::spatialCF",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 1779,
+      "y": 73,
+      "w": 432,
+      "h": 180,
+      "inner": {
+        "x": 1779,
+        "y": 73,
+        "w": 432,
+        "h": 180
+      },
+      "clipped": 0,
+      "title": "spatialCF: CartesianSpatial3dCoordinateFrame",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Define Cartesian 3D coordinate systems for position and velocity Create a velocity coordinate system from the spatial coordinate system through division by second",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "mRefs = (m, m, m) :>>CartesianSpatial3dCoordinateFrame::mRefs",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::velocityCF",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 1068,
+      "y": 117,
+      "w": 296,
+      "h": 92,
+      "inner": {
+        "x": 1068,
+        "y": 117,
+        "w": 296,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "velocityCF: CartesianVelocity3dCoordinateFrame",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= spatialCF/s",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::PositionAndVelocity",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 32,
+      "y": 108,
+      "w": 209,
+      "h": 110,
+      "inner": {
+        "x": 32,
+        "y": 108,
+        "w": 209,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "PositionAndVelocity",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "position: CartesianPosition3dVector",
+              "kind": "attributes"
+            },
+            {
+              "text": "velocity: CartesianVelocity3dVector",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::AscentProfile",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1363,
+      "y": 349,
+      "w": 417,
+      "h": 306,
+      "inner": {
+        "x": 1363,
+        "y": 349,
+        "w": 417,
+        "h": 306
+      },
+      "clipped": 0,
+      "title": "AscentProfile",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "samples: AscentSample :>>SampledFunction::samples",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::ascentProfile1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 1388,
+      "y": 61,
+      "w": 367,
+      "h": 204,
+      "inner": {
+        "x": 1388,
+        "y": 61,
+        "w": 367,
+        "h": 204
+      },
+      "clipped": 0,
+      "title": "ascentProfile1: AscentProfile",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Example ascent profile",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "samples = (sample1, sample2, sample3) :>>AscentProfile::samples",
+              "kind": "attributes"
+            },
+            {
+              "text": "sample1: AscentSample",
+              "kind": "attributes"
+            },
+            {
+              "text": "sample2: AscentSample",
+              "kind": "attributes"
+            },
+            {
+              "text": "sample3: AscentSample",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::AscentProfile::AscentSample",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1379,
+      "y": 476,
+      "w": 385,
+      "h": 140,
+      "inner": {
+        "x": 1379,
+        "y": 476,
+        "w": 385,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "AscentSample",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "domainValue: MissionElapsedTimeValue :>>SamplePair::domainValue",
+              "kind": "attributes"
+            },
+            {
+              "text": "rangeValue: PositionAndVelocity :>>SamplePair::rangeValue",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "15_13-Discretely Sampled Function Value::mets→15_13-Discretely Sampled Function Value::MissionElapsedTimeScale#2",
+      "source": "15_13-Discretely Sampled Function Value::mets",
+      "target": "15_13-Discretely Sampled Function Value::MissionElapsedTimeScale",
+      "d": "M481,265 C481,297.5 481,297.5 481,330",
+      "start": {
+        "x": 481,
+        "y": 265
+      },
+      "end": {
+        "x": 481,
+        "y": 330
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_13-Discretely Sampled Function Value::ascentProfile1→15_13-Discretely Sampled Function Value::AscentProfile#10",
+      "source": "15_13-Discretely Sampled Function Value::ascentProfile1",
+      "target": "15_13-Discretely Sampled Function Value::AscentProfile",
+      "d": "M1571.5,265 C1571.5,297.5 1571.5,297.5 1571.5,330",
+      "start": {
+        "x": 1571.5,
+        "y": 265
+      },
+      "end": {
+        "x": 1571.5,
+        "y": 330
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "f0bf8d284e965453",
+  "unsettled": false
+}

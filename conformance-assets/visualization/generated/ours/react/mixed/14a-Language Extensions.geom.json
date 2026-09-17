@@ -1,0 +1,295 @@
+{
+  "zoom": 1.85348,
+  "nodes": [
+    {
+      "id": "14a-Language Extensions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 818.5,
+      "h": 448,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 818.5,
+        "h": 448
+      },
+      "clipped": 0,
+      "title": "14a-Language Extensions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14a-Language Extensions::User Defined Extensions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 405.5,
+      "y": 255,
+      "w": 413,
+      "h": 193,
+      "inner": {
+        "x": 405.5,
+        "y": 255,
+        "w": 413,
+        "h": 193
+      },
+      "clipped": 0,
+      "title": "User Defined Extensions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14a-Language Extensions::part_X",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 322,
+      "y": 61,
+      "w": 266,
+      "h": 110,
+      "inner": {
+        "x": 322,
+        "y": 61,
+        "w": 266,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "part_X",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "metadata",
+          "entries": [
+            {
+              "text": "Classified",
+              "kind": "metadata"
+            },
+            {
+              "text": "classificationLevel = ClassificationLevel::conf",
+              "kind": "metadata"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14a-Language Extensions::part_Y",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 32,
+      "y": 61,
+      "w": 266,
+      "h": 110,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 266,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "part_Y",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "metadata",
+          "entries": [
+            {
+              "text": "Classified",
+              "kind": "metadata"
+            },
+            {
+              "text": "classificationLevel = ClassificationLevel::conf",
+              "kind": "metadata"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14a-Language Extensions::User Defined Extensions::ClassificationLevel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 421.5,
+      "y": 300,
+      "w": 140,
+      "h": 128,
+      "inner": {
+        "x": 421.5,
+        "y": 300,
+        "w": 140,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "ClassificationLevel",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [
+        {
+          "title": "enums",
+          "entries": [
+            {
+              "text": "uncl",
+              "kind": "enums"
+            },
+            {
+              "text": "conf",
+              "kind": "enums"
+            },
+            {
+              "text": "secret",
+              "kind": "enums"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14a-Language Extensions::User Defined Extensions::Classified",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 585.5,
+      "y": 318,
+      "w": 217,
+      "h": 92,
+      "inner": {
+        "x": 585.5,
+        "y": 318,
+        "w": 217,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Classified",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "classificationLevel: ClassificationLevel",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "14a-Language Extensions→14a-Language Extensions::User Defined Extensions#0",
+      "source": "14a-Language Extensions",
+      "target": "14a-Language Extensions::User Defined Extensions",
+      "d": "M800.1726457399102,464 C800.1726457399102,556.4915536684297 450.58968609865474,152.50844633157038 450.58968609865474,245",
+      "start": {
+        "x": 800.17,
+        "y": 464
+      },
+      "end": {
+        "x": 450.59,
+        "y": 245
+      },
+      "length": 453.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 585.22,
+      "y": 346.7,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "14a-Language Extensions→14a-Language Extensions::User Defined Extensions#0"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "d94051685e008286",
+  "unsettled": false
+}

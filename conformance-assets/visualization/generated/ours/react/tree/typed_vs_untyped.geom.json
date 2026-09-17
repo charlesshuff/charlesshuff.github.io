@@ -1,0 +1,195 @@
+{
+  "zoom": 2.26841,
+  "nodes": [
+    {
+      "id": "TypedVsUntyped",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 172,
+      "h": 421,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 172,
+        "h": 421
+      },
+      "clipped": 0,
+      "title": "TypedVsUntyped",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "TypedVsUntyped::Motor",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 371,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 371,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Motor",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "TypedVsUntyped::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 61,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "untyped",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "TypedVsUntyped::Vehicle::motor",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 32,
+      "y": 237,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 237,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "motor: Motor",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "TypedVsUntyped::Vehicle→TypedVsUntyped::Vehicle::motor#2",
+      "source": "TypedVsUntyped::Vehicle",
+      "target": "TypedVsUntyped::Vehicle::motor",
+      "d": "M102,166 C102,201.5 102,201.5 102,237",
+      "start": {
+        "x": 102,
+        "y": 166
+      },
+      "end": {
+        "x": 102,
+        "y": 237
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "TypedVsUntyped::Vehicle::motor→TypedVsUntyped::Motor#3",
+      "source": "TypedVsUntyped::Vehicle::motor",
+      "target": "TypedVsUntyped::Motor",
+      "d": "M102,287 C102,319.5 102,319.5 102,352",
+      "start": {
+        "x": 102,
+        "y": 287
+      },
+      "end": {
+        "x": 102,
+        "y": 352
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "9d81dca5070e0002",
+  "unsettled": false
+}

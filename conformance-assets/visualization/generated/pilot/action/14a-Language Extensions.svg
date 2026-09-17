@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="81px" preserveAspectRatio="none" style="width:614px;height:81px;background:#FFFFFF;" version="1.1" viewBox="0 0 614 81" width="614px" zoomAndPan="magnify"><defs><filter height="300%" id="f1b7hrae9t3d33" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><g id="elem_E1"><path d="M6,6 L6,74.5448 L289,74.5448 L289,16 L279,6 L6,6 " fill="#FEFFDD" filter="url(#f1b7hrae9t3d33)" style="stroke:#181818;stroke-width:0.5;"/><path d="M279,6 L279,16 L289,16 L279,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="monospace" font-size="13" lengthAdjust="spacing" textLength="112" x="12" y="23.0669">              </text><text fill="#000000" font-family="monospace" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="112" x="12" y="40.7729">              </text><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="54" x="124" y="40.0298">Classified</text><line style="stroke:#181818;stroke-width:1.0;" x1="7" x2="288" y1="43.8388" y2="43.8388"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="262" x="12" y="61.7358">classificationLevel =  ClassificationLevel::conf</text></g><g id="elem_E2"><path d="M324,6 L324,74.5448 L607,74.5448 L607,16 L597,6 L324,6 " fill="#FEFFDD" filter="url(#f1b7hrae9t3d33)" style="stroke:#181818;stroke-width:0.5;"/><path d="M597,6 L597,16 L607,16 L597,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="monospace" font-size="13" lengthAdjust="spacing" textLength="112" x="330" y="23.0669">              </text><text fill="#000000" font-family="monospace" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="112" x="330" y="40.7729">              </text><text fill="#000000" font-family="sans-serif" font-size="13" font-style="italic" lengthAdjust="spacing" textLength="54" x="442" y="40.0298">Classified</text><line style="stroke:#181818;stroke-width:1.0;" x1="325" x2="606" y1="43.8388" y2="43.8388"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="262" x="330" y="61.7358">classificationLevel =  ClassificationLevel::conf</text></g><!--MD5=[5d113215afce42f4b5a6e0ae4ed5e818]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+skinparam ranksep 8
+
+note as E1
+""              ""
+==== ""              ""Classified
+- -
+classificationLevel =  ClassificationLevel::conf
+end note
+note as E2
+""              ""
+==== ""              ""Classified
+- -
+classificationLevel =  ClassificationLevel::conf
+end note
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

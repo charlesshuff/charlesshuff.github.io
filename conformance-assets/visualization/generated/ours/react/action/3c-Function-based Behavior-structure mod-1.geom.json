@@ -1,0 +1,109 @@
+{
+  "zoom": 4,
+  "nodes": [
+    {
+      "id": "00000000-0000-0000-0000-000000000044",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 16,
+      "y": 16,
+      "w": 272,
+      "h": 150,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 272,
+        "h": 150
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "destroy connection of trailer to vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 32,
+      "y": 100,
+      "w": 240,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 100,
+        "w": 240,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "destroy connection of trailer to vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "destroy connection of trailer to vehicle::occ",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 145,
+      "y": 143,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 145,
+        "y": 143,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "occ",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "8adb3740da76ddec",
+  "unsettled": false
+}

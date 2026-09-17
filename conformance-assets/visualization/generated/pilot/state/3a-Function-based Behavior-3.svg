@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="314px" preserveAspectRatio="none" style="width:335px;height:314px;background:#FFFFFF;" version="1.1" viewBox="0 0 335 314" width="335px" zoomAndPan="magnify"><defs><filter height="300%" id="f108ak6ltbe7qp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><g id="elem_E1"><path d="M7,7 L7,300.2963 L321,300.2963 L321,17 L311,7 L7,7 " fill="#FEFFDD" filter="url(#f108ak6ltbe7qp)" style="stroke:#181818;stroke-width:0.5;"/><path d="M311,7 L311,17 L321,17 L311,7 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="13" y="25.897">source: item 4-12.2 torque</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="13" y="43.603">symbol(s): `T`, `M_Q`</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="13" y="61.309">application domain: generic</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="13" y="79.0151">name: Torque</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="13" y="96.7211">quantity dimension: L^2*M^1*T^-2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="245" x="13" y="114.4271">measurement unit(s): N*m, kg*m^2*s^-2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="13" y="132.1331">tensor order: 0</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="253" x="13" y="149.8391">definition: quantity described by the scalar</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="283" x="13" y="167.5451">product: `T = vec(M)*vec(e_Q)` where `vec(M)` is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="276" x="13" y="185.2512">moment of force (item 4-12.1) and `vec(e_Q)` is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="289" x="13" y="202.9572">unit vector of direction with respect to which the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="13" y="220.6632">torque is considered</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="262" x="13" y="238.3692">remarks: For example, torque is the twisting</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="13" y="256.0752">moment of force with respect to the longitudinal</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="13" y="273.7812">axis of a beam or shaft.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="13" y="291.4873"> </text></g><!--MD5=[a95985c79ca03688fb6cb23931460d6c]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+
+note as E1
+source: item 4-12.2 torque
+symbol(s): `T`, `M_Q`
+application domain: generic
+name: Torque
+quantity dimension: L^2*M^1*T^-2
+measurement unit(s): N*m, kg*m^2*s^-2
+tensor order: 0
+definition: quantity described by the scalar product: `T = vec(M)*vec(e_Q)` where `vec(M)` is moment of force (item 4-12.1) and `vec(e_Q)` is unit vector of direction with respect to which the torque is considered
+remarks: For example, torque is the twisting moment of force with respect to the longitudinal axis of a beam or shaft.
+
+end note 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

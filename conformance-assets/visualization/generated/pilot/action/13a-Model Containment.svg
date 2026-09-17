@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="129px" preserveAspectRatio="none" style="width:738px;height:129px;background:#FFFFFF;" version="1.1" viewBox="0 0 738 129" width="738px" zoomAndPan="magnify"><defs><filter height="300%" id="f1pj78hcf6rjl7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><g><rect fill="#FFFACD" filter="url(#f1pj78hcf6rjl7)" height="50.412" id="E2" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="89" x="7" y="39"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="82" x="10.5" y="56.8281">«accept action»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="line-through" textLength="55" x="24" y="75.31">noname</text></g><g id="elem_E1"><path d="M131,6 L131,122.2361 L418,122.2361 L418,16 L408,6 L131,6 " fill="#FEFFDD" filter="url(#f1pj78hcf6rjl7)" style="stroke:#181818;stroke-width:0.5;"/><path d="M408,6 L408,16 L418,16 L408,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="263" x="137" y="24.897">This package is used to represent a top-level</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="137" y="42.603">"model".</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="251" x="137" y="60.309">There is no specific syntax for identifying a</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="137" y="78.0151">package</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="137" y="95.7211">used in this way.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="137" y="113.4271"> </text></g><g id="elem_E3"><path d="M453.5,6 L453.5,122.2361 L731.5,122.2361 L731.5,16 L721.5,6 L453.5,6 " fill="#FEFFDD" filter="url(#f1pj78hcf6rjl7)" style="stroke:#181818;stroke-width:0.5;"/><path d="M721.5,6 L721.5,16 L731.5,16 L721.5,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="459.5" y="24.897">This package is used to represent a "model</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="459.5" y="42.603">library".</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="251" x="459.5" y="60.309">There is no specific syntax for identifying a</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="459.5" y="78.0151">package</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="459.5" y="95.7211">used in this way.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="459.5" y="113.4271"> </text></g><!--MD5=[5626cd966a85dc7b93685f3774af376c]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+skinparam ranksep 8
+
+rec usage "<s>noname</s>" as E2  << accept action>> {
+}
+
+note as E1
+This package is used to represent a top-level "model".
+There is no specific syntax for identifying a package
+used in this way.
+
+end note 
+note as E3
+This package is used to represent a "model library".
+There is no specific syntax for identifying a package
+used in this way.
+
+end note 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

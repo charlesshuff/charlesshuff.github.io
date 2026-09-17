@@ -1,0 +1,310 @@
+{
+  "zoom": 1.57591,
+  "nodes": [
+    {
+      "id": "00000000-0000-0000-0000-00000000000d",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 16,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The 'mass' attribute property is declared here to be a specialization (subset) of the general 'mass' quantity from the 'ISQ' (International System of Quantities) library model.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000026",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 472,
+      "y": 16,
+      "w": 280,
+      "h": 60,
+      "inner": {
+        "x": 472,
+        "y": 16,
+        "w": 280,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'vehicle1' is a package-owned part of type Vehicle.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000036",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 145,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 16,
+        "y": 145,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This redefines the 'mass' attribute property from 'Vehicle' to give it a fixed attribute.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000003b",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 472,
+      "y": 145,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 472,
+        "y": 145,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'frontAxleAssembly' is a nested part of part 'vehicle1'. It is a composite part of the containing part. (And similarly for 'rearAxleAssembly'.)",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000047",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 274,
+      "w": 432,
+      "h": 135,
+      "inner": {
+        "x": 16,
+        "y": 274,
+        "w": 432,
+        "h": 135
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'frontWheel' is a nested part of type 'Wheel' with multiplicity \"2\". This means that this axle assembly must have exactly two wheels. However, there is still only one 'frontWheel' part. The part is \"ordered\", so that the first wheel can be distinguished from the second.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000059",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 472,
+      "y": 274,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 472,
+        "y": 274,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'vehicle1_c1' is a modified copy of 'vehicle1'. There is no connection between this copy and the original version in the model.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000069",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 433,
+      "w": 222,
+      "h": 60,
+      "inner": {
+        "x": 16,
+        "y": 433,
+        "w": 222,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The mass attribute has been modified.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000071",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 262,
+      "y": 433,
+      "w": 347,
+      "h": 60,
+      "inner": {
+        "x": 262,
+        "y": 433,
+        "w": 347,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The part 'frontAxle' has been modified to have type 'FrontAxle'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000007a",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 517,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 16,
+        "y": 517,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The parts 'frontWheel_1' and 'frontWheel_2' have been added as subsets of 'frontWheel'. These are separate parts from 'frontWheel', but essentially provide alternate names for each of the two wheels, as given by their defining expressions.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009b",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 472,
+      "y": 517,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 472,
+        "y": 517,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "'rearAxleAssembly' has also been modified to add subsetting parts for 'rearWheel'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "aed97207cf5010e6",
+  "unsettled": false
+}

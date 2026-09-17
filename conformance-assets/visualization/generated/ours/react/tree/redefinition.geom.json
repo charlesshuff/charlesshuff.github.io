@@ -1,0 +1,151 @@
+{
+  "zoom": 2.77616,
+  "nodes": [
+    {
+      "id": "Redefinition",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 172,
+      "h": 344,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 172,
+        "h": 344
+      },
+      "clipped": 0,
+      "title": "Redefinition",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "Redefinition::A",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 252,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 32,
+        "y": 252,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "A",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "m: Real",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "Redefinition::b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 32,
+      "y": 61,
+      "w": 140,
+      "h": 107,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 140,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "b: A",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "m = 1.0 :>>A::m",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "Redefinition::b→Redefinition::A#2",
+      "source": "Redefinition::b",
+      "target": "Redefinition::A",
+      "d": "M102,168 C102,200.5 102,200.5 102,233",
+      "start": {
+        "x": 102,
+        "y": 168
+      },
+      "end": {
+        "x": 102,
+        "y": 233
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "20f38e4c914ebb15",
+  "unsettled": false
+}

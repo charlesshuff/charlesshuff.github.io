@@ -1,0 +1,210 @@
+{
+  "zoom": 1.98172,
+  "nodes": [
+    {
+      "id": "15_02-Basic Value Properties",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 766,
+      "h": 446,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 766,
+        "h": 446
+      },
+      "clipped": 0,
+      "title": "15_02-Basic Value Properties",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_02-Basic Value Properties::LengthValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 32,
+      "y": 86.5,
+      "w": 432,
+      "h": 122,
+      "inner": {
+        "x": 32,
+        "y": 86.5,
+        "w": 432,
+        "h": 122
+      },
+      "clipped": 0,
+      "title": "LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Real world user models would use a quantity type from the library model. A attribute def is defined here to show that it is possible.",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_02-Basic Value Properties::Tire",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 545,
+      "y": 318,
+      "w": 164,
+      "h": 128,
+      "inner": {
+        "x": 545,
+        "y": 318,
+        "w": 164,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "Tire",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "hubDiameter: LengthValue",
+              "kind": "attributes"
+            },
+            {
+              "text": "manufacturer: String",
+              "kind": "attributes"
+            },
+            {
+              "text": "width: Integer",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_02-Basic Value Properties::frenchTire",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 488,
+      "y": 61,
+      "w": 278,
+      "h": 173,
+      "inner": {
+        "x": 488,
+        "y": 61,
+        "w": 278,
+        "h": 173
+      },
+      "clipped": 0,
+      "title": "frenchTire: Tire",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "manufacturer = \"Michelin\" :>>Tire::manufacturer",
+              "kind": "attributes"
+            },
+            {
+              "text": "hubDiameter = 18.0 :>>Tire::hubDiameter",
+              "kind": "attributes"
+            },
+            {
+              "text": "width = 245 :>>Tire::width",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "15_02-Basic Value Properties::frenchTire→15_02-Basic Value Properties::Tire#3",
+      "source": "15_02-Basic Value Properties::frenchTire",
+      "target": "15_02-Basic Value Properties::Tire",
+      "d": "M627,234 C627,266.5 627,266.5 627,299",
+      "start": {
+        "x": 627,
+        "y": 234
+      },
+      "end": {
+        "x": 627,
+        "y": 299
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "cee830236f173891",
+  "unsettled": false
+}

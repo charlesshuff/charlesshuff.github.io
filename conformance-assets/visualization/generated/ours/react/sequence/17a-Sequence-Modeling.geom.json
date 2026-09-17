@@ -1,0 +1,231 @@
+{
+  "zoom": 2.79044,
+  "nodes": [
+    {
+      "id": "17a-Sequence-Modeling::PubSubSequence",
+      "type": "sequenceBox",
+      "form": null,
+      "fam": null,
+      "classes": "smlml-seqbox",
+      "x": 0,
+      "y": 0,
+      "w": 544,
+      "h": 328,
+      "inner": {
+        "x": 0,
+        "y": 0,
+        "w": 544,
+        "h": 328
+      },
+      "clipped": 0,
+      "title": "PubSubSequence",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "4px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      "parent": null
+    },
+    {
+      "id": "17a-Sequence-Modeling::PubSubSequence::producer",
+      "type": "lifeline",
+      "form": "participant",
+      "fam": "#888888",
+      "classes": "smlml-lifeline fam-default",
+      "x": 14,
+      "y": 36,
+      "w": 140,
+      "h": 278,
+      "inner": {
+        "x": 14,
+        "y": 36,
+        "w": 140,
+        "h": 278
+      },
+      "clipped": 0,
+      "title": "producer",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "17a-Sequence-Modeling::PubSubSequence::server",
+      "type": "lifeline",
+      "form": "participant",
+      "fam": "#888888",
+      "classes": "smlml-lifeline fam-default",
+      "x": 202,
+      "y": 36,
+      "w": 140,
+      "h": 278,
+      "inner": {
+        "x": 202,
+        "y": 36,
+        "w": 140,
+        "h": 278
+      },
+      "clipped": 0,
+      "title": "server",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "17a-Sequence-Modeling::PubSubSequence::consumer",
+      "type": "lifeline",
+      "form": "participant",
+      "fam": "#888888",
+      "classes": "smlml-lifeline fam-default",
+      "x": 390,
+      "y": 36,
+      "w": 140,
+      "h": 278,
+      "inner": {
+        "x": 390,
+        "y": 36,
+        "w": 140,
+        "h": 278
+      },
+      "clipped": 0,
+      "title": "consumer",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "17a-Sequence-Modeling::PubSubSequence::consumer→17a-Sequence-Modeling::PubSubSequence::server#0",
+      "source": "17a-Sequence-Modeling::PubSubSequence::consumer",
+      "target": "17a-Sequence-Modeling::PubSubSequence::server",
+      "d": "M460,143 L282,143",
+      "start": {
+        "x": 460,
+        "y": 143
+      },
+      "end": {
+        "x": 282,
+        "y": 143
+      },
+      "length": 178,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-open",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "17a-Sequence-Modeling::PubSubSequence::producer→17a-Sequence-Modeling::PubSubSequence::server#1",
+      "source": "17a-Sequence-Modeling::PubSubSequence::producer",
+      "target": "17a-Sequence-Modeling::PubSubSequence::server",
+      "d": "M84,200 L262,200",
+      "start": {
+        "x": 84,
+        "y": 200
+      },
+      "end": {
+        "x": 262,
+        "y": 200
+      },
+      "length": 178,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-open",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "17a-Sequence-Modeling::PubSubSequence::server→17a-Sequence-Modeling::PubSubSequence::consumer#2",
+      "source": "17a-Sequence-Modeling::PubSubSequence::server",
+      "target": "17a-Sequence-Modeling::PubSubSequence::consumer",
+      "d": "M272,257 L450,257",
+      "start": {
+        "x": 272,
+        "y": 257
+      },
+      "end": {
+        "x": 450,
+        "y": 257
+      },
+      "length": 178,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-open",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 312.02,
+      "y": 125.2,
+      "w": 117.95,
+      "h": 15.59,
+      "text": "subscribe_message",
+      "edge": "17a-Sequence-Modeling::PubSubSequence::consumer→17a-Sequence-Modeling::PubSubSequence::server#0"
+    },
+    {
+      "x": 120.38,
+      "y": 182.2,
+      "w": 105.23,
+      "h": 15.59,
+      "text": "publish_message",
+      "edge": "17a-Sequence-Modeling::PubSubSequence::producer→17a-Sequence-Modeling::PubSubSequence::server#1"
+    },
+    {
+      "x": 310.07,
+      "y": 239.2,
+      "w": 101.86,
+      "h": 15.59,
+      "text": "deliver_message",
+      "edge": "17a-Sequence-Modeling::PubSubSequence::server→17a-Sequence-Modeling::PubSubSequence::consumer#2"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "59162e65d3476dae",
+  "unsettled": false
+}

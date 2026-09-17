@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="306px" preserveAspectRatio="none" style="width:2989px;height:306px;background:#FFFFFF;" version="1.1" viewBox="0 0 2989 306" width="2989px" zoomAndPan="magnify"><defs><filter height="300%" id="f150wn4isp29s6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><g id="elem_E1"><path d="M6,6 L6,299.2963 L320,299.2963 L320,16 L310,6 L6,6 " fill="#FEFFDD" filter="url(#f150wn4isp29s6)" style="stroke:#181818;stroke-width:0.5;"/><path d="M310,6 L310,16 L320,16 L310,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155" x="12" y="24.897">source: item 4-12.2 torque</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="12" y="42.603">symbol(s): `T`, `M_Q`</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="12" y="60.309">application domain: generic</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="12" y="78.0151">name: Torque</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209" x="12" y="95.7211">quantity dimension: L^2*M^1*T^-2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="245" x="12" y="113.4271">measurement unit(s): N*m, kg*m^2*s^-2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="12" y="131.1331">tensor order: 0</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="253" x="12" y="148.8391">definition: quantity described by the scalar</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="283" x="12" y="166.5451">product: `T = vec(M)*vec(e_Q)` where `vec(M)` is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="276" x="12" y="184.2512">moment of force (item 4-12.1) and `vec(e_Q)` is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="289" x="12" y="201.9572">unit vector of direction with respect to which the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="12" y="219.6632">torque is considered</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="262" x="12" y="237.3692">remarks: For example, torque is the twisting</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="12" y="255.0752">moment of force with respect to the longitudinal</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="12" y="272.7812">axis of a beam or shaft.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="12" y="290.4873"> </text></g><g id="elem_E2"><path d="M355.5,130 L355.5,175.412 L640.5,175.412 L640.5,140 L630.5,130 L355.5,130 " fill="#FEFFDD" filter="url(#f150wn4isp29s6)" style="stroke:#181818;stroke-width:0.5;"/><path d="M630.5,130 L630.5,140 L640.5,140 L630.5,130 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="264" x="361.5" y="148.897">The 'TorqueValue' type is aliased as 'Torque'.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="361.5" y="166.603"> </text></g><g id="elem_E3"><path d="M675.5,103 L675.5,201.5301 L952.5,201.5301 L952.5,113 L942.5,103 L675.5,103 " fill="#FEFFDD" filter="url(#f150wn4isp29s6)" style="stroke:#181818;stroke-width:0.5;"/><path d="M942.5,103 L942.5,113 L952.5,113 L942.5,103 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="248" x="681.5" y="121.897">There is no special construct for modeling</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="681.5" y="139.603">"signals". Data to be</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="253" x="681.5" y="157.309">transmitted asynchronously can simply be</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="176" x="681.5" y="175.0151">modeled using attribute defs.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="681.5" y="192.7211"> </text></g><g id="elem_E4"><path d="M988,121 L988,184.118 L1278,184.118 L1278,131 L1268,121 L988,121 " fill="#FEFFDD" filter="url(#f150wn4isp29s6)" style="stroke:#181818;stroke-width:0.5;"/><path d="M1268,121 L1268,131 L1278,131 L1268,121 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="266" x="994" y="139.897">Black box definitions for actions include their</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118" x="994" y="157.603">inputs and outputs.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="994" y="175.309"> </text></g><g id="elem_E5"><path d="M1313,112 L1313,192.8241 L1601,192.8241 L1601,122 L1591,112 L1313,112 " fill="#FEFFDD" filter="url(#f150wn4isp29s6)" style="stroke:#181818;stroke-width:0.5;"/><path d="M1591,112 L1591,122 L1601,122 L1591,112 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="264" x="1319" y="130.897">An action usage inherits parameters from its</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="1319" y="148.603">definition.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="1319" y="166.309">They act as its "pins".</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="1319" y="184.0151"> </text></g><g id="elem_E6"><path d="M1636.5,112 L1636.5,192.8241 L1939.5,192.8241 L1939.5,122 L1929.5,112 L1636.5,112 " fill="#FEFFDD" filter="url(#f150wn4isp29s6)" style="stroke:#181818;stroke-width:0.5;"/><path d="M1929.5,112 L1929.5,122 L1939.5,122 L1929.5,112 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="279" x="1642.5" y="130.897">A merge node is necessary to prevent a loop of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="1642.5" y="148.603">successions</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="1642.5" y="166.309">from being unsatisfiable.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="1642.5" y="184.0151"> </text></g><g id="elem_E7"><path d="M1975,85.5 L1975,219.4421 L2287,219.4421 L2287,95.5 L2277,85.5 L1975,85.5 " fill="#FEFFDD" filter="url(#f150wn4isp29s6)" style="stroke:#181818;stroke-width:0.5;"/><path d="M2277,85.5 L2277,95.5 L2287,95.5 L2277,85.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="288" x="1981" y="104.397">An accept action accepts an incoming transfer of</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="1981" y="122.103">some item</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="277" x="1981" y="139.809">from outside an action, in this case the "signal"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="1981" y="157.5151">'EngineStart'.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="262" x="1981" y="175.2211">Note that 'engineStarted' is the name of the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="1981" y="192.9271">action, while</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="1981" y="210.6331"> </text></g><g id="elem_E8"><path d="M2322,94.5 L2322,210.7361 L2628,210.7361 L2628,104.5 L2618,94.5 L2322,94.5 " fill="#FEFFDD" filter="url(#f150wn4isp29s6)" style="stroke:#181818;stroke-width:0.5;"/><path d="M2618,94.5 L2618,104.5 L2628,104.5 L2618,94.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="221" x="2328" y="113.397">These successions act to "enable" the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="2328" y="131.103">torque-related actions.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="280" x="2328" y="148.809">Each action on the right can only be performed</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="2328" y="166.5151">following the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="285" x="2328" y="184.2211">completion of a performance of 'engineStarted'.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="2328" y="201.9271"> </text></g><g id="elem_E9"><path d="M2663.5,94.5 L2663.5,210.7361 L2982.5,210.7361 L2982.5,104.5 L2972.5,94.5 L2663.5,94.5 " fill="#FEFFDD" filter="url(#f150wn4isp29s6)" style="stroke:#181818;stroke-width:0.5;"/><path d="M2972.5,94.5 L2972.5,104.5 L2982.5,104.5 L2972.5,94.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="223" x="2669.5" y="113.397">These successions act to "disable" the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="2669.5" y="131.103">torque-related actions.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="295" x="2669.5" y="148.809">The performance of the actions on the left cannot</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="2669.5" y="166.5151">continue</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="285" x="2669.5" y="184.2211">once there is a performance of 'engineStopped'.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="2669.5" y="201.9271"> </text></g><!--MD5=[237733c8208b27ec017c055a402fe2ef]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+
+note as E1
+source: item 4-12.2 torque
+symbol(s): `T`, `M_Q`
+application domain: generic
+name: Torque
+quantity dimension: L^2*M^1*T^-2
+measurement unit(s): N*m, kg*m^2*s^-2
+tensor order: 0
+definition: quantity described by the scalar product: `T = vec(M)*vec(e_Q)` where `vec(M)` is moment of force (item 4-12.1) and `vec(e_Q)` is unit vector of direction with respect to which the torque is considered
+remarks: For example, torque is the twisting moment of force with respect to the longitudinal axis of a beam or shaft.
+
+end note 
+note as E2
+The 'TorqueValue' type is aliased as 'Torque'.
+
+end note 
+note as E3
+There is no special construct for modeling "signals". Data to be
+transmitted asynchronously can simply be modeled using attribute defs.
+
+end note 
+note as E4
+Black box definitions for actions include their inputs and outputs.
+
+end note 
+note as E5
+An action usage inherits parameters from its definition.
+They act as its "pins".
+
+end note 
+note as E6
+A merge node is necessary to prevent a loop of successions
+from being unsatisfiable.
+
+end note 
+note as E7
+An accept action accepts an incoming transfer of some item
+from outside an action, in this case the "signal" 'EngineStart'.
+Note that 'engineStarted' is the name of the action, while
+'engineStart' is the name of the received signal attribute.
+
+end note 
+note as E8
+These successions act to "enable" the torque-related actions.
+Each action on the right can only be performed following the
+completion of a performance of 'engineStarted'.
+
+end note 
+note as E9
+These successions act to "disable" the torque-related actions.
+The performance of the actions on the left cannot continue
+once there is a performance of 'engineStopped'.
+
+end note 
+@enduml
+
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+
+note as E1
+source: item 4-12.2 torque
+symbol(s): `T`, `M_Q`
+application domain: generic
+name: Torque
+quantity dimension: L^2*M^1*T^-2
+measurement unit(s): N*m, kg*m^2*s^-2
+tensor order: 0
+definition: quantity described by the scalar product: `T = vec(M)*vec(e_Q)` where `vec(M)` is moment of force (item 4-12.1) and `vec(e_Q)` is unit vector of direction with respect to which the torque is considered
+remarks: For example, torque is the twisting moment of force with respect to the longitudinal axis of a beam or shaft.
+
+end note 
+note as E2
+The 'TorqueValue' type is aliased as 'Torque'.
+
+end note 
+note as E3
+There is no special construct for modeling "signals". Data to be
+transmitted asynchronously can simply be modeled using attribute defs.
+
+end note 
+note as E4
+Black box definitions for actions include their inputs and outputs.
+
+end note 
+note as E5
+An action usage inherits parameters from its definition.
+They act as its "pins".
+
+end note 
+note as E6
+A merge node is necessary to prevent a loop of successions
+from being unsatisfiable.
+
+end note 
+note as E7
+An accept action accepts an incoming transfer of some item
+from outside an action, in this case the "signal" 'EngineStart'.
+Note that 'engineStarted' is the name of the action, while
+
+end note 
+note as E8
+These successions act to "enable" the torque-related actions.
+Each action on the right can only be performed following the
+completion of a performance of 'engineStarted'.
+
+end note 
+note as E9
+These successions act to "disable" the torque-related actions.
+The performance of the actions on the left cannot continue
+once there is a performance of 'engineStopped'.
+
+end note 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

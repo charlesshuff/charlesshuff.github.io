@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="183px" preserveAspectRatio="none" style="width:400px;height:183px;background:#FFFFFF;" version="1.1" viewBox="0 0 400 183" width="400px" zoomAndPan="magnify"><defs><filter height="300%" id="f1uhm8ktmtxtub" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fbc87193dbaf4d95561dea2c320d4a47]
+cluster E1--><g id="cluster_E1"><rect fill="#FFFFFF" filter="url(#f1uhm8ktmtxtub)" height="164" id="E1" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="381" x="7" y="7"/><rect fill="#FFFACD" height="29.0679" rx="10" ry="10" style="stroke:#FFFACD;stroke-width:1.5;" width="381" x="7" y="7"/><rect fill="#FFFACD" height="10" style="stroke:#FFFACD;stroke-width:1.5;" width="381" x="7" y="26.0679"/><rect fill="none" height="164" id="E1" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="381" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="174" y="26.9659">vehicle</text><line style="stroke:#A80036;stroke-width:1.0;" x1="7" x2="388" y1="36.0679" y2="36.0679"/></g><!--MD5=[d5e69f78d87373223dbae638b30a9c99]
+cluster E3--><g id="cluster_E3"><rect fill="#FFFFFF" filter="url(#f1uhm8ktmtxtub)" height="94" id="E3" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="115" x="249" y="53"/><rect fill="#FFFACD" height="29.0679" rx="10" ry="10" style="stroke:#FFFACD;stroke-width:1.5;" width="115" x="249" y="53"/><rect fill="#FFFACD" height="10" style="stroke:#FFFACD;stroke-width:1.5;" width="115" x="249" y="72.0679"/><rect fill="none" height="94" id="E3" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="115" x="249" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="258" y="72.9659">wheels: Wheel</text><line style="stroke:#A80036;stroke-width:1.0;" x1="249" x2="364" y1="82.0679" y2="82.0679"/></g><!--MD5=[270fce915f116d4de14055a7c1d9a0f3]
+class E5--><g id="elem_E5"><rect fill="#FFFACD" filter="url(#f1uhm8ktmtxtub)" height="53.412" id="E5" rx="10" ry="10" style="stroke:#181818;stroke-width:0.5;" width="61" x="171.5" y="84.5"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="59" x="172.5" y="102.3281">«attribute»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="180.5" y="120.81">mass</text><line style="stroke:#181818;stroke-width:0.5;" x1="172.5" x2="231.5" y1="129.912" y2="129.912"/></g><g><rect fill="#FFFACD" filter="url(#f1uhm8ktmtxtub)" height="40" id="E2" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="113" x="23.5" y="91"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="29" y="110.9659">engine: Engine</text></g><g><rect fill="#FFFACD" filter="url(#f1uhm8ktmtxtub)" height="40" id="E4" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.5;" width="50" x="283" y="91"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="27" x="294.5" y="110.9659">hub</text></g><!--MD5=[acb5975aacd9cf8872574b5cfeb4c34a]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+skinparam ranksep 10
+skinparam rectangle {
+ backgroundColor<<block>> LightGreen
+}
+
+rec usage "vehicle" as E1 {
+rec usage "engine: Engine" as E2 {
+}
+rec usage "wheels: Wheel" as E3 {
+rec usage "hub" as E4 {
+}
+}
+comp usage "mass  " as E5  <<(T,blue) attribute>> {
+}
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

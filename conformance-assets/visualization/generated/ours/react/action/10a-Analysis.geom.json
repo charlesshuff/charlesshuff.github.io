@@ -1,0 +1,398 @@
+{
+  "zoom": 1.93152,
+  "nodes": [
+    {
+      "id": "00000000-0000-0000-0000-000000000074",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 16,
+      "y": 31,
+      "w": 140,
+      "h": 45,
+      "inner": {
+        "x": 16,
+        "y": 31,
+        "w": 140,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "...",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 382,
+      "y": 460.43,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 382,
+        "y": 460.43,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "MassAnalysisCase",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 338,
+      "y": 191.43,
+      "w": 172,
+      "h": 157,
+      "inner": {
+        "x": 338,
+        "y": 191.43,
+        "w": 172,
+        "h": 157
+      },
+      "clipped": 0,
+      "title": "AnalysisPlan",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000097",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 180,
+      "y": 16,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 180,
+        "y": 16,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "By default, the subject of a nested analysis case bound to that of its containing analysis case or analysis case definition.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 636,
+      "y": 41,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 636,
+        "y": 41,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "analysisPlan",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::vehicle",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 375,
+      "y": 446.43,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 375,
+        "y": 446.43,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::vehicle",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 331,
+      "y": 348.43,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 331,
+        "y": 348.43,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 354,
+      "y": 275.43,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 354,
+        "y": 275.43,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "massAnalysisCase",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan::vehicle",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 629,
+      "y": 27,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 629,
+        "y": 27,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase::mass",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 487,
+      "y": 261.43,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 487,
+        "y": 261.43,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000-0000-0000-0000-000000000097→10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase#0",
+      "source": "00000000-0000-0000-0000-000000000097",
+      "target": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase",
+      "d": "M400.2522418281747,91 C400.2522418281747,183.21428571428572 421.16517211455016,183.21428571428572 421.16517211455016,275.42857142857144",
+      "start": {
+        "x": 400.25,
+        "y": 91
+      },
+      "end": {
+        "x": 421.17,
+        "y": 275.43
+      },
+      "length": 186.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase→10a-Analysis::VehicleAnalysisModel::MassAnalysisCase#1",
+      "source": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase",
+      "target": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase",
+      "d": "M427.7837837837838,325.42857142857144 C427.7837837837838,383.42857142857144 448.2162162162162,383.42857142857144 448.2162162162162,441.42857142857144",
+      "start": {
+        "x": 427.78,
+        "y": 325.43
+      },
+      "end": {
+        "x": 448.22,
+        "y": 441.43
+      },
+      "length": 118.51,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan→10a-Analysis::VehicleAnalysisModel::AnalysisPlan#2",
+      "source": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan",
+      "target": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan",
+      "d": "M671.4290718038529,91 C671.4290718038529,149.36879432624116 600.2145359019264,207.73758865248232 529,207.73758865248232",
+      "start": {
+        "x": 671.43,
+        "y": 91
+      },
+      "end": {
+        "x": 529,
+        "y": 207.74
+      },
+      "length": 201.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "c3d322120cdb2975",
+  "unsettled": false
+}

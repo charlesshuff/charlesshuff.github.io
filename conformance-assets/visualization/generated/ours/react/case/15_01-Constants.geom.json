@@ -1,0 +1,738 @@
+{
+  "zoom": 0.417836,
+  "nodes": [
+    {
+      "id": "15_01-Constants",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 3633,
+      "h": 421,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 3633,
+        "h": 421
+      },
+      "clipped": 0,
+      "title": "15_01-Constants",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000008",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 2921,
+      "y": 331,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 2921,
+        "y": 331,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Note: Value properties that are bound to specific values are constants and have the specified values in all contexts. It is not legal to redefine them.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Mathematical Constants",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1411,
+      "y": 61,
+      "w": 1074,
+      "h": 360,
+      "inner": {
+        "x": 1411,
+        "y": 61,
+        "w": 1074,
+        "h": 360
+      },
+      "clipped": 0,
+      "title": "Mathematical Constants",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Fundamental Physical Constants",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 105.5,
+      "w": 1355,
+      "h": 271,
+      "inner": {
+        "x": 32,
+        "y": 105.5,
+        "w": 1355,
+        "h": 271
+      },
+      "clipped": 0,
+      "title": "Fundamental Physical Constants",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Global Context",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 2509,
+      "y": 164.5,
+      "w": 388,
+      "h": 153,
+      "inner": {
+        "x": 2509,
+        "y": 164.5,
+        "w": 388,
+        "h": 153
+      },
+      "clipped": 0,
+      "title": "Global Context",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Model X Context",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 3377,
+      "y": 164.5,
+      "w": 256,
+      "h": 153,
+      "inner": {
+        "x": 3377,
+        "y": 164.5,
+        "w": 256,
+        "h": 153
+      },
+      "clipped": 0,
+      "title": "Model X Context",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000c",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 2037,
+      "y": 240,
+      "w": 432,
+      "h": 165,
+      "inner": {
+        "x": 2037,
+        "y": 240,
+        "w": 432,
+        "h": 165
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Standard mathematical constants Irrational constants cannot be represented exactly with finite precision. However, they can be required to be implemented with a attribute that is accurate to at least a certain precision. (The decimal literals here should be interpreted as being fixed point and exact.)",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Mathematical Constants::e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 1803.5,
+      "y": 106,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1803.5,
+        "y": 106,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "e: Real",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000011",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1734,
+      "y": 240,
+      "w": 279,
+      "h": 92,
+      "inner": {
+        "x": 1734,
+        "y": 240,
+        "w": 279,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ round(e * 1E20) == 271828182845904523536.0 }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Mathematical Constants::pi",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 1498.5,
+      "y": 106,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1498.5,
+        "y": 106,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "pi: Real",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1427,
+      "y": 240,
+      "w": 283,
+      "h": 92,
+      "inner": {
+        "x": 1427,
+        "y": 240,
+        "w": 283,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ round(pi * 1E20) == 314159265358979323846.0 }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004a",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 939,
+      "y": 150.5,
+      "w": 432,
+      "h": 210,
+      "inner": {
+        "x": 939,
+        "y": 150.5,
+        "w": 432,
+        "h": 210
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Standard fundamental physical constants Physical constants have a standard measured attribute to a finite precision. The reference source is: CODATA - Task Group on Fundamental Physical Constants (TGFC) - 2018 CODATA recommended values See https://codata.org/initiatives/strategic-programme/fundamental-physical-const ants/ For the actual values see https://pml.nist.gov/cuu/Constants/",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Fundamental Physical Constants::fine structure constant",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 382,
+      "y": 209.5,
+      "w": 274,
+      "h": 92,
+      "inner": {
+        "x": 382,
+        "y": 209.5,
+        "w": 274,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "fine structure constant: DimensionOneValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 7.2973525693E-3[one]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Fundamental Physical Constants::electron to proton mass ratio",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 48,
+      "y": 209.5,
+      "w": 310,
+      "h": 92,
+      "inner": {
+        "x": 48,
+        "y": 209.5,
+        "w": 310,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "electron to proton mass ratio: DimensionOneValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 5.44617021487E-4[one]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Fundamental Physical Constants::speed of light in vacuum",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 680,
+      "y": 209.5,
+      "w": 235,
+      "h": 92,
+      "inner": {
+        "x": 680,
+        "y": 209.5,
+        "w": 235,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "speed of light in vacuum: SpeedValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 299792458[m/s]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Global Context::nominal earth gravitational acceleration",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 2525,
+      "y": 209.5,
+      "w": 356,
+      "h": 92,
+      "inner": {
+        "x": 2525,
+        "y": 209.5,
+        "w": 356,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "nominal earth gravitational acceleration: AccelerationValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 9.80665['m/s²']",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_01-Constants::Model X Context::amplifier gain",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 3393,
+      "y": 209.5,
+      "w": 224,
+      "h": 92,
+      "inner": {
+        "x": 3393,
+        "y": 209.5,
+        "w": 224,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "amplifier gain: DimensionOneValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 3.5[one]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000-0000-0000-0000-000000000008→15_01-Constants#0",
+      "source": "00000000-0000-0000-0000-000000000008",
+      "target": "15_01-Constants",
+      "d": "M2921,351.2456880030663 C2752.3657804595996,351.2456880030663 3817.6342195404004,434.6768876964354 3649,434.6768876964354",
+      "start": {
+        "x": 2921,
+        "y": 351.25
+      },
+      "end": {
+        "x": 3649,
+        "y": 434.68
+      },
+      "length": 805.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000c→15_01-Constants::Mathematical Constants#1",
+      "source": "00000000-0000-0000-0000-00000000000c",
+      "target": "15_01-Constants::Mathematical Constants",
+      "d": "M2037,264.78196721311474 C1904.7124344467704,264.78196721311474 2617.2875655532293,384.4934426229508 2485,384.4934426229508",
+      "start": {
+        "x": 2037,
+        "y": 264.78
+      },
+      "end": {
+        "x": 2485,
+        "y": 384.49
+      },
+      "length": 530.23,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "15_01-Constants::Mathematical Constants::e→00000000-0000-0000-0000-000000000011#4",
+      "source": "15_01-Constants::Mathematical Constants::e",
+      "target": "00000000-0000-0000-0000-000000000011",
+      "d": "M1873.5,169 C1873.5,204.5 1873.5,204.5 1873.5,240",
+      "start": {
+        "x": 1873.5,
+        "y": 169
+      },
+      "end": {
+        "x": 1873.5,
+        "y": 240
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_01-Constants::Mathematical Constants::pi→00000000-0000-0000-0000-00000000002e#6",
+      "source": "15_01-Constants::Mathematical Constants::pi",
+      "target": "00000000-0000-0000-0000-00000000002e",
+      "d": "M1568.5,169 C1568.5,204.5 1568.5,204.5 1568.5,240",
+      "start": {
+        "x": 1568.5,
+        "y": 169
+      },
+      "end": {
+        "x": 1568.5,
+        "y": 240
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004a→15_01-Constants::Fundamental Physical Constants#7",
+      "source": "00000000-0000-0000-0000-00000000004a",
+      "target": "15_01-Constants::Fundamental Physical Constants",
+      "d": "M939,248.46969696969697 C806.7124344467704,248.46969696969697 1519.2875655532296,263.0510662177329 1387,263.0510662177329",
+      "start": {
+        "x": 939,
+        "y": 248.47
+      },
+      "end": {
+        "x": 1387,
+        "y": 263.05
+      },
+      "length": 514.13,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "65ccf5ee0f6fa176",
+  "unsettled": false
+}

@@ -1,0 +1,1451 @@
+{
+  "zoom": 1.8472,
+  "nodes": [
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 16,
+      "y": 175.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 16,
+        "y": 175.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Acceleration",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 180,
+      "y": 175.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 180,
+        "y": 175.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Velocity",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 344,
+      "y": 175.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 344,
+        "y": 175.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Position",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 622,
+      "y": 483,
+      "w": 148,
+      "h": 50,
+      "inner": {
+        "x": 622,
+        "y": 483,
+        "w": 148,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "StraightLineDynamics",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 508,
+      "y": 16,
+      "w": 278,
+      "h": 355,
+      "inner": {
+        "x": 508,
+        "y": 16,
+        "w": 278,
+        "h": 355
+      },
+      "clipped": 0,
+      "title": "DynamicsAnalysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration::p",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 9,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 9,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "p",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration::m",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 9,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 9,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "m",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration::v",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 9,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 9,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration::result",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 149,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 149,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "result",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity::v0",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 173,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 173,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v0",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity::a",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 173,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 173,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "a",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity::dt",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 173,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 173,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "dt",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity::result",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 313,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 313,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "result",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position::x0",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 337,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 337,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "x0",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position::v",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 337,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 337,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position::dt",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 337,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 337,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "dt",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position::result",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 477,
+      "y": 161.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 477,
+        "y": 161.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "result",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::power",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 615,
+      "y": 469,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 615,
+        "y": 469,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::mass",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 615,
+      "y": 469,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 615,
+        "y": 469,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::delta_t",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 615,
+      "y": 469,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 615,
+        "y": 469,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "delta_t",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::x_in",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 615,
+      "y": 469,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 615,
+        "y": 469,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "x_in",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::v_in",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 615,
+      "y": 469,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 615,
+        "y": 469,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v_in",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::x_out",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 763,
+      "y": 469,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 763,
+        "y": 469,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "x_out",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::v_out",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 763,
+      "y": 469,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 763,
+        "y": 469,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v_out",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::a_out",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 763,
+      "y": 469,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 763,
+        "y": 469,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "a_out",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 501,
+      "y": 371,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 501,
+        "y": 371,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::powerProfile",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 501,
+      "y": 371,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 501,
+        "y": 371,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "powerProfile",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::initialPosition",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 501,
+      "y": 371,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 501,
+        "y": 371,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "initialPosition",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::initialSpeed",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 501,
+      "y": 371,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 501,
+        "y": 371,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "initialSpeed",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::deltaT",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 501,
+      "y": 371,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 501,
+        "y": 371,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "deltaT",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::accelerationProfile",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 779,
+      "y": 371,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 779,
+        "y": 371,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "accelerationProfile",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f7",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 524,
+      "y": 86,
+      "w": 204,
+      "h": 248,
+      "inner": {
+        "x": 524,
+        "y": 86,
+        "w": 204,
+        "h": 248
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "for loop action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f7/seq",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 517,
+      "y": 334,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 517,
+        "y": 334,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "seq",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 540,
+      "y": 156,
+      "w": 172,
+      "h": 150,
+      "inner": {
+        "x": 540,
+        "y": 156,
+        "w": 172,
+        "h": 150
+      },
+      "clipped": 0,
+      "title": "body",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 556,
+      "y": 240,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 556,
+        "y": 240,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "dynamics",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics::power",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 549,
+      "y": 226,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 549,
+        "y": 226,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics::mass",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 549,
+      "y": 226,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 549,
+        "y": 226,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics::delta_t",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 549,
+      "y": 226,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 549,
+        "y": 226,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "delta_t",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics::x_in",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 549,
+      "y": 226,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 549,
+        "y": 226,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "x_in",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics::v_in",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 549,
+      "y": 226,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 549,
+        "y": 226,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v_in",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics/^10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::x_out",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 689,
+      "y": 226,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 689,
+        "y": 226,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^x_out",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics/^10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::v_out",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 689,
+      "y": 226,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 689,
+        "y": 226,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^v_out",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics/^10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::a_out",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 689,
+      "y": 226,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 689,
+        "y": 226,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^a_out",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "body::dynamics→10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics#0",
+      "source": "body::dynamics",
+      "target": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics",
+      "d": "M633.201646090535,290 C633.201646090535,377 688.798353909465,377 688.798353909465,464",
+      "start": {
+        "x": 633.2,
+        "y": 290
+      },
+      "end": {
+        "x": 688.8,
+        "y": 464
+      },
+      "length": 185.88,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "7a36f3a569021af6",
+  "unsettled": false
+}

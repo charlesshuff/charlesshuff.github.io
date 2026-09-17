@@ -1,0 +1,3813 @@
+{
+  "zoom": 0.256426,
+  "nodes": [
+    {
+      "id": "14c-Language-Extensions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 4750.59,
+      "h": 3727.97,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 4750.59,
+        "h": 3727.97
+      },
+      "clipped": 0,
+      "title": "14c-Language-Extensions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 3377.79,
+      "y": 2679.37,
+      "w": 1363,
+      "h": 809,
+      "inner": {
+        "x": 3377.79,
+        "y": 2679.37,
+        "w": 1363,
+        "h": 809
+      },
+      "clipped": 0,
+      "title": "FMEALibrary",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Situation",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 3903.29,
+      "y": 3677.97,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3903.29,
+        "y": 3677.97,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Situation",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 4333.29,
+      "y": 3677.97,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4333.29,
+        "y": 3677.97,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FMEARequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 683.29,
+      "y": 2125.78,
+      "w": 3961,
+      "h": 359,
+      "inner": {
+        "x": 683.29,
+        "y": 2125.78,
+        "w": 3961,
+        "h": 359
+      },
+      "clipped": 0,
+      "title": "FMEAMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::Status",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1619.99,
+      "y": 2679.37,
+      "w": 140,
+      "h": 110,
+      "inner": {
+        "x": 1619.99,
+        "y": 2679.37,
+        "w": 140,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "Status",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [
+        {
+          "title": "enums",
+          "entries": [
+            {
+              "text": "Approved",
+              "kind": "enums"
+            },
+            {
+              "text": "NotApproved",
+              "kind": "enums"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 61,
+      "w": 2112.41,
+      "h": 1875.19,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 2112.41,
+        "h": 1875.19
+      },
+      "clipped": 0,
+      "title": "FMEAUserModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::situations",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 3903.29,
+      "y": 3422.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3903.29,
+        "y": 3422.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "situations: Situation",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Cause",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 3557.79,
+      "y": 3380.37,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 3557.79,
+        "y": 3380.37,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Cause",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "occurs: Real",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::causes",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 3557.79,
+      "y": 3246.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3557.79,
+        "y": 3246.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "causes: Cause",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FailureMode",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 3739.29,
+      "y": 3380.37,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 3739.29,
+        "y": 3380.37,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "FailureMode",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "detected: Real",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::failureModes",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 3721.79,
+      "y": 3246.37,
+      "w": 175,
+      "h": 50,
+      "inner": {
+        "x": 3721.79,
+        "y": 3246.37,
+        "w": 175,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "failureModes: FailureMode",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Effect",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 4067.29,
+      "y": 3380.37,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 4067.29,
+        "y": 3380.37,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Effect",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "severity: String",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::effects",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 4067.29,
+      "y": 3246.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4067.29,
+        "y": 3246.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "effects: Effect",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FMEAItem",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 3753.29,
+      "y": 2936.37,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 3753.29,
+        "y": 2936.37,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "FMEAItem",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "RPN: Real",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000056",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 3557.79,
+      "y": 3112.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3557.79,
+        "y": 3112.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "causes",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000059",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 3739.29,
+      "y": 3112.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3739.29,
+        "y": 3112.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "failureModes",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005c",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 4067.29,
+      "y": 3112.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4067.29,
+        "y": 3112.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "effects",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::fmeaItems",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 3748.29,
+      "y": 2802.37,
+      "w": 150,
+      "h": 50,
+      "inner": {
+        "x": 3748.29,
+        "y": 2802.37,
+        "w": 150,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fmeaItems: FMEAItem",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Causation",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 3393.79,
+      "y": 3422.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3393.79,
+        "y": 3422.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Causation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::fmeaRequirements",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 4400.29,
+      "y": 3422.37,
+      "w": 244,
+      "h": 50,
+      "inner": {
+        "x": 4400.29,
+        "y": 3422.37,
+        "w": 244,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fmeaRequirements: FMEARequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::RequirementWithSIL",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 4583.79,
+      "y": 2742.37,
+      "w": 141,
+      "h": 92,
+      "inner": {
+        "x": 4583.79,
+        "y": 2742.37,
+        "w": 141,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "RequirementWithSIL",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "sil: SIL",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::SIL",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 3584.29,
+      "y": 2724.37,
+      "w": 140,
+      "h": 128,
+      "inner": {
+        "x": 3584.29,
+        "y": 2724.37,
+        "w": 140,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "SIL",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [
+        {
+          "title": "enums",
+          "entries": [
+            {
+              "text": "A",
+              "kind": "enums"
+            },
+            {
+              "text": "B",
+              "kind": "enums"
+            },
+            {
+              "text": "C",
+              "kind": "enums"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Violation",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 4239.29,
+      "y": 3422.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4239.29,
+        "y": 3422.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Violation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 4181.62,
+      "y": 2957.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4181.62,
+        "y": 2957.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ControllingMeasure",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Prevention",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 4322.29,
+      "y": 2802.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4322.29,
+        "y": 2802.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Prevention",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Mitigation",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 4158.29,
+      "y": 2802.37,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4158.29,
+        "y": 2802.37,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Mitigation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::StatusHolder",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1619.99,
+      "y": 2418.78,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1619.99,
+        "y": 2418.78,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "StatusHolder",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1163.99,
+      "y": 2361.78,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 1163.99,
+        "y": 2361.78,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<situation> SituationMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType default situations meta SysML::Usage :>>SemanticMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::CauseMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1139.29,
+      "y": 2170.78,
+      "w": 395,
+      "h": 107,
+      "inner": {
+        "x": 1139.29,
+        "y": 2170.78,
+        "w": 395,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<cause> CauseMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType = causes meta SysML::Usage :>>SituationMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FailureModeMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1558.29,
+      "y": 2170.78,
+      "w": 428,
+      "h": 107,
+      "inner": {
+        "x": 1558.29,
+        "y": 2170.78,
+        "w": 428,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<failure> FailureModeMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType = failureModes meta SysML::Usage :>>SituationMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::EffectMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 2010.29,
+      "y": 2170.78,
+      "w": 395,
+      "h": 107,
+      "inner": {
+        "x": 2010.29,
+        "y": 2170.78,
+        "w": 395,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<effect> EffectMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType = effects meta SysML::Usage :>>SituationMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FMEAItemMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 699.29,
+      "y": 2170.78,
+      "w": 416,
+      "h": 107,
+      "inner": {
+        "x": 699.29,
+        "y": 2170.78,
+        "w": 416,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<fmea> FMEAItemMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType = fmeaItems meta SysML::Usage :>>SituationMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::CausationMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 3776.29,
+      "y": 2170.78,
+      "w": 417,
+      "h": 107,
+      "inner": {
+        "x": 3776.29,
+        "y": 2170.78,
+        "w": 417,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<causation> CausationMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType = causations meta SysML::Usage :>>SemanticMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FMEARequirementMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 2429.29,
+      "y": 2170.78,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 2429.29,
+        "y": 2170.78,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<fmeaspec> FMEARequirementMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType = fmeaRequirements meta SysML::Usage :>>SemanticMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::ViolationMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 4217.29,
+      "y": 2170.78,
+      "w": 411,
+      "h": 107,
+      "inner": {
+        "x": 4217.29,
+        "y": 2170.78,
+        "w": 411,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<violation> ViolationMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType = violations meta SysML::Usage :>>SemanticMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 3031.96,
+      "y": 2361.78,
+      "w": 190,
+      "h": 50,
+      "inner": {
+        "x": 3031.96,
+        "y": 2361.78,
+        "w": 190,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ControllingMeasureMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::PreventionMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 3329.29,
+      "y": 2170.78,
+      "w": 423,
+      "h": 107,
+      "inner": {
+        "x": 3329.29,
+        "y": 2170.78,
+        "w": 423,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<prevention> PreventionMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType = preventions meta SysML::Usage :>>SemanticMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::MitigationMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 2885.29,
+      "y": 2170.78,
+      "w": 420,
+      "h": 107,
+      "inner": {
+        "x": 2885.29,
+        "y": 2170.78,
+        "w": 420,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<mitigation> MitigationMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "baseType = mitigations meta SysML::Usage :>>SemanticMetadata::baseType",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::req1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1337.29,
+      "y": 1253.59,
+      "w": 226,
+      "h": 92,
+      "inner": {
+        "x": 1337.29,
+        "y": 1253.59,
+        "w": 226,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "req1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmeaspec",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Meter designed according to ISO00124",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::req2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 146.36,
+      "y": 437,
+      "w": 354,
+      "h": 92,
+      "inner": {
+        "x": 146.36,
+        "y": 437,
+        "w": 354,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "req2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmeaspec",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Device working for 1 week without the need to replace batteries",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::req3",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 598.79,
+      "y": 437,
+      "w": 221,
+      "h": 211,
+      "inner": {
+        "x": 598.79,
+        "y": 437,
+        "w": 221,
+        "h": 211
+      },
+      "clipped": 0,
+      "title": "req3: RequirementWithSIL",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmeaspec",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Alarm when battery has sank",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "metadata",
+          "entries": [
+            {
+              "text": "StatusHolder",
+              "kind": "metadata"
+            },
+            {
+              "text": "status = Status::Approved",
+              "kind": "metadata"
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "sil = SIL::A :>>RequirementWithSIL::sil",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 1733.42,
+      "y": 732,
+      "w": 395,
+      "h": 146,
+      "inner": {
+        "x": 1733.42,
+        "y": 732,
+        "w": 395,
+        "h": 146
+      },
+      "clipped": 0,
+      "title": "Glucose FMEA Item",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmea",
+      "compartments": [
+        {
+          "title": "connections",
+          "entries": [
+            {
+              "text": "noname connect battery depleted to FMEAUserModel::req1",
+              "kind": "connections"
+            },
+            {
+              "text": "noname connect battery depleted to battery cannot be charged",
+              "kind": "connections"
+            },
+            {
+              "text": "noname connect battery cannot be charged to glucose level undetected",
+              "kind": "connections"
+            },
+            {
+              "text": "noname connect glucose level undetected to therapy delay",
+              "kind": "connections"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1420.42,
+      "y": 962,
+      "w": 191,
+      "h": 107,
+      "inner": {
+        "x": 1420.42,
+        "y": 962,
+        "w": 191,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "battery depleted",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#cause",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "occurs = 0.005 :>>Cause::occurs",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1598.92,
+      "y": 1253.59,
+      "w": 247,
+      "h": 107,
+      "inner": {
+        "x": 1598.92,
+        "y": 1253.59,
+        "w": 247,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "battery cannot be charged",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#failure",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "detected = 0.013 :>>FailureMode::detected",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1640.42,
+      "y": 1578.59,
+      "w": 164,
+      "h": 50,
+      "inner": {
+        "x": 1640.42,
+        "y": 1578.59,
+        "w": 164,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "glucose level undetected",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#effect",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1619.42,
+      "y": 1813.19,
+      "w": 206,
+      "h": 107,
+      "inner": {
+        "x": 1619.42,
+        "y": 1813.19,
+        "w": 206,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "therapy delay",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#effect",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "severity = \"High\" :>>Effect::severity",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 1697.82,
+      "y": 106,
+      "w": 259,
+      "h": 50,
+      "inner": {
+        "x": 1697.82,
+        "y": 106,
+        "w": 259,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Glucose Meter in Use: Glucose FMEA Item",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmea",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1587.09,
+      "y": 291.6,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1587.09,
+        "y": 291.6,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "glucose meter",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000241",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1244.29,
+      "y": 1444.59,
+      "w": 164,
+      "h": 50,
+      "inner": {
+        "x": 1244.29,
+        "y": 1444.59,
+        "w": 164,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "glucose level undetected",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "event",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::battery",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1629.09,
+      "y": 544.33,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1629.09,
+        "y": 544.33,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "battery",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000024a",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1414.09,
+      "y": 780,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1414.09,
+        "y": 780,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "battery depleted",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "event",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000251",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1635.42,
+      "y": 990.5,
+      "w": 174,
+      "h": 50,
+      "inner": {
+        "x": 1635.42,
+        "y": 990.5,
+        "w": 174,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "battery cannot be charged",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "event",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::pump",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1176.29,
+      "y": 437,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1176.29,
+        "y": 437,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "pump",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::reservoir",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1465.09,
+      "y": 437,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1465.09,
+        "y": 437,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "reservoir",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::patient",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1095.29,
+      "y": 780,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1095.29,
+        "y": 780,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "patient",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000025e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1095.29,
+      "y": 990.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1095.29,
+        "y": 990.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "therapy delay",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "event",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 48,
+      "y": 246,
+      "w": 171,
+      "h": 50,
+      "inner": {
+        "x": 48,
+        "y": 246,
+        "w": 171,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^glucose level undetected",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#effect",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 734.29,
+      "y": 246,
+      "w": 191,
+      "h": 107,
+      "inner": {
+        "x": 734.29,
+        "y": 246,
+        "w": 191,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "^battery depleted",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#cause",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "occurs = 0.005 :>>Cause::occurs",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 348.36,
+      "y": 246,
+      "w": 247,
+      "h": 107,
+      "inner": {
+        "x": 348.36,
+        "y": 246,
+        "w": 247,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "^battery cannot be charged",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#failure",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "detected = 0.013 :>>FailureMode::detected",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 949.29,
+      "y": 246,
+      "w": 206,
+      "h": 107,
+      "inner": {
+        "x": 949.29,
+        "y": 246,
+        "w": 206,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "^therapy delay",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#effect",
+      "compartments": [
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "severity = \"High\" :>>Effect::severity",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::situations→14c-Language-Extensions::FMEALibrary::Situation#3",
+      "source": "14c-Language-Extensions::FMEALibrary::situations",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M3973.289614967408,3472.375 C3973.289614967408,3565.671875 3973.289614967408,3565.671875 3973.289614967408,3658.96875",
+      "start": {
+        "x": 3973.29,
+        "y": 3472.38
+      },
+      "end": {
+        "x": 3973.29,
+        "y": 3658.97
+      },
+      "length": 186.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Cause→14c-Language-Extensions::FMEALibrary::Situation#5",
+      "source": "14c-Language-Extensions::FMEALibrary::Cause",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M3685.249337032711,3472.375 C3685.249337032711,3565.671875 3942.0615051493082,3565.671875 3942.0615051493082,3658.96875",
+      "start": {
+        "x": 3685.25,
+        "y": 3472.38
+      },
+      "end": {
+        "x": 3942.06,
+        "y": 3658.97
+      },
+      "length": 335.85,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::causes→14c-Language-Extensions::FMEALibrary::Cause#7",
+      "source": "14c-Language-Extensions::FMEALibrary::causes",
+      "target": "14c-Language-Extensions::FMEALibrary::Cause",
+      "d": "M3627.789614967408,3296.375 C3627.789614967408,3328.875 3627.789614967408,3328.875 3627.789614967408,3361.375",
+      "start": {
+        "x": 3627.79,
+        "y": 3296.38
+      },
+      "end": {
+        "x": 3627.79,
+        "y": 3361.38
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FailureMode→14c-Language-Extensions::FMEALibrary::Situation#9",
+      "source": "14c-Language-Extensions::FMEALibrary::FailureMode",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M3836.5642731981166,3472.375 C3836.5642731981166,3565.671875 3958.4664311463707,3565.671875 3958.4664311463707,3658.96875",
+      "start": {
+        "x": 3836.56,
+        "y": 3472.38
+      },
+      "end": {
+        "x": 3958.47,
+        "y": 3658.97
+      },
+      "length": 232.82,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::failureModes→14c-Language-Extensions::FMEALibrary::FailureMode#11",
+      "source": "14c-Language-Extensions::FMEALibrary::failureModes",
+      "target": "14c-Language-Extensions::FMEALibrary::FailureMode",
+      "d": "M3809.289614967408,3296.375 C3809.289614967408,3328.875 3809.289614967408,3328.875 3809.289614967408,3361.375",
+      "start": {
+        "x": 3809.29,
+        "y": 3296.38
+      },
+      "end": {
+        "x": 3809.29,
+        "y": 3361.38
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Effect→14c-Language-Extensions::FMEALibrary::Situation#13",
+      "source": "14c-Language-Extensions::FMEALibrary::Effect",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M4110.0149567367,3472.375 C4110.0149567367,3565.671875 3988.112798788445,3565.671875 3988.112798788445,3658.96875",
+      "start": {
+        "x": 4110.02,
+        "y": 3472.38
+      },
+      "end": {
+        "x": 3988.11,
+        "y": 3658.97
+      },
+      "length": 232.82,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::effects→14c-Language-Extensions::FMEALibrary::Effect#15",
+      "source": "14c-Language-Extensions::FMEALibrary::effects",
+      "target": "14c-Language-Extensions::FMEALibrary::Effect",
+      "d": "M4137.289614967408,3296.375 C4137.289614967408,3328.875 4137.289614967408,3328.875 4137.289614967408,3361.375",
+      "start": {
+        "x": 4137.29,
+        "y": 3296.38
+      },
+      "end": {
+        "x": 4137.29,
+        "y": 3361.38
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FMEAItem→14c-Language-Extensions::FMEALibrary::Situation#17",
+      "source": "14c-Language-Extensions::FMEALibrary::FMEAItem",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M3832.8650518900845,3028.375 C3832.8650518900845,3343.671875 3968.085573161605,3343.671875 3968.085573161605,3658.96875",
+      "start": {
+        "x": 3832.86,
+        "y": 3028.38
+      },
+      "end": {
+        "x": 3968.09,
+        "y": 3658.97
+      },
+      "length": 650.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FMEAItem→00000000-0000-0000-0000-000000000056#18",
+      "source": "14c-Language-Extensions::FMEALibrary::FMEAItem",
+      "target": "00000000-0000-0000-0000-000000000056",
+      "d": "M3765.2702601286983,3041.375 C3765.2702601286983,3076.875 3659.321873031924,3076.875 3659.321873031924,3112.375",
+      "start": {
+        "x": 3765.27,
+        "y": 3041.38
+      },
+      "end": {
+        "x": 3659.32,
+        "y": 3112.38
+      },
+      "length": 134.79,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000056→14c-Language-Extensions::FMEALibrary::causes#19",
+      "source": "00000000-0000-0000-0000-000000000056",
+      "target": "14c-Language-Extensions::FMEALibrary::causes",
+      "d": "M3627.789614967408,3162.375 C3627.789614967408,3194.875 3627.789614967408,3194.875 3627.789614967408,3227.375",
+      "start": {
+        "x": 3627.79,
+        "y": 3162.38
+      },
+      "end": {
+        "x": 3627.79,
+        "y": 3227.38
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FMEAItem→00000000-0000-0000-0000-000000000059#20",
+      "source": "14c-Language-Extensions::FMEALibrary::FMEAItem",
+      "target": "00000000-0000-0000-0000-000000000059",
+      "d": "M3819.1347762577307,3041.375 C3819.1347762577307,3076.875 3811.547679483537,3076.875 3811.547679483537,3112.375",
+      "start": {
+        "x": 3819.13,
+        "y": 3041.38
+      },
+      "end": {
+        "x": 3811.55,
+        "y": 3112.38
+      },
+      "length": 71.57,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000059→14c-Language-Extensions::FMEALibrary::failureModes#21",
+      "source": "00000000-0000-0000-0000-000000000059",
+      "target": "14c-Language-Extensions::FMEALibrary::failureModes",
+      "d": "M3809.289614967408,3162.375 C3809.289614967408,3194.875 3809.289614967408,3194.875 3809.289614967408,3227.375",
+      "start": {
+        "x": 3809.29,
+        "y": 3162.38
+      },
+      "end": {
+        "x": 3809.29,
+        "y": 3227.38
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FMEAItem→00000000-0000-0000-0000-00000000005c#22",
+      "source": "14c-Language-Extensions::FMEALibrary::FMEAItem",
+      "target": "00000000-0000-0000-0000-00000000005c",
+      "d": "M3906.289614967408,3016.9291401273886 C3996.467034322247,3016.9291401273886 4086.6444536770855,3064.6520700636943 4086.6444536770855,3112.375",
+      "start": {
+        "x": 3906.29,
+        "y": 3016.93
+      },
+      "end": {
+        "x": 4086.64,
+        "y": 3112.38
+      },
+      "length": 219.2,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005c→14c-Language-Extensions::FMEALibrary::effects#23",
+      "source": "00000000-0000-0000-0000-00000000005c",
+      "target": "14c-Language-Extensions::FMEALibrary::effects",
+      "d": "M4137.289614967408,3162.375 C4137.289614967408,3194.875 4137.289614967408,3194.875 4137.289614967408,3227.375",
+      "start": {
+        "x": 4137.29,
+        "y": 3162.38
+      },
+      "end": {
+        "x": 4137.29,
+        "y": 3227.38
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::fmeaItems→14c-Language-Extensions::FMEALibrary::FMEAItem#25",
+      "source": "14c-Language-Extensions::FMEALibrary::fmeaItems",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEAItem",
+      "d": "M3823.289614967408,2852.375 C3823.289614967408,2884.875 3823.289614967408,2884.875 3823.289614967408,2917.375",
+      "start": {
+        "x": 3823.29,
+        "y": 2852.38
+      },
+      "end": {
+        "x": 3823.29,
+        "y": 2917.38
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Causation→14c-Language-Extensions::FMEALibrary::Situation#27",
+      "source": "14c-Language-Extensions::FMEALibrary::Causation",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M3513.6245581144917,3485.375 C3513.6245581144917,3581.671875 3923.454671820324,3581.671875 3923.454671820324,3677.96875",
+      "start": {
+        "x": 3513.62,
+        "y": 3485.38
+      },
+      "end": {
+        "x": 3923.45,
+        "y": 3677.97
+      },
+      "length": 474.24,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Causation→14c-Language-Extensions::FMEALibrary::Situation#28",
+      "source": "14c-Language-Extensions::FMEALibrary::Causation",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M3513.6245581144917,3485.375 C3513.6245581144917,3581.671875 3923.454671820324,3581.671875 3923.454671820324,3677.96875",
+      "start": {
+        "x": 3513.62,
+        "y": 3485.38
+      },
+      "end": {
+        "x": 3923.45,
+        "y": 3677.97
+      },
+      "length": 474.24,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::fmeaRequirements→14c-Language-Extensions::FMEALibrary::FMEARequirement#31",
+      "source": "14c-Language-Extensions::FMEALibrary::fmeaRequirements",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "d": "M4510.6500502284425,3472.375 C4510.6500502284425,3565.671875 4414.929179706373,3565.671875 4414.929179706373,3658.96875",
+      "start": {
+        "x": 4510.65,
+        "y": 3472.38
+      },
+      "end": {
+        "x": 4414.93,
+        "y": 3658.97
+      },
+      "length": 216.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::RequirementWithSIL→14c-Language-Extensions::FMEALibrary::FMEARequirement#33",
+      "source": "14c-Language-Extensions::FMEALibrary::RequirementWithSIL",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "d": "M4641.665430732604,2834.375 C4641.665430732604,3246.671875 4410.150584660236,3246.671875 4410.150584660236,3658.96875",
+      "start": {
+        "x": 4641.67,
+        "y": 2834.38
+      },
+      "end": {
+        "x": 4410.15,
+        "y": 3658.97
+      },
+      "length": 868.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Violation→14c-Language-Extensions::FMEALibrary::Situation#36",
+      "source": "14c-Language-Extensions::FMEALibrary::Violation",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M4276.424961586799,3485.375 C4276.424961586799,3581.671875 4006.154268348017,3581.671875 4006.154268348017,3677.96875",
+      "start": {
+        "x": 4276.42,
+        "y": 3485.38
+      },
+      "end": {
+        "x": 4006.15,
+        "y": 3677.97
+      },
+      "length": 351.04,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Violation→14c-Language-Extensions::FMEALibrary::FMEARequirement#37",
+      "source": "14c-Language-Extensions::FMEALibrary::Violation",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "d": "M4318.483892996507,3485.375 C4318.483892996507,3581.671875 4394.095336938309,3581.671875 4394.095336938309,3677.96875",
+      "start": {
+        "x": 4318.48,
+        "y": 3485.38
+      },
+      "end": {
+        "x": 4394.1,
+        "y": 3677.97
+      },
+      "length": 211.91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure→14c-Language-Extensions::FMEALibrary::Situation#39",
+      "source": "14c-Language-Extensions::FMEALibrary::ControllingMeasure",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M4241.966559616641,3020.375 C4241.966559616641,3349.171875 3982.946003651508,3349.171875 3982.946003651508,3677.96875",
+      "start": {
+        "x": 4241.97,
+        "y": 3020.38
+      },
+      "end": {
+        "x": 3982.95,
+        "y": 3677.97
+      },
+      "length": 723.95,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure→14c-Language-Extensions::FMEALibrary::FMEARequirement#40",
+      "source": "14c-Language-Extensions::FMEALibrary::ControllingMeasure",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "d": "M4256.884812793274,3020.375 C4256.884812793274,3349.171875 4398.027750474875,3349.171875 4398.027750474875,3677.96875",
+      "start": {
+        "x": 4256.88,
+        "y": 3020.38
+      },
+      "end": {
+        "x": 4398.03,
+        "y": 3677.97
+      },
+      "length": 678.53,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Prevention→14c-Language-Extensions::FMEALibrary::ControllingMeasure#42",
+      "source": "14c-Language-Extensions::FMEALibrary::Prevention",
+      "target": "14c-Language-Extensions::FMEALibrary::ControllingMeasure",
+      "d": "M4369.601442924397,2852.375 C4369.601442924397,2895.375 4274.311120343752,2895.375 4274.311120343752,2938.375",
+      "start": {
+        "x": 4369.6,
+        "y": 2852.38
+      },
+      "end": {
+        "x": 4274.31,
+        "y": 2938.38
+      },
+      "length": 135.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Mitigation→14c-Language-Extensions::FMEALibrary::ControllingMeasure#44",
+      "source": "14c-Language-Extensions::FMEALibrary::Mitigation",
+      "target": "14c-Language-Extensions::FMEALibrary::ControllingMeasure",
+      "d": "M4232.053055827623,2852.375 C4232.053055827623,2895.375 4247.859507440526,2895.375 4247.859507440526,2938.375",
+      "start": {
+        "x": 4232.05,
+        "y": 2852.38
+      },
+      "end": {
+        "x": 4247.86,
+        "y": 2938.38
+      },
+      "length": 88.02,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata→14c-Language-Extensions::FMEALibrary#46",
+      "source": "14c-Language-Extensions::FMEAMetadata",
+      "target": "14c-Language-Extensions::FMEALibrary",
+      "d": "M2985.5135563681706,2484.78125 C2985.5135563681706,2594.212882927266 3176.6515856677893,2703.6445158545325 3367.789614967408,2703.6445158545325",
+      "start": {
+        "x": 2985.51,
+        "y": 2484.78
+      },
+      "end": {
+        "x": 3367.79,
+        "y": 2703.64
+      },
+      "length": 475.07,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::StatusHolder→14c-Language-Extensions::FMEAMetadata::Status#49",
+      "source": "14c-Language-Extensions::FMEAMetadata::StatusHolder",
+      "target": "14c-Language-Extensions::FMEAMetadata::Status",
+      "d": "M1689.9896149674078,2481.78125 C1689.9896149674078,2580.578125 1689.9896149674075,2580.578125 1689.9896149674075,2679.375",
+      "start": {
+        "x": 1689.99,
+        "y": 2481.78
+      },
+      "end": {
+        "x": 1689.99,
+        "y": 2679.38
+      },
+      "length": 197.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::CauseMetadata→14c-Language-Extensions::FMEAMetadata::SituationMetadata#52",
+      "source": "14c-Language-Extensions::FMEAMetadata::CauseMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "d": "M1348.8901385276172,2277.78125 C1348.8901385276172,2310.28125 1367.8890914071983,2310.28125 1367.8890914071983,2342.78125",
+      "start": {
+        "x": 1348.89,
+        "y": 2277.78
+      },
+      "end": {
+        "x": 1367.89,
+        "y": 2342.78
+      },
+      "length": 68.75,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FailureModeMetadata→14c-Language-Extensions::FMEAMetadata::SituationMetadata#54",
+      "source": "14c-Language-Extensions::FMEAMetadata::FailureModeMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "d": "M1662.4045364333763,2277.78125 C1662.4045364333763,2310.28125 1489.8746935014392,2310.28125 1489.8746935014392,2342.78125",
+      "start": {
+        "x": 1662.4,
+        "y": 2277.78
+      },
+      "end": {
+        "x": 1489.87,
+        "y": 2342.78
+      },
+      "length": 191.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::EffectMetadata→14c-Language-Extensions::FMEAMetadata::SituationMetadata#56",
+      "source": "14c-Language-Extensions::FMEAMetadata::EffectMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "d": "M2010.289614967408,2269.8508320246438 C1812.6396149674079,2269.8508320246438 1812.6396149674079,2365.4431248489973 1614.9896149674078,2365.4431248489973",
+      "start": {
+        "x": 2010.29,
+        "y": 2269.85
+      },
+      "end": {
+        "x": 1614.99,
+        "y": 2365.44
+      },
+      "length": 411.16,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FMEAItemMetadata→14c-Language-Extensions::FMEAMetadata::SituationMetadata#58",
+      "source": "14c-Language-Extensions::FMEAMetadata::FMEAItemMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "d": "M1039.6951123496067,2277.78125 C1039.6951123496067,2310.28125 1247.5841175852088,2310.28125 1247.5841175852088,2342.78125",
+      "start": {
+        "x": 1039.7,
+        "y": 2277.78
+      },
+      "end": {
+        "x": 1247.58,
+        "y": 2342.78
+      },
+      "length": 224.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::PreventionMetadata→14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata#64",
+      "source": "14c-Language-Extensions::FMEAMetadata::PreventionMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata",
+      "d": "M3404.542948300741,2277.78125 C3404.542948300741,2310.28125 3190.622948300741,2310.28125 3190.622948300741,2342.78125",
+      "start": {
+        "x": 3404.54,
+        "y": 2277.78
+      },
+      "end": {
+        "x": 3190.62,
+        "y": 2342.78
+      },
+      "length": 230.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::MitigationMetadata→14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata#66",
+      "source": "14c-Language-Extensions::FMEAMetadata::MitigationMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata",
+      "d": "M3105.7152559930487,2277.78125 C3105.7152559930487,2310.28125 3122.084486762279,2310.28125 3122.084486762279,2342.78125",
+      "start": {
+        "x": 3105.72,
+        "y": 2277.78
+      },
+      "end": {
+        "x": 3122.08,
+        "y": 2342.78
+      },
+      "length": 67.82,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel→14c-Language-Extensions::FMEALibrary#68",
+      "source": "14c-Language-Extensions::FMEAUserModel",
+      "target": "14c-Language-Extensions::FMEALibrary",
+      "d": "M2144,1739.6448513490514 C2813.474418643731,1739.6448513490514 3482.948837287462,2204.5099256745257 3482.948837287462,2669.375",
+      "start": {
+        "x": 2144,
+        "y": 1739.64
+      },
+      "end": {
+        "x": 3482.95,
+        "y": 2669.38
+      },
+      "length": 1772.75,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel→14c-Language-Extensions::FMEAMetadata#69",
+      "source": "14c-Language-Extensions::FMEAUserModel",
+      "target": "14c-Language-Extensions::FMEAMetadata",
+      "d": "M2144,1874.22667499052 C2295.6692586833024,1874.22667499052 2447.3385173666047,1995.00396249526 2447.3385173666047,2115.78125",
+      "start": {
+        "x": 2144,
+        "y": 1874.23
+      },
+      "end": {
+        "x": 2447.34,
+        "y": 2115.78
+      },
+      "length": 423.48,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::req3→14c-Language-Extensions::FMEALibrary::RequirementWithSIL#73",
+      "source": "14c-Language-Extensions::FMEAUserModel::req3",
+      "target": "14c-Language-Extensions::FMEALibrary::RequirementWithSIL",
+      "d": "M819.7896149674077,605.4072718631179 C2692.289614967408,605.4072718631179 2692.289614967408,2748.2395912547527 4564.789614967408,2748.2395912547527",
+      "start": {
+        "x": 819.79,
+        "y": 605.41
+      },
+      "end": {
+        "x": 4564.79,
+        "y": 2748.24
+      },
+      "length": 4483.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted→14c-Language-Extensions::FMEAUserModel::req1#75",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted",
+      "target": "14c-Language-Extensions::FMEAUserModel::req1",
+      "d": "M1503.5615559752334,1069 C1503.5615559752334,1156.296875 1460.9165694549424,1156.296875 1460.9165694549424,1243.59375",
+      "start": {
+        "x": 1503.56,
+        "y": 1069
+      },
+      "end": {
+        "x": 1460.92,
+        "y": 1243.59
+      },
+      "length": 181.73,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted#76",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted",
+      "d": "M1787.001926180748,891 C1787.001926180748,929.0298192771085 1699.2115461332419,967.0596385542169 1611.4211660857359,967.0596385542169",
+      "start": {
+        "x": 1787,
+        "y": 891
+      },
+      "end": {
+        "x": 1611.42,
+        "y": 967.06
+      },
+      "length": 203.35,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged#77",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged",
+      "d": "M1553.8086379537028,1069 C1553.8086379537028,1156.296875 1684.533694217769,1156.296875 1684.533694217769,1243.59375",
+      "start": {
+        "x": 1553.81,
+        "y": 1069
+      },
+      "end": {
+        "x": 1684.53,
+        "y": 1243.59
+      },
+      "length": 228.96,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged#78",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged",
+      "d": "M1900.6071062114595,891 C1900.6071062114595,1072.296875 1744.637634623733,1072.296875 1744.637634623733,1253.59375",
+      "start": {
+        "x": 1900.61,
+        "y": 891
+      },
+      "end": {
+        "x": 1744.64,
+        "y": 1253.59
+      },
+      "length": 405.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected#79",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected",
+      "d": "M1722.4211660857359,1360.59375 C1722.4211660857359,1464.59375 1722.4211660857359,1464.59375 1722.4211660857359,1568.59375",
+      "start": {
+        "x": 1722.42,
+        "y": 1360.59
+      },
+      "end": {
+        "x": 1722.42,
+        "y": 1568.59
+      },
+      "length": 208,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected#80",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected",
+      "d": "M1911.8620387134017,891 C1911.8620387134017,1234.796875 1728.9482645009189,1234.796875 1728.9482645009189,1578.59375",
+      "start": {
+        "x": 1911.86,
+        "y": 891
+      },
+      "end": {
+        "x": 1728.95,
+        "y": 1578.59
+      },
+      "length": 720.73,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay#81",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay",
+      "d": "M1722.4211660857359,1628.59375 C1722.4211660857359,1715.890625 1722.4211660857359,1715.890625 1722.4211660857359,1803.1875",
+      "start": {
+        "x": 1722.42,
+        "y": 1628.59
+      },
+      "end": {
+        "x": 1722.42,
+        "y": 1803.19
+      },
+      "length": 174.59,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay#82",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay",
+      "d": "M1916.5850266850177,891 C1916.5850266850177,1352.09375 1732.9277887972212,1352.09375 1732.9277887972212,1813.1875",
+      "start": {
+        "x": 1916.59,
+        "y": 891
+      },
+      "end": {
+        "x": 1732.93,
+        "y": 1813.19
+      },
+      "length": 947.57,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::req2#83",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::req2",
+      "d": "M1720.505493399197,156 C1720.505493399197,298.7867474935743 1115.4309940292324,441.5734949871486 510.3564946592678,441.5734949871486",
+      "start": {
+        "x": 1720.51,
+        "y": 156
+      },
+      "end": {
+        "x": 510.36,
+        "y": 441.57
+      },
+      "length": 1282.4,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::req3#84",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::req3",
+      "d": "M1759.3970135269067,156 C1759.3970135269067,328.91481806594936 1294.5933142471572,501.8296361318988 829.7896149674077,501.8296361318988",
+      "start": {
+        "x": 1759.4,
+        "y": 156
+      },
+      "end": {
+        "x": 829.79,
+        "y": 501.83
+      },
+      "length": 1045.34,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item#86",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item",
+      "d": "M1831.1638960560622,156 C1831.1638960560622,434.5 1919.7003945723827,434.5 1919.7003945723827,713",
+      "start": {
+        "x": 1831.16,
+        "y": 156
+      },
+      "end": {
+        "x": 1919.7,
+        "y": 713
+      },
+      "length": 566.86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter#87",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter",
+      "d": "M1804.391029591483,169 C1804.391029591483,230.3 1680.0179692466552,230.3 1680.0179692466552,291.6",
+      "start": {
+        "x": 1804.39,
+        "y": 169
+      },
+      "end": {
+        "x": 1680.02,
+        "y": 291.6
+      },
+      "length": 184.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter→00000000-0000-0000-0000-000000000241#88",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter",
+      "target": "00000000-0000-0000-0000-000000000241",
+      "d": "M1649.9152392803,354.6 C1649.9152392803,899.5968750000001 1333.46220843951,899.596875 1333.46220843951,1444.59375",
+      "start": {
+        "x": 1649.92,
+        "y": 354.6
+      },
+      "end": {
+        "x": 1333.46,
+        "y": 1444.59
+      },
+      "length": 1152.07,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000241→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected#89",
+      "source": "00000000-0000-0000-0000-000000000241",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected",
+      "d": "M1400.194755101424,1494.59375 C1400.194755101424,1527.09375 1648.5160259517195,1527.09375 1648.5160259517195,1559.59375",
+      "start": {
+        "x": 1400.19,
+        "y": 1494.59
+      },
+      "end": {
+        "x": 1648.52,
+        "y": 1559.59
+      },
+      "length": 263.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::battery#90",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::battery",
+      "d": "M1661.2424093812601,354.6 C1661.2424093812601,449.46666666666664 1694.9332561235447,449.46666666666664 1694.9332561235447,544.3333333333333",
+      "start": {
+        "x": 1661.24,
+        "y": 354.6
+      },
+      "end": {
+        "x": 1694.93,
+        "y": 544.33
+      },
+      "length": 193.91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::battery→00000000-0000-0000-0000-00000000024a#91",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::battery",
+      "target": "00000000-0000-0000-0000-00000000024a",
+      "d": "M1676.2801948457545,607.3333333333333 C1676.2801948457545,693.6666666666666 1506.8954706590503,693.6666666666666 1506.8954706590503,780",
+      "start": {
+        "x": 1676.28,
+        "y": 607.33
+      },
+      "end": {
+        "x": 1506.9,
+        "y": 780
+      },
+      "length": 255.67,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000024a→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted#92",
+      "source": "00000000-0000-0000-0000-00000000024a",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted",
+      "d": "M1487.8685136708505,830 C1487.8685136708505,886.5 1507.8305089202568,886.5 1507.8305089202568,943",
+      "start": {
+        "x": 1487.87,
+        "y": 830
+      },
+      "end": {
+        "x": 1507.83,
+        "y": 943
+      },
+      "length": 115.46,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::battery→00000000-0000-0000-0000-000000000251#93",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::battery",
+      "target": "00000000-0000-0000-0000-000000000251",
+      "d": "M1700.3952664468366,607.3333333333333 C1700.3952664468366,798.9166666666666 1721.1137323913017,798.9166666666666 1721.1137323913017,990.5",
+      "start": {
+        "x": 1700.4,
+        "y": 607.33
+      },
+      "end": {
+        "x": 1721.11,
+        "y": 990.5
+      },
+      "length": 383.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000251→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged#94",
+      "source": "00000000-0000-0000-0000-000000000251",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged",
+      "d": "M1722.4211660857359,1040.5 C1722.4211660857359,1137.546875 1722.4211660857359,1137.546875 1722.4211660857359,1234.59375",
+      "start": {
+        "x": 1722.42,
+        "y": 1040.5
+      },
+      "end": {
+        "x": 1722.42,
+        "y": 1234.59
+      },
+      "length": 194.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::pump#95",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::pump",
+      "d": "M1574.0878327524024,341.37615422695677 C1445.1887238599052,341.37615422695677 1445.1887238599052,437.22384577304325 1316.2896149674077,437.22384577304325",
+      "start": {
+        "x": 1574.09,
+        "y": 341.38
+      },
+      "end": {
+        "x": 1316.29,
+        "y": 437.22
+      },
+      "length": 281.18,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::reservoir#96",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::reservoir",
+      "d": "M1636.1112165213158,354.6 C1636.1112165213158,395.8 1556.064448983489,395.8 1556.064448983489,437",
+      "start": {
+        "x": 1636.11,
+        "y": 354.6
+      },
+      "end": {
+        "x": 1556.06,
+        "y": 437
+      },
+      "length": 121.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::patient#97",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::patient",
+      "d": "M1802.765099649596,169 C1802.765099649596,474.5 1189.8456814035476,474.5 1189.8456814035476,780",
+      "start": {
+        "x": 1802.77,
+        "y": 169
+      },
+      "end": {
+        "x": 1189.85,
+        "y": 780
+      },
+      "length": 915.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::patient→00000000-0000-0000-0000-00000000025e#98",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::patient",
+      "target": "00000000-0000-0000-0000-00000000025e",
+      "d": "M1165.2896149674077,843 C1165.2896149674077,916.75 1165.2896149674077,916.75 1165.2896149674077,990.5",
+      "start": {
+        "x": 1165.29,
+        "y": 843
+      },
+      "end": {
+        "x": 1165.29,
+        "y": 990.5
+      },
+      "length": 147.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000025e→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay#99",
+      "source": "00000000-0000-0000-0000-00000000025e",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay",
+      "d": "M1181.6529764805387,1040.5 C1181.6529764805387,1417.34375 1687.4035724476355,1417.34375 1687.4035724476355,1794.1875",
+      "start": {
+        "x": 1181.65,
+        "y": 1040.5
+      },
+      "end": {
+        "x": 1687.4,
+        "y": 1794.19
+      },
+      "length": 949.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected#100",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected",
+      "d": "M1684.8211660857357,141.70360930835264 C951.9105830428679,141.70360930835264 951.9105830428679,263.9331382558753 219,263.9331382558753",
+      "start": {
+        "x": 1684.82,
+        "y": 141.7
+      },
+      "end": {
+        "x": 219,
+        "y": 263.93
+      },
+      "length": 1473.05,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted#101",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted",
+      "d": "M1684.8211660857357,152.8747466940137 C1305.0553905265717,152.8747466940137 1305.0553905265717,283.36843004418296 925.2896149674077,283.36843004418296",
+      "start": {
+        "x": 1684.82,
+        "y": 152.87
+      },
+      "end": {
+        "x": 925.29,
+        "y": 283.37
+      },
+      "length": 775.19,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged#102",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged",
+      "d": "M1684.8211660857357,147.09835391507195 C1140.088830372502,147.09835391507195 1140.088830372502,284.14751576439085 595.3564946592678,284.14751576439085",
+      "start": {
+        "x": 1684.82,
+        "y": 147.1
+      },
+      "end": {
+        "x": 595.36,
+        "y": 284.15
+      },
+      "length": 1101.62,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay#103",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay",
+      "d": "M1712.3313217061618,169 C1712.3313217061618,223.05335905360437 1433.8104683367847,277.10671810720874 1155.2896149674077,277.10671810720874",
+      "start": {
+        "x": 1712.33,
+        "y": 169
+      },
+      "end": {
+        "x": 1155.29,
+        "y": 277.11
+      },
+      "length": 581.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 3698.32,
+      "y": 3573.87,
+      "w": 40.44,
+      "h": 15.59,
+      "text": "cause",
+      "edge": "14c-Language-Extensions::FMEALibrary::Causation→14c-Language-Extensions::FMEALibrary::Situation#27"
+    },
+    {
+      "x": 3698.59,
+      "y": 3573.87,
+      "w": 39.89,
+      "h": 15.59,
+      "text": "effect",
+      "edge": "14c-Language-Extensions::FMEALibrary::Causation→14c-Language-Extensions::FMEALibrary::Situation#28"
+    },
+    {
+      "x": 4130.7,
+      "y": 3573.87,
+      "w": 21.19,
+      "h": 15.59,
+      "text": "sit",
+      "edge": "14c-Language-Extensions::FMEALibrary::Violation→14c-Language-Extensions::FMEALibrary::Situation#36"
+    },
+    {
+      "x": 4342.85,
+      "y": 3573.87,
+      "w": 26.87,
+      "h": 15.59,
+      "text": "req",
+      "edge": "14c-Language-Extensions::FMEALibrary::Violation→14c-Language-Extensions::FMEALibrary::FMEARequirement#37"
+    },
+    {
+      "x": 4101.86,
+      "y": 3341.37,
+      "w": 21.19,
+      "h": 15.59,
+      "text": "sit",
+      "edge": "14c-Language-Extensions::FMEALibrary::ControllingMeasure→14c-Language-Extensions::FMEALibrary::Situation#39"
+    },
+    {
+      "x": 4314.02,
+      "y": 3341.37,
+      "w": 26.88,
+      "h": 15.59,
+      "text": "req",
+      "edge": "14c-Language-Extensions::FMEALibrary::ControllingMeasure→14c-Language-Extensions::FMEALibrary::FMEARequirement#40"
+    },
+    {
+      "x": 3064.82,
+      "y": 2627.45,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "14c-Language-Extensions::FMEAMetadata→14c-Language-Extensions::FMEALibrary#46"
+    },
+    {
+      "x": 1668.83,
+      "y": 2572.78,
+      "w": 42.31,
+      "h": 15.59,
+      "text": "status",
+      "edge": "14c-Language-Extensions::FMEAMetadata::StatusHolder→14c-Language-Extensions::FMEAMetadata::Status#49"
+    },
+    {
+      "x": 3024.37,
+      "y": 2022.39,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "14c-Language-Extensions::FMEAUserModel→14c-Language-Extensions::FMEALibrary#68"
+    },
+    {
+      "x": 2312.39,
+      "y": 1941.92,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "14c-Language-Extensions::FMEAUserModel→14c-Language-Extensions::FMEAMetadata#69"
+    },
+    {
+      "x": 1437.75,
+      "y": 1148.5,
+      "w": 88.98,
+      "h": 15.59,
+      "text": "«#prevention»",
+      "edge": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted→14c-Language-Extensions::FMEAUserModel::req1#75"
+    },
+    {
+      "x": 1577.94,
+      "y": 1148.5,
+      "w": 82.47,
+      "h": 15.59,
+      "text": "«#causation»",
+      "edge": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged#77"
+    },
+    {
+      "x": 1681.19,
+      "y": 1456.8,
+      "w": 82.47,
+      "h": 15.59,
+      "text": "«#causation»",
+      "edge": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected#79"
+    },
+    {
+      "x": 1681.19,
+      "y": 1708.09,
+      "w": 82.47,
+      "h": 15.59,
+      "text": "«#causation»",
+      "edge": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay#81"
+    },
+    {
+      "x": 1304.15,
+      "y": 344.53,
+      "w": 76.36,
+      "h": 15.59,
+      "text": "«#violation»",
+      "edge": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::req2#83"
+    },
+    {
+      "x": 1425.93,
+      "y": 385.96,
+      "w": 85.94,
+      "h": 15.59,
+      "text": "«#mitigation»",
+      "edge": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::req3#84"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "8edaa594a09ebd30",
+  "unsettled": false
+}

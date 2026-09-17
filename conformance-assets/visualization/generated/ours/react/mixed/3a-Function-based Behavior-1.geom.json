@@ -1,0 +1,2367 @@
+{
+  "zoom": 0.535536,
+  "nodes": [
+    {
+      "id": "3a-Function-based Behavior-1",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 3224.17,
+      "h": 1939.59,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 3224.17,
+        "h": 1939.59
+      },
+      "clipped": 0,
+      "title": "3a-Function-based Behavior-1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 1530.59,
+      "w": 2891,
+      "h": 409,
+      "inner": {
+        "x": 32,
+        "y": 1530.59,
+        "w": 2891,
+        "h": 409
+      },
+      "clipped": 0,
+      "title": "Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1764.86,
+      "y": 161.59,
+      "w": 1364,
+      "h": 1275,
+      "inner": {
+        "x": 1764.86,
+        "y": 161.59,
+        "w": 1364,
+        "h": 1275
+      },
+      "clipped": 0,
+      "title": "Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000a",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1707,
+      "y": 1719.59,
+      "w": 252,
+      "h": 60,
+      "inner": {
+        "x": 1707,
+        "y": 1719.59,
+        "w": 252,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The 'TorqueValue' type is aliased as 'Torque'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000e",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1983,
+      "y": 1848.59,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 1983,
+        "y": 1848.59,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "There is no special construct for modeling \"signals\". Data to be transmitted asynchronously can simply be modeled using attribute defs.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000014",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1324,
+      "y": 1863.59,
+      "w": 359,
+      "h": 60,
+      "inner": {
+        "x": 1324,
+        "y": 1863.59,
+        "w": 359,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Black box definitions for actions include their inputs and outputs.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "TorqueValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 540,
+      "y": 1575.59,
+      "w": 432,
+      "h": 348,
+      "inner": {
+        "x": 540,
+        "y": 1575.59,
+        "w": 432,
+        "h": 348
+      },
+      "clipped": 0,
+      "title": "TorqueValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "source: item 4-12.2 torque symbol(s): `T`, `M_Q` application domain: generic name: Torque quantity dimension: L^2*M^1*T^-2 measurement unit(s): N*m, kg*m^2*s^-2 tensor order: 0 definition: quantity described by the scalar product: `T = vec(M)*vec(e_Q)` where `vec(M)` is moment of force (item 4-12.1) and `vec(e_Q)` is unit vector of direction with respect to which the torque is considered remarks: For example, torque is the twisting moment of force with respect to the longitudinal axis of a beam or shaft.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "num: Real :>>TensorQuantityValue::num",
+              "kind": "attributes"
+            },
+            {
+              "text": "mRef: TorqueUnit :>>ScalarQuantityValue::mRef",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::FuelCmd",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 212,
+      "y": 1724.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 212,
+        "y": 1724.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::EngineStart",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1160,
+      "y": 1724.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1160,
+        "y": 1724.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "EngineStart",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::EngineOff",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 2439,
+      "y": 1724.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2439,
+        "y": 1724.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "EngineOff",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Generate Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 2767,
+      "y": 1589.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2767,
+        "y": 1589.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Generate Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Amplify Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 2603,
+      "y": 1589.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2603,
+        "y": 1589.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Amplify Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Transfer Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 376,
+      "y": 1589.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 376,
+        "y": 1589.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Transfer Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Distribute Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 48,
+      "y": 1589.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 48,
+        "y": 1589.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Distribute Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Provide Power",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 996,
+      "y": 1589.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 996,
+        "y": 1589.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Provide Power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 2359.66,
+      "y": 394.59,
+      "w": 546.2,
+      "h": 1012,
+      "inner": {
+        "x": 2359.66,
+        "y": 394.59,
+        "w": 546.2,
+        "h": 1012
+      },
+      "clipped": 0,
+      "title": "provide power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e1",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 2236.86,
+      "y": 206.59,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 2236.86,
+        "y": 206.59,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "These successions act to \"enable\" the torque-related actions. Each action on the right can only be performed following the completion of a performance of 'engineStarted'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000103",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1780.86,
+      "y": 206.59,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 1780.86,
+        "y": 206.59,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "These successions act to \"disable\" the torque-related actions. The performance of the actions on the left cannot continue once there is a performance of 'engineStopped'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000062",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 2692.86,
+      "y": 221.59,
+      "w": 420,
+      "h": 75,
+      "inner": {
+        "x": 2692.86,
+        "y": 221.59,
+        "w": 420,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "An action usage inherits parameters from its definition. They act as its \"pins\".",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Generate Torque::fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2760,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2760,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Generate Torque::engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2900,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2900,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Amplify Torque::engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2596,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2596,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Amplify Torque::transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2736,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2736,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Transfer Torque::transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 369,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 369,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Transfer Torque::driveshaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 509,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 509,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "driveshaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Distribute Torque::driveShaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 41,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 41,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "driveShaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque1",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 181,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 181,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque2",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 181,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 181,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Provide Power::fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 989,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 989,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Provide Power::wheelTorque1",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1129,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1129,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Definitions::Provide Power::wheelTorque2",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1129,
+      "y": 1575.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1129,
+        "y": 1575.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2352.66,
+      "y": 1406.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2352.66,
+        "y": 1406.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::wheelTorque1",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2898.86,
+      "y": 380.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2898.86,
+        "y": 380.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::wheelTorque2",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2898.86,
+      "y": 380.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2898.86,
+        "y": 380.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::generate torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 2706.6,
+      "y": 605.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2706.6,
+        "y": 605.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generate torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::amplify torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 2645,
+      "y": 767.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2645,
+        "y": 767.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "amplify torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::transfer torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 2474,
+      "y": 929.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2474,
+        "y": 929.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transfer torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::distribute torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 2375.66,
+      "y": 1091.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2375.66,
+        "y": 1091.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "distribute torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::continue",
+      "type": "actionDecision",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 2850.86,
+      "y": 1359.59,
+      "w": 24,
+      "h": 24,
+      "inner": {
+        "x": 2850.86,
+        "y": 1359.59,
+        "w": 24,
+        "h": 24
+      },
+      "clipped": 0,
+      "title": "continue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.910588 0.858039 0.799216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::engineStarted",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 2439.86,
+      "y": 471.59,
+      "w": 162,
+      "h": 50,
+      "inner": {
+        "x": 2439.86,
+        "y": 471.59,
+        "w": 162,
+        "h": 50
+      },
+      "clipped": 14,
+      "title": "engineStarted engineStart: EngineStart",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "accept action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::engineStopped",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 2562,
+      "y": 1225.59,
+      "w": 144,
+      "h": 50,
+      "inner": {
+        "x": 2562,
+        "y": 1225.59,
+        "w": 144,
+        "h": 50
+      },
+      "clipped": 14,
+      "title": "engineStopped engineOff: EngineOff",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "accept action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::«start»",
+      "type": "actionInitial",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 2846.86,
+      "y": 1243.59,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 2846.86,
+        "y": 1243.59,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "rgba(0, 0, 0, 0)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::generate torque/^3a-Function-based Behavior-1::Definitions::Generate Torque::fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2699.6,
+      "y": 655.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2699.6,
+        "y": 655.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::generate torque/^3a-Function-based Behavior-1::Definitions::Generate Torque::engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2839.6,
+      "y": 655.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2839.6,
+        "y": 655.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::amplify torque/^3a-Function-based Behavior-1::Definitions::Amplify Torque::engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2638,
+      "y": 753.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2638,
+        "y": 753.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::amplify torque/^3a-Function-based Behavior-1::Definitions::Amplify Torque::transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2778,
+      "y": 817.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2778,
+        "y": 817.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::transfer torque/^3a-Function-based Behavior-1::Definitions::Transfer Torque::transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2467,
+      "y": 915.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2467,
+        "y": 915.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::transfer torque/^3a-Function-based Behavior-1::Definitions::Transfer Torque::driveshaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2607,
+      "y": 979.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2607,
+        "y": 979.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^driveshaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque1",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2508.66,
+      "y": 1077.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2508.66,
+        "y": 1077.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^wheelTorque1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque2",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2508.66,
+      "y": 1077.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2508.66,
+        "y": 1077.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^wheelTorque2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::driveShaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2368.66,
+      "y": 1077.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2368.66,
+        "y": 1077.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^driveShaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "3a-Function-based Behavior-1→3a-Function-based Behavior-1::Definitions#0",
+      "source": "3a-Function-based Behavior-1",
+      "target": "3a-Function-based Behavior-1::Definitions",
+      "d": "M1433.1178507363065,1956 C1433.1178507363065,2086.41494025082 1518.58597889116,1390.17880974918 1518.58597889116,1520.59375",
+      "start": {
+        "x": 1433.12,
+        "y": 1956
+      },
+      "end": {
+        "x": 1518.59,
+        "y": 1520.59
+      },
+      "length": 509.72,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1→3a-Function-based Behavior-1::Usages#1",
+      "source": "3a-Function-based Behavior-1",
+      "target": "3a-Function-based Behavior-1::Usages",
+      "d": "M3240,618.0568518841592 C3480.8596953770866,618.0568518841592 1513.9974474800567,954.7620049720865 1754.8571428571431,954.7620049720865",
+      "start": {
+        "x": 3240,
+        "y": 618.06
+      },
+      "end": {
+        "x": 1754.86,
+        "y": 954.76
+      },
+      "length": 1606.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000e→3a-Function-based Behavior-1::Definitions#2",
+      "source": "00000000-0000-0000-0000-00000000000e",
+      "target": "3a-Function-based Behavior-1::Definitions",
+      "d": "M2019.819536423841,1848.59375 C2019.819536423841,1788.9725499114409 2454.630794701987,1999.2149500885591 2454.630794701987,1939.59375",
+      "start": {
+        "x": 2019.82,
+        "y": 1848.59
+      },
+      "end": {
+        "x": 2454.63,
+        "y": 1939.59
+      },
+      "length": 462.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000014→3a-Function-based Behavior-1::Definitions#3",
+      "source": "00000000-0000-0000-0000-000000000014",
+      "target": "3a-Function-based Behavior-1::Definitions",
+      "d": "M1498.5788643533124,1863.59375 C1498.5788643533124,1809.1075132057415 1511.045741324921,1994.0799867942585 1511.045741324921,1939.59375",
+      "start": {
+        "x": 1498.58,
+        "y": 1863.59
+      },
+      "end": {
+        "x": 1511.05,
+        "y": 1939.59
+      },
+      "length": 117.66,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e1→3a-Function-based Behavior-1::Usages::provide power#15",
+      "source": "00000000-0000-0000-0000-0000000000e1",
+      "target": "3a-Function-based Behavior-1::Usages::provide power",
+      "d": "M2465.324014968083,296.59375 C2465.324014968083,345.59375 2492.4740920096856,345.59375 2492.4740920096856,394.59375",
+      "start": {
+        "x": 2465.32,
+        "y": 296.59
+      },
+      "end": {
+        "x": 2492.47,
+        "y": 394.59
+      },
+      "length": 103.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000103→3a-Function-based Behavior-1::Usages::provide power#16",
+      "source": "00000000-0000-0000-0000-000000000103",
+      "target": "3a-Function-based Behavior-1::Usages::provide power",
+      "d": "M2040.9418886198548,296.59375 C2040.9418886198548,459.2598399653979 2200.299515738499,621.9259299307957 2359.657142857143,621.9259299307957",
+      "start": {
+        "x": 2040.94,
+        "y": 296.59
+      },
+      "end": {
+        "x": 2359.66,
+        "y": 621.93
+      },
+      "length": 498.79,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power→3a-Function-based Behavior-1::Definitions::Provide Power#17",
+      "source": "3a-Function-based Behavior-1::Usages::provide power",
+      "target": "3a-Function-based Behavior-1::Definitions::Provide Power",
+      "d": "M2359.657142857143,1025.0128042191745 C1740.256042416967,1025.0128042191745 1120.8549419767908,1297.8032771095873 1120.8549419767908,1570.59375",
+      "start": {
+        "x": 2359.66,
+        "y": 1025.01
+      },
+      "end": {
+        "x": 1120.85,
+        "y": 1570.59
+      },
+      "length": 1439.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::generate torque/^3a-Function-based Behavior-1::Definitions::Generate Torque::fuelCmd→3a-Function-based Behavior-1::Usages::provide power::fuelCmd#18",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::generate torque/^3a-Function-based Behavior-1::Definitions::Generate Torque::fuelCmd",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::fuelCmd",
+      "d": "M2703.3661784287615,669.59375 C2703.3661784287615,1038.09375 2362.8909644283813,1038.09375 2362.8909644283813,1406.59375",
+      "start": {
+        "x": 2703.37,
+        "y": 669.59
+      },
+      "end": {
+        "x": 2362.89,
+        "y": 1406.59
+      },
+      "length": 836.46,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000062→3a-Function-based Behavior-1::Usages::provide power::generate torque#19",
+      "source": "00000000-0000-0000-0000-000000000062",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::generate torque",
+      "d": "M2890.1124783695445,296.59375 C2890.1124783695445,451.09375 2785.096442991732,451.09375 2785.096442991732,605.59375",
+      "start": {
+        "x": 2890.11,
+        "y": 296.59
+      },
+      "end": {
+        "x": 2785.1,
+        "y": 605.59
+      },
+      "length": 332.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::generate torque→3a-Function-based Behavior-1::Definitions::Generate Torque#20",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::generate torque",
+      "target": "3a-Function-based Behavior-1::Definitions::Generate Torque",
+      "d": "M2778.1345528455286,655.59375 C2778.1345528455286,1113.09375 2835.4654471544713,1113.09375 2835.4654471544713,1570.59375",
+      "start": {
+        "x": 2778.13,
+        "y": 655.59
+      },
+      "end": {
+        "x": 2835.47,
+        "y": 1570.59
+      },
+      "length": 917.55,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::generate torque/^3a-Function-based Behavior-1::Definitions::Generate Torque::engineTorque→3a-Function-based Behavior-1::Usages::provide power::amplify torque/^3a-Function-based Behavior-1::Definitions::Amplify Torque::engineTorque#21",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::generate torque/^3a-Function-based Behavior-1::Definitions::Generate Torque::engineTorque",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::amplify torque/^3a-Function-based Behavior-1::Definitions::Amplify Torque::engineTorque",
+      "d": "M2839.6,665.9965277777778 C2750.8,665.9965277777778 2750.8,757.1909722222222 2662,757.1909722222222",
+      "start": {
+        "x": 2839.6,
+        "y": 666
+      },
+      "end": {
+        "x": 2662,
+        "y": 757.19
+      },
+      "length": 206.56,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::amplify torque→3a-Function-based Behavior-1::Definitions::Amplify Torque#22",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::amplify torque",
+      "target": "3a-Function-based Behavior-1::Definitions::Amplify Torque",
+      "d": "M2713.722627737226,817.59375 C2713.722627737226,1194.09375 2674.277372262774,1194.09375 2674.277372262774,1570.59375",
+      "start": {
+        "x": 2713.72,
+        "y": 817.59
+      },
+      "end": {
+        "x": 2674.28,
+        "y": 1570.59
+      },
+      "length": 754.47,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::amplify torque/^3a-Function-based Behavior-1::Definitions::Amplify Torque::transmissionTorque→3a-Function-based Behavior-1::Usages::provide power::transfer torque/^3a-Function-based Behavior-1::Definitions::Transfer Torque::transmissionTorque#23",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::amplify torque/^3a-Function-based Behavior-1::Definitions::Amplify Torque::transmissionTorque",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::transfer torque/^3a-Function-based Behavior-1::Definitions::Transfer Torque::transmissionTorque",
+      "d": "M2778,826.7995377813505 C2634.5,826.7995377813505 2634.5,920.3879622186495 2491,920.3879622186495",
+      "start": {
+        "x": 2778,
+        "y": 826.8
+      },
+      "end": {
+        "x": 2491,
+        "y": 920.39
+      },
+      "length": 307.37,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::transfer torque→3a-Function-based Behavior-1::Definitions::Transfer Torque#24",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::transfer torque",
+      "target": "3a-Function-based Behavior-1::Definitions::Transfer Torque",
+      "d": "M2474,976.6147223546235 C1504.5,976.6147223546235 1504.5,1592.5727776453766 535,1592.5727776453766",
+      "start": {
+        "x": 2474,
+        "y": 976.61
+      },
+      "end": {
+        "x": 535,
+        "y": 1592.57
+      },
+      "length": 2069.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::transfer torque/^3a-Function-based Behavior-1::Definitions::Transfer Torque::driveshaftTorque→3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::driveShaftTorque#25",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::transfer torque/^3a-Function-based Behavior-1::Definitions::Transfer Torque::driveshaftTorque",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::driveShaftTorque",
+      "d": "M2607,989.4719566650683 C2499.828571428571,989.4719566650683 2499.828571428571,1081.7155433349317 2392.657142857143,1081.7155433349317",
+      "start": {
+        "x": 2607,
+        "y": 989.47
+      },
+      "end": {
+        "x": 2392.66,
+        "y": 1081.72
+      },
+      "length": 239.78,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::distribute torque→3a-Function-based Behavior-1::Definitions::Distribute Torque#26",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::distribute torque",
+      "target": "3a-Function-based Behavior-1::Definitions::Distribute Torque",
+      "d": "M2375.657142857143,1131.5701824642804 C1291.3285714285714,1131.5701824642804 1291.3285714285714,1599.6173175357196 207,1599.6173175357196",
+      "start": {
+        "x": 2375.66,
+        "y": 1131.57
+      },
+      "end": {
+        "x": 207,
+        "y": 1599.62
+      },
+      "length": 2238.46,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::wheelTorque1→3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque1#27",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::wheelTorque1",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque1",
+      "d": "M2901.945577831526,394.59375 C2901.945577831526,736.09375 2519.5760110380425,736.09375 2519.5760110380425,1077.59375",
+      "start": {
+        "x": 2901.95,
+        "y": 394.59
+      },
+      "end": {
+        "x": 2519.58,
+        "y": 1077.59
+      },
+      "length": 812.67,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::wheelTorque2→3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque2#28",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::wheelTorque2",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque2",
+      "d": "M2901.945577831526,394.59375 C2901.945577831526,736.09375 2519.5760110380425,736.09375 2519.5760110380425,1077.59375",
+      "start": {
+        "x": 2901.95,
+        "y": 394.59
+      },
+      "end": {
+        "x": 2519.58,
+        "y": 1077.59
+      },
+      "length": 812.67,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "[*]→3a-Function-based Behavior-1::Usages::provide power::continue#29",
+      "source": "[*]",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::continue",
+      "d": "M2862.8644460124256,1275.59375 C2862.8644460124256,1312.59375 2862.8644460124256,1312.59375 2862.8644460124256,1349.59375",
+      "start": {
+        "x": 2862.86,
+        "y": 1275.59
+      },
+      "end": {
+        "x": 2862.86,
+        "y": 1349.59
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::continue→3a-Function-based Behavior-1::Usages::provide power::engineStarted#30",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::continue",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::engineStarted",
+      "d": "M2858.174060140582,1359.59375 C2858.174060140582,945.59375 2530.628780090151,945.59375 2530.628780090151,531.59375",
+      "start": {
+        "x": 2858.17,
+        "y": 1359.59
+      },
+      "end": {
+        "x": 2530.63,
+        "y": 531.59
+      },
+      "length": 912.21,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::engineStarted→3a-Function-based Behavior-1::Usages::provide power::engineStopped#31",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::engineStarted",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::engineStopped",
+      "d": "M2524.608563849943,521.59375 C2524.608563849943,868.59375 2630.2485790071996,868.59375 2630.2485790071996,1215.59375",
+      "start": {
+        "x": 2524.61,
+        "y": 521.59
+      },
+      "end": {
+        "x": 2630.25,
+        "y": 1215.59
+      },
+      "length": 705.28,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::engineStopped→3a-Function-based Behavior-1::Usages::provide power::continue#32",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::engineStopped",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::continue",
+      "d": "M2681.286042564551,1275.59375 C2681.286042564551,1320.4215665846668 2761.075244288488,1365.249383169334 2840.8644460124256,1365.249383169334",
+      "start": {
+        "x": 2681.29,
+        "y": 1275.59
+      },
+      "end": {
+        "x": 2840.86,
+        "y": 1365.25
+      },
+      "length": 197.22,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::engineStarted→3a-Function-based Behavior-1::Usages::provide power::generate torque#33",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::engineStarted",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::generate torque",
+      "d": "M2568.5703624733474,521.59375 C2568.5703624733474,558.59375 2728.886780383795,558.59375 2728.886780383795,595.59375",
+      "start": {
+        "x": 2568.57,
+        "y": 521.59
+      },
+      "end": {
+        "x": 2728.89,
+        "y": 595.59
+      },
+      "length": 184.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::engineStarted→3a-Function-based Behavior-1::Usages::provide power::amplify torque#34",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::engineStarted",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::amplify torque",
+      "d": "M2537.2543436293436,521.59375 C2537.2543436293436,639.59375 2698.602799227799,639.59375 2698.602799227799,757.59375",
+      "start": {
+        "x": 2537.25,
+        "y": 521.59
+      },
+      "end": {
+        "x": 2698.6,
+        "y": 757.59
+      },
+      "length": 299.14,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::engineStarted→3a-Function-based Behavior-1::Usages::provide power::transfer torque#35",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::engineStarted",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::transfer torque",
+      "d": "M2522.1203992514033,521.59375 C2522.1203992514033,720.59375 2542.7367436057393,720.59375 2542.7367436057393,919.59375",
+      "start": {
+        "x": 2522.12,
+        "y": 521.59
+      },
+      "end": {
+        "x": 2542.74,
+        "y": 919.59
+      },
+      "length": 398.76,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::engineStarted→3a-Function-based Behavior-1::Usages::provide power::distribute torque#36",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::engineStarted",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::distribute torque",
+      "d": "M2517.8248847926266,521.59375 C2517.8248847926266,801.59375 2448.689400921659,801.59375 2448.689400921659,1081.59375",
+      "start": {
+        "x": 2517.82,
+        "y": 521.59
+      },
+      "end": {
+        "x": 2448.69,
+        "y": 1081.59
+      },
+      "length": 566.02,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::generate torque→3a-Function-based Behavior-1::Usages::provide power::engineStopped#37",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::generate torque",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::engineStopped",
+      "d": "M2770.85,655.59375 C2770.85,935.59375 2639.75,935.59375 2639.75,1215.59375",
+      "start": {
+        "x": 2770.85,
+        "y": 655.59
+      },
+      "end": {
+        "x": 2639.75,
+        "y": 1215.59
+      },
+      "length": 581.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::amplify torque→3a-Function-based Behavior-1::Usages::provide power::engineStopped#38",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::amplify torque",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::engineStopped",
+      "d": "M2710.578602620087,817.59375 C2710.578602620087,1016.59375 2638.421397379913,1016.59375 2638.421397379913,1215.59375",
+      "start": {
+        "x": 2710.58,
+        "y": 817.59
+      },
+      "end": {
+        "x": 2638.42,
+        "y": 1215.59
+      },
+      "length": 407.12,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::transfer torque→3a-Function-based Behavior-1::Usages::provide power::engineStopped#39",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::transfer torque",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::engineStopped",
+      "d": "M2551.6013513513512,979.59375 C2551.6013513513512,1097.59375 2626.3986486486488,1097.59375 2626.3986486486488,1215.59375",
+      "start": {
+        "x": 2551.6,
+        "y": 979.59
+      },
+      "end": {
+        "x": 2626.4,
+        "y": 1215.59
+      },
+      "length": 251.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3a-Function-based Behavior-1::Usages::provide power::distribute torque→3a-Function-based Behavior-1::Usages::provide power::engineStopped#40",
+      "source": "3a-Function-based Behavior-1::Usages::provide power::distribute torque",
+      "target": "3a-Function-based Behavior-1::Usages::provide power::engineStopped",
+      "d": "M2480.795735607676,1141.59375 C2480.795735607676,1178.59375 2598.861407249467,1178.59375 2598.861407249467,1215.59375",
+      "start": {
+        "x": 2480.8,
+        "y": 1141.59
+      },
+      "end": {
+        "x": 2598.86,
+        "y": 1215.59
+      },
+      "length": 147.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 1435.7,
+      "y": 1730.5,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "3a-Function-based Behavior-1→3a-Function-based Behavior-1::Definitions#0"
+    },
+    {
+      "x": 2457.27,
+      "y": 778.61,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "3a-Function-based Behavior-1→3a-Function-based Behavior-1::Usages#1"
+    },
+    {
+      "x": 2525.69,
+      "y": 1030.3,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "3a-Function-based Behavior-1::Usages::provide power::generate torque/^3a-Function-based Behavior-1::Definitions::Generate Torque::fuelCmd→3a-Function-based Behavior-1::Usages::provide power::fuelCmd#18"
+    },
+    {
+      "x": 2703.32,
+      "y": 728.3,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "3a-Function-based Behavior-1::Usages::provide power::wheelTorque1→3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque1#27"
+    },
+    {
+      "x": 2703.32,
+      "y": 728.3,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "3a-Function-based Behavior-1::Usages::provide power::wheelTorque2→3a-Function-based Behavior-1::Usages::provide power::distribute torque/^3a-Function-based Behavior-1::Definitions::Distribute Torque::wheelTorque2#28"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "8e548734d8a33ebb",
+  "unsettled": false
+}

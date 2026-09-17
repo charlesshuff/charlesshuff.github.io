@@ -1,0 +1,1225 @@
+{
+  "zoom": 0.657712,
+  "nodes": [
+    {
+      "id": "10a-Analysis",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 2307.7,
+      "h": 1131,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 2307.7,
+        "h": 1131
+      },
+      "clipped": 0,
+      "title": "10a-Analysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 2071.71,
+      "y": 61,
+      "w": 236,
+      "h": 997,
+      "inner": {
+        "x": 2071.71,
+        "y": 61,
+        "w": 236,
+        "h": 997
+      },
+      "clipped": 0,
+      "title": "VehicleDesignModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 714,
+      "w": 1786,
+      "h": 417,
+      "inner": {
+        "x": 32,
+        "y": 714,
+        "w": 1786,
+        "h": 417
+      },
+      "clipped": 0,
+      "title": "VehicleAnalysisModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2087.71,
+      "y": 906,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 2087.71,
+        "y": 906,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2087.71,
+      "y": 106,
+      "w": 204,
+      "h": 776,
+      "inner": {
+        "x": 2087.71,
+        "y": 106,
+        "w": 204,
+        "h": 776
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisObjective",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 1622,
+      "y": 1023,
+      "w": 152,
+      "h": 92,
+      "inner": {
+        "x": 1622,
+        "y": 1023,
+        "w": 152,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "MassAnalysisObjective",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "...",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisObjective::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 194,
+      "y": 797.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 194,
+        "y": 797.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 882,
+      "y": 1023,
+      "w": 156,
+      "h": 92,
+      "inner": {
+        "x": 882,
+        "y": 1023,
+        "w": 156,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "MassAnalysisCase",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis def",
+      "compartments": [
+        {
+          "title": "feature chain expressions",
+          "entries": [
+            {
+              "text": "{ // Result vehicle.mass }",
+              "kind": "feature"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1662,
+      "y": 875,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1662,
+        "y": 875,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::obj",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1346,
+      "y": 1023,
+      "w": 192,
+      "h": 92,
+      "inner": {
+        "x": 1346,
+        "y": 1023,
+        "w": 192,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "obj: MassAnalysisObjective",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "subject",
+          "entries": [
+            {
+              "text": "mass = MassAnalysisCase::result",
+              "kind": "subject"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 611,
+      "y": 941.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 611,
+        "y": 941.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AnalysisPlan",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1662,
+      "y": 949,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1662,
+        "y": 949,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::obj",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1122,
+      "y": 920.5,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 1122,
+        "y": 920.5,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "obj",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "...",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 564,
+      "y": 1044,
+      "w": 234,
+      "h": 50,
+      "inner": {
+        "x": 564,
+        "y": 1044,
+        "w": 234,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "massAnalysisCase: MassAnalysisCase",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000097",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 48,
+      "y": 1031.5,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 48,
+        "y": 1031.5,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "By default, the subject of a nested analysis case bound to that of its containing analysis case or analysis case definition.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 273,
+      "y": 871.5,
+      "w": 202,
+      "h": 136,
+      "inner": {
+        "x": 273,
+        "y": 871.5,
+        "w": 202,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "massAnalysisContext",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1622,
+      "y": 759,
+      "w": 180,
+      "h": 92,
+      "inner": {
+        "x": 1622,
+        "y": 759,
+        "w": 180,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= VehicleDesignModel::vehicle",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::Vehicle::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2103.71,
+      "y": 976,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2103.71,
+        "y": 976,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass: MassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000011",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2119.71,
+      "y": 336,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2119.71,
+        "y": 336,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass: MassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::vehicle::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2103.71,
+      "y": 410,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 2103.71,
+        "y": 410,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::vehicle::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2103.71,
+      "y": 176,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 2103.71,
+        "y": 176,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::vehicle::frontAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2103.71,
+      "y": 570,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 2103.71,
+        "y": 570,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "frontAxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::vehicle::rearAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2103.71,
+      "y": 730,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 2103.71,
+        "y": 730,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "rearAxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 289,
+      "y": 941.5,
+      "w": 170,
+      "h": 50,
+      "inner": {
+        "x": 289,
+        "y": 941.5,
+        "w": 170,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "analysisPlan: AnalysisPlan",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::vehicle::engine::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2119.71,
+      "y": 480,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2119.71,
+        "y": 480,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass: MassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::vehicle::transmission::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2119.71,
+      "y": 246,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2119.71,
+        "y": 246,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass: MassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::vehicle::frontAxleAssembly::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2119.71,
+      "y": 640,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2119.71,
+        "y": 640,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass: MassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10a-Analysis::VehicleDesignModel::vehicle::rearAxleAssembly::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2119.71,
+      "y": 800,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2119.71,
+        "y": 800,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass: MassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel→10a-Analysis::VehicleDesignModel::Vehicle#0",
+      "source": "10a-Analysis::VehicleAnalysisModel",
+      "target": "10a-Analysis::VehicleDesignModel::Vehicle",
+      "d": "M1818,959.3297762482949 C1947.8521504170028,959.3297762482949 1947.8521504170028,970.4531234520119 2077.7043008340056,970.4531234520119",
+      "start": {
+        "x": 1818,
+        "y": 959.33
+      },
+      "end": {
+        "x": 2077.7,
+        "y": 970.45
+      },
+      "length": 260.04,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::vehicle→10a-Analysis::VehicleDesignModel::Vehicle#2",
+      "source": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::vehicle",
+      "target": "10a-Analysis::VehicleDesignModel::Vehicle",
+      "d": "M1802,911.7273026099573 C1935.3521504170028,911.7273026099573 1935.3521504170028,959.5921710791953 2068.7043008340056,959.5921710791953",
+      "start": {
+        "x": 1802,
+        "y": 911.73
+      },
+      "end": {
+        "x": 2068.7,
+        "y": 959.59
+      },
+      "length": 272.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::obj→10a-Analysis::VehicleAnalysisModel::MassAnalysisObjective#4",
+      "source": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::obj",
+      "target": "10a-Analysis::VehicleAnalysisModel::MassAnalysisObjective",
+      "d": "M1538,1069 C1570.5,1069 1570.5,1069 1603,1069",
+      "start": {
+        "x": 1538,
+        "y": 1069
+      },
+      "end": {
+        "x": 1603,
+        "y": 1069
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase→10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::obj#5",
+      "source": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase",
+      "target": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::obj",
+      "d": "M1038,1069 C1187,1069 1187,1069 1336,1069",
+      "start": {
+        "x": 1038,
+        "y": 1069
+      },
+      "end": {
+        "x": 1336,
+        "y": 1069
+      },
+      "length": 298,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::vehicle→10a-Analysis::VehicleDesignModel::Vehicle#6",
+      "source": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::vehicle",
+      "target": "10a-Analysis::VehicleDesignModel::Vehicle",
+      "d": "M1802,974 C1935.3521504170028,974 1935.3521504170028,974 2068.7043008340056,974",
+      "start": {
+        "x": 1802,
+        "y": 974
+      },
+      "end": {
+        "x": 2068.7,
+        "y": 974
+      },
+      "length": 266.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan→10a-Analysis::VehicleAnalysisModel::AnalysisPlan::obj#8",
+      "source": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan",
+      "target": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::obj",
+      "d": "M751,966.5 C931.5,966.5 931.5,966.5 1112,966.5",
+      "start": {
+        "x": 751,
+        "y": 966.5
+      },
+      "end": {
+        "x": 1112,
+        "y": 966.5
+      },
+      "length": 361,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000097→10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase#9",
+      "source": "00000000-0000-0000-0000-000000000097",
+      "target": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase",
+      "d": "M480,1069 C522,1069 522,1069 564,1069",
+      "start": {
+        "x": 480,
+        "y": 1069
+      },
+      "end": {
+        "x": 564,
+        "y": 1069
+      },
+      "length": 84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase→10a-Analysis::VehicleAnalysisModel::MassAnalysisCase#10",
+      "source": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan::massAnalysisCase",
+      "target": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase",
+      "d": "M798,1069 C830.5,1069 830.5,1069 863,1069",
+      "start": {
+        "x": 798,
+        "y": 1069
+      },
+      "end": {
+        "x": 863,
+        "y": 1069
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan→10a-Analysis::VehicleAnalysisModel::AnalysisPlan#12",
+      "source": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan",
+      "target": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan",
+      "d": "M459,966.5 C525.5,966.5 525.5,966.5 592,966.5",
+      "start": {
+        "x": 459,
+        "y": 966.5
+      },
+      "end": {
+        "x": 592,
+        "y": 966.5
+      },
+      "length": 133,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan::vehicle→10a-Analysis::VehicleDesignModel::vehicle#13",
+      "source": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan::vehicle",
+      "target": "10a-Analysis::VehicleDesignModel::vehicle",
+      "d": "M1782.6572277760908,759 C1782.6572277760908,659.7025480455354 1935.1807643050483,560.4050960910708 2087.7043008340056,560.4050960910708",
+      "start": {
+        "x": 1782.66,
+        "y": 759
+      },
+      "end": {
+        "x": 2087.7,
+        "y": 560.41
+      },
+      "length": 394.86,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 1911,
+      "y": 957.09,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "10a-Analysis::VehicleAnalysisModel→10a-Analysis::VehicleDesignModel::Vehicle#0"
+    },
+    {
+      "x": 1151.61,
+      "y": 1061.2,
+      "w": 70.78,
+      "h": 15.59,
+      "text": "«objective»",
+      "edge": "10a-Analysis::VehicleAnalysisModel::MassAnalysisCase→10a-Analysis::VehicleAnalysisModel::MassAnalysisCase::obj#5"
+    },
+    {
+      "x": 896.11,
+      "y": 958.7,
+      "w": 70.78,
+      "h": 15.59,
+      "text": "«objective»",
+      "edge": "10a-Analysis::VehicleAnalysisModel::AnalysisPlan→10a-Analysis::VehicleAnalysisModel::AnalysisPlan::obj#8"
+    },
+    {
+      "x": 1870.55,
+      "y": 614.67,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "10a-Analysis::VehicleAnalysisModel::massAnalysisContext::analysisPlan::vehicle→10a-Analysis::VehicleDesignModel::vehicle#13"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "181dc56b675d7674",
+  "unsettled": false
+}

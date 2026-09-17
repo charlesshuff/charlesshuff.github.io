@@ -1,0 +1,254 @@
+{
+  "zoom": 2.07609,
+  "nodes": [
+    {
+      "id": "15_08-Range Restriction",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 103.92,
+      "w": 578,
+      "h": 344,
+      "inner": {
+        "x": 16,
+        "y": 103.92,
+        "w": 578,
+        "h": 344
+      },
+      "clipped": 0,
+      "title": "15_08-Range Restriction",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "«done»",
+      "type": "actionFinal",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 703,
+      "y": 531.92,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 703,
+        "y": 531.92,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "50%",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.595686 0.394314 0.152157)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_08-Range Restriction::HeadLightsTiltKnob",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 156.42,
+      "w": 235,
+      "h": 92,
+      "inner": {
+        "x": 32,
+        "y": 156.42,
+        "w": 235,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "HeadLightsTiltKnob",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "headLightsTile: LightBeamTiltAngleValue",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_08-Range Restriction::LightBeamTiltAngleValue",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 291,
+      "y": 148.92,
+      "w": 287,
+      "h": 107,
+      "inner": {
+        "x": 291,
+        "y": 148.92,
+        "w": 287,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "LightBeamTiltAngleValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "angle: LightBeamTiltAngleValue :>>DataValue::self",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000001a",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 323,
+      "y": 339.92,
+      "w": 223,
+      "h": 92,
+      "inner": {
+        "x": 323,
+        "y": 339.92,
+        "w": 223,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ angle >= 50 ['°'] and angle <= 80 ['°'] }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "15_08-Range Restriction→[*]#0",
+      "source": "15_08-Range Restriction",
+      "target": "[*]",
+      "d": "M566.7941176470588,447.9238095238095 C566.7941176470588,492.6677708764665 629.8970588235294,537.4117322291235 693,537.4117322291235",
+      "start": {
+        "x": 566.79,
+        "y": 447.92
+      },
+      "end": {
+        "x": 693,
+        "y": 537.41
+      },
+      "length": 168.38,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "15_08-Range Restriction::LightBeamTiltAngleValue→00000000-0000-0000-0000-00000000001a#3",
+      "source": "15_08-Range Restriction::LightBeamTiltAngleValue",
+      "target": "00000000-0000-0000-0000-00000000001a",
+      "d": "M434.5,268.9238095238095 C434.5,304.4238095238095 434.5,304.4238095238095 434.5,339.9238095238095",
+      "start": {
+        "x": 434.5,
+        "y": 268.92
+      },
+      "end": {
+        "x": 434.5,
+        "y": 339.92
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 569.38,
+      "y": 501.65,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "15_08-Range Restriction→[*]#0"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "b380da4c99dca0ca",
+  "unsettled": false
+}

@@ -1,0 +1,3501 @@
+{
+  "zoom": 0.30157,
+  "nodes": [
+    {
+      "id": "8-Requirements",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 5042.28,
+      "h": 3146.59,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 5042.28,
+        "h": 3146.59
+      },
+      "clipped": 0,
+      "title": "8-Requirements",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 170.37,
+      "y": 2659.59,
+      "w": 1212,
+      "h": 487,
+      "inner": {
+        "x": 170.37,
+        "y": 2659.59,
+        "w": 1212,
+        "h": 487
+      },
+      "clipped": 0,
+      "title": "Vehicle Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 3623.53,
+      "y": 235,
+      "w": 1119.12,
+      "h": 780,
+      "inner": {
+        "x": 3623.53,
+        "y": 235,
+        "w": 1119.12,
+        "h": 780
+      },
+      "clipped": 0,
+      "title": "Vehicle Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 702.68,
+      "y": 1552.59,
+      "w": 3372.84,
+      "h": 773,
+      "inner": {
+        "x": 702.68,
+        "y": 1552.59,
+        "w": 3372.84,
+        "h": 773
+      },
+      "clipped": 0,
+      "title": "Vehicle Requirements",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 4766.66,
+      "y": 965,
+      "w": 210,
+      "h": 50,
+      "inner": {
+        "x": 4766.66,
+        "y": 965,
+        "w": 210,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1 Specification Context",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 4132.53,
+      "y": 1211.79,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 4132.53,
+        "y": 1211.79,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "vehicle1-c1 Specification",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "This models a \"requirement group\" as a requirement that references other requirements.",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 4363.53,
+      "y": 1914.09,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4363.53,
+        "y": 1914.09,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000142",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 4129.53,
+      "y": 1413.59,
+      "w": 294,
+      "h": 50,
+      "inner": {
+        "x": 4129.53,
+        "y": 1413.59,
+        "w": 294,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname ::> Vehicle Requirements::vehicleMass1",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000145",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 32,
+      "y": 68.5,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 32,
+        "y": 68.5,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This is a reference to a requirement defined outside the group. By default, the subject of the requirement is bound to that of the group.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 4585.53,
+      "y": 1204.59,
+      "w": 432,
+      "h": 125,
+      "inner": {
+        "x": 4585.53,
+        "y": 1204.59,
+        "w": 432,
+        "h": 125
+      },
+      "clipped": 0,
+      "title": "engine-v1 Specification",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "require torqueGeneration { in :>> generateTorque = engine.'generate torque'; }",
+              "kind": "constraints"
+            },
+            {
+              "text": "require drivePowerInterface { in :>> drivePwrPort = engine.drivePwrPort; }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000014c",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 4403.98,
+      "y": 61,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 4403.98,
+        "y": 61,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Here the subjects of the referenced requirements are defined to be specific properties of the subject of the group.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 4731.53,
+      "y": 2034.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4731.53,
+        "y": 2034.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine/^8-Requirements::Vehicle Definitions::Engine::generate torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 74.37,
+      "y": 2414.59,
+      "w": 224,
+      "h": 50,
+      "inner": {
+        "x": 74.37,
+        "y": 2414.59,
+        "w": 224,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^generate torque: Generate Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine/^8-Requirements::Vehicle Definitions::Engine::drivePwrPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 4789.2,
+      "y": 2414.59,
+      "w": 187,
+      "h": 50,
+      "inner": {
+        "x": 4789.2,
+        "y": 2414.59,
+        "w": 187,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^drivePwrPort: DrivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c2 Specification Context",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 198.12,
+      "y": 965,
+      "w": 210,
+      "h": 50,
+      "inner": {
+        "x": 198.12,
+        "y": 965,
+        "w": 210,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle1_c2 Specification Context",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 227.87,
+      "y": 1208.34,
+      "w": 161,
+      "h": 110,
+      "inner": {
+        "x": 227.87,
+        "y": 1208.34,
+        "w": 161,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "vehicle1-c2 Specification",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "require vehicleMass2",
+              "kind": "constraints"
+            },
+            {
+              "text": "require vehicleReliability2",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 238.37,
+      "y": 1413.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 238.37,
+        "y": 1413.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 435.37,
+      "y": 2734.59,
+      "w": 140,
+      "h": 128,
+      "inner": {
+        "x": 435.37,
+        "y": 2734.59,
+        "w": 140,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "fuelLevel: Real",
+              "kind": "attributes"
+            },
+            {
+              "text": "fuelTankCapacity: Real",
+              "kind": "attributes"
+            },
+            {
+              "text": "mass: MassValue",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Engine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1215.37,
+      "y": 2760.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1215.37,
+        "y": 2760.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Engine::drivePwrPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1144.37,
+      "y": 2946.59,
+      "w": 180,
+      "h": 50,
+      "inner": {
+        "x": 1144.37,
+        "y": 2946.59,
+        "w": 180,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "drivePwrPort: DrivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Engine::generate torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 197.37,
+      "y": 2773.59,
+      "w": 217,
+      "h": 50,
+      "inner": {
+        "x": 197.37,
+        "y": 2773.59,
+        "w": 217,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generate torque: Generate Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Transmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 951.7,
+      "y": 2773.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 951.7,
+        "y": 2773.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Transmission::clutchPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 972.37,
+      "y": 2946.59,
+      "w": 148,
+      "h": 50,
+      "inner": {
+        "x": 972.37,
+        "y": 2946.59,
+        "w": 148,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "clutchPort: ClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::DrivePwrPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 802.37,
+      "y": 3080.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 802.37,
+        "y": 3080.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "DrivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::ClutchPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 623.7,
+      "y": 3080.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 623.7,
+        "y": 3080.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 603.03,
+      "y": 2812.59,
+      "w": 202,
+      "h": 50,
+      "inner": {
+        "x": 603.03,
+        "y": 2812.59,
+        "w": 202,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "EngineToTransmissionInterface",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "interface def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::drivePwrPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 768.37,
+      "y": 2946.59,
+      "w": 180,
+      "h": 50,
+      "inner": {
+        "x": 768.37,
+        "y": 2946.59,
+        "w": 180,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "drivePwrPort: DrivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::clutchPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 596.37,
+      "y": 2946.59,
+      "w": 148,
+      "h": 50,
+      "inner": {
+        "x": 596.37,
+        "y": 2946.59,
+        "w": 148,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "clutchPort: ClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Generate Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 235.87,
+      "y": 2946.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 235.87,
+        "y": 2946.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Generate Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::provide power",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 4350.66,
+      "y": 668,
+      "w": 172,
+      "h": 140,
+      "inner": {
+        "x": 4350.66,
+        "y": 668,
+        "w": 172,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "provide power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000003f",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 4196.53,
+      "y": 534,
+      "w": 140,
+      "h": 45,
+      "inner": {
+        "x": 4196.53,
+        "y": 534,
+        "w": 140,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "...",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 4294.66,
+      "y": 280,
+      "w": 432,
+      "h": 165,
+      "inner": {
+        "x": 4294.66,
+        "y": 280,
+        "w": 432,
+        "h": 165
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass = 2000 [kg] :>>Vehicle::mass",
+              "kind": "attributes"
+            }
+          ]
+        },
+        {
+          "title": "interfaces",
+          "entries": [
+            {
+              "text": "engineToTransmission: EngineToTransmissionInterface connect engine_v1.drivePwrPort to transmission.clutchPort",
+              "kind": "interfaces"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 4584.66,
+      "y": 529,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4584.66,
+        "y": 529,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine_v1: Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000058",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 4546.66,
+      "y": 726.33,
+      "w": 98,
+      "h": 50,
+      "inner": {
+        "x": 4546.66,
+        "y": 726.33,
+        "w": 98,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "drivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 3639.53,
+      "y": 949,
+      "w": 199,
+      "h": 50,
+      "inner": {
+        "x": 3639.53,
+        "y": 949,
+        "w": 199,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "provide power.generate torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 4096.53,
+      "y": 726.33,
+      "w": 178,
+      "h": 50,
+      "inner": {
+        "x": 4096.53,
+        "y": 726.33,
+        "w": 178,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transmission: Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000065",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 4187.87,
+      "y": 911,
+      "w": 82,
+      "h": 50,
+      "inner": {
+        "x": 4187.87,
+        "y": 911,
+        "w": 82,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "clutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 3862.53,
+      "y": 892,
+      "w": 202,
+      "h": 107,
+      "inner": {
+        "x": 3862.53,
+        "y": 892,
+        "w": 202,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "vehicle1_c2: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass = 2500 [kg] :>>Vehicle::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::MassLimitationRequirement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 2484.68,
+      "y": 1879.59,
+      "w": 432,
+      "h": 211,
+      "inner": {
+        "x": 2484.68,
+        "y": 1879.59,
+        "w": 432,
+        "h": 211
+      },
+      "clipped": 0,
+      "title": "~<1> MassLimitationRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The actual mass shall be less than or equal to the required mass.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "massActual: MassValue",
+              "kind": "attributes"
+            },
+            {
+              "text": "massReqd: MassValue",
+              "kind": "attributes"
+            }
+          ]
+        },
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "require { /* * A constraint can be used to formalize a requirement. */ massActual <= massReqd }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008d",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1848.68,
+      "y": 1644.09,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 1848.68,
+        "y": 1644.09,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The optional requirement ID of this requirement ('1') is given after the keyword \"id\" (using name syntax). Every requirement is parameterized by a \"subject\". The \"subject\" of this requirement is implicitly \"Anything\".",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::ReliabilityRequirement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 3412.37,
+      "y": 1879.59,
+      "w": 183,
+      "h": 50,
+      "inner": {
+        "x": 3412.37,
+        "y": 1879.59,
+        "w": 183,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<2> ReliabilityRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 2304.68,
+      "y": 1597.59,
+      "w": 432,
+      "h": 198,
+      "inner": {
+        "x": 2304.68,
+        "y": 1597.59,
+        "w": 432,
+        "h": 198
+      },
+      "clipped": 0,
+      "title": "~<1.1> vehicleMass1: MassLimitationRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The vehicle mass shall be less than or equal to 2000 kg when the fuel tank is full.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "massActual: MassValue = vehicle.mass :>>MassLimitationRequirement::massActual",
+              "kind": "attributes"
+            },
+            {
+              "text": "massReqd = 2000 [kg] :>>MassLimitationRequirement::massReqd",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass1::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2314.68,
+      "y": 1921.09,
+      "w": 146,
+      "h": 128,
+      "inner": {
+        "x": 2314.68,
+        "y": 1921.09,
+        "w": 146,
+        "h": 128
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "^fuelLevel: Real",
+              "kind": "attributes"
+            },
+            {
+              "text": "^fuelTankCapacity: Real",
+              "kind": "attributes"
+            },
+            {
+              "text": "^mass: MassValue",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000b1",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 718.68,
+      "y": 1666.59,
+      "w": 339,
+      "h": 60,
+      "inner": {
+        "x": 718.68,
+        "y": 1666.59,
+        "w": 339,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The subject of this requirement is redefined to be a \"Vehicle\".",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass1::fuelConstraint",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 2109.68,
+      "y": 2174.59,
+      "w": 268,
+      "h": 135,
+      "inner": {
+        "x": 2109.68,
+        "y": 2174.59,
+        "w": 268,
+        "h": 135
+      },
+      "clipped": 0,
+      "title": "fuelConstraint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "constraint",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "full fuel tank",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ vehicle.fuelLevel >= vehicle.fuelTankCapacity }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d3",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1515.68,
+      "y": 1666.59,
+      "w": 309,
+      "h": 60,
+      "inner": {
+        "x": 1515.68,
+        "y": 1666.59,
+        "w": 309,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "A constraint can also be used to specify an assumption.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 2848.53,
+      "y": 1597.59,
+      "w": 432,
+      "h": 198,
+      "inner": {
+        "x": 2848.53,
+        "y": 1597.59,
+        "w": 432,
+        "h": 198
+      },
+      "clipped": 0,
+      "title": "~<2.1> vehicleMass2: MassLimitationRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The vehicle mass shall be less than or equal to 2500 kg when the fuel tank is empty.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "massActual: MassValue = vehicle.mass :>>MassLimitationRequirement::massActual",
+              "kind": "attributes"
+            },
+            {
+              "text": "massReqd = 2500 [kg] :>>MassLimitationRequirement::massReqd",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass2::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2940.68,
+      "y": 1930.09,
+      "w": 140,
+      "h": 110,
+      "inner": {
+        "x": 2940.68,
+        "y": 1930.09,
+        "w": 140,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "^fuelLevel: Real",
+              "kind": "attributes"
+            },
+            {
+              "text": "^mass: MassValue",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass2::fuelConstraint",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 3094.03,
+      "y": 2174.59,
+      "w": 157,
+      "h": 135,
+      "inner": {
+        "x": 3094.03,
+        "y": 2174.59,
+        "w": 157,
+        "h": 135
+      },
+      "clipped": 0,
+      "title": "fuelConstraint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "constraint",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "empty fuel tank",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ vehicle.fuelLevel == 0.0 }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleReliability2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 3304.53,
+      "y": 1745.59,
+      "w": 299,
+      "h": 50,
+      "inner": {
+        "x": 3304.53,
+        "y": 1745.59,
+        "w": 299,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<2.2> vehicleReliability2: ReliabilityRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleReliability2::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 3248.37,
+      "y": 1960.09,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3248.37,
+        "y": 1960.09,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::drivePowerInterface",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 3627.53,
+      "y": 1688.59,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 3627.53,
+        "y": 1688.59,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "~<3.1> drivePowerInterface",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The engine shall transfer its generated torque to the transmission via the clutch interface.",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::drivePowerInterface::drivePwrPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 3773.53,
+      "y": 1960.09,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3773.53,
+        "y": 1960.09,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "drivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::torqueGeneration",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1081.68,
+      "y": 1703.59,
+      "w": 410,
+      "h": 92,
+      "inner": {
+        "x": 1081.68,
+        "y": 1703.59,
+        "w": 410,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "~<3.2> torqueGeneration",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The engine shall generate torque as a function of RPM as shown in Table 1.",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::torqueGeneration::generateTorque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1216.68,
+      "y": 1960.09,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1216.68,
+        "y": 1960.09,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generateTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::provide power::generate torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 4366.66,
+      "y": 738,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 4366.66,
+        "y": 738,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generate torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "8-Requirements→8-Requirements::Vehicle Usages#0",
+      "source": "8-Requirements",
+      "target": "8-Requirements::Vehicle Usages",
+      "d": "M5058,112.30898876210404 C5295.538437781288,112.30898876210404 3375.994120975202,952.8414798840155 3613.5325587564894,952.8414798840155",
+      "start": {
+        "x": 5058,
+        "y": 112.31
+      },
+      "end": {
+        "x": 3613.53,
+        "y": 952.84
+      },
+      "length": 1754.26,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "8-Requirements→8-Requirements::Vehicle Requirements#1",
+      "source": "8-Requirements",
+      "target": "8-Requirements::Vehicle Requirements",
+      "d": "M1871.6752430452393,3163 C1871.6752430452393,3414.589187249025 2552.6051107793846,1291.0045627509749 2552.6051107793846,1542.59375",
+      "start": {
+        "x": 1871.68,
+        "y": 3163
+      },
+      "end": {
+        "x": 2552.61,
+        "y": 1542.59
+      },
+      "length": 1843.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Engine→8-Requirements::Vehicle Definitions::Engine::drivePwrPort#5",
+      "source": "8-Requirements::Vehicle Definitions::Engine",
+      "target": "8-Requirements::Vehicle Definitions::Engine::drivePwrPort",
+      "d": "M1278.5116949043602,2823.59375 C1278.5116949043602,2885.09375 1241.2213723237148,2885.09375 1241.2213723237148,2946.59375",
+      "start": {
+        "x": 1278.51,
+        "y": 2823.59
+      },
+      "end": {
+        "x": 1241.22,
+        "y": 2946.59
+      },
+      "length": 130.61,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Engine::drivePwrPort→8-Requirements::Vehicle Definitions::DrivePwrPort#6",
+      "source": "8-Requirements::Vehicle Definitions::Engine::drivePwrPort",
+      "target": "8-Requirements::Vehicle Definitions::DrivePwrPort",
+      "d": "M1166.8292201812017,2996.59375 C1166.8292201812017,3029.09375 939.9038470468734,3029.09375 939.9038470468734,3061.59375",
+      "start": {
+        "x": 1166.83,
+        "y": 2996.59
+      },
+      "end": {
+        "x": 939.9,
+        "y": 3061.59
+      },
+      "length": 243.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Engine::generate torque→8-Requirements::Vehicle Definitions::Generate Torque#7",
+      "source": "8-Requirements::Vehicle Definitions::Engine::generate torque",
+      "target": "8-Requirements::Vehicle Definitions::Generate Torque",
+      "d": "M305.8665336140375,2823.59375 C305.8665336140375,2875.59375 305.8665336140375,2875.59375 305.8665336140375,2927.59375",
+      "start": {
+        "x": 305.87,
+        "y": 2823.59
+      },
+      "end": {
+        "x": 305.87,
+        "y": 2927.59
+      },
+      "length": 104,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Transmission→8-Requirements::Vehicle Definitions::Transmission::clutchPort#9",
+      "source": "8-Requirements::Vehicle Definitions::Transmission",
+      "target": "8-Requirements::Vehicle Definitions::Transmission::clutchPort",
+      "d": "M1025.2644141535366,2836.59375 C1025.2644141535366,2891.59375 1042.8019864078717,2891.59375 1042.8019864078717,2946.59375",
+      "start": {
+        "x": 1025.26,
+        "y": 2836.59
+      },
+      "end": {
+        "x": 1042.8,
+        "y": 2946.59
+      },
+      "length": 111.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Transmission::clutchPort→8-Requirements::Vehicle Definitions::ClutchPort#10",
+      "source": "8-Requirements::Vehicle Definitions::Transmission::clutchPort",
+      "target": "8-Requirements::Vehicle Definitions::ClutchPort",
+      "d": "M980.57051371354,2996.59375 C980.57051371354,3029.09375 759.4958868478683,3029.09375 759.4958868478683,3061.59375",
+      "start": {
+        "x": 980.57,
+        "y": 2996.59
+      },
+      "end": {
+        "x": 759.5,
+        "y": 3061.59
+      },
+      "length": 237.51,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface→8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::drivePwrPort#14",
+      "source": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface",
+      "target": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::drivePwrPort",
+      "d": "M732.8267326190125,2875.59375 C732.8267326190125,2911.09375 829.5730012757291,2911.09375 829.5730012757291,2946.59375",
+      "start": {
+        "x": 732.83,
+        "y": 2875.59
+      },
+      "end": {
+        "x": 829.57,
+        "y": 2946.59
+      },
+      "length": 126.98,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::drivePwrPort→8-Requirements::Vehicle Definitions::DrivePwrPort#15",
+      "source": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::drivePwrPort",
+      "target": "8-Requirements::Vehicle Definitions::DrivePwrPort",
+      "d": "M860.9784739125449,2996.59375 C860.9784739125449,3029.09375 869.7545933155301,3029.09375 869.7545933155301,3061.59375",
+      "start": {
+        "x": 860.98,
+        "y": 2996.59
+      },
+      "end": {
+        "x": 869.75,
+        "y": 3061.59
+      },
+      "length": 65.83,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface→8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::clutchPort#16",
+      "source": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface",
+      "target": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::clutchPort",
+      "d": "M697.752105753341,2875.59375 C697.752105753341,2911.09375 676.6476281414007,2911.09375 676.6476281414007,2946.59375",
+      "start": {
+        "x": 697.75,
+        "y": 2875.59
+      },
+      "end": {
+        "x": 676.65,
+        "y": 2946.59
+      },
+      "length": 75.23,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::clutchPort→8-Requirements::Vehicle Definitions::ClutchPort#17",
+      "source": "8-Requirements::Vehicle Definitions::EngineToTransmissionInterface::clutchPort",
+      "target": "8-Requirements::Vehicle Definitions::ClutchPort",
+      "d": "M674.7197674448832,2996.59375 C674.7197674448832,3029.09375 689.346633116525,3029.09375 689.346633116525,3061.59375",
+      "start": {
+        "x": 674.72,
+        "y": 2996.59
+      },
+      "end": {
+        "x": 689.35,
+        "y": 3061.59
+      },
+      "length": 67.27,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages→8-Requirements::Vehicle Definitions#20",
+      "source": "8-Requirements::Vehicle Usages",
+      "target": "8-Requirements::Vehicle Definitions",
+      "d": "M3623.5325587564894,999.1468766583018 C2382.0147437045025,999.1468766583018 1140.4969286525152,1824.370313329151 1140.4969286525152,2649.59375",
+      "start": {
+        "x": 3623.53,
+        "y": 999.15
+      },
+      "end": {
+        "x": 1140.5,
+        "y": 2649.59
+      },
+      "length": 3237.04,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000003f→8-Requirements::Vehicle Usages::provide power::generate torque#21",
+      "source": "00000000-0000-0000-0000-00000000003f",
+      "target": "8-Requirements::Vehicle Usages::provide power::generate torque",
+      "d": "M4285.069602294305,579 C4285.069602294305,658.5 4416.0647099615335,658.5 4416.0647099615335,738",
+      "start": {
+        "x": 4285.07,
+        "y": 579
+      },
+      "end": {
+        "x": 4416.06,
+        "y": 738
+      },
+      "length": 216.9,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1→8-Requirements::Vehicle Definitions::Vehicle#23",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1",
+      "target": "8-Requirements::Vehicle Definitions::Vehicle",
+      "d": "M4375.019342862978,445 C4375.019342862978,1600.5092336247553 2484.692938238508,2756.0184672495106 594.3665336140375,2756.0184672495106",
+      "start": {
+        "x": 4375.02,
+        "y": 445
+      },
+      "end": {
+        "x": 594.37,
+        "y": 2756.02
+      },
+      "length": 4793.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1→8-Requirements::Vehicle Usages::provide power#24",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1",
+      "target": "8-Requirements::Vehicle Usages::provide power",
+      "d": "M4494.403102766533,445 C4494.403102766533,551.5 4450.456365083444,551.5 4450.456365083444,658",
+      "start": {
+        "x": 4494.4,
+        "y": 445
+      },
+      "end": {
+        "x": 4450.46,
+        "y": 658
+      },
+      "length": 219.28,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1→8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1#25",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1",
+      "target": "8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1",
+      "d": "M4572.697978528355,458 C4572.697978528355,493.5 4635.862469389974,493.5 4635.862469389974,529",
+      "start": {
+        "x": 4572.7,
+        "y": 458
+      },
+      "end": {
+        "x": 4635.86,
+        "y": 529
+      },
+      "length": 100.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1→8-Requirements::Vehicle Definitions::Engine#26",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1",
+      "target": "8-Requirements::Vehicle Definitions::Engine",
+      "d": "M4616.916036854504,579 C4616.916036854504,1660.296875 1323.1119217630846,1660.296875 1323.1119217630846,2741.59375",
+      "start": {
+        "x": 4616.92,
+        "y": 579
+      },
+      "end": {
+        "x": 1323.11,
+        "y": 2741.59
+      },
+      "length": 4162.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1→00000000-0000-0000-0000-000000000058#27",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1",
+      "target": "00000000-0000-0000-0000-000000000058",
+      "d": "M4647.186762841388,592 C4647.186762841388,659.1666666666666 4603.136087165713,659.1666666666666 4603.136087165713,726.3333333333333",
+      "start": {
+        "x": 4647.19,
+        "y": 592
+      },
+      "end": {
+        "x": 4603.14,
+        "y": 726.33
+      },
+      "length": 143.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000058→8-Requirements::Vehicle Definitions::Engine::drivePwrPort#28",
+      "source": "00000000-0000-0000-0000-000000000058",
+      "target": "8-Requirements::Vehicle Definitions::Engine::drivePwrPort",
+      "d": "M4557.813444805401,776.3333333333333 C4557.813444805401,1851.9635416666667 1272.2145138121882,1851.9635416666665 1272.2145138121882,2927.59375",
+      "start": {
+        "x": 4557.81,
+        "y": 776.33
+      },
+      "end": {
+        "x": 1272.21,
+        "y": 2927.59
+      },
+      "length": 4148.79,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005b→8-Requirements::Vehicle Definitions::Engine::generate torque#29",
+      "source": "00000000-0000-0000-0000-00000000005b",
+      "target": "8-Requirements::Vehicle Definitions::Engine::generate torque",
+      "d": "M3691.992415914521,999 C3691.992415914521,1876.796875 352.90667645600513,1876.796875 352.90667645600513,2754.59375",
+      "start": {
+        "x": 3691.99,
+        "y": 999
+      },
+      "end": {
+        "x": 352.91,
+        "y": 2754.59
+      },
+      "length": 3964.51,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1→8-Requirements::Vehicle Usages::vehicle1_c1::transmission#30",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1",
+      "target": "8-Requirements::Vehicle Usages::vehicle1_c1::transmission",
+      "d": "M4441.67780357522,458 C4441.67780357522,592.1666666666666 4206.436686462044,592.1666666666666 4206.436686462044,726.3333333333333",
+      "start": {
+        "x": 4441.68,
+        "y": 458
+      },
+      "end": {
+        "x": 4206.44,
+        "y": 726.33
+      },
+      "length": 376.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1::transmission→8-Requirements::Vehicle Definitions::Transmission#31",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1::transmission",
+      "target": "8-Requirements::Vehicle Definitions::Transmission",
+      "d": "M4146.897602181687,776.3333333333333 C4146.897602181687,1765.4635416666665 1060.3348235221729,1765.4635416666665 1060.3348235221729,2754.59375",
+      "start": {
+        "x": 4146.9,
+        "y": 776.33
+      },
+      "end": {
+        "x": 1060.33,
+        "y": 2754.59
+      },
+      "length": 3871.42,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1::transmission→00000000-0000-0000-0000-000000000065#32",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1::transmission",
+      "target": "00000000-0000-0000-0000-000000000065",
+      "d": "M4191.398984749269,789.3333333333333 C4191.398984749269,850.1666666666666 4222.999466097042,850.1666666666666 4222.999466097042,911",
+      "start": {
+        "x": 4191.4,
+        "y": 789.33
+      },
+      "end": {
+        "x": 4223,
+        "y": 911
+      },
+      "length": 127.27,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000065→8-Requirements::Vehicle Definitions::Transmission::clutchPort#33",
+      "source": "00000000-0000-0000-0000-000000000065",
+      "target": "8-Requirements::Vehicle Definitions::Transmission::clutchPort",
+      "d": "M4189.7802523535565,961 C4189.7802523535565,1944.296875 1085.4521733503034,1944.296875 1085.4521733503034,2927.59375",
+      "start": {
+        "x": 4189.78,
+        "y": 961
+      },
+      "end": {
+        "x": 1085.45,
+        "y": 2927.59
+      },
+      "length": 3879.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000058→00000000-0000-0000-0000-000000000065#34",
+      "source": "00000000-0000-0000-0000-000000000058",
+      "target": "00000000-0000-0000-0000-000000000065",
+      "d": "M4546.661425003551,776.0028449677483 C4408.263658546686,776.0028449677483 4408.263658546686,915.3581637344691 4269.865892089822,915.3581637344691",
+      "start": {
+        "x": 4546.66,
+        "y": 776
+      },
+      "end": {
+        "x": 4269.87,
+        "y": 915.36
+      },
+      "length": 320.37,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c2→8-Requirements::Vehicle Definitions::Vehicle#36",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c2",
+      "target": "8-Requirements::Vehicle Definitions::Vehicle",
+      "d": "M3863.693097129077,999 C2229.0298153715576,999 2229.0298153715576,2761.0835317059964 594.3665336140375,2761.0835317059964",
+      "start": {
+        "x": 3863.69,
+        "y": 999
+      },
+      "end": {
+        "x": 594.37,
+        "y": 2761.08
+      },
+      "length": 3850.03,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements→8-Requirements::Vehicle Definitions#38",
+      "source": "8-Requirements::Vehicle Requirements",
+      "target": "8-Requirements::Vehicle Definitions",
+      "d": "M1742.549405172767,2325.59375 C1742.549405172767,2487.59375 1183.7527314054673,2487.59375 1183.7527314054673,2649.59375",
+      "start": {
+        "x": 1742.55,
+        "y": 2325.59
+      },
+      "end": {
+        "x": 1183.75,
+        "y": 2649.59
+      },
+      "length": 680.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass1→8-Requirements::Vehicle Requirements::MassLimitationRequirement#42",
+      "source": "8-Requirements::Vehicle Requirements::vehicleMass1",
+      "target": "8-Requirements::Vehicle Requirements::MassLimitationRequirement",
+      "d": "M2582.4486497434996,1795.59375 C2582.4486497434996,1828.09375 2634.8576618752154,1828.09375 2634.8576618752154,1860.59375",
+      "start": {
+        "x": 2582.45,
+        "y": 1795.59
+      },
+      "end": {
+        "x": 2634.86,
+        "y": 1860.59
+      },
+      "length": 87.86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass1→8-Requirements::Vehicle Requirements::vehicleMass1::vehicle#43",
+      "source": "8-Requirements::Vehicle Requirements::vehicleMass1",
+      "target": "8-Requirements::Vehicle Requirements::vehicleMass1::vehicle",
+      "d": "M2475.041370714037,1808.59375 C2475.041370714037,1864.84375 2417.185218201039,1864.84375 2417.185218201039,1921.09375",
+      "start": {
+        "x": 2475.04,
+        "y": 1808.59
+      },
+      "end": {
+        "x": 2417.19,
+        "y": 1921.09
+      },
+      "length": 130.89,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass1::vehicle→8-Requirements::Vehicle Definitions::Vehicle#44",
+      "source": "8-Requirements::Vehicle Requirements::vehicleMass1::vehicle",
+      "target": "8-Requirements::Vehicle Definitions::Vehicle",
+      "d": "M2314.680885445406,2016.6429436520707 C1454.5237095297218,2016.6429436520707 1454.5237095297218,2768.341098552809 594.3665336140375,2768.341098552809",
+      "start": {
+        "x": 2314.68,
+        "y": 2016.64
+      },
+      "end": {
+        "x": 594.37,
+        "y": 2768.34
+      },
+      "length": 1930.21,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass1→8-Requirements::Vehicle Requirements::vehicleMass1::fuelConstraint#45",
+      "source": "8-Requirements::Vehicle Requirements::vehicleMass1",
+      "target": "8-Requirements::Vehicle Requirements::vehicleMass1::fuelConstraint",
+      "d": "M2470.4095747213,1795.59375 C2470.4095747213,1980.09375 2277.9567791209333,1980.09375 2277.9567791209333,2164.59375",
+      "start": {
+        "x": 2470.41,
+        "y": 1795.59
+      },
+      "end": {
+        "x": 2277.96,
+        "y": 2164.59
+      },
+      "length": 430.85,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass2→8-Requirements::Vehicle Requirements::MassLimitationRequirement#47",
+      "source": "8-Requirements::Vehicle Requirements::vehicleMass2",
+      "target": "8-Requirements::Vehicle Requirements::MassLimitationRequirement",
+      "d": "M2939.6753121090114,1795.59375 C2939.6753121090114,1828.09375 2833.7358301050917,1828.09375 2833.7358301050917,1860.59375",
+      "start": {
+        "x": 2939.68,
+        "y": 1795.59
+      },
+      "end": {
+        "x": 2833.74,
+        "y": 1860.59
+      },
+      "length": 131.13,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass2→8-Requirements::Vehicle Requirements::vehicleMass2::vehicle#48",
+      "source": "8-Requirements::Vehicle Requirements::vehicleMass2",
+      "target": "8-Requirements::Vehicle Requirements::vehicleMass2::vehicle",
+      "d": "M3046.0531284001727,1808.59375 C3046.0531284001727,1869.34375 3020.9472356433594,1869.34375 3020.9472356433594,1930.09375",
+      "start": {
+        "x": 3046.05,
+        "y": 1808.59
+      },
+      "end": {
+        "x": 3020.95,
+        "y": 1930.09
+      },
+      "length": 125.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass2::vehicle→8-Requirements::Vehicle Definitions::Vehicle#49",
+      "source": "8-Requirements::Vehicle Requirements::vehicleMass2::vehicle",
+      "target": "8-Requirements::Vehicle Definitions::Vehicle",
+      "d": "M2940.680885445406,2007.823432587885 C1767.5237095297218,2007.823432587885 1767.5237095297218,2775.8640674121148 594.3665336140375,2775.8640674121148",
+      "start": {
+        "x": 2940.68,
+        "y": 2007.82
+      },
+      "end": {
+        "x": 594.37,
+        "y": 2775.86
+      },
+      "length": 2514,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleMass2→8-Requirements::Vehicle Requirements::vehicleMass2::fuelConstraint#50",
+      "source": "8-Requirements::Vehicle Requirements::vehicleMass2",
+      "target": "8-Requirements::Vehicle Requirements::vehicleMass2::fuelConstraint",
+      "d": "M3084.1329253926024,1795.59375 C3084.1329253926024,1980.09375 3159.1686724136844,1980.09375 3159.1686724136844,2164.59375",
+      "start": {
+        "x": 3084.13,
+        "y": 1795.59
+      },
+      "end": {
+        "x": 3159.17,
+        "y": 2164.59
+      },
+      "length": 379.58,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleReliability2→8-Requirements::Vehicle Requirements::ReliabilityRequirement#52",
+      "source": "8-Requirements::Vehicle Requirements::vehicleReliability2",
+      "target": "8-Requirements::Vehicle Requirements::ReliabilityRequirement",
+      "d": "M3463.329822438081,1795.59375 C3463.329822438081,1828.09375 3494.5686284082303,1828.09375 3494.5686284082303,1860.59375",
+      "start": {
+        "x": 3463.33,
+        "y": 1795.59
+      },
+      "end": {
+        "x": 3494.57,
+        "y": 1860.59
+      },
+      "length": 74.42,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleReliability2→8-Requirements::Vehicle Requirements::vehicleReliability2::vehicle#53",
+      "source": "8-Requirements::Vehicle Requirements::vehicleReliability2",
+      "target": "8-Requirements::Vehicle Requirements::vehicleReliability2::vehicle",
+      "d": "M3438.220592944523,1808.59375 C3438.220592944523,1884.34375 3334.1778579017882,1884.34375 3334.1778579017882,1960.09375",
+      "start": {
+        "x": 3438.22,
+        "y": 1808.59
+      },
+      "end": {
+        "x": 3334.18,
+        "y": 1960.09
+      },
+      "length": 192.34,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::vehicleReliability2::vehicle→8-Requirements::Vehicle Definitions::Vehicle#54",
+      "source": "8-Requirements::Vehicle Requirements::vehicleReliability2::vehicle",
+      "target": "8-Requirements::Vehicle Definitions::Vehicle",
+      "d": "M3248.3658920898224,2005.3372668811612 C1921.36621285193,2005.3372668811612 1921.36621285193,2778.350233118839 594.3665336140375,2778.350233118839",
+      "start": {
+        "x": 3248.37,
+        "y": 2005.34
+      },
+      "end": {
+        "x": 594.37,
+        "y": 2778.35
+      },
+      "length": 2806.07,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::drivePowerInterface→8-Requirements::Vehicle Requirements::drivePowerInterface::drivePwrPort#56",
+      "source": "8-Requirements::Vehicle Requirements::drivePowerInterface",
+      "target": "8-Requirements::Vehicle Requirements::drivePowerInterface::drivePwrPort",
+      "d": "M3843.532558756489,1808.59375 C3843.532558756489,1884.34375 3843.532558756489,1884.34375 3843.532558756489,1960.09375",
+      "start": {
+        "x": 3843.53,
+        "y": 1808.59
+      },
+      "end": {
+        "x": 3843.53,
+        "y": 1960.09
+      },
+      "length": 151.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::drivePowerInterface::drivePwrPort→8-Requirements::Vehicle Definitions::DrivePwrPort#57",
+      "source": "8-Requirements::Vehicle Requirements::drivePowerInterface::drivePwrPort",
+      "target": "8-Requirements::Vehicle Definitions::DrivePwrPort",
+      "d": "M3777.241482782762,2010.09375 C3777.241482782762,2535.84375 938.6576095877647,2535.84375 938.6576095877647,3061.59375",
+      "start": {
+        "x": 3777.24,
+        "y": 2010.09
+      },
+      "end": {
+        "x": 938.66,
+        "y": 3061.59
+      },
+      "length": 3144.61,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::torqueGeneration→8-Requirements::Vehicle Requirements::torqueGeneration::generateTorque#59",
+      "source": "8-Requirements::Vehicle Requirements::torqueGeneration",
+      "target": "8-Requirements::Vehicle Requirements::torqueGeneration::generateTorque",
+      "d": "M1286.6808854454061,1808.59375 C1286.6808854454061,1884.34375 1286.6808854454061,1884.34375 1286.6808854454061,1960.09375",
+      "start": {
+        "x": 1286.68,
+        "y": 1808.59
+      },
+      "end": {
+        "x": 1286.68,
+        "y": 1960.09
+      },
+      "length": 151.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Requirements::torqueGeneration::generateTorque→8-Requirements::Vehicle Definitions::Generate Torque#60",
+      "source": "8-Requirements::Vehicle Requirements::torqueGeneration::generateTorque",
+      "target": "8-Requirements::Vehicle Definitions::Generate Torque",
+      "d": "M1261.8249718156198,2010.09375 C1261.8249718156198,2468.84375 330.72244724382386,2468.84375 330.72244724382386,2927.59375",
+      "start": {
+        "x": 1261.82,
+        "y": 2010.09
+      },
+      "end": {
+        "x": 330.72,
+        "y": 2927.59
+      },
+      "length": 1382.42,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context→8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification#62",
+      "source": "8-Requirements::vehicle1_c1 Specification Context",
+      "target": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification",
+      "d": "M4824.155000843261,1015 C4824.155000843261,1108.396875 4450.1963064595075,1108.396875 4450.1963064595075,1201.79375",
+      "start": {
+        "x": 4824.15,
+        "y": 1015
+      },
+      "end": {
+        "x": 4450.2,
+        "y": 1201.79
+      },
+      "length": 438.62,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context→8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification#63",
+      "source": "8-Requirements::vehicle1_c1 Specification Context",
+      "target": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification",
+      "d": "M4865.334246363915,1015 C4865.334246363915,1104.796875 4817.350505355577,1104.796875 4817.350505355577,1194.59375",
+      "start": {
+        "x": 4865.33,
+        "y": 1015
+      },
+      "end": {
+        "x": 4817.35,
+        "y": 1194.59
+      },
+      "length": 188.32,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context→8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification#64",
+      "source": "8-Requirements::vehicle1_c1 Specification Context",
+      "target": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification",
+      "d": "M4824.155000843261,1028 C4824.155000843261,1119.896875 4450.1963064595075,1119.896875 4450.1963064595075,1211.79375",
+      "start": {
+        "x": 4824.15,
+        "y": 1028
+      },
+      "end": {
+        "x": 4450.2,
+        "y": 1211.79
+      },
+      "length": 437.01,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification→8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification::vehicle#65",
+      "source": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification",
+      "target": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification::vehicle",
+      "d": "M4355.281594078543,1331.79375 C4355.281594078543,1622.94375 4430.378803933098,1622.94375 4430.378803933098,1914.09375",
+      "start": {
+        "x": 4355.28,
+        "y": 1331.79
+      },
+      "end": {
+        "x": 4430.38,
+        "y": 1914.09
+      },
+      "length": 589.12,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification::vehicle→8-Requirements::Vehicle Definitions::Vehicle#66",
+      "source": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification::vehicle",
+      "target": "8-Requirements::Vehicle Definitions::Vehicle",
+      "d": "M4363.5325587564885,1954.4100578176713 C2478.949546185263,1954.4100578176713 2478.949546185263,2783.2774421823287 594.3665336140375,2783.2774421823287",
+      "start": {
+        "x": 4363.53,
+        "y": 1954.41
+      },
+      "end": {
+        "x": 594.37,
+        "y": 2783.28
+      },
+      "length": 3894.98,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification→00000000-0000-0000-0000-000000000142#67",
+      "source": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification",
+      "target": "00000000-0000-0000-0000-000000000142",
+      "d": "M4326.305207342756,1331.79375 C4326.305207342756,1372.69375 4286.919171566645,1372.69375 4286.919171566645,1413.59375",
+      "start": {
+        "x": 4326.31,
+        "y": 1331.79
+      },
+      "end": {
+        "x": 4286.92,
+        "y": 1413.59
+      },
+      "length": 93.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000142→8-Requirements::Vehicle Requirements::vehicleMass1#68",
+      "source": "00000000-0000-0000-0000-000000000142",
+      "target": "8-Requirements::Vehicle Requirements::vehicleMass1",
+      "d": "M4129.532558756489,1460.1935243866835 C3442.606722100948,1460.1935243866835 3442.606722100948,1664.8553060032407 2755.680885445406,1664.8553060032407",
+      "start": {
+        "x": 4129.53,
+        "y": 1460.19
+      },
+      "end": {
+        "x": 2755.68,
+        "y": 1664.86
+      },
+      "length": 1395.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context→8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification#69",
+      "source": "8-Requirements::vehicle1_c1 Specification Context",
+      "target": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification",
+      "d": "M4865.334246363915,1028 C4865.334246363915,1116.296875 4817.350505355577,1116.296875 4817.350505355577,1204.59375",
+      "start": {
+        "x": 4865.33,
+        "y": 1028
+      },
+      "end": {
+        "x": 4817.35,
+        "y": 1204.59
+      },
+      "length": 185.46,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification→8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine#70",
+      "source": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification",
+      "target": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine",
+      "d": "M4801.5325587564885,1342.59375 C4801.5325587564885,1688.59375 4801.5325587564885,1688.59375 4801.5325587564885,2034.59375",
+      "start": {
+        "x": 4801.53,
+        "y": 1342.59
+      },
+      "end": {
+        "x": 4801.53,
+        "y": 2034.59
+      },
+      "length": 692,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine→8-Requirements::Vehicle Definitions::Engine#71",
+      "source": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine",
+      "target": "8-Requirements::Vehicle Definitions::Engine",
+      "d": "M4731.5325587564885,2074.04699243412 C3052.949546185263,2074.04699243412 3052.949546185263,2771.14050756588 1374.3665336140375,2771.14050756588",
+      "start": {
+        "x": 4731.53,
+        "y": 2074.05
+      },
+      "end": {
+        "x": 1374.37,
+        "y": 2771.14
+      },
+      "length": 3457.4,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine/^8-Requirements::Vehicle Definitions::Engine::generate torque→8-Requirements::Vehicle Definitions::Generate Torque#72",
+      "source": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine/^8-Requirements::Vehicle Definitions::Engine::generate torque",
+      "target": "8-Requirements::Vehicle Definitions::Generate Torque",
+      "d": "M191.9821351177969,2464.59375 C191.9821351177969,2696.09375 300.2509321102781,2696.09375 300.2509321102781,2927.59375",
+      "start": {
+        "x": 191.98,
+        "y": 2464.59
+      },
+      "end": {
+        "x": 300.25,
+        "y": 2927.59
+      },
+      "length": 480.41,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine→8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine/^8-Requirements::Vehicle Definitions::Engine::drivePwrPort#73",
+      "source": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine",
+      "target": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine/^8-Requirements::Vehicle Definitions::Engine::drivePwrPort",
+      "d": "M4806.87247103719,2097.59375 C4806.87247103719,2256.09375 4877.359313142454,2256.09375 4877.359313142454,2414.59375",
+      "start": {
+        "x": 4806.87,
+        "y": 2097.59
+      },
+      "end": {
+        "x": 4877.36,
+        "y": 2414.59
+      },
+      "length": 327.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine/^8-Requirements::Vehicle Definitions::Engine::drivePwrPort→8-Requirements::Vehicle Definitions::DrivePwrPort#74",
+      "source": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification::engine/^8-Requirements::Vehicle Definitions::Engine::drivePwrPort",
+      "target": "8-Requirements::Vehicle Definitions::DrivePwrPort",
+      "d": "M4789.199225423155,2455.1213894218326 C2875.2828795185965,2455.1213894218326 2875.2828795185965,3093.968779309858 961.3665336140375,3093.968779309858",
+      "start": {
+        "x": 4789.2,
+        "y": 2455.12
+      },
+      "end": {
+        "x": 961.37,
+        "y": 3093.97
+      },
+      "length": 3902.39,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1→8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification#75",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1",
+      "target": "8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification",
+      "d": "M4495.845603044901,445 C4495.845603044901,823.396875 4358.1403948145235,823.396875 4358.1403948145235,1201.79375",
+      "start": {
+        "x": 4495.85,
+        "y": 445
+      },
+      "end": {
+        "x": 4358.14,
+        "y": 1201.79
+      },
+      "length": 774.26,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1→8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification#76",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1",
+      "target": "8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification",
+      "d": "M4659.810507215845,579 C4659.810507215845,886.796875 4788.659853225752,886.796875 4788.659853225752,1194.59375",
+      "start": {
+        "x": 4659.81,
+        "y": 579
+      },
+      "end": {
+        "x": 4788.66,
+        "y": 1194.59
+      },
+      "length": 634.26,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c2 Specification Context→8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification#78",
+      "source": "8-Requirements::vehicle1_c2 Specification Context",
+      "target": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification",
+      "d": "M303.5966982419099,1015 C303.5966982419099,1106.671875 307.3101714327182,1106.671875 307.3101714327182,1198.34375",
+      "start": {
+        "x": 303.6,
+        "y": 1015
+      },
+      "end": {
+        "x": 307.31,
+        "y": 1198.34
+      },
+      "length": 183.4,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c2 Specification Context→8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification#79",
+      "source": "8-Requirements::vehicle1_c2 Specification Context",
+      "target": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification",
+      "d": "M303.5966982419099,1028 C303.5966982419099,1118.171875 307.3101714327182,1118.171875 307.3101714327182,1208.34375",
+      "start": {
+        "x": 303.6,
+        "y": 1028
+      },
+      "end": {
+        "x": 307.31,
+        "y": 1208.34
+      },
+      "length": 180.4,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification→8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification::vehicle#80",
+      "source": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification",
+      "target": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification::vehicle",
+      "d": "M308.3665336140375,1331.34375 C308.3665336140375,1372.46875 308.3665336140375,1372.46875 308.3665336140375,1413.59375",
+      "start": {
+        "x": 308.37,
+        "y": 1331.34
+      },
+      "end": {
+        "x": 308.37,
+        "y": 1413.59
+      },
+      "length": 82.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification::vehicle→8-Requirements::Vehicle Definitions::Vehicle#81",
+      "source": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification::vehicle",
+      "target": "8-Requirements::Vehicle Definitions::Vehicle",
+      "d": "M311.9878571434493,1463.59375 C311.9878571434493,2089.59375 496.0959453787434,2089.59375 496.0959453787434,2715.59375",
+      "start": {
+        "x": 311.99,
+        "y": 1463.59
+      },
+      "end": {
+        "x": 496.1,
+        "y": 2715.59
+      },
+      "length": 1271.01,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::vehicle1_c2→8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification#82",
+      "source": "8-Requirements::Vehicle Usages::vehicle1_c2",
+      "target": "8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification",
+      "d": "M3862.532558756489,954.2826978389439 C2130.699546185263,954.2826978389439 2130.699546185263,1256.3436789501486 398.8665336140375,1256.3436789501486",
+      "start": {
+        "x": 3862.53,
+        "y": 954.28
+      },
+      "end": {
+        "x": 398.87,
+        "y": 1256.34
+      },
+      "length": 3482.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 4295.61,
+      "y": 524.78,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "8-Requirements→8-Requirements::Vehicle Usages#0"
+    },
+    {
+      "x": 2171.98,
+      "y": 2345,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "8-Requirements→8-Requirements::Vehicle Requirements#1"
+    },
+    {
+      "x": 1876.29,
+      "y": 1507.11,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "8-Requirements::Vehicle Usages→8-Requirements::Vehicle Definitions#20"
+    },
+    {
+      "x": 4431.37,
+      "y": 543.7,
+      "w": 82.13,
+      "h": 15.59,
+      "text": "<<perform>>",
+      "edge": "8-Requirements::Vehicle Usages::vehicle1_c1→8-Requirements::Vehicle Usages::provide power#24"
+    },
+    {
+      "x": 1423,
+      "y": 2479.8,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "8-Requirements::Vehicle Requirements→8-Requirements::Vehicle Definitions#38"
+    },
+    {
+      "x": 2342.25,
+      "y": 1972.3,
+      "w": 63.86,
+      "h": 15.59,
+      "text": "«assume»",
+      "edge": "8-Requirements::Vehicle Requirements::vehicleMass1→8-Requirements::Vehicle Requirements::vehicleMass1::fuelConstraint#45"
+    },
+    {
+      "x": 3089.72,
+      "y": 1972.3,
+      "w": 63.86,
+      "h": 15.59,
+      "text": "«assume»",
+      "edge": "8-Requirements::Vehicle Requirements::vehicleMass2→8-Requirements::Vehicle Requirements::vehicleMass2::fuelConstraint#50"
+    },
+    {
+      "x": 4597.02,
+      "y": 1100.6,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "8-Requirements::vehicle1_c1 Specification Context→8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification#62"
+    },
+    {
+      "x": 4801.19,
+      "y": 1097,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "8-Requirements::vehicle1_c1 Specification Context→8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification#63"
+    },
+    {
+      "x": 4391.31,
+      "y": 815.6,
+      "w": 71.38,
+      "h": 15.59,
+      "text": "<<satisfy>>",
+      "edge": "8-Requirements::Vehicle Usages::vehicle1_c1→8-Requirements::vehicle1_c1 Specification Context::vehicle1-c1 Specification#75"
+    },
+    {
+      "x": 4688.55,
+      "y": 879,
+      "w": 71.37,
+      "h": 15.59,
+      "text": "<<satisfy>>",
+      "edge": "8-Requirements::Vehicle Usages::vehicle1_c1::engine_v1→8-Requirements::vehicle1_c1 Specification Context::engine-v1 Specification#76"
+    },
+    {
+      "x": 265.3,
+      "y": 1098.88,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "8-Requirements::vehicle1_c2 Specification Context→8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification#78"
+    },
+    {
+      "x": 2095.01,
+      "y": 1097.52,
+      "w": 71.37,
+      "h": 15.59,
+      "text": "<<satisfy>>",
+      "edge": "8-Requirements::Vehicle Usages::vehicle1_c2→8-Requirements::vehicle1_c2 Specification Context::vehicle1-c2 Specification#82"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "793c5238410e290d",
+  "unsettled": false
+}

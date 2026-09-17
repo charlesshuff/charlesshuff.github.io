@@ -1,0 +1,205 @@
+{
+  "zoom": 1.99791,
+  "nodes": [
+    {
+      "id": "InheritedFeature",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 172,
+      "h": 478,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 172,
+        "h": 478
+      },
+      "clipped": 0,
+      "title": "InheritedFeature",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "InheritedFeature::Base",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 252,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 32,
+        "y": 252,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Base",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "InheritedFeature::Base::wheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 32,
+      "y": 428,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 428,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "InheritedFeature::Derived",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 61,
+      "w": 140,
+      "h": 107,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 140,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "Derived",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass :>>Base::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "InheritedFeature::Base→InheritedFeature::Base::wheel#1",
+      "source": "InheritedFeature::Base",
+      "target": "InheritedFeature::Base::wheel",
+      "d": "M102,357 C102,392.5 102,392.5 102,428",
+      "start": {
+        "x": 102,
+        "y": 357
+      },
+      "end": {
+        "x": 102,
+        "y": 428
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "InheritedFeature::Derived→InheritedFeature::Base#3",
+      "source": "InheritedFeature::Derived",
+      "target": "InheritedFeature::Base",
+      "d": "M102,168 C102,200.5 102,200.5 102,233",
+      "start": {
+        "x": 102,
+        "y": 168
+      },
+      "end": {
+        "x": 102,
+        "y": 233
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "7271bae783dff9b2",
+  "unsettled": false
+}

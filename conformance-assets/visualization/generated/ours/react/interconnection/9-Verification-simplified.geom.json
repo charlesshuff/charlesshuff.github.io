@@ -1,0 +1,2240 @@
+{
+  "zoom": 0.385457,
+  "nodes": [
+    {
+      "id": "9-Verification-simplified",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 4089.94,
+      "h": 1271.19,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 4089.94,
+        "h": 1271.19
+      },
+      "clipped": 0,
+      "title": "9-Verification-simplified",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 2431.87,
+      "y": 61,
+      "w": 1658.08,
+      "h": 638.59,
+      "inner": {
+        "x": 2431.87,
+        "y": 61,
+        "w": 1658.08,
+        "h": 638.59
+      },
+      "clipped": 0,
+      "title": "Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 61,
+      "w": 2259.86,
+      "h": 1165.59,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 2259.86,
+        "h": 1165.59
+      },
+      "clipped": 0,
+      "title": "Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::MassRequirement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 3689.95,
+      "y": 218.67,
+      "w": 384,
+      "h": 196,
+      "inner": {
+        "x": 3689.95,
+        "y": 218.67,
+        "w": 384,
+        "h": 196
+      },
+      "clipped": 0,
+      "title": "~<2> MassRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The actual mass shall be less than or equal to the required mass limit.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "massActual:>ISQBase::mass",
+              "kind": "attributes"
+            },
+            {
+              "text": "massReqd:>ISQBase::mass",
+              "kind": "attributes"
+            }
+          ]
+        },
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "require { massActual <= massReqd }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2682.87,
+      "y": 328.59,
+      "w": 202,
+      "h": 182.66,
+      "inner": {
+        "x": 2682.87,
+        "y": 328.59,
+        "w": 202,
+        "h": 182.66
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::MassVerificationSystem",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2682.87,
+      "y": 125.33,
+      "w": 158,
+      "h": 50,
+      "inner": {
+        "x": 2682.87,
+        "y": 125.33,
+        "w": 158,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "MassVerificationSystem",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::Scale",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2447.87,
+      "y": 449.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2447.87,
+        "y": 449.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Scale",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::TestOperator",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 2447.87,
+      "y": 520.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2447.87,
+        "y": 520.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TestOperator",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::TestVehicle1",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 2447.87,
+      "y": 602.59,
+      "w": 146,
+      "h": 50,
+      "inner": {
+        "x": 2447.87,
+        "y": 602.59,
+        "w": 146,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TestVehicle1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "individual occurrence def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::TestVehicle2",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 2447.87,
+      "y": 188,
+      "w": 146,
+      "h": 50,
+      "inner": {
+        "x": 2447.87,
+        "y": 188,
+        "w": 146,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TestVehicle2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "individual occurrence def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::TestSystem",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 2447.87,
+      "y": 117,
+      "w": 146,
+      "h": 50,
+      "inner": {
+        "x": 2447.87,
+        "y": 117,
+        "w": 146,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TestSystem",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "individual occurrence def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::MassTest",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 2450.87,
+      "y": 259,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2450.87,
+        "y": 259,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "MassTest",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "verification def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::MassTest::massVerificationObjective",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 2968.87,
+      "y": 259,
+      "w": 170,
+      "h": 50,
+      "inner": {
+        "x": 2968.87,
+        "y": 259,
+        "w": 170,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "massVerificationObjective",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::MassTest::massVerificationObjective::massRequirement",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 3369.95,
+      "y": 259,
+      "w": 236,
+      "h": 50,
+      "inner": {
+        "x": 3369.95,
+        "y": 259,
+        "w": 236,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "massRequirement: MassRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassRequirement",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1934.87,
+      "y": 1016.59,
+      "w": 341,
+      "h": 183,
+      "inner": {
+        "x": 1934.87,
+        "y": 1016.59,
+        "w": 341,
+        "h": 183
+      },
+      "clipped": 0,
+      "title": "~<2.1> vehicleMassRequirement: MassRequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "The vehicle mass shall be less than or equal to 2500 kg.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "massActual = vehicle.mass :>>MassRequirement::massActual",
+              "kind": "references"
+            },
+            {
+              "text": "massReqd = 2500 [SI::kg] :>>MassRequirement::massReqd",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassRequirement::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2132.87,
+      "y": 128,
+      "w": 143,
+      "h": 92,
+      "inner": {
+        "x": 2132.87,
+        "y": 128,
+        "w": 143,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "^mass:>ISQBase::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicle1_c2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 754,
+      "y": 945.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 754,
+        "y": 945.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle1_c2: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1281,
+      "y": 241,
+      "w": 464,
+      "h": 514,
+      "inner": {
+        "x": 1281,
+        "y": 241,
+        "w": 464,
+        "h": 514
+      },
+      "clipped": 0,
+      "title": "vehicleMassTest: MassTest",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "verification",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::testVehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2001.87,
+      "y": 505,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2001.87,
+        "y": 505,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "testVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::massVerificationSystem",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 605,
+      "y": 580.59,
+      "w": 587,
+      "h": 341,
+      "inner": {
+        "x": 605,
+        "y": 580.59,
+        "w": 587,
+        "h": 341
+      },
+      "clipped": 0,
+      "title": "massVerificationSystem: MassVerificationSystem",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::testSystem",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 48,
+      "y": 431.26,
+      "w": 463,
+      "h": 564,
+      "inner": {
+        "x": 48,
+        "y": 431.26,
+        "w": 463,
+        "h": 564
+      },
+      "clipped": 0,
+      "title": "testSystem: TestSystem:>massVerificationSystem",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "individual occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::Vehicle::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 2718.87,
+      "y": 445.26,
+      "w": 150,
+      "h": 50,
+      "inner": {
+        "x": 2718.87,
+        "y": 445.26,
+        "w": 150,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass :>ISQBase::mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::vehicleMassVerificationObjective",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1297,
+      "y": 558,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 1297,
+        "y": 558,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "vehicleMassVerificationObjective",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "objective",
+      "compartments": [
+        {
+          "title": "requirements",
+          "entries": [
+            {
+              "text": "require <2.1> vehicleMassRequirement::> Usages::vehicleMassRequirement :>>massVerificationObjective::massRequirement",
+              "kind": "requirements"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::collectData",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1443,
+      "y": 385,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1443,
+        "y": 385,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "collectData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1553,
+      "y": 459,
+      "w": 176,
+      "h": 75,
+      "inner": {
+        "x": 1553,
+        "y": 459,
+        "w": 176,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": "testVehicle: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= vehicleMassTest.testVehicle",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::processData",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1443,
+      "y": 689,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1443,
+        "y": 689,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "processData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::evaluateData",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1443,
+      "y": 311,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1443,
+        "y": 311,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "evaluateData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 962,
+      "y": 654.59,
+      "w": 200,
+      "h": 145,
+      "inner": {
+        "x": 962,
+        "y": 654.59,
+        "w": 200,
+        "h": 145
+      },
+      "clipped": 0,
+      "title": "vehicleMassTest",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::massVerificationSystem::vehicleUnderTest",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 662.33,
+      "y": 855.59,
+      "w": 168,
+      "h": 50,
+      "inner": {
+        "x": 662.33,
+        "y": 855.59,
+        "w": 168,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleUnderTest: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::massVerificationSystem::testOperator",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 984,
+      "y": 820.59,
+      "w": 178,
+      "h": 50,
+      "inner": {
+        "x": 984,
+        "y": 820.59,
+        "w": 178,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "testOperator: TestOperator",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::massVerificationSystem::scale",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 641,
+      "y": 650.59,
+      "w": 227,
+      "h": 136,
+      "inner": {
+        "x": 641,
+        "y": 650.59,
+        "w": 227,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "scale: Scale",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::testSystem::test1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 64,
+      "y": 752.26,
+      "w": 356,
+      "h": 227,
+      "inner": {
+        "x": 64,
+        "y": 752.26,
+        "w": 356,
+        "h": 227
+      },
+      "clipped": 0,
+      "title": "test1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "timeslice occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::testSystem::test2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 64,
+      "y": 501.26,
+      "w": 356,
+      "h": 227,
+      "inner": {
+        "x": 64,
+        "y": 501.26,
+        "w": 356,
+        "h": 227
+      },
+      "clipped": 0,
+      "title": "test2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "timeslice occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000cb",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 955,
+      "y": 724.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 955,
+        "y": 724.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "testVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 992,
+      "y": 733.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 992,
+        "y": 733.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^collectData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000da",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 671,
+      "y": 720.59,
+      "w": 181,
+      "h": 50,
+      "inner": {
+        "x": 671,
+        "y": 720.59,
+        "w": 181,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleMassTest.collectData",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f9",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 80,
+      "y": 822.26,
+      "w": 319,
+      "h": 141,
+      "inner": {
+        "x": 80,
+        "y": 822.26,
+        "w": 319,
+        "h": 141
+      },
+      "clipped": 0,
+      "title": "vehicleUnderTest: TestVehicle1:>Usages::vehicle1_c2 :>>massVerificationSystem::vehicleUnderTest",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "individual occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000114",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 80,
+      "y": 571.26,
+      "w": 319,
+      "h": 141,
+      "inner": {
+        "x": 80,
+        "y": 571.26,
+        "w": 319,
+        "h": 141
+      },
+      "clipped": 0,
+      "title": "vehicleUnderTest: TestVehicle2:>Usages::vehicle1_c2 :>>massVerificationSystem::vehicleUnderTest",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "individual occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 985,
+      "y": 751.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 985,
+        "y": 751.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "testVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::massMeasured",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1125,
+      "y": 757.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1125,
+        "y": 757.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "massMeasured",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e0",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 664,
+      "y": 749.26,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 664,
+        "y": 749.26,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "testVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000ed",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 845,
+      "y": 727.93,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 845,
+        "y": 727.93,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "massMeasured",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000fe",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 96,
+      "y": 897.26,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 96,
+        "y": 897.26,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000119",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 96,
+      "y": 641.26,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 96,
+        "y": 641.26,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "9-Verification-simplified→9-Verification-simplified::Definitions#0",
+      "source": "9-Verification-simplified",
+      "target": "9-Verification-simplified::Definitions",
+      "d": "M4106,189.61865845197224 C4362.488879052562,189.61865845197224 2165.375566959863,567.7369839331614 2421.864446012425,567.7369839331614",
+      "start": {
+        "x": 4106,
+        "y": 189.62
+      },
+      "end": {
+        "x": 2421.86,
+        "y": 567.74
+      },
+      "length": 1811.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::TestVehicle1→9-Verification-simplified::Definitions::Vehicle#1",
+      "source": "9-Verification-simplified::Definitions::TestVehicle1",
+      "target": "9-Verification-simplified::Definitions::Vehicle",
+      "d": "M2552.5511930003768,602.59375 C2552.5511930003768,551.1869058935362 2608.207819506401,499.78006178707227 2663.864446012425,499.78006178707227",
+      "start": {
+        "x": 2552.55,
+        "y": 602.59
+      },
+      "end": {
+        "x": 2663.86,
+        "y": 499.78
+      },
+      "length": 165.9,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::TestVehicle2→9-Verification-simplified::Definitions::Vehicle#2",
+      "source": "9-Verification-simplified::Definitions::TestVehicle2",
+      "target": "9-Verification-simplified::Definitions::Vehicle",
+      "d": "M2552.6133520030694,238 C2552.6133520030694,289.2817252851711 2608.238899007747,340.5634505703422 2663.864446012425,340.5634505703422",
+      "start": {
+        "x": 2552.61,
+        "y": 238
+      },
+      "end": {
+        "x": 2663.86,
+        "y": 340.56
+      },
+      "length": 165.66,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::TestSystem→9-Verification-simplified::Definitions::MassVerificationSystem#3",
+      "source": "9-Verification-simplified::Definitions::TestSystem",
+      "target": "9-Verification-simplified::Definitions::MassVerificationSystem",
+      "d": "M2593.864446012425,144.52420470262794 C2628.864446012425,144.52420470262794 2628.864446012425,147.60165975103735 2663.864446012425,147.60165975103735",
+      "start": {
+        "x": 2593.86,
+        "y": 144.52
+      },
+      "end": {
+        "x": 2663.86,
+        "y": 147.6
+      },
+      "length": 70.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::MassTest::massVerificationObjective::massRequirement→9-Verification-simplified::Definitions::MassRequirement#4",
+      "source": "9-Verification-simplified::Definitions::MassTest::massVerificationObjective::massRequirement",
+      "target": "9-Verification-simplified::Definitions::MassRequirement",
+      "d": "M3605.9439386161944,293.7834179357022 C3638.4439386161944,293.7834179357022 3638.4439386161944,300.7478849407783 3670.9439386161944,300.7478849407783",
+      "start": {
+        "x": 3605.94,
+        "y": 293.78
+      },
+      "end": {
+        "x": 3670.94,
+        "y": 300.75
+      },
+      "length": 65.53,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::MassTest::massVerificationObjective→9-Verification-simplified::Definitions::MassTest::massVerificationObjective::massRequirement#5",
+      "source": "9-Verification-simplified::Definitions::MassTest::massVerificationObjective",
+      "target": "9-Verification-simplified::Definitions::MassTest::massVerificationObjective::massRequirement",
+      "d": "M3138.864446012425,284 C3249.4041923143095,284 3249.4041923143095,284 3359.9439386161944,284",
+      "start": {
+        "x": 3138.86,
+        "y": 284
+      },
+      "end": {
+        "x": 3359.94,
+        "y": 284
+      },
+      "length": 221.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Definitions::MassTest→9-Verification-simplified::Definitions::MassTest::massVerificationObjective#6",
+      "source": "9-Verification-simplified::Definitions::MassTest",
+      "target": "9-Verification-simplified::Definitions::MassTest::massVerificationObjective",
+      "d": "M2590.864446012425,284 C2774.864446012425,284 2774.864446012425,284 2958.864446012425,284",
+      "start": {
+        "x": 2590.86,
+        "y": 284
+      },
+      "end": {
+        "x": 2958.86,
+        "y": 284
+      },
+      "length": 368,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassRequirement→9-Verification-simplified::Definitions::MassRequirement#7",
+      "source": "9-Verification-simplified::Usages::vehicleMassRequirement",
+      "target": "9-Verification-simplified::Definitions::MassRequirement",
+      "d": "M2275.864446012425,1032.1397506039095 C2973.4041923143095,1032.1397506039095 2973.4041923143095,402.19844311270396 3670.9439386161944,402.19844311270396",
+      "start": {
+        "x": 2275.86,
+        "y": 1032.14
+      },
+      "end": {
+        "x": 3670.94,
+        "y": 402.2
+      },
+      "length": 1575.75,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassRequirement::vehicle→9-Verification-simplified::Definitions::Vehicle#8",
+      "source": "9-Verification-simplified::Usages::vehicleMassRequirement::vehicle",
+      "target": "9-Verification-simplified::Definitions::Vehicle",
+      "d": "M2275.864446012425,204.36359469370146 C2469.864446012425,204.36359469370146 2469.864446012425,377.20251833477136 2663.864446012425,377.20251833477136",
+      "start": {
+        "x": 2275.86,
+        "y": 204.36
+      },
+      "end": {
+        "x": 2663.86,
+        "y": 377.2
+      },
+      "length": 437.03,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicle1_c2→9-Verification-simplified::Definitions::Vehicle#10",
+      "source": "9-Verification-simplified::Usages::vehicle1_c2",
+      "target": "9-Verification-simplified::Definitions::Vehicle",
+      "d": "M894,950.9316758813517 C1778.9322230062126,950.9316758813517 1778.9322230062126,448.4633140854784 2663.864446012425,448.4633140854784",
+      "start": {
+        "x": 894,
+        "y": 950.93
+      },
+      "end": {
+        "x": 2663.86,
+        "y": 448.46
+      },
+      "length": 1866.45,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest→9-Verification-simplified::Definitions::MassTest#11",
+      "source": "9-Verification-simplified::Usages::vehicleMassTest",
+      "target": "9-Verification-simplified::Definitions::MassTest",
+      "d": "M1745,448.739407272049 C2088.4322230062126,448.739407272049 2088.4322230062126,298.8631098748128 2431.864446012425,298.8631098748128",
+      "start": {
+        "x": 1745,
+        "y": 448.74
+      },
+      "end": {
+        "x": 2431.86,
+        "y": 298.86
+      },
+      "length": 709.45,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::testVehicle→9-Verification-simplified::Definitions::Vehicle#12",
+      "source": "9-Verification-simplified::Usages::vehicleMassTest::testVehicle",
+      "target": "9-Verification-simplified::Definitions::Vehicle",
+      "d": "M2141.864446012425,519.194610252809 C2402.864446012425,519.194610252809 2402.864446012425,435.6843837780899 2663.864446012425,435.6843837780899",
+      "start": {
+        "x": 2141.86,
+        "y": 519.19
+      },
+      "end": {
+        "x": 2663.86,
+        "y": 435.68
+      },
+      "length": 531.36,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle→9-Verification-simplified::Definitions::Vehicle#14",
+      "source": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle",
+      "target": "9-Verification-simplified::Definitions::Vehicle",
+      "d": "M1729,490.61675634546174 C2196.4322230062126,490.61675634546174 2196.4322230062126,426.84610919441326 2663.864446012425,426.84610919441326",
+      "start": {
+        "x": 1729,
+        "y": 490.62
+      },
+      "end": {
+        "x": 2663.86,
+        "y": 426.85
+      },
+      "length": 937.95,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle→9-Verification-simplified::Usages::vehicleMassTest::testVehicle#15",
+      "source": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle",
+      "target": "9-Verification-simplified::Usages::vehicleMassTest::testVehicle",
+      "d": "M1729,503.3420590913992 C1865.4322230062126,503.3420590913992 1865.4322230062126,524.5574529954779 2001.864446012425,524.5574529954779",
+      "start": {
+        "x": 1729,
+        "y": 503.34
+      },
+      "end": {
+        "x": 2001.86,
+        "y": 524.56
+      },
+      "length": 274.03,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::massVerificationSystem→9-Verification-simplified::Definitions::MassVerificationSystem#16",
+      "source": "9-Verification-simplified::Usages::massVerificationSystem",
+      "target": "9-Verification-simplified::Definitions::MassVerificationSystem",
+      "d": "M1192,656.4675040882054 C1928.6612671826051,656.4675040882054 1928.6612671826051,175.33333333333331 2665.3225343652102,175.33333333333331",
+      "start": {
+        "x": 1192,
+        "y": 656.47
+      },
+      "end": {
+        "x": 2665.32,
+        "y": 175.33
+      },
+      "length": 1578.15,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8→9-Verification-simplified::Usages::vehicleMassTest#17",
+      "source": "00000000-0000-0000-0000-0000000000c8",
+      "target": "9-Verification-simplified::Usages::vehicleMassTest",
+      "d": "M1162,676.2969096452329 C1212,676.2969096452329 1212,615.8486696230599 1262,615.8486696230599",
+      "start": {
+        "x": 1162,
+        "y": 676.3
+      },
+      "end": {
+        "x": 1262,
+        "y": 615.85
+      },
+      "length": 121.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle→9-Verification-simplified::Usages::vehicleMassTest::testVehicle#18",
+      "source": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle",
+      "target": "9-Verification-simplified::Usages::vehicleMassTest::testVehicle",
+      "d": "M999,757.1119378559769 C1500.4322230062126,757.1119378559769 1500.4322230062126,544.8181214402312 2001.864446012425,544.8181214402312",
+      "start": {
+        "x": 999,
+        "y": 757.11
+      },
+      "end": {
+        "x": 2001.86,
+        "y": 544.82
+      },
+      "length": 1033.95,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::massVerificationSystem::vehicleUnderTest→9-Verification-simplified::Definitions::Vehicle#20",
+      "source": "9-Verification-simplified::Usages::massVerificationSystem::vehicleUnderTest",
+      "target": "9-Verification-simplified::Definitions::Vehicle",
+      "d": "M830.3333333333334,861.6090092226491 C1747.098889672879,861.6090092226491 1747.0988896728793,442.92064069657675 2663.864446012425,442.92064069657675",
+      "start": {
+        "x": 830.33,
+        "y": 861.61
+      },
+      "end": {
+        "x": 2663.86,
+        "y": 442.92
+      },
+      "length": 1899.37,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::massVerificationSystem::testOperator→9-Verification-simplified::Definitions::TestOperator#21",
+      "source": "9-Verification-simplified::Usages::massVerificationSystem::testOperator",
+      "target": "9-Verification-simplified::Definitions::TestOperator",
+      "d": "M1162,827.1145078304751 C1795.4322230062126,827.1145078304751 1795.4322230062126,560.1279854142331 2428.864446012425,560.1279854142331",
+      "start": {
+        "x": 1162,
+        "y": 827.11
+      },
+      "end": {
+        "x": 2428.86,
+        "y": 560.13
+      },
+      "length": 1305.8,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::massVerificationSystem::scale→9-Verification-simplified::Definitions::Scale#22",
+      "source": "9-Verification-simplified::Usages::massVerificationSystem::scale",
+      "target": "9-Verification-simplified::Definitions::Scale",
+      "d": "M868,702.8885450648401 C1648.4322230062126,702.8885450648401 1648.4322230062126,484.27977947542905 2428.864446012425,484.27977947542905",
+      "start": {
+        "x": 868,
+        "y": 702.89
+      },
+      "end": {
+        "x": 2428.86,
+        "y": 484.28
+      },
+      "length": 1582.39,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000da→00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData#23",
+      "source": "00000000-0000-0000-0000-0000000000da",
+      "target": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData",
+      "d": "M852,749.5088914309484 C912.5,749.5088914309484 912.5,755.5654638103161 973,755.5654638103161",
+      "start": {
+        "x": 852,
+        "y": 749.51
+      },
+      "end": {
+        "x": 973,
+        "y": 755.57
+      },
+      "length": 121.22,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::testSystem→9-Verification-simplified::Definitions::TestSystem#24",
+      "source": "9-Verification-simplified::Usages::testSystem",
+      "target": "9-Verification-simplified::Definitions::TestSystem",
+      "d": "M511,654.2576129532359 C1469.9322230062126,654.2576129532359 1469.9322230062126,160.60563572820922 2428.864446012425,160.60563572820922",
+      "start": {
+        "x": 511,
+        "y": 654.26
+      },
+      "end": {
+        "x": 2428.86,
+        "y": 160.61
+      },
+      "length": 2004.62,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "9-Verification-simplified::Usages::testSystem→9-Verification-simplified::Usages::massVerificationSystem#25",
+      "source": "9-Verification-simplified::Usages::testSystem",
+      "target": "9-Verification-simplified::Usages::massVerificationSystem",
+      "d": "M511,727.4097166128164 C548.5,727.4097166128164 548.5,733.1550047119009 586,733.1550047119009",
+      "start": {
+        "x": 511,
+        "y": 727.41
+      },
+      "end": {
+        "x": 586,
+        "y": 733.16
+      },
+      "length": 75.31,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f9→9-Verification-simplified::Usages::massVerificationSystem::vehicleUnderTest#26",
+      "source": "00000000-0000-0000-0000-0000000000f9",
+      "target": "9-Verification-simplified::Usages::massVerificationSystem::vehicleUnderTest",
+      "d": "M399,888.9315774690343 C521.1666666666667,888.9315774690343 521.1666666666667,882.6101919598816 643.3333333333334,882.6101919598816",
+      "start": {
+        "x": 399,
+        "y": 888.93
+      },
+      "end": {
+        "x": 643.33,
+        "y": 882.61
+      },
+      "length": 244.45,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f9→9-Verification-simplified::Definitions::TestVehicle1#27",
+      "source": "00000000-0000-0000-0000-0000000000f9",
+      "target": "9-Verification-simplified::Definitions::TestVehicle1",
+      "d": "M399,874.221474584327 C1413.9322230062126,874.221474584327 1413.9322230062126,636.0786576615097 2428.864446012425,636.0786576615097",
+      "start": {
+        "x": 399,
+        "y": 874.22
+      },
+      "end": {
+        "x": 2428.86,
+        "y": 636.08
+      },
+      "length": 2049.58,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f9→9-Verification-simplified::Usages::vehicle1_c2#28",
+      "source": "00000000-0000-0000-0000-0000000000f9",
+      "target": "9-Verification-simplified::Usages::vehicle1_c2",
+      "d": "M399,913.9997950527517 C567,913.9997950527517 567,961.2723927145709 735,961.2723927145709",
+      "start": {
+        "x": 399,
+        "y": 914
+      },
+      "end": {
+        "x": 735,
+        "y": 961.27
+      },
+      "length": 340.68,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000fe→9-Verification-simplified::Definitions::Vehicle::mass#29",
+      "source": "00000000-0000-0000-0000-0000000000fe",
+      "target": "9-Verification-simplified::Definitions::Vehicle::mass",
+      "d": "M236,910.2202218050134 C1467.9322230062126,910.2202218050134 1467.9322230062126,483.16062544700935 2699.864446012425,483.16062544700935",
+      "start": {
+        "x": 236,
+        "y": 910.22
+      },
+      "end": {
+        "x": 2699.86,
+        "y": 483.16
+      },
+      "length": 2515.55,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000114→9-Verification-simplified::Usages::massVerificationSystem::vehicleUnderTest#30",
+      "source": "00000000-0000-0000-0000-000000000114",
+      "target": "9-Verification-simplified::Usages::massVerificationSystem::vehicleUnderTest",
+      "d": "M389.1095603628751,712.2604166666666 C389.1095603628751,774.4270833333333 693.2802977436613,774.4270833333333 693.2802977436613,836.59375",
+      "start": {
+        "x": 389.11,
+        "y": 712.26
+      },
+      "end": {
+        "x": 693.28,
+        "y": 836.59
+      },
+      "length": 342.53,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000114→9-Verification-simplified::Definitions::TestVehicle2#31",
+      "source": "00000000-0000-0000-0000-000000000114",
+      "target": "9-Verification-simplified::Definitions::TestVehicle2",
+      "d": "M399,611.7839319459256 C1413.9322230062126,611.7839319459256 1413.9322230062126,226.7196450446025 2428.864446012425,226.7196450446025",
+      "start": {
+        "x": 399,
+        "y": 611.78
+      },
+      "end": {
+        "x": 2428.86,
+        "y": 226.72
+      },
+      "length": 2080.67,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000114→9-Verification-simplified::Usages::vehicle1_c2#32",
+      "source": "00000000-0000-0000-0000-000000000114",
+      "target": "9-Verification-simplified::Usages::vehicle1_c2",
+      "d": "M364.8134820070958,712.2604166666666 C364.8134820070958,819.4270833333333 779.5625950329447,819.4270833333333 779.5625950329447,926.59375",
+      "start": {
+        "x": 364.81,
+        "y": 712.26
+      },
+      "end": {
+        "x": 779.56,
+        "y": 926.59
+      },
+      "length": 490.37,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000119→9-Verification-simplified::Definitions::Vehicle::mass#33",
+      "source": "00000000-0000-0000-0000-000000000119",
+      "target": "9-Verification-simplified::Definitions::Vehicle::mass",
+      "d": "M236,661.0394472133834 C1467.9322230062126,661.0394472133834 1467.9322230062126,475.8543125094701 2699.864446012425,475.8543125094701",
+      "start": {
+        "x": 236,
+        "y": 661.04
+      },
+      "end": {
+        "x": 2699.86,
+        "y": 475.85
+      },
+      "length": 2473.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 3223.78,
+      "y": 370.88,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "9-Verification-simplified→9-Verification-simplified::Definitions#0"
+    },
+    {
+      "x": 3218.87,
+      "y": 276.2,
+      "w": 61.08,
+      "h": 15.59,
+      "text": "«require»",
+      "edge": "9-Verification-simplified::Definitions::MassTest::massVerificationObjective→9-Verification-simplified::Definitions::MassTest::massVerificationObjective::massRequirement#5"
+    },
+    {
+      "x": 2739.48,
+      "y": 276.2,
+      "w": 70.78,
+      "h": 15.59,
+      "text": "«objective»",
+      "edge": "9-Verification-simplified::Definitions::MassTest→9-Verification-simplified::Definitions::MassTest::massVerificationObjective#6"
+    },
+    {
+      "x": 1858,
+      "y": 506.15,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle→9-Verification-simplified::Usages::vehicleMassTest::testVehicle#15"
+    },
+    {
+      "x": 1493,
+      "y": 643.17,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "00000000-0000-0000-0000-0000000000c8/^9-Verification-simplified::Usages::vehicleMassTest::collectData/^9-Verification-simplified::Usages::vehicleMassTest::collectData::testVehicle→9-Verification-simplified::Usages::vehicleMassTest::testVehicle#18"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "7542ba22eb3824c7",
+  "unsettled": false
+}

@@ -1,0 +1,764 @@
+{
+  "zoom": 0.738686,
+  "nodes": [
+    {
+      "id": "13a-Model Containment",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 103.66,
+      "y": 16,
+      "w": 2055.11,
+      "h": 492,
+      "inner": {
+        "x": 103.66,
+        "y": 16,
+        "w": 2055.11,
+        "h": 492
+      },
+      "clipped": 0,
+      "title": "13a-Model Containment",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "«done»",
+      "type": "actionFinal",
+      "form": "pseudostate",
+      "fam": "#d98a2b",
+      "classes": "fam-action",
+      "x": 103.66,
+      "y": 589,
+      "w": 32,
+      "h": 32,
+      "inner": {
+        "x": 103.66,
+        "y": 589,
+        "w": 32,
+        "h": 32
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "50%",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.595686 0.394314 0.152157)"
+      },
+      "parent": null
+    },
+    {
+      "id": "13a-Model Containment::BodyAndInteriorRequirements",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1945.77,
+      "y": 426,
+      "w": 197,
+      "h": 50,
+      "inner": {
+        "x": 1945.77,
+        "y": 426,
+        "w": 197,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "BodyAndInteriorRequirements",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "13a-Model Containment::PowerTrainRequirements",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 1945.77,
+      "y": 352,
+      "w": 167,
+      "h": 50,
+      "inner": {
+        "x": 1945.77,
+        "y": 352,
+        "w": 167,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "PowerTrainRequirements",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 119.66,
+      "y": 61,
+      "w": 1577.41,
+      "h": 431,
+      "inner": {
+        "x": 119.66,
+        "y": 61,
+        "w": 1577.41,
+        "h": 431
+      },
+      "clipped": 0,
+      "title": "Vehicle Model",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000e",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1249.07,
+      "y": 106,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 1249.07,
+        "y": 106,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This package is used to represent a top-level \"model\". There is no specific syntax for identifying a package used in this way.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::Vehicle1-Configuration",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1496.07,
+      "y": 220,
+      "w": 185,
+      "h": 111,
+      "inner": {
+        "x": 1496.07,
+        "y": 220,
+        "w": 185,
+        "h": 111
+      },
+      "clipped": 0,
+      "title": "Vehicle1-Configuration",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::Vehicle Reference Model",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 135.66,
+      "y": 241,
+      "w": 464,
+      "h": 151,
+      "inner": {
+        "x": 135.66,
+        "y": 241,
+        "w": 464,
+        "h": 151
+      },
+      "clipped": 0,
+      "title": "Vehicle Reference Model",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::VehicleSubsystems",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 843.36,
+      "y": 360.33,
+      "w": 162,
+      "h": 50,
+      "inner": {
+        "x": 843.36,
+        "y": 360.33,
+        "w": 162,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "VehicleSubsystems",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::Body&Interior",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1395.07,
+      "y": 426,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1395.07,
+        "y": 426,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Body&Interior",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::PowerTrain",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1468.07,
+      "y": 352,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1468.07,
+        "y": 352,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "PowerTrain",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000011",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1512.07,
+      "y": 265,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1512.07,
+        "y": 265,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "accept action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000016",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 151.66,
+      "y": 286,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 151.66,
+        "y": 286,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This package is used to represent a \"model library\". There is no specific syntax for identifying a package used in this way.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "13a-Model Containment::BodyAndInteriorRequirements→[*]#0",
+      "source": "13a-Model Containment::BodyAndInteriorRequirements",
+      "target": "[*]",
+      "d": "M1945.77004535916,458.8815849048295 C1045.7135941081515,458.8815849048295 1045.7135941081515,603.7197425535302 145.65714285714284,603.7197425535302",
+      "start": {
+        "x": 1945.77,
+        "y": 458.88
+      },
+      "end": {
+        "x": 145.66,
+        "y": 603.72
+      },
+      "length": 1808.38,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000e→13a-Model Containment::Vehicle Model#1",
+      "source": "00000000-0000-0000-0000-00000000000e",
+      "target": "13a-Model Containment::Vehicle Model",
+      "d": "M1265.3774012975805,196 C1265.3774012975805,257.61542474726014 1826.45261621685,98.81060949029683 1696.6571428571428,98.81060949029683",
+      "start": {
+        "x": 1265.38,
+        "y": 196
+      },
+      "end": {
+        "x": 1696.66,
+        "y": 98.81
+      },
+      "length": 495.27,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::Vehicle1-Configuration→[*]#2",
+      "source": "13a-Model Containment::Vehicle Model::Vehicle1-Configuration",
+      "target": "[*]",
+      "d": "M1496.0657445251543,296.24924877244916 C820.8614436911486,296.24924877244916 820.8614436911486,601.4109407528737 145.65714285714284,601.4109407528737",
+      "start": {
+        "x": 1496.07,
+        "y": 296.25
+      },
+      "end": {
+        "x": 145.66,
+        "y": 601.41
+      },
+      "length": 1397.93,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::Vehicle Reference Model→[*]#3",
+      "source": "13a-Model Containment::Vehicle Model::Vehicle Reference Model",
+      "target": "[*]",
+      "d": "M302.7559296855657,392 C302.7559296855657,485.5 133.4110423372122,485.5 133.4110423372122,579",
+      "start": {
+        "x": 302.76,
+        "y": 392
+      },
+      "end": {
+        "x": 133.41,
+        "y": 579
+      },
+      "length": 266.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::Vehicle Reference Model→13a-Model Containment::Vehicle Model::VehicleSubsystems#4",
+      "source": "13a-Model Containment::Vehicle Model::Vehicle Reference Model",
+      "target": "13a-Model Containment::Vehicle Model::VehicleSubsystems",
+      "d": "M599.6571428571428,345.18548583046595 C716.5092932741456,345.18548583046595 716.5092932741456,375.31814215976544 833.3614436911486,375.31814215976544",
+      "start": {
+        "x": 599.66,
+        "y": 345.19
+      },
+      "end": {
+        "x": 833.36,
+        "y": 375.32
+      },
+      "length": 236.44,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000016→13a-Model Containment::Vehicle Model::Vehicle Reference Model#5",
+      "source": "00000000-0000-0000-0000-000000000016",
+      "target": "13a-Model Containment::Vehicle Model::Vehicle Reference Model",
+      "d": "M367.65714285714284,286 C367.65714285714284,221.65231161883125 367.65714285714284,456.3476883811687 367.65714285714284,392",
+      "start": {
+        "x": 367.66,
+        "y": 286
+      },
+      "end": {
+        "x": 367.66,
+        "y": 392
+      },
+      "length": 151.14,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::VehicleSubsystems→13a-Model Containment::Vehicle Model::Body&Interior#6",
+      "source": "13a-Model Containment::Vehicle Model::VehicleSubsystems",
+      "target": "13a-Model Containment::Vehicle Model::Body&Interior",
+      "d": "M1005.3614436911486,395.17050309838925 C1195.2135941081515,395.17050309838925 1195.2135941081515,442.4987421783467 1385.0657445251543,442.4987421783467",
+      "start": {
+        "x": 1005.36,
+        "y": 395.17
+      },
+      "end": {
+        "x": 1385.07,
+        "y": 442.5
+      },
+      "length": 383.86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::VehicleSubsystems→13a-Model Containment::Vehicle Model::PowerTrain#7",
+      "source": "13a-Model Containment::Vehicle Model::VehicleSubsystems",
+      "target": "13a-Model Containment::Vehicle Model::PowerTrain",
+      "d": "M1005.3614436911486,384.2334551035691 C1231.7135941081515,384.2334551035691 1231.7135941081515,377.9505120504135 1458.0657445251543,377.9505120504135",
+      "start": {
+        "x": 1005.36,
+        "y": 384.23
+      },
+      "end": {
+        "x": 1458.07,
+        "y": 377.95
+      },
+      "length": 452.77,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::Body&Interior→13a-Model Containment::BodyAndInteriorRequirements#8",
+      "source": "13a-Model Containment::Vehicle Model::Body&Interior",
+      "target": "13a-Model Containment::BodyAndInteriorRequirements",
+      "d": "M1535.0657445251543,451 C1735.417894942157,451 1735.417894942157,451 1935.77004535916,451",
+      "start": {
+        "x": 1535.07,
+        "y": 451
+      },
+      "end": {
+        "x": 1935.77,
+        "y": 451
+      },
+      "length": 400.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::PowerTrain→[*]#9",
+      "source": "13a-Model Containment::Vehicle Model::PowerTrain",
+      "target": "[*]",
+      "d": "M1468.0657445251543,388.25204682291934 C806.8614436911486,388.25204682291934 806.8614436911486,602.4281035833327 145.65714285714284,602.4281035833327",
+      "start": {
+        "x": 1468.07,
+        "y": 388.25
+      },
+      "end": {
+        "x": 145.66,
+        "y": 602.43
+      },
+      "length": 1346.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::PowerTrain→[*]#10",
+      "source": "13a-Model Containment::Vehicle Model::PowerTrain",
+      "target": "[*]",
+      "d": "M1468.0657445251543,388.25204682291934 C806.8614436911486,388.25204682291934 806.8614436911486,602.4281035833327 145.65714285714284,602.4281035833327",
+      "start": {
+        "x": 1468.07,
+        "y": 388.25
+      },
+      "end": {
+        "x": 145.66,
+        "y": 602.43
+      },
+      "length": 1346.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "13a-Model Containment::Vehicle Model::PowerTrain→13a-Model Containment::PowerTrainRequirements#11",
+      "source": "13a-Model Containment::Vehicle Model::PowerTrain",
+      "target": "13a-Model Containment::PowerTrainRequirements",
+      "d": "M1608.0657445251543,377 C1771.917894942157,377 1771.917894942157,377 1935.77004535916,377",
+      "start": {
+        "x": 1608.07,
+        "y": 377
+      },
+      "end": {
+        "x": 1935.77,
+        "y": 377
+      },
+      "length": 327.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 1008.86,
+      "y": 523.5,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::BodyAndInteriorRequirements→[*]#0"
+    },
+    {
+      "x": 784.01,
+      "y": 441.03,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::Vehicle Model::Vehicle1-Configuration→[*]#2"
+    },
+    {
+      "x": 181.23,
+      "y": 477.7,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::Vehicle Model::Vehicle Reference Model→[*]#3"
+    },
+    {
+      "x": 679.66,
+      "y": 352.46,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::Vehicle Model::Vehicle Reference Model→13a-Model Containment::Vehicle Model::VehicleSubsystems#4"
+    },
+    {
+      "x": 1158.36,
+      "y": 411.04,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::Vehicle Model::VehicleSubsystems→13a-Model Containment::Vehicle Model::Body&Interior#6"
+    },
+    {
+      "x": 1194.86,
+      "y": 373.3,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::Vehicle Model::VehicleSubsystems→13a-Model Containment::Vehicle Model::PowerTrain#7"
+    },
+    {
+      "x": 1698.57,
+      "y": 443.2,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::Vehicle Model::Body&Interior→13a-Model Containment::BodyAndInteriorRequirements#8"
+    },
+    {
+      "x": 770.01,
+      "y": 487.54,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::Vehicle Model::PowerTrain→[*]#9"
+    },
+    {
+      "x": 770.01,
+      "y": 487.54,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::Vehicle Model::PowerTrain→[*]#10"
+    },
+    {
+      "x": 1735.07,
+      "y": 369.2,
+      "w": 73.7,
+      "h": 15.59,
+      "text": "<<import>>",
+      "edge": "13a-Model Containment::Vehicle Model::PowerTrain→13a-Model Containment::PowerTrainRequirements#11"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "18d1b652c7d05405",
+  "unsettled": false
+}

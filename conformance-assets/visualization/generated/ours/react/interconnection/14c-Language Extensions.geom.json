@@ -1,0 +1,3033 @@
+{
+  "zoom": 0.49067,
+  "nodes": [
+    {
+      "id": "14c-Language-Extensions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 3291.63,
+      "h": 1171,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 3291.63,
+        "h": 1171
+      },
+      "clipped": 0,
+      "title": "14c-Language-Extensions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 2360.63,
+      "y": 61,
+      "w": 931,
+      "h": 1110,
+      "inner": {
+        "x": 2360.63,
+        "y": 61,
+        "w": 931,
+        "h": 1110
+      },
+      "clipped": 0,
+      "title": "FMEALibrary",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 1526.32,
+      "y": 248,
+      "w": 579,
+      "h": 851,
+      "inner": {
+        "x": 1526.32,
+        "y": 248,
+        "w": 579,
+        "h": 851
+      },
+      "clipped": 0,
+      "title": "FMEAMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 141,
+      "w": 1239,
+      "h": 968,
+      "inner": {
+        "x": 32,
+        "y": 141,
+        "w": 1239,
+        "h": 968
+      },
+      "clipped": 0,
+      "title": "FMEAUserModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Situation",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 3135.64,
+      "y": 425,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3135.64,
+        "y": 425,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Situation",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::situations",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2906.64,
+      "y": 425,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2906.64,
+        "y": 425,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "situations: Situation",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Cause",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 2773.64,
+      "y": 573,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2773.64,
+        "y": 573,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Cause",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::causes",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2411.63,
+      "y": 573,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2411.63,
+        "y": 573,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "causes: Cause",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FailureMode",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 2773.64,
+      "y": 277,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2773.64,
+        "y": 277,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FailureMode",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::failureModes",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2376.63,
+      "y": 277,
+      "w": 175,
+      "h": 50,
+      "inner": {
+        "x": 2376.63,
+        "y": 277,
+        "w": 175,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "failureModes: FailureMode",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Effect",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 2773.64,
+      "y": 499,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2773.64,
+        "y": 499,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Effect",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::effects",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2411.63,
+      "y": 499,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2411.63,
+        "y": 499,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "effects: Effect",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "occurrence",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FMEAItem",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 2773.64,
+      "y": 351,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2773.64,
+        "y": 351,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FMEAItem",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::fmeaItems",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 2401.64,
+      "y": 351,
+      "w": 150,
+      "h": 50,
+      "inner": {
+        "x": 2401.64,
+        "y": 351,
+        "w": 150,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fmeaItems: FMEAItem",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Causation",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 2650.64,
+      "y": 106,
+      "w": 396,
+      "h": 147,
+      "inner": {
+        "x": 2650.64,
+        "y": 106,
+        "w": 396,
+        "h": 147
+      },
+      "clipped": 0,
+      "title": "Causation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 3135.64,
+      "y": 904,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3135.64,
+        "y": 904,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FMEARequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::fmeaRequirements",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 2802.64,
+      "y": 989,
+      "w": 244,
+      "h": 50,
+      "inner": {
+        "x": 2802.64,
+        "y": 989,
+        "w": 244,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fmeaRequirements: FMEARequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "requirement",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::RequirementWithSIL",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 2773.14,
+      "y": 1063,
+      "w": 141,
+      "h": 92,
+      "inner": {
+        "x": 2773.14,
+        "y": 1063,
+        "w": 141,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "RequirementWithSIL",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "sil: SIL",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::SIL",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 2394.14,
+      "y": 203,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2394.14,
+        "y": 203,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "SIL",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Violation",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 2635.64,
+      "y": 818,
+      "w": 411,
+      "h": 147,
+      "inner": {
+        "x": 2635.64,
+        "y": 818,
+        "w": 411,
+        "h": 147
+      },
+      "clipped": 0,
+      "title": "Violation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 2635.64,
+      "y": 647,
+      "w": 411,
+      "h": 147,
+      "inner": {
+        "x": 2635.64,
+        "y": 647,
+        "w": 411,
+        "h": 147
+      },
+      "clipped": 0,
+      "title": "ControllingMeasure",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Prevention",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 2411.63,
+      "y": 692,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2411.63,
+        "y": 692,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Prevention",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Mitigation",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 2411.63,
+      "y": 766,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2411.63,
+        "y": 766,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Mitigation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::Status",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 1602.82,
+      "y": 293,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1602.82,
+        "y": 293,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Status",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::StatusHolder",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1602.82,
+      "y": 1033,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1602.82,
+        "y": 1033,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "StatusHolder",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1887.32,
+      "y": 520,
+      "w": 202,
+      "h": 50,
+      "inner": {
+        "x": 1887.32,
+        "y": 520,
+        "w": 202,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<situation> SituationMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::CauseMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1634.32,
+      "y": 515,
+      "w": 169,
+      "h": 50,
+      "inner": {
+        "x": 1634.32,
+        "y": 515,
+        "w": 169,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<cause> CauseMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FailureModeMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1595.32,
+      "y": 589,
+      "w": 208,
+      "h": 50,
+      "inner": {
+        "x": 1595.32,
+        "y": 589,
+        "w": 208,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<failure> FailureModeMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::EffectMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1637.32,
+      "y": 663,
+      "w": 166,
+      "h": 50,
+      "inner": {
+        "x": 1637.32,
+        "y": 663,
+        "w": 166,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<effect> EffectMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FMEAItemMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1614.32,
+      "y": 441,
+      "w": 189,
+      "h": 50,
+      "inner": {
+        "x": 1614.32,
+        "y": 441,
+        "w": 189,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<fmea> FMEAItemMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::CausationMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1566.32,
+      "y": 367,
+      "w": 213,
+      "h": 50,
+      "inner": {
+        "x": 1566.32,
+        "y": 367,
+        "w": 213,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<causation> CausationMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FMEARequirementMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1542.32,
+      "y": 959,
+      "w": 261,
+      "h": 50,
+      "inner": {
+        "x": 1542.32,
+        "y": 959,
+        "w": 261,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<fmeaspec> FMEARequirementMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::ViolationMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1572.82,
+      "y": 737,
+      "w": 200,
+      "h": 50,
+      "inner": {
+        "x": 1572.82,
+        "y": 737,
+        "w": 200,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<violation> ViolationMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1887.32,
+      "y": 819.33,
+      "w": 190,
+      "h": 50,
+      "inner": {
+        "x": 1887.32,
+        "y": 819.33,
+        "w": 190,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ControllingMeasureMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::PreventionMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1579.32,
+      "y": 885,
+      "w": 224,
+      "h": 50,
+      "inner": {
+        "x": 1579.32,
+        "y": 885,
+        "w": 224,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<prevention> PreventionMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::MitigationMetadata",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 1585.32,
+      "y": 811,
+      "w": 218,
+      "h": 50,
+      "inner": {
+        "x": 1585.32,
+        "y": 811,
+        "w": 218,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "~<mitigation> MitigationMetadata",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "metadata def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::req1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 207.5,
+      "y": 186,
+      "w": 226,
+      "h": 92,
+      "inner": {
+        "x": 207.5,
+        "y": 186,
+        "w": 226,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "req1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmeaspec",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Meter designed according to ISO00124",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::req2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 901,
+      "y": 849.25,
+      "w": 354,
+      "h": 92,
+      "inner": {
+        "x": 901,
+        "y": 849.25,
+        "w": 354,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "req2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmeaspec",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Device working for 1 week without the need to replace batteries",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::req3",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 967.5,
+      "y": 592,
+      "w": 221,
+      "h": 211,
+      "inner": {
+        "x": 967.5,
+        "y": 592,
+        "w": 221,
+        "h": 211
+      },
+      "clipped": 0,
+      "title": "req3: RequirementWithSIL",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmeaspec",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Alarm when battery has sank",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "metadata",
+          "entries": [
+            {
+              "text": "StatusHolder",
+              "kind": "metadata"
+            },
+            {
+              "text": "status = Status::Approved",
+              "kind": "metadata"
+            }
+          ]
+        },
+        {
+          "title": "references",
+          "entries": [
+            {
+              "text": "sil = SIL::A :>>RequirementWithSIL::sil",
+              "kind": "references"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 677,
+      "y": 474.75,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 677,
+        "y": 474.75,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Glucose FMEA Item",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmea",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 48,
+      "y": 302,
+      "w": 545,
+      "h": 791,
+      "inner": {
+        "x": 48,
+        "y": 302,
+        "w": 545,
+        "h": 791
+      },
+      "clipped": 0,
+      "title": "Glucose Meter in Use: Glucose FMEA Item",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#fmea",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Causation::cause",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2666.64,
+      "y": 178.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2666.64,
+        "y": 178.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "cause: Situation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Causation::effect",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2890.64,
+      "y": 187,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2890.64,
+        "y": 187,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "effect: Situation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Violation::sit",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2651.64,
+      "y": 890.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2651.64,
+        "y": 890.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "sit: Situation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Violation::req",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2875.64,
+      "y": 899,
+      "w": 155,
+      "h": 50,
+      "inner": {
+        "x": 2875.64,
+        "y": 899,
+        "w": 155,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "req: FMEARequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::sit",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2651.64,
+      "y": 723.83,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2651.64,
+        "y": 723.83,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "sit: Situation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::req",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2875.64,
+      "y": 728,
+      "w": 155,
+      "h": 50,
+      "inner": {
+        "x": 2875.64,
+        "y": 728,
+        "w": 155,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "req: FMEARequirement",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 64,
+      "y": 372,
+      "w": 243,
+      "h": 518,
+      "inner": {
+        "x": 64,
+        "y": 372,
+        "w": 243,
+        "h": 518
+      },
+      "clipped": 0,
+      "title": "glucose meter",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::patient",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 135,
+      "y": 914,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 135,
+        "y": 914,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "patient",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 396,
+      "y": 516,
+      "w": 171,
+      "h": 50,
+      "inner": {
+        "x": 396,
+        "y": 516,
+        "w": 171,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^glucose level undetected",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#effect",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 396,
+      "y": 605,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 396,
+        "y": 605,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "^battery depleted",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#cause",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 396,
+      "y": 765,
+      "w": 181,
+      "h": 136,
+      "inner": {
+        "x": 396,
+        "y": 765,
+        "w": 181,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "^battery cannot be charged",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#failure",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 396,
+      "y": 941,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 396,
+        "y": 941,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "^therapy delay",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "#effect",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000241",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 122,
+      "y": 516,
+      "w": 164,
+      "h": 50,
+      "inner": {
+        "x": 122,
+        "y": 516,
+        "w": 164,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "glucose level undetected",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "event",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::battery",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 80,
+      "y": 664,
+      "w": 206,
+      "h": 210,
+      "inner": {
+        "x": 80,
+        "y": 664,
+        "w": 206,
+        "h": 210
+      },
+      "clipped": 0,
+      "title": "battery",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::pump",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 115.5,
+      "y": 590,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 115.5,
+        "y": 590,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "pump",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use::glucose meter::reservoir",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 115.5,
+      "y": 442,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 115.5,
+        "y": 442,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "reservoir",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000025e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 151,
+      "y": 984,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 151,
+        "y": 984,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "therapy delay",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "event",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted/^00000000-0000-0000-0000-0000000001e4",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 412,
+      "y": 675,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 412,
+        "y": 675,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "occurs",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged/^00000000-0000-0000-0000-0000000001f9",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 412,
+      "y": 835,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 412,
+        "y": 835,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "detected",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay/^00000000-0000-0000-0000-00000000021e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 412,
+      "y": 1011,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 412,
+        "y": 1011,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "severity",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000024a",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 130,
+      "y": 734,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 130,
+        "y": 734,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "battery depleted",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "event",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000251",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 96,
+      "y": 808,
+      "w": 174,
+      "h": 50,
+      "inner": {
+        "x": 96,
+        "y": 808,
+        "w": 174,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "battery cannot be charged",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "event",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::situations→14c-Language-Extensions::FMEALibrary::Situation#0",
+      "source": "14c-Language-Extensions::FMEALibrary::situations",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M3046.6334663859625,450 C3081.6334663859625,450 3081.6334663859625,450 3116.6334663859625,450",
+      "start": {
+        "x": 3046.63,
+        "y": 450
+      },
+      "end": {
+        "x": 3116.63,
+        "y": 450
+      },
+      "length": 70,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Cause→14c-Language-Extensions::FMEALibrary::Situation#1",
+      "source": "14c-Language-Extensions::FMEALibrary::Cause",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M2904.7821150346113,573 C2904.7821150346113,533.5 3144.4848177373137,533.5 3144.4848177373137,494",
+      "start": {
+        "x": 2904.78,
+        "y": 573
+      },
+      "end": {
+        "x": 3144.48,
+        "y": 494
+      },
+      "length": 261.13,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::causes→14c-Language-Extensions::FMEALibrary::Cause#2",
+      "source": "14c-Language-Extensions::FMEALibrary::causes",
+      "target": "14c-Language-Extensions::FMEALibrary::Cause",
+      "d": "M2551.6334663859625,598 C2653.1334663859625,598 2653.1334663859625,598 2754.6334663859625,598",
+      "start": {
+        "x": 2551.63,
+        "y": 598
+      },
+      "end": {
+        "x": 2754.63,
+        "y": 598
+      },
+      "length": 203,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FailureMode→14c-Language-Extensions::FMEALibrary::Situation#3",
+      "source": "14c-Language-Extensions::FMEALibrary::FailureMode",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M2904.7821150346113,327 C2904.7821150346113,366.5 3144.4848177373137,366.5 3144.4848177373137,406",
+      "start": {
+        "x": 2904.78,
+        "y": 327
+      },
+      "end": {
+        "x": 3144.48,
+        "y": 406
+      },
+      "length": 261.13,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::failureModes→14c-Language-Extensions::FMEALibrary::FailureMode#4",
+      "source": "14c-Language-Extensions::FMEALibrary::failureModes",
+      "target": "14c-Language-Extensions::FMEALibrary::FailureMode",
+      "d": "M2551.6334663859625,302 C2653.1334663859625,302 2653.1334663859625,302 2754.6334663859625,302",
+      "start": {
+        "x": 2551.63,
+        "y": 302
+      },
+      "end": {
+        "x": 2754.63,
+        "y": 302
+      },
+      "length": 203,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Effect→14c-Language-Extensions::FMEALibrary::Situation#5",
+      "source": "14c-Language-Extensions::FMEALibrary::Effect",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M2913.6334663859625,509.69060773480663 C3015.1334663859625,509.69060773480663 3015.1334663859625,464.30939226519337 3116.6334663859625,464.30939226519337",
+      "start": {
+        "x": 2913.63,
+        "y": 509.69
+      },
+      "end": {
+        "x": 3116.63,
+        "y": 464.31
+      },
+      "length": 210,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::effects→14c-Language-Extensions::FMEALibrary::Effect#6",
+      "source": "14c-Language-Extensions::FMEALibrary::effects",
+      "target": "14c-Language-Extensions::FMEALibrary::Effect",
+      "d": "M2551.6334663859625,524 C2653.1334663859625,524 2653.1334663859625,524 2754.6334663859625,524",
+      "start": {
+        "x": 2551.63,
+        "y": 524
+      },
+      "end": {
+        "x": 2754.63,
+        "y": 524
+      },
+      "length": 203,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::FMEAItem→14c-Language-Extensions::FMEALibrary::Situation#7",
+      "source": "14c-Language-Extensions::FMEALibrary::FMEAItem",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M2913.6334663859625,390.30939226519337 C3015.1334663859625,390.30939226519337 3015.1334663859625,435.69060773480663 3116.6334663859625,435.69060773480663",
+      "start": {
+        "x": 2913.63,
+        "y": 390.31
+      },
+      "end": {
+        "x": 3116.63,
+        "y": 435.69
+      },
+      "length": 210,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::fmeaItems→14c-Language-Extensions::FMEALibrary::FMEAItem#8",
+      "source": "14c-Language-Extensions::FMEALibrary::fmeaItems",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEAItem",
+      "d": "M2551.6334663859625,376 C2653.1334663859625,376 2653.1334663859625,376 2754.6334663859625,376",
+      "start": {
+        "x": 2551.63,
+        "y": 376
+      },
+      "end": {
+        "x": 2754.63,
+        "y": 376
+      },
+      "length": 203,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Causation::cause→14c-Language-Extensions::FMEALibrary::Situation#9",
+      "source": "14c-Language-Extensions::FMEALibrary::Causation::cause",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M2784.2315719340004,228.66666666666666 C2784.2315719340004,317.3333333333333 3158.0353608379246,317.3333333333333 3158.0353608379246,406",
+      "start": {
+        "x": 2784.23,
+        "y": 228.67
+      },
+      "end": {
+        "x": 3158.04,
+        "y": 406
+      },
+      "length": 433.43,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Causation::effect→14c-Language-Extensions::FMEALibrary::Situation#10",
+      "source": "14c-Language-Extensions::FMEALibrary::Causation::effect",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M2986.3687605036093,237 C2986.3687605036093,321.5 3179.8981722683156,321.5 3179.8981722683156,406",
+      "start": {
+        "x": 2986.37,
+        "y": 237
+      },
+      "end": {
+        "x": 3179.9,
+        "y": 406
+      },
+      "length": 272.01,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Causation::cause→14c-Language-Extensions::FMEALibrary::Causation::effect#11",
+      "source": "14c-Language-Extensions::FMEALibrary::Causation::cause",
+      "target": "14c-Language-Extensions::FMEALibrary::Causation::effect",
+      "d": "M2806.6334663859625,206.27083333333331 C2848.6334663859625,206.27083333333331 2848.6334663859625,209.39583333333331 2890.6334663859625,209.39583333333331",
+      "start": {
+        "x": 2806.63,
+        "y": 206.27
+      },
+      "end": {
+        "x": 2890.63,
+        "y": 209.4
+      },
+      "length": 84.08,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::fmeaRequirements→14c-Language-Extensions::FMEALibrary::FMEARequirement#12",
+      "source": "14c-Language-Extensions::FMEALibrary::fmeaRequirements",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "d": "M3007.2805252094918,989 C3007.2805252094918,969.5871886120997 3061.9569957977274,950.1743772241992 3116.6334663859625,950.1743772241992",
+      "start": {
+        "x": 3007.28,
+        "y": 989
+      },
+      "end": {
+        "x": 3116.63,
+        "y": 950.17
+      },
+      "length": 122,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::RequirementWithSIL→14c-Language-Extensions::FMEALibrary::FMEARequirement#13",
+      "source": "14c-Language-Extensions::FMEALibrary::RequirementWithSIL",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "d": "M2914.1334663859625,1073.9447513812154 C3034.744577497074,1073.9447513812154 3155.3556886081847,1023.4723756906077 3155.3556886081847,973",
+      "start": {
+        "x": 2914.13,
+        "y": 1073.94
+      },
+      "end": {
+        "x": 3155.36,
+        "y": 973
+      },
+      "length": 277.36,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Violation::sit→14c-Language-Extensions::FMEALibrary::Situation#14",
+      "source": "14c-Language-Extensions::FMEALibrary::Violation::sit",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M2747.6177183544664,890.6666666666666 C2747.6177183544664,692.3333333333333 3179.6492144174586,692.3333333333333 3179.6492144174586,494",
+      "start": {
+        "x": 2747.62,
+        "y": 890.67
+      },
+      "end": {
+        "x": 3179.65,
+        "y": 494
+      },
+      "length": 620.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Violation::req→14c-Language-Extensions::FMEALibrary::FMEARequirement#15",
+      "source": "14c-Language-Extensions::FMEALibrary::Violation::req",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "d": "M3030.6334663859625,925.5346534653465 C3073.6334663859625,925.5346534653465 3073.6334663859625,927.6138613861386 3116.6334663859625,927.6138613861386",
+      "start": {
+        "x": 3030.63,
+        "y": 925.53
+      },
+      "end": {
+        "x": 3116.63,
+        "y": 927.61
+      },
+      "length": 86.04,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Violation::sit→14c-Language-Extensions::FMEALibrary::Violation::req#16",
+      "source": "14c-Language-Extensions::FMEALibrary::Violation::sit",
+      "target": "14c-Language-Extensions::FMEALibrary::Violation::req",
+      "d": "M2791.6334663859625,918.1864650827933 C2833.6334663859625,918.1864650827933 2833.6334663859625,921.2102231821455 2875.6334663859625,921.2102231821455",
+      "start": {
+        "x": 2791.63,
+        "y": 918.19
+      },
+      "end": {
+        "x": 2875.63,
+        "y": 921.21
+      },
+      "length": 84.08,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::sit→14c-Language-Extensions::FMEALibrary::Situation#17",
+      "source": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::sit",
+      "target": "14c-Language-Extensions::FMEALibrary::Situation",
+      "d": "M2762.124263931975,723.8333333333334 C2762.124263931975,608.9166666666667 3165.14266883995,608.9166666666667 3165.14266883995,494",
+      "start": {
+        "x": 2762.12,
+        "y": 723.83
+      },
+      "end": {
+        "x": 3165.14,
+        "y": 494
+      },
+      "length": 488.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::req→14c-Language-Extensions::FMEALibrary::FMEARequirement#18",
+      "source": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::req",
+      "target": "14c-Language-Extensions::FMEALibrary::FMEARequirement",
+      "d": "M2988.99994365869,778 C2988.99994365869,831.5 3169.766989113235,831.5 3169.766989113235,885",
+      "start": {
+        "x": 2989,
+        "y": 778
+      },
+      "end": {
+        "x": 3169.77,
+        "y": 885
+      },
+      "length": 221.45,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Prevention→14c-Language-Extensions::FMEALibrary::ControllingMeasure#19",
+      "source": "14c-Language-Extensions::FMEALibrary::Prevention",
+      "target": "14c-Language-Extensions::FMEALibrary::ControllingMeasure",
+      "d": "M2551.6334663859625,717.6815020862309 C2584.1334663859625,717.6815020862309 2584.1334663859625,718.4993045897079 2616.6334663859625,718.4993045897079",
+      "start": {
+        "x": 2551.63,
+        "y": 717.68
+      },
+      "end": {
+        "x": 2616.63,
+        "y": 718.5
+      },
+      "length": 65.01,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::sit→14c-Language-Extensions::FMEALibrary::ControllingMeasure::req#20",
+      "source": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::sit",
+      "target": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::req",
+      "d": "M2791.6334663859625,750.0932325413967 C2833.6334663859625,750.0932325413967 2833.6334663859625,751.6051115910727 2875.6334663859625,751.6051115910727",
+      "start": {
+        "x": 2791.63,
+        "y": 750.09
+      },
+      "end": {
+        "x": 2875.63,
+        "y": 751.61
+      },
+      "length": 84.02,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::Mitigation→14c-Language-Extensions::FMEALibrary::ControllingMeasure#21",
+      "source": "14c-Language-Extensions::FMEALibrary::Mitigation",
+      "target": "14c-Language-Extensions::FMEALibrary::ControllingMeasure",
+      "d": "M2551.6334663859625,777.2726008344923 C2584.1334663859625,777.2726008344923 2584.1334663859625,760.7997218358831 2616.6334663859625,760.7997218358831",
+      "start": {
+        "x": 2551.63,
+        "y": 777.27
+      },
+      "end": {
+        "x": 2616.63,
+        "y": 760.8
+      },
+      "length": 67.85,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::sit→14c-Language-Extensions::FMEALibrary::ControllingMeasure::req#22",
+      "source": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::sit",
+      "target": "14c-Language-Extensions::FMEALibrary::ControllingMeasure::req",
+      "d": "M2791.6334663859625,750.0932325413967 C2833.6334663859625,750.0932325413967 2833.6334663859625,751.6051115910727 2875.6334663859625,751.6051115910727",
+      "start": {
+        "x": 2791.63,
+        "y": 750.09
+      },
+      "end": {
+        "x": 2875.63,
+        "y": 751.61
+      },
+      "length": 84.02,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata→14c-Language-Extensions::FMEALibrary#23",
+      "source": "14c-Language-Extensions::FMEAMetadata",
+      "target": "14c-Language-Extensions::FMEALibrary",
+      "d": "M2105.3167331929812,657.0237312685185 C2227.9750997894716,657.0237312685185 2227.9750997894716,642.4929295146965 2350.6334663859625,642.4929295146965",
+      "start": {
+        "x": 2105.32,
+        "y": 657.02
+      },
+      "end": {
+        "x": 2350.63,
+        "y": 642.49
+      },
+      "length": 245.93,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::CauseMetadata→14c-Language-Extensions::FMEAMetadata::SituationMetadata#24",
+      "source": "14c-Language-Extensions::FMEAMetadata::CauseMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "d": "M1803.3167331929812,541.5677179962894 C1835.8167331929812,541.5677179962894 1835.8167331929812,543.126159554731 1868.3167331929812,543.126159554731",
+      "start": {
+        "x": 1803.32,
+        "y": 541.57
+      },
+      "end": {
+        "x": 1868.32,
+        "y": 543.13
+      },
+      "length": 65.03,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FailureModeMetadata→14c-Language-Extensions::FMEAMetadata::SituationMetadata#25",
+      "source": "14c-Language-Extensions::FMEAMetadata::FailureModeMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "d": "M1803.3167331929812,589.1695501730104 C1835.8167331929812,589.1695501730104 1835.8167331929812,569.1141868512111 1868.3167331929812,569.1141868512111",
+      "start": {
+        "x": 1803.32,
+        "y": 589.17
+      },
+      "end": {
+        "x": 1868.32,
+        "y": 569.11
+      },
+      "length": 69.16,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::EffectMetadata→14c-Language-Extensions::FMEAMetadata::SituationMetadata#26",
+      "source": "14c-Language-Extensions::FMEAMetadata::EffectMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "d": "M1767.1698800461281,663 C1767.1698800461281,626 1941.4635863398344,626 1941.4635863398344,589",
+      "start": {
+        "x": 1767.17,
+        "y": 663
+      },
+      "end": {
+        "x": 1941.46,
+        "y": 589
+      },
+      "length": 197.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::FMEAItemMetadata→14c-Language-Extensions::FMEAMetadata::SituationMetadata#27",
+      "source": "14c-Language-Extensions::FMEAMetadata::FMEAItemMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::SituationMetadata",
+      "d": "M1797.266100281589,491 C1797.266100281589,496 1899.8673661043736,496 1899.8673661043736,501",
+      "start": {
+        "x": 1797.27,
+        "y": 491
+      },
+      "end": {
+        "x": 1899.87,
+        "y": 501
+      },
+      "length": 103.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::PreventionMetadata→14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata#28",
+      "source": "14c-Language-Extensions::FMEAMetadata::PreventionMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata",
+      "d": "M1802.103535223438,885 C1835.2101342082096,885 1835.2101342082096,865.7709049255441 1868.3167331929812,865.7709049255441",
+      "start": {
+        "x": 1802.1,
+        "y": 885
+      },
+      "end": {
+        "x": 1868.32,
+        "y": 865.77
+      },
+      "length": 69.99,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAMetadata::MitigationMetadata→14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata#29",
+      "source": "14c-Language-Extensions::FMEAMetadata::MitigationMetadata",
+      "target": "14c-Language-Extensions::FMEAMetadata::ControllingMeasureMetadata",
+      "d": "M1803.3167331929812,839.1539351851852 C1835.8167331929812,839.1539351851852 1835.8167331929812,841.5844907407408 1868.3167331929812,841.5844907407408",
+      "start": {
+        "x": 1803.32,
+        "y": 839.15
+      },
+      "end": {
+        "x": 1868.32,
+        "y": 841.58
+      },
+      "length": 65.06,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel→14c-Language-Extensions::FMEALibrary#30",
+      "source": "14c-Language-Extensions::FMEAUserModel",
+      "target": "14c-Language-Extensions::FMEALibrary",
+      "d": "M1271,622.436119655941 C1810.8167331929812,622.436119655941 1810.8167331929812,617.9265315579653 2350.6334663859625,617.9265315579653",
+      "start": {
+        "x": 1271,
+        "y": 622.44
+      },
+      "end": {
+        "x": 2350.63,
+        "y": 617.93
+      },
+      "length": 1079.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel→14c-Language-Extensions::FMEAMetadata#31",
+      "source": "14c-Language-Extensions::FMEAUserModel",
+      "target": "14c-Language-Extensions::FMEAMetadata",
+      "d": "M1271,650.8054781344623 C1393.6583665964906,650.8054781344623 1393.6583665964906,661.4407814044765 1516.3167331929812,661.4407814044765",
+      "start": {
+        "x": 1271,
+        "y": 650.81
+      },
+      "end": {
+        "x": 1516.32,
+        "y": 661.44
+      },
+      "length": 245.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::req3→14c-Language-Extensions::FMEALibrary::RequirementWithSIL#32",
+      "source": "14c-Language-Extensions::FMEAUserModel::req3",
+      "target": "14c-Language-Extensions::FMEALibrary::RequirementWithSIL",
+      "d": "M1188.5,723.2532216429229 C1971.3167331929812,723.2532216429229 1971.3167331929812,1092.5692115309857 2754.1334663859625,1092.5692115309857",
+      "start": {
+        "x": 1188.5,
+        "y": 723.25
+      },
+      "end": {
+        "x": 2754.13,
+        "y": 1092.57
+      },
+      "length": 1625.5,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::req2#33",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::req2",
+      "d": "M593,768.6377887788778 C742.3963337547409,768.6377887788778 742.3963337547409,849.25 891.7926675094817,849.25",
+      "start": {
+        "x": 593,
+        "y": 768.64
+      },
+      "end": {
+        "x": 891.79,
+        "y": 849.25
+      },
+      "length": 313.58,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::req3#34",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::req3",
+      "d": "M593,697.5 C775.25,697.5 775.25,697.5 957.5,697.5",
+      "start": {
+        "x": 593,
+        "y": 697.5
+      },
+      "end": {
+        "x": 957.5,
+        "y": 697.5
+      },
+      "length": 364.5,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item#35",
+      "source": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item",
+      "d": "M593,571.1532825322392 C643.0404551201011,571.1532825322392 693.0809102402023,557.4516412661196 693.0809102402023,543.75",
+      "start": {
+        "x": 593,
+        "y": 571.15
+      },
+      "end": {
+        "x": 693.08,
+        "y": 543.75
+      },
+      "length": 107.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000241→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected#36",
+      "source": "00000000-0000-0000-0000-000000000241",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::glucose level undetected",
+      "d": "M286,541 C331.5,541 331.5,541 377,541",
+      "start": {
+        "x": 286,
+        "y": 541
+      },
+      "end": {
+        "x": 377,
+        "y": 541
+      },
+      "length": 91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000024a→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted#37",
+      "source": "00000000-0000-0000-0000-00000000024a",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery depleted",
+      "d": "M270,737.6524822695036 C323.5,737.6524822695036 323.5,699.2269503546099 377,699.2269503546099",
+      "start": {
+        "x": 270,
+        "y": 737.65
+      },
+      "end": {
+        "x": 377,
+        "y": 699.23
+      },
+      "length": 116.1,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000251→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged#38",
+      "source": "00000000-0000-0000-0000-000000000251",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::battery cannot be charged",
+      "d": "M270,833 C323.5,833 323.5,833 377,833",
+      "start": {
+        "x": 270,
+        "y": 833
+      },
+      "end": {
+        "x": 377,
+        "y": 833
+      },
+      "length": 107,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000025e→14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay#39",
+      "source": "00000000-0000-0000-0000-00000000025e",
+      "target": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use/^14c-Language-Extensions::FMEAUserModel::Glucose FMEA Item::therapy delay",
+      "d": "M291,1009 C334,1009 334,1009 377,1009",
+      "start": {
+        "x": 291,
+        "y": 1009
+      },
+      "end": {
+        "x": 377,
+        "y": 1009
+      },
+      "length": 86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 2187.82,
+      "y": 641.96,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "14c-Language-Extensions::FMEAMetadata→14c-Language-Extensions::FMEALibrary#23"
+    },
+    {
+      "x": 1770.66,
+      "y": 612.38,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "14c-Language-Extensions::FMEAUserModel→14c-Language-Extensions::FMEALibrary#30"
+    },
+    {
+      "x": 1353.5,
+      "y": 648.33,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "14c-Language-Extensions::FMEAUserModel→14c-Language-Extensions::FMEAMetadata#31"
+    },
+    {
+      "x": 704.22,
+      "y": 801.15,
+      "w": 76.36,
+      "h": 15.59,
+      "text": "«#violation»",
+      "edge": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::req2#33"
+    },
+    {
+      "x": 732.28,
+      "y": 689.7,
+      "w": 85.94,
+      "h": 15.59,
+      "text": "«#mitigation»",
+      "edge": "14c-Language-Extensions::FMEAUserModel::Glucose Meter in Use→14c-Language-Extensions::FMEAUserModel::req3#34"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "38772dd198d5ea16",
+  "unsettled": false
+}

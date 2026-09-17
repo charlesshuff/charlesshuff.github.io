@@ -1,0 +1,1251 @@
+{
+  "zoom": 0.841069,
+  "nodes": [
+    {
+      "id": "14b-Language-Extensions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1056,
+      "h": 1503.19,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1056,
+        "h": 1503.19
+      },
+      "clipped": 0,
+      "title": "14b-Language-Extensions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::LibraryModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 680.67,
+      "y": 1363.19,
+      "w": 172,
+      "h": 140,
+      "inner": {
+        "x": 680.67,
+        "y": 1363.19,
+        "w": 172,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "LibraryModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 61,
+      "w": 1024,
+      "h": 1107.59,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 1024,
+        "h": 1107.59
+      },
+      "clipped": 0,
+      "title": "UserModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::LibraryModel::ECU",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 696.67,
+      "y": 1408.19,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 696.67,
+        "y": 1408.19,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ECU",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 48,
+      "y": 1007.59,
+      "w": 992,
+      "h": 140,
+      "inner": {
+        "x": 48,
+        "y": 1007.59,
+        "w": 992,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 104.18,
+      "y": 106,
+      "w": 778.59,
+      "h": 707,
+      "inner": {
+        "x": 104.18,
+        "y": 106,
+        "w": 778.59,
+        "h": 707
+      },
+      "clipped": 0,
+      "title": "Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions::VehicleControlUnit",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 720,
+      "y": 1072.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 720,
+        "y": 1072.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "VehicleControlUnit",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions::EngineControlUnit",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 228,
+      "y": 1072.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 228,
+        "y": 1072.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "EngineControlUnit",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 884,
+      "y": 1072.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 884,
+        "y": 1072.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions::Engine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 64,
+      "y": 1072.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 64,
+        "y": 1072.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions::CanBus",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 392,
+      "y": 1072.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 392,
+        "y": 1072.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "CanBus",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions::BusIF",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 556,
+      "y": 1072.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 556,
+        "y": 1072.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "BusIF",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 447.78,
+      "y": 151,
+      "w": 419,
+      "h": 110,
+      "inner": {
+        "x": 447.78,
+        "y": 151,
+        "w": 419,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "vehicle1: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "connections",
+          "entries": [
+            {
+              "text": "noname connect vehicleControlUnit.busIF to canBus.vehicleControlIF",
+              "kind": "connections"
+            },
+            {
+              "text": "noname connect engine.engineControlUnit.busIF to canBus.engineControlIF",
+              "kind": "connections"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 579.18,
+      "y": 345,
+      "w": 240,
+      "h": 50,
+      "inner": {
+        "x": 579.18,
+        "y": 345,
+        "w": 240,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleControlUnit: VehicleControlUnit",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit::busIF",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 609.18,
+      "y": 479,
+      "w": 100,
+      "h": 50,
+      "inner": {
+        "x": 609.18,
+        "y": 479,
+        "w": 100,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "busIF: ~BusIF",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 394.18,
+      "y": 479,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 394.18,
+        "y": 479,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "canBus: CanBus",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::vehicleControlIF",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 557.18,
+      "y": 613,
+      "w": 153,
+      "h": 50,
+      "inner": {
+        "x": 557.18,
+        "y": 613,
+        "w": 153,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleControlIF: BusIF",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::engineControlIF",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 310.18,
+      "y": 747,
+      "w": 153,
+      "h": 50,
+      "inner": {
+        "x": 310.18,
+        "y": 747,
+        "w": 153,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engineControlIF: BusIF",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::sensorIF",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 423.18,
+      "y": 613,
+      "w": 110,
+      "h": 50,
+      "inner": {
+        "x": 423.18,
+        "y": 613,
+        "w": 110,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "sensorIF: BusIF",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 157.35,
+      "y": 345,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 157.35,
+        "y": 345,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine: Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 131.18,
+      "y": 479,
+      "w": 239,
+      "h": 50,
+      "inner": {
+        "x": 131.18,
+        "y": 479,
+        "w": 239,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engineControlUnit: EngineControlUnit",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit::busIF",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 240.52,
+      "y": 613,
+      "w": 100,
+      "h": 50,
+      "inner": {
+        "x": 240.52,
+        "y": 613,
+        "w": 100,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "busIF: ~BusIF",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions→14b-Language-Extensions::LibraryModel#4",
+      "source": "14b-Language-Extensions::UserModel::Definitions",
+      "target": "14b-Language-Extensions::LibraryModel",
+      "d": "M587.8327913993614,1147.59375 C587.8327913993614,1250.390625 722.8338752673052,1250.390625 722.8338752673052,1353.1875",
+      "start": {
+        "x": 587.83,
+        "y": 1147.59
+      },
+      "end": {
+        "x": 722.83,
+        "y": 1353.19
+      },
+      "length": 256.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions::VehicleControlUnit→14b-Language-Extensions::LibraryModel::ECU#6",
+      "source": "14b-Language-Extensions::UserModel::Definitions::VehicleControlUnit",
+      "target": "14b-Language-Extensions::LibraryModel::ECU",
+      "d": "M788.2617872551758,1122.59375 C788.2617872551758,1255.890625 768.4048794114908,1255.890625 768.4048794114908,1389.1875",
+      "start": {
+        "x": 788.26,
+        "y": 1122.59
+      },
+      "end": {
+        "x": 768.4,
+        "y": 1389.19
+      },
+      "length": 267.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Definitions::EngineControlUnit→14b-Language-Extensions::LibraryModel::ECU#8",
+      "source": "14b-Language-Extensions::UserModel::Definitions::EngineControlUnit",
+      "target": "14b-Language-Extensions::LibraryModel::ECU",
+      "d": "M332.9132445603253,1122.59375 C332.9132445603253,1255.890625 731.7534221063413,1255.890625 731.7534221063413,1389.1875",
+      "start": {
+        "x": 332.91,
+        "y": 1122.59
+      },
+      "end": {
+        "x": 731.75,
+        "y": 1389.19
+      },
+      "length": 506.98,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages→14b-Language-Extensions::UserModel::Definitions#14",
+      "source": "14b-Language-Extensions::UserModel::Usages",
+      "target": "14b-Language-Extensions::UserModel::Definitions",
+      "d": "M522.4603984051281,813 C522.4603984051281,905.296875 538.3015580993844,905.296875 538.3015580993844,997.59375",
+      "start": {
+        "x": 522.46,
+        "y": 813
+      },
+      "end": {
+        "x": 538.3,
+        "y": 997.59
+      },
+      "length": 185.56,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1→14b-Language-Extensions::UserModel::Definitions::Vehicle#16",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1",
+      "target": "14b-Language-Extensions::UserModel::Definitions::Vehicle",
+      "d": "M675.586917237065,261 C675.586917237065,657.296875 945.6801588954336,657.296875 945.6801588954336,1053.59375",
+      "start": {
+        "x": 675.59,
+        "y": 261
+      },
+      "end": {
+        "x": 945.68,
+        "y": 1053.59
+      },
+      "length": 853.68,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1→14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit#17",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit",
+      "d": "M671.3350960753114,274 C671.3350960753114,309.5 692.7960716850675,309.5 692.7960716850675,345",
+      "start": {
+        "x": 671.34,
+        "y": 274
+      },
+      "end": {
+        "x": 692.8,
+        "y": 345
+      },
+      "length": 75.37,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit→14b-Language-Extensions::UserModel::Definitions::VehicleControlUnit#18",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit",
+      "target": "14b-Language-Extensions::UserModel::Definitions::VehicleControlUnit",
+      "d": "M702.3037146253577,395 C702.3037146253577,724.296875 786.8795521816611,724.296875 786.8795521816611,1053.59375",
+      "start": {
+        "x": 702.3,
+        "y": 395
+      },
+      "end": {
+        "x": 786.88,
+        "y": 1053.59
+      },
+      "length": 666.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit→14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit::busIF#19",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit::busIF",
+      "d": "M691.7205802398546,408 C691.7205802398546,443.5 666.6459533741829,443.5 666.6459533741829,479",
+      "start": {
+        "x": 691.72,
+        "y": 408
+      },
+      "end": {
+        "x": 666.65,
+        "y": 479
+      },
+      "length": 76.85,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit::busIF→14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::vehicleControlIF#20",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::vehicleControlUnit::busIF",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::vehicleControlIF",
+      "d": "M654.4258041204516,529 C654.4258041204516,571 638.4407294935859,571 638.4407294935859,613",
+      "start": {
+        "x": 654.43,
+        "y": 529
+      },
+      "end": {
+        "x": 638.44,
+        "y": 613
+      },
+      "length": 86.12,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1→14b-Language-Extensions::UserModel::Usages::vehicle1::canBus#21",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus",
+      "d": "M621.6440050620523,274 C621.6440050620523,376.5 480.382931236549,376.5 480.382931236549,479",
+      "start": {
+        "x": 621.64,
+        "y": 274
+      },
+      "end": {
+        "x": 480.38,
+        "y": 479
+      },
+      "length": 260.58,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus→14b-Language-Extensions::UserModel::Definitions::CanBus#22",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus",
+      "target": "14b-Language-Extensions::UserModel::Definitions::CanBus",
+      "d": "M464.0913155858756,529 C464.0913155858756,791.296875 462.0919512211432,791.296875 462.0919512211432,1053.59375",
+      "start": {
+        "x": 464.09,
+        "y": 529
+      },
+      "end": {
+        "x": 462.09,
+        "y": 1053.59
+      },
+      "length": 524.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus→14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::vehicleControlIF#23",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::vehicleControlIF",
+      "d": "M495.806401135377,542 C495.806401135377,577.5 602.0601324786605,577.5 602.0601324786605,613",
+      "start": {
+        "x": 495.81,
+        "y": 542
+      },
+      "end": {
+        "x": 602.06,
+        "y": 613
+      },
+      "length": 135.05,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::vehicleControlIF→14b-Language-Extensions::UserModel::Definitions::BusIF#24",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::vehicleControlIF",
+      "target": "14b-Language-Extensions::UserModel::Definitions::BusIF",
+      "d": "M633.2653288560012,663 C633.2653288560012,858.296875 626.4179379510175,858.296875 626.4179379510175,1053.59375",
+      "start": {
+        "x": 633.27,
+        "y": 663
+      },
+      "end": {
+        "x": 626.42,
+        "y": 1053.59
+      },
+      "length": 390.68,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus→14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::engineControlIF#25",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::engineControlIF",
+      "d": "M456.95378919507846,542 C456.95378919507846,644.5 393.91274441895905,644.5 393.91274441895905,747",
+      "start": {
+        "x": 456.95,
+        "y": 542
+      },
+      "end": {
+        "x": 393.91,
+        "y": 747
+      },
+      "length": 218.02,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::engineControlIF→14b-Language-Extensions::UserModel::Definitions::BusIF#26",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::engineControlIF",
+      "target": "14b-Language-Extensions::UserModel::Definitions::BusIF",
+      "d": "M405.0586758246198,797 C405.0586758246198,925.296875 607.624590982399,925.296875 607.624590982399,1053.59375",
+      "start": {
+        "x": 405.06,
+        "y": 797
+      },
+      "end": {
+        "x": 607.62,
+        "y": 1053.59
+      },
+      "length": 343.76,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus→14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::sensorIF#27",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::sensorIF",
+      "d": "M466.79520710552623,542 C466.79520710552623,577.5 475.5713265085113,577.5 475.5713265085113,613",
+      "start": {
+        "x": 466.8,
+        "y": 542
+      },
+      "end": {
+        "x": 475.57,
+        "y": 613
+      },
+      "length": 71.76,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::sensorIF→14b-Language-Extensions::UserModel::Definitions::BusIF#28",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::sensorIF",
+      "target": "14b-Language-Extensions::UserModel::Definitions::BusIF",
+      "d": "M486.22388600565785,663 C486.22388600565785,858.296875 617.9593808013609,858.296875 617.9593808013609,1053.59375",
+      "start": {
+        "x": 486.22,
+        "y": 663
+      },
+      "end": {
+        "x": 617.96,
+        "y": 1053.59
+      },
+      "length": 420.12,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit::busIF→14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::engineControlIF#29",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit::busIF",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::canBus::engineControlIF",
+      "d": "M308.45814242890935,663 C308.45814242890935,705 368.7417245184615,705 368.7417245184615,747",
+      "start": {
+        "x": 308.46,
+        "y": 663
+      },
+      "end": {
+        "x": 368.74,
+        "y": 747
+      },
+      "length": 108.38,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1→14b-Language-Extensions::UserModel::Usages::vehicle1::engine#30",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine",
+      "d": "M513.0983074574253,274 C513.0983074574253,309.5 292.88855135986427,309.5 292.88855135986427,345",
+      "start": {
+        "x": 513.1,
+        "y": 274
+      },
+      "end": {
+        "x": 292.89,
+        "y": 345
+      },
+      "length": 239.21,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine→14b-Language-Extensions::UserModel::Definitions::Engine#31",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine",
+      "target": "14b-Language-Extensions::UserModel::Definitions::Engine",
+      "d": "M224.1424453158471,395 C224.1424453158471,724.296875 137.20748815783827,724.296875 137.20748815783827,1053.59375",
+      "start": {
+        "x": 224.14,
+        "y": 395
+      },
+      "end": {
+        "x": 137.21,
+        "y": 1053.59
+      },
+      "length": 666.67,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine→14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit#32",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit",
+      "d": "M231.70316730453115,408 C231.70316730453115,443.5 246.33003297617296,443.5 246.33003297617296,479",
+      "start": {
+        "x": 231.7,
+        "y": 408
+      },
+      "end": {
+        "x": 246.33,
+        "y": 479
+      },
+      "length": 73.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit→14b-Language-Extensions::UserModel::Definitions::EngineControlUnit#33",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit",
+      "target": "14b-Language-Extensions::UserModel::Definitions::EngineControlUnit",
+      "d": "M252.67607473301953,529 C252.67607473301953,791.296875 296.0071920739992,791.296875 296.0071920739992,1053.59375",
+      "start": {
+        "x": 252.68,
+        "y": 529
+      },
+      "end": {
+        "x": 296.01,
+        "y": 1053.59
+      },
+      "length": 527.13,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit→14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit::busIF#34",
+      "source": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit",
+      "target": "14b-Language-Extensions::UserModel::Usages::vehicle1::engine::engineControlUnit::busIF",
+      "d": "M258.11485884681974,542 C258.11485884681974,577.5 283.08500810055114,577.5 283.08500810055114,613",
+      "start": {
+        "x": 258.11,
+        "y": 542
+      },
+      "end": {
+        "x": 283.09,
+        "y": 613
+      },
+      "length": 76.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 615.18,
+      "y": 1242.59,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "14b-Language-Extensions::UserModel::Definitions→14b-Language-Extensions::LibraryModel#4"
+    },
+    {
+      "x": 490.22,
+      "y": 897.5,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "14b-Language-Extensions::UserModel::Usages→14b-Language-Extensions::UserModel::Definitions#14"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "53f1f8d3935b2caa",
+  "unsettled": false
+}

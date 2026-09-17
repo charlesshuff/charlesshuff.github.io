@@ -1,0 +1,701 @@
+{
+  "zoom": 0.877757,
+  "nodes": [
+    {
+      "id": "15_03-Value Expression",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1069,
+      "h": 1088,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1069,
+        "h": 1088
+      },
+      "clipped": 0,
+      "title": "15_03-Value Expression",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Vehicle_1",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 61,
+      "w": 190,
+      "h": 442,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 190,
+        "h": 442
+      },
+      "clipped": 0,
+      "title": "Vehicle_1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Wheel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 311,
+      "y": 318,
+      "w": 464,
+      "h": 670,
+      "inner": {
+        "x": 311,
+        "y": 318,
+        "w": 464,
+        "h": 670
+      },
+      "clipped": 0,
+      "title": "Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Tire",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 864,
+      "y": 678,
+      "w": 205,
+      "h": 410,
+      "inner": {
+        "x": 864,
+        "y": 678,
+        "w": 205,
+        "h": 410
+      },
+      "clipped": 0,
+      "title": "Tire",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Vehicle_1::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 57,
+      "y": 247,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 57,
+        "y": 247,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "mass: MassValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 1200 [kg]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Vehicle_1::length",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 57,
+      "y": 131,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 57,
+        "y": 131,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "length: LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 4.82 [m]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Vehicle_1::leftFrontWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 56,
+      "y": 363,
+      "w": 150,
+      "h": 50,
+      "inner": {
+        "x": 56,
+        "y": 363,
+        "w": 150,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "leftFrontWheel: Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Vehicle_1::rightFrontWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 48,
+      "y": 437,
+      "w": 158,
+      "h": 50,
+      "inner": {
+        "x": 48,
+        "y": 437,
+        "w": 158,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rightFrontWheel: Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Wheel::hubDiameter",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 455,
+      "y": 678,
+      "w": 176,
+      "h": 92,
+      "inner": {
+        "x": 455,
+        "y": 678,
+        "w": 176,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "hubDiameter: LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 18 ['in']",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Wheel::width",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 473,
+      "y": 562,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 473,
+        "y": 562,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "width: LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 245 [mm]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Wheel::outerDiameter",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 327,
+      "y": 388,
+      "w": 432,
+      "h": 150,
+      "inner": {
+        "x": 327,
+        "y": 388,
+        "w": 432,
+        "h": 150
+      },
+      "clipped": 0,
+      "title": "outerDiameter: LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "This binds 'outDiameter' to the result of a computed attribute. There is no need to mark it as \"derived\".",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= (hubDiameter + 2 * tire.height) [mm]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Wheel::tire",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 582,
+      "y": 794,
+      "w": 177,
+      "h": 178,
+      "inner": {
+        "x": 582,
+        "y": 794,
+        "w": 177,
+        "h": 178
+      },
+      "clipped": 0,
+      "title": "tire: Tire",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Tire::profileDepth",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 880,
+      "y": 864,
+      "w": 173,
+      "h": 92,
+      "inner": {
+        "x": 880,
+        "y": 864,
+        "w": 173,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "profileDepth: LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "default 6.0 [mm]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Tire::hasLegalProfileDepth",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 882.5,
+      "y": 980,
+      "w": 168,
+      "h": 92,
+      "inner": {
+        "x": 882.5,
+        "y": 980,
+        "w": 168,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "hasLegalProfileDepth",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "constraint",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ profileDepth >= 3.5 [mm] }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Tire::height",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 896.5,
+      "y": 748,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 896.5,
+        "y": 748,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "height: LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 45 [mm]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_03-Value Expression::Wheel::tire/^15_03-Value Expression::Tire::height",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 598,
+      "y": 864,
+      "w": 145,
+      "h": 92,
+      "inner": {
+        "x": 598,
+        "y": 864,
+        "w": 145,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "^height: LengthValue",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 45 [mm]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "15_03-Value Expression::Vehicle_1::leftFrontWheel→15_03-Value Expression::Wheel#0",
+      "source": "15_03-Value Expression::Vehicle_1::leftFrontWheel",
+      "target": "15_03-Value Expression::Wheel",
+      "d": "M169.8679245283019,413 C169.8679245283019,458.3883495145631 230.93396226415095,503.77669902912623 292,503.77669902912623",
+      "start": {
+        "x": 169.87,
+        "y": 413
+      },
+      "end": {
+        "x": 292,
+        "y": 503.78
+      },
+      "length": 165.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_03-Value Expression::Vehicle_1::rightFrontWheel→15_03-Value Expression::Wheel#1",
+      "source": "15_03-Value Expression::Vehicle_1::rightFrontWheel",
+      "target": "15_03-Value Expression::Wheel",
+      "d": "M181.4502617801047,487 C181.4502617801047,516.7403846153846 236.72513089005236,546.4807692307693 292,546.4807692307693",
+      "start": {
+        "x": 181.45,
+        "y": 487
+      },
+      "end": {
+        "x": 292,
+        "y": 546.48
+      },
+      "length": 134.97,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_03-Value Expression::Wheel::tire→15_03-Value Expression::Tire#2",
+      "source": "15_03-Value Expression::Wheel::tire",
+      "target": "15_03-Value Expression::Tire",
+      "d": "M759,883 C802,883 802,883 845,883",
+      "start": {
+        "x": 759,
+        "y": 883
+      },
+      "end": {
+        "x": 845,
+        "y": 883
+      },
+      "length": 86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "668e06b9060747d9",
+  "unsettled": false
+}

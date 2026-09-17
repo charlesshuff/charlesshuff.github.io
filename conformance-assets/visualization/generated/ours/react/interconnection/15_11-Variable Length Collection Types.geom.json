@@ -1,0 +1,359 @@
+{
+  "zoom": 1.33941,
+  "nodes": [
+    {
+      "id": "15_11-Variable Length Collection Types",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 464,
+      "h": 713,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 464,
+        "h": 713
+      },
+      "clipped": 0,
+      "title": "15_11-Variable Length Collection Types",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000b",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 32,
+      "y": 431,
+      "w": 432,
+      "h": 60,
+      "inner": {
+        "x": 32,
+        "y": 431,
+        "w": 432,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Examples of declaring syntactic sugar-like names for instantiating collection types.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_11-Variable Length Collection Types::SparePart",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 178,
+      "y": 283,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 178,
+        "y": 283,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "SparePart",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_11-Variable Length Collection Types::Person",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 178,
+      "y": 135,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 178,
+        "y": 135,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Person",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_11-Variable Length Collection Types::Bag<SparePart>",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 178,
+      "y": 357,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 178,
+        "y": 357,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Bag<SparePart>",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_11-Variable Length Collection Types::List<Integer>",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 178,
+      "y": 515,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 178,
+        "y": 515,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "List<Integer>",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_11-Variable Length Collection Types::Set<String>",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 178,
+      "y": 663,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 178,
+        "y": 663,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Set<String>",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_11-Variable Length Collection Types::OrderedSet<Person>",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 177,
+      "y": 589,
+      "w": 142,
+      "h": 50,
+      "inner": {
+        "x": 177,
+        "y": 589,
+        "w": 142,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "OrderedSet<Person>",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_11-Variable Length Collection Types::List<Set<Person>>",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 178,
+      "y": 61,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 178,
+        "y": 61,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "List<Set<Person>>",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_11-Variable Length Collection Types::Array<Real>[4]",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 178,
+      "y": 209,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 178,
+        "y": 209,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Array<Real>[4]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000-0000-0000-0000-00000000000b→15_11-Variable Length Collection Types#0",
+      "source": "00000000-0000-0000-0000-00000000000b",
+      "target": "15_11-Variable Length Collection Types",
+      "d": "M248,431 C248,323.1082718647996 248,836.8917281352004 248,729",
+      "start": {
+        "x": 248,
+        "y": 431
+      },
+      "end": {
+        "x": 248,
+        "y": 729
+      },
+      "length": 357.94,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "0c2c7ee9113194a2",
+  "unsettled": false
+}

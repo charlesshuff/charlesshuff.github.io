@@ -1,0 +1,140 @@
+{
+  "zoom": 3.36268,
+  "nodes": [
+    {
+      "id": "ReferenceUsage",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 103.54,
+      "w": 172,
+      "h": 145,
+      "inner": {
+        "x": 16,
+        "y": 103.54,
+        "w": 172,
+        "h": 145
+      },
+      "clipped": 0,
+      "title": "ReferenceUsage",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "ReferenceUsage::Wheel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 233,
+      "y": 337.54,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 233,
+        "y": 337.54,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "ReferenceUsage::Axle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 148.54,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 148.54,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Axle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "ReferenceUsage::Axle→ReferenceUsage::Wheel#2",
+      "source": "ReferenceUsage::Axle",
+      "target": "ReferenceUsage::Wheel",
+      "d": "M128.5873015873016,211.54285714285714 C128.5873015873016,274.54285714285714 276.41269841269843,274.54285714285714 276.41269841269843,337.54285714285714",
+      "start": {
+        "x": 128.59,
+        "y": 211.54
+      },
+      "end": {
+        "x": 276.41,
+        "y": 337.54
+      },
+      "length": 205.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 181.76,
+      "y": 266.75,
+      "w": 41.48,
+      "h": 15.59,
+      "text": "wheel",
+      "edge": "ReferenceUsage::Axle→ReferenceUsage::Wheel#2"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "2039691efa4c8895",
+  "unsettled": false
+}

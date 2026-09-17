@@ -1,0 +1,1194 @@
+{
+  "zoom": 0.557501,
+  "nodes": [
+    {
+      "id": "11a-View-Viewpoint",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1089,
+      "h": 1713,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1089,
+        "h": 1713
+      },
+      "clipped": 0,
+      "title": "11a-View-Viewpoint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 284.5,
+      "y": 61,
+      "w": 552,
+      "h": 1185,
+      "inner": {
+        "x": 284.5,
+        "y": 61,
+        "w": 552,
+        "h": 1185
+      },
+      "clipped": 0,
+      "title": "SystemModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::ViewModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 1270,
+      "w": 1057,
+      "h": 443,
+      "inner": {
+        "x": 32,
+        "y": 1270,
+        "w": 1057,
+        "h": 443
+      },
+      "clipped": 0,
+      "title": "ViewModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 680.5,
+      "y": 1004,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 680.5,
+        "y": 1004,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::AxleAssembly",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 680.5,
+      "y": 1166.33,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 680.5,
+        "y": 1166.33,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::Axle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 680.5,
+      "y": 930,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 680.5,
+        "y": 930,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Axle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::Wheel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 680.5,
+      "y": 1092.33,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 680.5,
+        "y": 1092.33,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 300.5,
+      "y": 106,
+      "w": 291,
+      "h": 1124,
+      "inner": {
+        "x": 300.5,
+        "y": 106,
+        "w": 291,
+        "h": 1124
+      },
+      "clipped": 0,
+      "title": "vehicle: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::ViewModel::systems engineer",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 736,
+      "y": 1315,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 736,
+        "y": 1315,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "systems engineer",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::ViewModel::system breakdown",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 288,
+      "y": 1315,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 288,
+        "y": 1315,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "system breakdown",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "concern",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000076",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 512,
+      "y": 1315,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 512,
+        "y": 1315,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "systems engineer",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::ViewModel::system structure perspective",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 736,
+      "y": 1497,
+      "w": 337,
+      "h": 92,
+      "inner": {
+        "x": 736,
+        "y": 1497,
+        "w": 337,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "system structure perspective",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "viewpoint",
+      "compartments": [
+        {
+          "title": "concerns",
+          "entries": [
+            {
+              "text": "require system breakdown::> ViewModel::system breakdown",
+              "kind": "concerns"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::ViewModel::system structure generation",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 48,
+      "y": 1389,
+      "w": 380,
+      "h": 308,
+      "inner": {
+        "x": 48,
+        "y": 1389,
+        "w": 380,
+        "h": 308
+      },
+      "clipped": 0,
+      "title": "system structure generation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 351,
+      "y": 176,
+      "w": 150,
+      "h": 92,
+      "inner": {
+        "x": 351,
+        "y": 176,
+        "w": 150,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "mass :>ISQBase::mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 2500[SI::kg]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 316.5,
+      "y": 728,
+      "w": 214,
+      "h": 486,
+      "inner": {
+        "x": 316.5,
+        "y": 728,
+        "w": 214,
+        "h": 486
+      },
+      "clipped": 0,
+      "title": "frontAxleAssembly: AxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 321.5,
+      "y": 292,
+      "w": 209,
+      "h": 412,
+      "inner": {
+        "x": 321.5,
+        "y": 292,
+        "w": 209,
+        "h": 412
+      },
+      "clipped": 0,
+      "title": "rearAxleAssembly: AxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000091",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 64,
+      "y": 1459,
+      "w": 348,
+      "h": 222,
+      "inner": {
+        "x": 64,
+        "y": 1459,
+        "w": 348,
+        "h": 222
+      },
+      "clipped": 0,
+      "title": "asElementTable::> Views::asElementTable",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 343.5,
+      "y": 798,
+      "w": 150,
+      "h": 92,
+      "inner": {
+        "x": 343.5,
+        "y": 798,
+        "w": 150,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "mass :>ISQBase::mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 150[kg]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly::frontWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 364.5,
+      "y": 1148,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 364.5,
+        "y": 1148,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "frontWheel: Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly::frontAxle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 332.5,
+      "y": 914,
+      "w": 172,
+      "h": 210,
+      "inner": {
+        "x": 332.5,
+        "y": 914,
+        "w": 172,
+        "h": 210
+      },
+      "clipped": 0,
+      "title": "frontAxle: Axle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 348.5,
+      "y": 362,
+      "w": 150,
+      "h": 92,
+      "inner": {
+        "x": 348.5,
+        "y": 362,
+        "w": 150,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "mass :>ISQBase::mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 250[kg]",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly::rearWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 369.5,
+      "y": 638,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 369.5,
+        "y": 638,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearWheel: Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly::rearAxle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 337.5,
+      "y": 478,
+      "w": 172,
+      "h": 136,
+      "inner": {
+        "x": 337.5,
+        "y": 478,
+        "w": 172,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "rearAxle: Axle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000094",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 80,
+      "y": 1529,
+      "w": 316,
+      "h": 136,
+      "inner": {
+        "x": 80,
+        "y": 1529,
+        "w": 316,
+        "h": 136
+      },
+      "clipped": 0,
+      "title": "columnView :>>asElementTable::columnView",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly::frontAxle::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 348.5,
+      "y": 984,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 348.5,
+        "y": 984,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly::frontAxle::steeringAngle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 348.5,
+      "y": 1058,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 348.5,
+        "y": 1058,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "steeringAngle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly::rearAxle::mass",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 353.5,
+      "y": 548,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 353.5,
+        "y": 548,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 96,
+      "y": 1599,
+      "w": 284,
+      "h": 50,
+      "inner": {
+        "x": 96,
+        "y": 1599,
+        "w": 284,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "asTextualNotation::> Views::asTextualNotation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle→11a-View-Viewpoint::SystemModel::Vehicle#0",
+      "source": "11a-View-Viewpoint::SystemModel::vehicle",
+      "target": "11a-View-Viewpoint::SystemModel::Vehicle",
+      "d": "M591.5,840.4975369458127 C660.4563711911358,840.4975369458127 729.4127423822715,912.7487684729064 729.4127423822715,985",
+      "start": {
+        "x": 591.5,
+        "y": 840.5
+      },
+      "end": {
+        "x": 729.41,
+        "y": 985
+      },
+      "length": 218.75,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly→11a-View-Viewpoint::SystemModel::AxleAssembly#1",
+      "source": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly",
+      "target": "11a-View-Viewpoint::SystemModel::AxleAssembly",
+      "d": "M530.5,1043.0968399592252 C621.9485627836611,1043.0968399592252 713.3971255673222,1095.2150866462794 713.3971255673222,1147.3333333333333",
+      "start": {
+        "x": 530.5,
+        "y": 1043.1
+      },
+      "end": {
+        "x": 713.4,
+        "y": 1147.33
+      },
+      "length": 226.99,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly::frontWheel→11a-View-Viewpoint::SystemModel::Wheel#2",
+      "source": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly::frontWheel",
+      "target": "11a-View-Viewpoint::SystemModel::Wheel",
+      "d": "M504.5,1160.668776371308 C583,1160.668776371308 583,1129.6645569620252 661.5,1129.6645569620252",
+      "start": {
+        "x": 504.5,
+        "y": 1160.67
+      },
+      "end": {
+        "x": 661.5,
+        "y": 1129.66
+      },
+      "length": 161.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly::frontAxle→11a-View-Viewpoint::SystemModel::Axle#3",
+      "source": "11a-View-Viewpoint::SystemModel::vehicle::frontAxleAssembly::frontAxle",
+      "target": "11a-View-Viewpoint::SystemModel::Axle",
+      "d": "M504.5,1002.4216867469879 C583,1002.4216867469879 583,968.4939759036145 661.5,968.4939759036145",
+      "start": {
+        "x": 504.5,
+        "y": 1002.42
+      },
+      "end": {
+        "x": 661.5,
+        "y": 968.49
+      },
+      "length": 162.07,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly→11a-View-Viewpoint::SystemModel::AxleAssembly#4",
+      "source": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly",
+      "target": "11a-View-Viewpoint::SystemModel::AxleAssembly",
+      "d": "M522.4139423076923,704 C522.4139423076923,925.6666666666666 738.7992788461538,925.6666666666666 738.7992788461538,1147.3333333333333",
+      "start": {
+        "x": 522.41,
+        "y": 704
+      },
+      "end": {
+        "x": 738.8,
+        "y": 1147.33
+      },
+      "length": 509.37,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly::rearWheel→11a-View-Viewpoint::SystemModel::Wheel#5",
+      "source": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly::rearWheel",
+      "target": "11a-View-Viewpoint::SystemModel::Wheel",
+      "d": "M456.6129860601614,688 C456.6129860601614,880.6666666666666 733.3870139398385,880.6666666666666 733.3870139398385,1073.3333333333333",
+      "start": {
+        "x": 456.61,
+        "y": 688
+      },
+      "end": {
+        "x": 733.39,
+        "y": 1073.33
+      },
+      "length": 497.32,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly::rearAxle→11a-View-Viewpoint::SystemModel::Axle#6",
+      "source": "11a-View-Viewpoint::SystemModel::vehicle::rearAxleAssembly::rearAxle",
+      "target": "11a-View-Viewpoint::SystemModel::Axle",
+      "d": "M477.8667481662592,614 C477.8667481662592,762.5 730.5122249388753,762.5 730.5122249388753,911",
+      "start": {
+        "x": 477.87,
+        "y": 614
+      },
+      "end": {
+        "x": 730.51,
+        "y": 911
+      },
+      "length": 410.89,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000076→11a-View-Viewpoint::ViewModel::systems engineer#7",
+      "source": "00000000-0000-0000-0000-000000000076",
+      "target": "11a-View-Viewpoint::ViewModel::systems engineer",
+      "d": "M652,1340 C684.5,1340 684.5,1340 717,1340",
+      "start": {
+        "x": 652,
+        "y": 1340
+      },
+      "end": {
+        "x": 717,
+        "y": 1340
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "11a-View-Viewpoint::ViewModel::system breakdown→00000000-0000-0000-0000-000000000076#8",
+      "source": "11a-View-Viewpoint::ViewModel::system breakdown",
+      "target": "00000000-0000-0000-0000-000000000076",
+      "d": "M428,1340 C470,1340 470,1340 512,1340",
+      "start": {
+        "x": 428,
+        "y": 1340
+      },
+      "end": {
+        "x": 512,
+        "y": 1340
+      },
+      "length": 84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "11a-View-Viewpoint::ViewModel::system structure generation→11a-View-Viewpoint::ViewModel::system structure perspective#9",
+      "source": "11a-View-Viewpoint::ViewModel::system structure generation",
+      "target": "11a-View-Viewpoint::ViewModel::system structure perspective",
+      "d": "M428,1543 C577,1543 577,1543 726,1543",
+      "start": {
+        "x": 428,
+        "y": 1543
+      },
+      "end": {
+        "x": 726,
+        "y": 1543
+      },
+      "length": 298,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 541.31,
+      "y": 1535.2,
+      "w": 71.37,
+      "h": 15.59,
+      "text": "<<satisfy>>",
+      "edge": "11a-View-Viewpoint::ViewModel::system structure generation→11a-View-Viewpoint::ViewModel::system structure perspective#9"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "d33e029a1e15e0b3",
+  "unsettled": false
+}

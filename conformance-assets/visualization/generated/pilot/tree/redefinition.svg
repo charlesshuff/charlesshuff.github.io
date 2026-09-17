@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="295px" preserveAspectRatio="none" style="width:181px;height:295px;background:#FFFFFF;" version="1.1" viewBox="0 0 181 295" width="181px" zoomAndPan="magnify"><defs><filter height="300%" id="ft80dkx6re1lw" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[fbc87193dbaf4d95561dea2c320d4a47]
+cluster E1--><g id="cluster_E1"><polygon fill="none" filter="url(#ft80dkx6re1lw)" points="16,6.602,106,6.602,113,31.6699,164,31.6699,164,288.602,16,288.602,16,6.602" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="113" y1="31.6699" y2="31.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="20" y="23.5679">Redefinition</text></g><!--MD5=[b4997ac47864f28c2f74865a473b2911]
+class E2--><g id="elem_E2"><rect fill="#FFFACD" filter="url(#ft80dkx6re1lw)" height="84.1071" id="E2" style="stroke:#181818;stroke-width:0.5;" width="70" x="55" y="188.602"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="58" x="61" y="206.4301">«part  def»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="85.5" y="224.912">A</text><line style="stroke:#181818;stroke-width:0.5;" x1="56" x2="124" y1="234.014" y2="234.014"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="61" y="264.6071">m: Real</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="59" y="246.946">attributes</text></g><!--MD5=[09b614a08d8cba4a07c9adeb5e0fee81]
+class E3--><g id="elem_E3"><rect fill="#FFFACD" filter="url(#ft80dkx6re1lw)" height="84.1071" id="E3" rx="10" ry="10" style="stroke:#181818;stroke-width:0.5;" width="115" x="32.5" y="44.602"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="72.5" y="62.4301">«part»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="73" y="80.912">b: A</text><line style="stroke:#181818;stroke-width:0.5;" x1="33.5" x2="146.5" y1="90.014" y2="90.014"/><path d="M40.6667,108.3758 L40.6667,120.0424 L41.8333,120.0424 L41.8333,108.3758 M44.1667,108.3758 L44.1667,120.0424 L53.5,114.2091 L44.1667,108.3758 L45.3333,110.1258 L51.75,114.2091 L45.3333,118.2924 L45.3333,110.1258 " fill="#000000" style="stroke:;stroke-width:0.0;stroke-dasharray:;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="58.5" y="120.6071">m = 1.0</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="line-through" textLength="30" x="111.5" y="120.6071">A::m</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="59" y="102.946">attributes</text></g><!--MD5=[05d275557350bfb9b23a4ef7222b4c39]
+link E3 to E2--><g id="link_E3_E2"><path d="M90,128.672 C90,140.932 90,154.642 90,167.912 " fill="none" id="E3-to-E2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="90,188.132,83,169.132,97,169.132,90,188.132" style="stroke:#181818;stroke-width:1.0;"/><ellipse cx="85" cy="163.432" fill="#181818" rx="2" ry="2" style="stroke:#181818;stroke-width:1.0;"/><ellipse cx="95" cy="163.432" fill="#181818" rx="2" ry="2" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[88411067e07a20103c7963c13db9086b]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+
+package "Redefinition" as E1   {
+comp def "A" as E2  <<(T,blue) part  def>> {
+##//attributes//##
+m: Real
+}
+comp usage "b: A  " as E3  <<(T,blue) part>> {
+##//attributes//##
+<&bar-trig> m <U+003D> 1.0 <s>A::m</s>
+}
+}
+E3 - -:|> E2 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

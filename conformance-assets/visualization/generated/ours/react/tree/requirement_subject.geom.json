@@ -1,0 +1,199 @@
+{
+  "zoom": 2.1754,
+  "nodes": [
+    {
+      "id": "RequirementSubject",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 172,
+      "h": 439,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 172,
+        "h": 439
+      },
+      "clipped": 0,
+      "title": "RequirementSubject",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "RequirementSubject::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 389,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 389,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "RequirementSubject::MassLimit",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 32,
+      "y": 61,
+      "w": 140,
+      "h": 110,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 140,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "MassLimit",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "requirement def",
+      "compartments": [
+        {
+          "title": "constraints",
+          "entries": [
+            {
+              "text": "assume { 1 > 0 }",
+              "kind": "constraints"
+            },
+            {
+              "text": "require { 1 <= 2 }",
+              "kind": "constraints"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "RequirementSubject::MassLimit::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 32,
+      "y": 255,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 255,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "RequirementSubject::MassLimit→RequirementSubject::MassLimit::vehicle#2",
+      "source": "RequirementSubject::MassLimit",
+      "target": "RequirementSubject::MassLimit::vehicle",
+      "d": "M102,184 C102,219.5 102,219.5 102,255",
+      "start": {
+        "x": 102,
+        "y": 184
+      },
+      "end": {
+        "x": 102,
+        "y": 255
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "RequirementSubject::MassLimit::vehicle→RequirementSubject::Vehicle#3",
+      "source": "RequirementSubject::MassLimit::vehicle",
+      "target": "RequirementSubject::Vehicle",
+      "d": "M102,305 C102,337.5 102,337.5 102,370",
+      "start": {
+        "x": 102,
+        "y": 305
+      },
+      "end": {
+        "x": 102,
+        "y": 370
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "f972c5c2547bd9eb",
+  "unsettled": false
+}

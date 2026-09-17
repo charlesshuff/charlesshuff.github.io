@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="681px" preserveAspectRatio="none" style="width:395px;height:681px;background:#000000;" version="1.1" viewBox="0 0 395 681" width="395px" zoomAndPan="magnify"><defs/><g><rect fill="#232624" height="1" style="stroke:#232624;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="3" x="5" y="33.3441"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="338" x="5" y="49.6882">&lt;b&gt;This version of PlantUML is 1457 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="346" x="5" y="66.0323">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="24.0679" style="stroke:#33FF02;stroke-width:1.0;" width="383" x="5" y="78.3765"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="155" x="6" y="93.3765">[From string (line 46) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="116.4444"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="73" x="5" y="135.5123">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="80" x="5" y="154.5802">skin sysmlc</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="183" x="5" y="173.6481">skinparam wrapWidth 300</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="70" x="5" y="192.716">hide circle</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="154" x="5" y="211.784">skinparam ranksep 10</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="12" x="5" y="230.8519">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="5" y="249.9198">... ( skipping 21 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="12" x="5" y="268.9877">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="354" x="5" y="288.0556">rec def "CrankShaft" as E13  &lt;&lt;(T,blue) part  def&gt;&gt; {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="307.1235">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="383" x="5" y="326.1915">rec def "4CylCrankShaft" as E14  &lt;&lt;(T,blue) part  def&gt;&gt; {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="345.2594">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="383" x="5" y="364.3273">rec def "6CylCrankShaft" as E15  &lt;&lt;(T,blue) part  def&gt;&gt; {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="383.3952">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="402.4631">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="191" x="5" y="421.531">package "Usages" as E16   {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="243" x="5" y="440.599">rec usage "engine: Engine" as E17 {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="225" x="5" y="459.6669">rec usage "cyl: Cylinder" as E18 {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="202" x="5" y="478.7348">rec usage "p: Piston" as E19 {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="497.8027">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="279" x="5" y="516.8706">rec usage "rod: ConnectingRod" as E20 {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="535.9385">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="555.0065">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="240" x="5" y="574.0744">rec usage "cs: CrankShaft" as E21 {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="593.1423">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="6" x="5" y="612.2102">}</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="339" x="5" y="631.2781">rec usage "&lt;i&gt;engineChoice&lt;/i&gt;:&gt;engine" as E22 {</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="337" x="5" y="650.346">comp usage "4cylEngine  " as E23 &lt;&lt;variant&gt;&gt;\n{</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="93" x="9" y="669.414">Syntax Error?</text><!--MD5=[f569dbaf906023d868ea60f361398473]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+skinparam ranksep 10
+skinparam rectangle {
+ backgroundColor<<block>> LightGreen
+}
+
+package "10b-Trade-off Among Alternative Configurations" as E1   {
+package "Definitions" as E2   {
+rec def "Vehicle" as E3  <<(T,blue) part  def>> {
+}
+rec def "Engine" as E4  <<(T,blue) part  def>> {
+usage "power: PowerValue  " as E5  <<(T,blue) reference>> 
+usage "mass: MassValue  " as E6  <<(T,blue) reference>> 
+usage "efficiency: Real  " as E7  <<(T,blue) reference>> 
+usage "reliability: Real  " as E8  <<(T,blue) reference>> 
+usage "cost: Real  " as E9  <<(T,blue) reference>> 
+}
+rec def "Piston" as E10  <<(T,blue) part  def>> {
+}
+rec def "Cylinder" as E11  <<(T,blue) part  def>> {
+}
+rec def "ConnectingRod" as E12  <<(T,blue) part  def>> {
+}
+rec def "CrankShaft" as E13  <<(T,blue) part  def>> {
+}
+rec def "4CylCrankShaft" as E14  <<(T,blue) part  def>> {
+}
+rec def "6CylCrankShaft" as E15  <<(T,blue) part  def>> {
+}
+}
+package "Usages" as E16   {
+rec usage "engine: Engine" as E17 {
+rec usage "cyl: Cylinder" as E18 {
+rec usage "p: Piston" as E19 {
+}
+rec usage "rod: ConnectingRod" as E20 {
+}
+}
+rec usage "cs: CrankShaft" as E21 {
+}
+}
+rec usage "<i>engineChoice</i>:>engine" as E22 {
+comp usage "4cylEngine  " as E23 <<variant>>\n{
+}
+comp usage "cyl  " as E24 {
+}
+comp usage "cs: 4CylCrankShaft  " as E25 {
+}
+comp usage "6cylEngine  " as E26 <<variant>>\n{
+}
+comp usage "cyl  " as E27 {
+}
+comp usage "cs: 6CylCrankShaft  " as E28 {
+}
+}
+rec usage "vehicle: Vehicle" as E29 {
+rec usage "engine:>Usages::engineChoice <U+003D> engineChoice::<U+0027>6cylEngine<U+0027>" as E30 {
+comp usage "engineSelectionRational  " as E31  << assert constraint>> {
+##//doc//##
+Selected the best engine based on the <U+0027>engineTradeStudy<U+0027>.
+- -
+##//operator expressions//##
+ { engine <U+003D><U+003D> Analysis::engineTradeStudy.selectedAlternative }
+}
+}
+}
+}
+package "Analysis" as E32   {
+rec def "EngineEvaluation" as E33  <<(T,blue) calculation  def>> {
+portin "power" as E35  
+portin "mass" as E36  
+portin "efficiency" as E37  
+portin "cost" as E38  
+portout "evaluation" as E39  
+}
+
+rec usage "engineTradeStudy: TradeStudy  " as E40  << analysis>> {
+comp usage "tradeStudyObjective" as E41  <<objective>> {
+}
+comp usage "evaluationFunction  " as E42  <<(T,blue) calculation>> {
+}
+comp usage "anEngine: Engine  " as E43 {
+}
+comp usage "powerRollup  " as E44  <<(T,blue) calculation>> {
+##//parameters//##
+<b>in</b> engine <U+003D> anEngine
+<b>out</b> power:>ISQMechanics::power
+}
+comp usage "massRollup  " as E45  <<(T,blue) calculation>> {
+##//parameters//##
+<b>in</b> engine <U+003D> anEngine
+<b>out</b> mass:>ISQBase::mass
+}
+comp usage "efficiencyRollup  " as E46  <<(T,blue) calculation>> {
+##//parameters//##
+<b>in</b> engine <U+003D> anEngine
+}
+comp usage "costRollup  " as E47  <<(T,blue) calculation>> {
+##//parameters//##
+<b>in</b> engine <U+003D> anEngine
+}
+}
+comp usage "selectedAlternative: Engine  " as E48 {
+}
+note as E34
+Evaluation function with criteria power, mass, efficency and cost.
+end note 
+}
+}
+E1 ..> E2 : <<import>>*
+E14 - -|> E13 
+E15 - -|> E13 
+E1 ..> E16 : <<import>>*
+E19 - -:|> E10 
+E20 - -:|> E12 
+E18 - -:|> E11 
+E21 - -:|> E13 
+E17 - -:|> E4 
+E23 *- - "4"E24 
+E24 - -||> E18 
+E23 *- - E25 
+E25 - -||> E21 
+E25 - -:|> E14 
+E26 *- - "6"E27 
+E27 - -||> E18 
+E26 *- - E28 
+E28 - -||> E21 
+E28 - -:|> E15 
+E22 - -|> E17 
+E30 -[thickness=5,#red]- E26 : =
+E30 - -|> E22 
+E29 - -:|> E3 
+E34 .. E33 
+E42 o- - E43 
+E43 - -:|> E4 
+E42 *- - E44 
+E42 *- - E45 
+E42 *- - E46 
+E42 *- - E47 
+E40 o- - E48 
+E48 - -:|> E4 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

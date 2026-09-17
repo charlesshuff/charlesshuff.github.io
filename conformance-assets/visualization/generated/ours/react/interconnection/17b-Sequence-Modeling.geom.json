@@ -1,0 +1,239 @@
+{
+  "zoom": 2.98438,
+  "nodes": [
+    {
+      "id": "17b-Sequence-Modeling",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 428,
+      "h": 320,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 428,
+        "h": 320
+      },
+      "clipped": 0,
+      "title": "17b-Sequence-Modeling",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "17b-Sequence-Modeling::PayloadDefinitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 256,
+      "y": 61,
+      "w": 172,
+      "h": 259,
+      "inner": {
+        "x": 256,
+        "y": 61,
+        "w": 172,
+        "h": 259
+      },
+      "clipped": 0,
+      "title": "PayloadDefinitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "17b-Sequence-Modeling::PubSubSequence",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 32,
+      "y": 116.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 116.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "PubSubSequence",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "occurrence def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "17b-Sequence-Modeling::PayloadDefinitions::Subscribe",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 272,
+      "y": 180,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 272,
+        "y": 180,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Subscribe",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "17b-Sequence-Modeling::PayloadDefinitions::Publish",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 272,
+      "y": 254,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 272,
+        "y": 254,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Publish",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "17b-Sequence-Modeling::PayloadDefinitions::Deliver",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 272,
+      "y": 106,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 272,
+        "y": 106,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Deliver",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "17b-Sequence-Modeling→17b-Sequence-Modeling::PayloadDefinitions#0",
+      "source": "17b-Sequence-Modeling",
+      "target": "17b-Sequence-Modeling::PayloadDefinitions",
+      "d": "M444,203.70535714285714 C531.9452954966893,203.70535714285714 158.0547045033107,179.36607142857142 246,179.36607142857142",
+      "start": {
+        "x": 444,
+        "y": 203.71
+      },
+      "end": {
+        "x": 246,
+        "y": 179.37
+      },
+      "length": 253.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 304.84,
+      "y": 183.74,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "17b-Sequence-Modeling→17b-Sequence-Modeling::PayloadDefinitions#0"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "a548bd637bcdf32b",
+  "unsettled": false
+}

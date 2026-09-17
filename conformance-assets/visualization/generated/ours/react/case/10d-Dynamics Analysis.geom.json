@@ -1,0 +1,1314 @@
+{
+  "zoom": 0.940887,
+  "nodes": [
+    {
+      "id": "10d-Dynamics Analysis",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 900,
+      "h": 1014.59,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 900,
+        "h": 1014.59
+      },
+      "clipped": 0,
+      "title": "10d-Dynamics Analysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::VehicleModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 861.59,
+      "w": 172,
+      "h": 153,
+      "inner": {
+        "x": 32,
+        "y": 861.59,
+        "w": 172,
+        "h": 153
+      },
+      "clipped": 0,
+      "title": "VehicleModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 228,
+      "y": 861.59,
+      "w": 672,
+      "h": 143,
+      "inner": {
+        "x": 228,
+        "y": 861.59,
+        "w": 672,
+        "h": 143
+      },
+      "clipped": 0,
+      "title": "DynamicsModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 335.1,
+      "y": 61,
+      "w": 556,
+      "h": 606,
+      "inner": {
+        "x": 335.1,
+        "y": 61,
+        "w": 556,
+        "h": 606
+      },
+      "clipped": 0,
+      "title": "AnalysisModel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::VehicleModel::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 48,
+      "y": 906.59,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 48,
+        "y": 906.59,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "mass:>ISQBase::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 408,
+      "y": 920.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 408,
+        "y": 920.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Acceleration",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 572,
+      "y": 920.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 572,
+        "y": 920.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Velocity",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 244,
+      "y": 920.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 244,
+        "y": 920.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Position",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "calculation def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 736,
+      "y": 920.59,
+      "w": 148,
+      "h": 50,
+      "inner": {
+        "x": 736,
+        "y": 920.59,
+        "w": 148,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "StraightLineDynamics",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis",
+      "type": "default",
+      "form": "definition",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-def fam-default",
+      "x": 351.1,
+      "y": 106,
+      "w": 315,
+      "h": 225,
+      "inner": {
+        "x": 351.1,
+        "y": 106,
+        "w": 315,
+        "h": 225
+      },
+      "clipped": 0,
+      "title": "DynamicsAnalysis",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "analysis def",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in deltaT:>ISQBase::duration",
+              "kind": "parameters"
+            },
+            {
+              "text": "in initialPosition:>ISQBase::length",
+              "kind": "parameters"
+            },
+            {
+              "text": "in initialSpeed:>ISQSpaceTime::speed",
+              "kind": "parameters"
+            },
+            {
+              "text": "in powerProfile:>ISQMechanics::power",
+              "kind": "parameters"
+            },
+            {
+              "text": "out accelerationProfile:>ISQSpaceTime::acceleration := ()",
+              "kind": "parameters"
+            }
+          ]
+        },
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "position := initialPosition",
+              "kind": "attributes"
+            },
+            {
+              "text": "speed := initialSpeed",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 437.1,
+      "y": 487,
+      "w": 143,
+      "h": 92,
+      "inner": {
+        "x": 437.1,
+        "y": 487,
+        "w": 143,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "^mass:>ISQBase::mass",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000f7",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 604.1,
+      "y": 415,
+      "w": 271,
+      "h": 231,
+      "inner": {
+        "x": 604.1,
+        "y": 415,
+        "w": 271,
+        "h": 231
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "for loop action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration::p",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 401,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 401,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "p",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration::m",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 401,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 401,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "m",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration::v",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 401,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 401,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Acceleration::result",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 541,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 541,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "result",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity::v0",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 565,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 565,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v0",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity::a",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 565,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 565,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "a",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity::dt",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 565,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 565,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "dt",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Velocity::result",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 705,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 705,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "result",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position::x0",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 237,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 237,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "x0",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position::v",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 237,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 237,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position::dt",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 237,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 237,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "dt",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::Position::result",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 377,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 377,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "result",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::power",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 729,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 729,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::mass",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 729,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 729,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "mass",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::delta_t",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 729,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 729,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "delta_t",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::x_in",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 729,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 729,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "x_in",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::v_in",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 729,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 729,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v_in",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::x_out",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 877,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 877,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "x_out",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::v_out",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 877,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 877,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "v_out",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics::a_out",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 877,
+      "y": 906.59,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 877,
+        "y": 906.59,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "a_out",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 620.1,
+      "y": 485,
+      "w": 239,
+      "h": 140,
+      "inner": {
+        "x": 620.1,
+        "y": 485,
+        "w": 239,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "body",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "body::dynamics",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 636.1,
+      "y": 555,
+      "w": 207,
+      "h": 50,
+      "inner": {
+        "x": 636.1,
+        "y": 555,
+        "w": 207,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "dynamics: StraightLineDynamics",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel→10d-Dynamics Analysis::VehicleModel#8",
+      "source": "10d-Dynamics Analysis::AnalysisModel",
+      "target": "10d-Dynamics Analysis::VehicleModel",
+      "d": "M351.79198192803875,667 C351.79198192803875,759.296875 183.9738065429209,759.296875 183.9738065429209,851.59375",
+      "start": {
+        "x": 351.79,
+        "y": 667
+      },
+      "end": {
+        "x": 183.97,
+        "y": 851.59
+      },
+      "length": 263.31,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel→10d-Dynamics Analysis::DynamicsModel#9",
+      "source": "10d-Dynamics Analysis::AnalysisModel",
+      "target": "10d-Dynamics Analysis::DynamicsModel",
+      "d": "M586.9579100543627,667 C586.9579100543627,759.296875 570.1688430069738,759.296875 570.1688430069738,851.59375",
+      "start": {
+        "x": 586.96,
+        "y": 667
+      },
+      "end": {
+        "x": 570.17,
+        "y": 851.59
+      },
+      "length": 185.68,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis→10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle#11",
+      "source": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis",
+      "target": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle",
+      "d": "M508.6,344 C508.6,415.5 508.6,415.5 508.6,487",
+      "start": {
+        "x": 508.6,
+        "y": 344
+      },
+      "end": {
+        "x": 508.6,
+        "y": 487
+      },
+      "length": 143,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle→10d-Dynamics Analysis::VehicleModel::Vehicle#12",
+      "source": "10d-Dynamics Analysis::AnalysisModel::DynamicsAnalysis::vehicle",
+      "target": "10d-Dynamics Analysis::VehicleModel::Vehicle",
+      "d": "M465.7785804721829,579 C465.7785804721829,733.296875 160.8214195278171,733.296875 160.8214195278171,887.59375",
+      "start": {
+        "x": 465.78,
+        "y": 579
+      },
+      "end": {
+        "x": 160.82,
+        "y": 887.59
+      },
+      "length": 458.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "body::dynamics→10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics#13",
+      "source": "body::dynamics",
+      "target": "10d-Dynamics Analysis::DynamicsModel::StraightLineDynamics",
+      "d": "M744.4140866740747,605 C744.4140866740747,753.296875 805.1859133259253,753.296875 805.1859133259253,901.59375",
+      "start": {
+        "x": 744.41,
+        "y": 605
+      },
+      "end": {
+        "x": 805.19,
+        "y": 901.59
+      },
+      "length": 305.22,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 227.73,
+      "y": 751.5,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "10d-Dynamics Analysis::AnalysisModel→10d-Dynamics Analysis::VehicleModel#8"
+    },
+    {
+      "x": 538.41,
+      "y": 751.5,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "10d-Dynamics Analysis::AnalysisModel→10d-Dynamics Analysis::DynamicsModel#9"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "4105787e08cd8ad0",
+  "unsettled": false
+}

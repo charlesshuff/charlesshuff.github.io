@@ -1,0 +1,771 @@
+{
+  "zoom": 1.23226,
+  "nodes": [
+    {
+      "id": "1d-Parts Tree with Reference",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 882.9,
+      "h": 774.59,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 882.9,
+        "h": 774.59
+      },
+      "clipped": 0,
+      "title": "1d-Parts Tree with Reference",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 203.83,
+      "y": 634.59,
+      "w": 500,
+      "h": 140,
+      "inner": {
+        "x": 203.83,
+        "y": 634.59,
+        "w": 500,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Definitions::HitchBall",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 727.83,
+      "y": 634.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 727.83,
+        "y": 634.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "HitchBall",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Definitions::TrailerCoupler",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 39.83,
+      "y": 634.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 39.83,
+        "y": 634.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TrailerCoupler",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 250.49,
+      "y": 61,
+      "w": 587.66,
+      "h": 379,
+      "inner": {
+        "x": 250.49,
+        "y": 61,
+        "w": 587.66,
+        "h": 379
+      },
+      "clipped": 0,
+      "title": "Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Definitions::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 547.83,
+      "y": 679.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 547.83,
+        "y": 679.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Definitions::Trailer",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 219.83,
+      "y": 679.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 219.83,
+        "y": 679.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Trailer",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Definitions::TrailerHitch",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 383.83,
+      "y": 679.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 383.83,
+        "y": 679.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TrailerHitch",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 299.49,
+      "y": 106,
+      "w": 148,
+      "h": 50,
+      "inner": {
+        "x": 299.49,
+        "y": 106,
+        "w": 148,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle_trailer_system",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::vehicle1_c1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 613.49,
+      "y": 240,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 613.49,
+        "y": 240,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 430.49,
+      "y": 240,
+      "w": 159,
+      "h": 50,
+      "inner": {
+        "x": 430.49,
+        "y": 240,
+        "w": 159,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "trailerHitch: TrailerHitch",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::hitchBall",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 671.16,
+      "y": 374,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 671.16,
+        "y": 374,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "hitchBall: HitchBall",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::trailerCoupler",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 375.74,
+      "y": 374,
+      "w": 189,
+      "h": 50,
+      "inner": {
+        "x": 375.74,
+        "y": 374,
+        "w": 189,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "trailerCoupler: TrailerCoupler",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailer1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 266.49,
+      "y": 240,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 266.49,
+        "y": 240,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "trailer1: Trailer",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "1d-Parts Tree with Reference::Usages→1d-Parts Tree with Reference::Definitions#7",
+      "source": "1d-Parts Tree with Reference::Usages",
+      "target": "1d-Parts Tree with Reference::Definitions",
+      "d": "M506.65794568593424,440 C506.65794568593424,532.296875 467.8043682767172,532.296875 467.8043682767172,624.59375",
+      "start": {
+        "x": 506.66,
+        "y": 440
+      },
+      "end": {
+        "x": 467.8,
+        "y": 624.59
+      },
+      "length": 190.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system→1d-Parts Tree with Reference::Usages::vehicle_trailer_system::vehicle1_c1#9",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system",
+      "target": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::vehicle1_c1",
+      "d": "M431.33029996984465,169 C431.33029996984465,204.5 625.6586581787999,204.5 625.6586581787999,240",
+      "start": {
+        "x": 431.33,
+        "y": 169
+      },
+      "end": {
+        "x": 625.66,
+        "y": 240
+      },
+      "length": 214.82,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::vehicle1_c1→1d-Parts Tree with Reference::Definitions::Vehicle#10",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::vehicle1_c1",
+      "target": "1d-Parts Tree with Reference::Definitions::Vehicle",
+      "d": "M679.7599704133901,290 C679.7599704133901,475.296875 621.5623210685878,475.296875 621.5623210685878,660.59375",
+      "start": {
+        "x": 679.76,
+        "y": 290
+      },
+      "end": {
+        "x": 621.56,
+        "y": 660.59
+      },
+      "length": 377,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::vehicle1_c1→1d-Parts Tree with Reference::Definitions::HitchBall#11",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::vehicle1_c1",
+      "target": "1d-Parts Tree with Reference::Definitions::HitchBall",
+      "d": "M690.7382160400834,303 C690.7382160400834,468.796875 790.5840754418945,468.796875 790.5840754418945,634.59375",
+      "start": {
+        "x": 690.74,
+        "y": 303
+      },
+      "end": {
+        "x": 790.58,
+        "y": 634.59
+      },
+      "length": 351.83,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system→1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch#12",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system",
+      "target": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch",
+      "d": "M398.96089698477005,169 C398.96089698477005,204.5 484.5280611638745,204.5 484.5280611638745,240",
+      "start": {
+        "x": 398.96,
+        "y": 169
+      },
+      "end": {
+        "x": 484.53,
+        "y": 240
+      },
+      "length": 117.72,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch→1d-Parts Tree with Reference::Definitions::TrailerHitch#13",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch",
+      "target": "1d-Parts Tree with Reference::Definitions::TrailerHitch",
+      "d": "M506.8002419709361,290 C506.8002419709361,475.296875 457.0220495110418,475.296875 457.0220495110418,660.59375",
+      "start": {
+        "x": 506.8,
+        "y": 290
+      },
+      "end": {
+        "x": 457.02,
+        "y": 660.59
+      },
+      "length": 375.3,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch→1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::hitchBall#14",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch",
+      "target": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::hitchBall",
+      "d": "M553.1225885270586,303 C553.1225885270586,338.5 698.0330362882526,338.5 698.0330362882526,374",
+      "start": {
+        "x": 553.12,
+        "y": 303
+      },
+      "end": {
+        "x": 698.03,
+        "y": 374
+      },
+      "length": 169.22,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::hitchBall→1d-Parts Tree with Reference::Definitions::HitchBall#15",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::hitchBall",
+      "target": "1d-Parts Tree with Reference::Definitions::HitchBall",
+      "d": "M746.5974490547355,424 C746.5974490547355,519.796875 792.391509093909,519.796875 792.391509093909,615.59375",
+      "start": {
+        "x": 746.6,
+        "y": 424
+      },
+      "end": {
+        "x": 792.39,
+        "y": 615.59
+      },
+      "length": 199.11,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch→1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::trailerCoupler#16",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch",
+      "target": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::trailerCoupler",
+      "d": "M502.57843429820286,303 C502.57843429820286,338.5 477.6605238504417,338.5 477.6605238504417,374",
+      "start": {
+        "x": 502.58,
+        "y": 303
+      },
+      "end": {
+        "x": 477.66,
+        "y": 374
+      },
+      "length": 76.78,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::trailerCoupler→1d-Parts Tree with Reference::Definitions::TrailerCoupler#17",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailerHitch::trailerCoupler",
+      "target": "1d-Parts Tree with Reference::Definitions::TrailerCoupler",
+      "d": "M435.66799108615425,424 C435.66799108615425,519.796875 144.40430039582373,519.796875 144.40430039582373,615.59375",
+      "start": {
+        "x": 435.67,
+        "y": 424
+      },
+      "end": {
+        "x": 144.4,
+        "y": 615.59
+      },
+      "length": 368.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system→1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailer1#18",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system",
+      "target": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailer1",
+      "d": "M366.5914939996954,169 C366.5914939996954,204.5 343.39746414894915,204.5 343.39746414894915,240",
+      "start": {
+        "x": 366.59,
+        "y": 169
+      },
+      "end": {
+        "x": 343.4,
+        "y": 240
+      },
+      "length": 76.06,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailer1→1d-Parts Tree with Reference::Definitions::Trailer#19",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailer1",
+      "target": "1d-Parts Tree with Reference::Definitions::Trailer",
+      "d": "M333.8405135284821,290 C333.8405135284821,475.296875 292.4817779534958,475.296875 292.4817779534958,660.59375",
+      "start": {
+        "x": 333.84,
+        "y": 290
+      },
+      "end": {
+        "x": 292.48,
+        "y": 660.59
+      },
+      "length": 373.85,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailer1→1d-Parts Tree with Reference::Definitions::TrailerCoupler#20",
+      "source": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailer1",
+      "target": "1d-Parts Tree with Reference::Definitions::TrailerCoupler",
+      "d": "M322.13371774278403,303 C322.13371774278403,468.796875 124.18857373919391,468.796875 124.18857373919391,634.59375",
+      "start": {
+        "x": 322.13,
+        "y": 303
+      },
+      "end": {
+        "x": 124.19,
+        "y": 634.59
+      },
+      "length": 401.98,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 447.07,
+      "y": 524.5,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "1d-Parts Tree with Reference::Usages→1d-Parts Tree with Reference::Definitions#7"
+    },
+    {
+      "x": 712.29,
+      "y": 461,
+      "w": 56.75,
+      "h": 15.59,
+      "text": "hitchBall",
+      "edge": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::vehicle1_c1→1d-Parts Tree with Reference::Definitions::HitchBall#11"
+    },
+    {
+      "x": 180.07,
+      "y": 461,
+      "w": 86.17,
+      "h": 15.59,
+      "text": "trailerCoupler",
+      "edge": "1d-Parts Tree with Reference::Usages::vehicle_trailer_system::trailer1→1d-Parts Tree with Reference::Definitions::TrailerCoupler#20"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "71d66908fb1f8e7a",
+  "unsettled": false
+}

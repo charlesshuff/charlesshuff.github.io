@@ -1,0 +1,432 @@
+{
+  "zoom": 1.51497,
+  "nodes": [
+    {
+      "id": "15.10-Primitive Data Types",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1002,
+      "h": 542,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1002,
+        "h": 542
+      },
+      "clipped": 0,
+      "title": "15.10-Primitive Data Types",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000005",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 570,
+      "y": 452,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 570,
+        "y": 452,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Primitive data types are defined in normative model libraries. Any more specialized data types can be declared in user-defined model libraries or models as needed.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::UnsignedInteger",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 77,
+      "y": 283,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 77,
+        "y": 283,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "UnsignedInteger",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::UnsignedReal",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 77,
+      "y": 61,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 77,
+        "y": 61,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "UnsignedReal",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::ConditionColor",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 77,
+      "y": 135,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 77,
+        "y": 135,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ConditionColor",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::ConditionLevel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 346,
+      "y": 209,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 346,
+        "y": 209,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ConditionLevel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::SeverityEnum",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 122,
+      "y": 209,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 122,
+        "y": 209,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "SeverityEnum",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::Diameter",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 570,
+      "y": 378,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 570,
+        "y": 378,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Diameter",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::DiameterChoice",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 346,
+      "y": 378,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 346,
+        "y": 378,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "DiameterChoice",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::aperatureDiameter",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-usage fam-attribute",
+      "x": 32,
+      "y": 357,
+      "w": 230,
+      "h": 92,
+      "inner": {
+        "x": 32,
+        "y": 357,
+        "w": 230,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "aperatureDiameter: DiameterChoice",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "attribute",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= DiameterChoice::small",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "00000000-0000-0000-0000-000000000005→15.10-Primitive Data Types#0",
+      "source": "00000000-0000-0000-0000-000000000005",
+      "target": "15.10-Primitive Data Types",
+      "d": "M728.3571428571429,452 C728.3571428571429,387.6523116188313 864.1380952380953,622.3476883811687 864.1380952380953,558",
+      "start": {
+        "x": 728.36,
+        "y": 452
+      },
+      "end": {
+        "x": 864.14,
+        "y": 558
+      },
+      "length": 209.16,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::SeverityEnum→15.10-Primitive Data Types::ConditionLevel#1",
+      "source": "15.10-Primitive Data Types::SeverityEnum",
+      "target": "15.10-Primitive Data Types::ConditionLevel",
+      "d": "M262,234 C294.5,234 294.5,234 327,234",
+      "start": {
+        "x": 262,
+        "y": 234
+      },
+      "end": {
+        "x": 327,
+        "y": 234
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::DiameterChoice→15.10-Primitive Data Types::Diameter#2",
+      "source": "15.10-Primitive Data Types::DiameterChoice",
+      "target": "15.10-Primitive Data Types::Diameter",
+      "d": "M486,403 C518.5,403 518.5,403 551,403",
+      "start": {
+        "x": 486,
+        "y": 403
+      },
+      "end": {
+        "x": 551,
+        "y": 403
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15.10-Primitive Data Types::aperatureDiameter→15.10-Primitive Data Types::DiameterChoice#3",
+      "source": "15.10-Primitive Data Types::aperatureDiameter",
+      "target": "15.10-Primitive Data Types::DiameterChoice",
+      "d": "M262,403 C294.5,403 294.5,403 327,403",
+      "start": {
+        "x": 262,
+        "y": 403
+      },
+      "end": {
+        "x": 327,
+        "y": 403
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "9306932998049dd7",
+  "unsettled": false
+}

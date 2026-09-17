@@ -1,0 +1,708 @@
+{
+  "zoom": 0.62215,
+  "nodes": [
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 742,
+      "h": 1535.19,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 742,
+        "h": 1535.19
+      },
+      "clipped": 0,
+      "title": "15_05-Unification of Expression and Constraint Definition",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::DiscBrakeConstraint",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 253.17,
+      "y": 489,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 253.17,
+        "y": 489,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "DiscBrakeConstraint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "constraint def",
+      "compartments": [
+        {
+          "title": "invocation expressions",
+          "entries": [
+            {
+              "text": "{ wheelAssy->forAll {in ref w: WheelAssy; 2 * w.discBrakeAssy.radius < w.wheel.outerDiameter } }",
+              "kind": "invocation"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::DiscBrakeFitConstraint_Alt",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-def fam-requirement",
+      "x": 383,
+      "y": 1166.59,
+      "w": 286,
+      "h": 92,
+      "inner": {
+        "x": 383,
+        "y": 1166.59,
+        "w": 286,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "DiscBrakeFitConstraint_Alt",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "constraint def",
+      "compartments": [
+        {
+          "title": "operator expressions",
+          "entries": [
+            {
+              "text": "{ 2 * discBrakeAssy.radius < wheel.outerDiameter }",
+              "kind": "operator"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 85.67,
+      "y": 61,
+      "w": 183,
+      "h": 110,
+      "inner": {
+        "x": 85.67,
+        "y": 61,
+        "w": 183,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "Vehicle_2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "length: LengthValue = 4.82 [m]",
+              "kind": "attributes"
+            },
+            {
+              "text": "mass: MassValue = 1200 [kg]",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::wheelAssy",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 64.17,
+      "y": 517.5,
+      "w": 165,
+      "h": 50,
+      "inner": {
+        "x": 64.17,
+        "y": 517.5,
+        "w": 165,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "wheelAssy: WheelAssy[4]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::discBrakeConstraint",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 253.17,
+      "y": 255,
+      "w": 432,
+      "h": 150,
+      "inner": {
+        "x": 253.17,
+        "y": 255,
+        "w": 432,
+        "h": 150
+      },
+      "clipped": 0,
+      "title": "discBrakeConstraint: DiscBrakeConstraint",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "constraint",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "This constraint is computed, but not asserted. This means a tool can identify when it is violated without the model being inconsistent.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in wheelAssy = Vehicle_2::wheelAssy",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 100,
+      "y": 780.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 100,
+        "y": 780.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "WheelAssy",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::wheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 146,
+      "y": 914.59,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 146,
+        "y": 914.59,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "wheel[1]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeAssy",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 32,
+      "y": 1187.59,
+      "w": 206,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 1187.59,
+        "w": 206,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "discBrakeAssy: DiscBrakeAssy[1]",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeFitConstraint_Alt",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 310,
+      "y": 914.59,
+      "w": 432,
+      "h": 168,
+      "inner": {
+        "x": 310,
+        "y": 914.59,
+        "w": 432,
+        "h": 168
+      },
+      "clipped": 0,
+      "title": "discBrakeFitConstraint_Alt: DiscBrakeFitConstraint_Alt",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "assert constraint",
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "This constraint is asserted to be true, which means that the model is inconsistent if it the constraint is violated.",
+              "kind": null
+            }
+          ]
+        },
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in discBrakeAssy = WheelAssy::discBrakeAssy",
+              "kind": "parameters"
+            },
+            {
+              "text": "in wheel = WheelAssy::wheel",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 74.33,
+      "y": 1443.19,
+      "w": 182,
+      "h": 92,
+      "inner": {
+        "x": 74.33,
+        "y": 1443.19,
+        "w": 182,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "DiscBrakeAssy",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [
+        {
+          "title": "attributes",
+          "entries": [
+            {
+              "text": "radius: LengthValue = 95 [mm]",
+              "kind": "attributes"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::DiscBrakeConstraint→15_05-Unification of Expression and Constraint Definition::WheelAssy#1",
+      "source": "15_05-Unification of Expression and Constraint Definition::DiscBrakeConstraint",
+      "target": "15_05-Unification of Expression and Constraint Definition::WheelAssy",
+      "d": "M408.3312547016668,609 C408.3312547016668,694.796875 198.4277626004672,694.796875 198.4277626004672,780.59375",
+      "start": {
+        "x": 408.33,
+        "y": 609
+      },
+      "end": {
+        "x": 198.43,
+        "y": 780.59
+      },
+      "length": 287.05,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::DiscBrakeFitConstraint_Alt→15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy#3",
+      "source": "15_05-Unification of Expression and Constraint Definition::DiscBrakeFitConstraint_Alt",
+      "target": "15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy",
+      "d": "M466.0179264113283,1271.59375 C466.0179264113283,1357.390625 225.31540692200505,1357.390625 225.31540692200505,1443.1875",
+      "start": {
+        "x": 466.02,
+        "y": 1271.59
+      },
+      "end": {
+        "x": 225.32,
+        "y": 1443.19
+      },
+      "length": 312.68,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2→15_05-Unification of Expression and Constraint Definition::Vehicle_2::wheelAssy#5",
+      "source": "15_05-Unification of Expression and Constraint Definition::Vehicle_2",
+      "target": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::wheelAssy",
+      "d": "M173.23348964439234,184 C173.23348964439234,350.75 148.4544744040641,350.75 148.4544744040641,517.5",
+      "start": {
+        "x": 173.23,
+        "y": 184
+      },
+      "end": {
+        "x": 148.45,
+        "y": 517.5
+      },
+      "length": 334.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::wheelAssy→15_05-Unification of Expression and Constraint Definition::WheelAssy#6",
+      "source": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::wheelAssy",
+      "target": "15_05-Unification of Expression and Constraint Definition::WheelAssy",
+      "d": "M148.8838737775666,567.5 C148.8838737775666,664.546875 167.78279288910005,664.546875 167.78279288910005,761.59375",
+      "start": {
+        "x": 148.88,
+        "y": 567.5
+      },
+      "end": {
+        "x": 167.78,
+        "y": 761.59
+      },
+      "length": 195.4,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2→15_05-Unification of Expression and Constraint Definition::Vehicle_2::discBrakeConstraint#7",
+      "source": "15_05-Unification of Expression and Constraint Definition::Vehicle_2",
+      "target": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::discBrakeConstraint",
+      "d": "M252.21339563862927,184 C252.21339563862927,219.5 366.83021806853577,219.5 366.83021806853577,255",
+      "start": {
+        "x": 252.21,
+        "y": 184
+      },
+      "end": {
+        "x": 366.83,
+        "y": 255
+      },
+      "length": 142.28,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::discBrakeConstraint→15_05-Unification of Expression and Constraint Definition::DiscBrakeConstraint#8",
+      "source": "15_05-Unification of Expression and Constraint Definition::Vehicle_2::discBrakeConstraint",
+      "target": "15_05-Unification of Expression and Constraint Definition::DiscBrakeConstraint",
+      "d": "M469.16666666666663,405 C469.16666666666663,437.5 469.16666666666663,437.5 469.16666666666663,470",
+      "start": {
+        "x": 469.17,
+        "y": 405
+      },
+      "end": {
+        "x": 469.17,
+        "y": 470
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy→15_05-Unification of Expression and Constraint Definition::WheelAssy::wheel#10",
+      "source": "15_05-Unification of Expression and Constraint Definition::WheelAssy",
+      "target": "15_05-Unification of Expression and Constraint Definition::WheelAssy::wheel",
+      "d": "M178.5820895522388,843.59375 C178.5820895522388,879.09375 207.4179104477612,879.09375 207.4179104477612,914.59375",
+      "start": {
+        "x": 178.58,
+        "y": 843.59
+      },
+      "end": {
+        "x": 207.42,
+        "y": 914.59
+      },
+      "length": 78.58,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy→15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeAssy#11",
+      "source": "15_05-Unification of Expression and Constraint Definition::WheelAssy",
+      "target": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeAssy",
+      "d": "M167.85012285012286,843.59375 C167.85012285012286,1015.59375 137.14987714987714,1015.59375 137.14987714987714,1187.59375",
+      "start": {
+        "x": 167.85,
+        "y": 843.59
+      },
+      "end": {
+        "x": 137.15,
+        "y": 1187.59
+      },
+      "length": 345.94,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeAssy→15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy#12",
+      "source": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeAssy",
+      "target": "15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy",
+      "d": "M137.74168643844388,1237.59375 C137.74168643844388,1330.890625 160.28863028659663,1330.890625 160.28863028659663,1424.1875",
+      "start": {
+        "x": 137.74,
+        "y": 1237.59
+      },
+      "end": {
+        "x": 160.29,
+        "y": 1424.19
+      },
+      "length": 188.52,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy→15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeFitConstraint_Alt#13",
+      "source": "15_05-Unification of Expression and Constraint Definition::WheelAssy",
+      "target": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeFitConstraint_Alt",
+      "d": "M216.1139896373057,843.59375 C216.1139896373057,879.09375 371.05699481865287,879.09375 371.05699481865287,914.59375",
+      "start": {
+        "x": 216.11,
+        "y": 843.59
+      },
+      "end": {
+        "x": 371.06,
+        "y": 914.59
+      },
+      "length": 178.35,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeFitConstraint_Alt→15_05-Unification of Expression and Constraint Definition::DiscBrakeFitConstraint_Alt#14",
+      "source": "15_05-Unification of Expression and Constraint Definition::WheelAssy::discBrakeFitConstraint_Alt",
+      "target": "15_05-Unification of Expression and Constraint Definition::DiscBrakeFitConstraint_Alt",
+      "d": "M526,1082.59375 C526,1115.09375 526,1115.09375 526,1147.59375",
+      "start": {
+        "x": 526,
+        "y": 1082.59
+      },
+      "end": {
+        "x": 526,
+        "y": 1147.59
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 270,
+      "y": 687,
+      "w": 66.77,
+      "h": 15.59,
+      "text": "wheelAssy",
+      "edge": "15_05-Unification of Expression and Constraint Definition::DiscBrakeConstraint→15_05-Unification of Expression and Constraint Definition::WheelAssy#1"
+    },
+    {
+      "x": 301.81,
+      "y": 1349.59,
+      "w": 87.7,
+      "h": 15.59,
+      "text": "discBrakeAssy",
+      "edge": "15_05-Unification of Expression and Constraint Definition::DiscBrakeFitConstraint_Alt→15_05-Unification of Expression and Constraint Definition::DiscBrakeAssy#3"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "253532ffaf913c8b",
+  "unsettled": false
+}

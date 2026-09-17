@@ -1,0 +1,458 @@
+{
+  "zoom": 1.22816,
+  "nodes": [
+    {
+      "id": "8-Requirements::Vehicle Definitions::Engine::generate torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 311,
+      "y": 254.82,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 311,
+        "y": 254.82,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generate torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Definitions::Generate Torque",
+      "type": "default",
+      "form": "definition",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-def fam-action",
+      "x": 311,
+      "y": 442.05,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 311,
+        "y": 442.05,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Generate Torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::provide power",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 16,
+      "y": 442.05,
+      "w": 172,
+      "h": 140,
+      "inner": {
+        "x": 16,
+        "y": 442.05,
+        "w": 172,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "provide power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000003f",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 55,
+      "y": 76,
+      "w": 140,
+      "h": 45,
+      "inner": {
+        "x": 55,
+        "y": 76,
+        "w": 140,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "...",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000052",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 115,
+      "y": 212.32,
+      "w": 172,
+      "h": 140,
+      "inner": {
+        "x": 115,
+        "y": 212.32,
+        "w": 172,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "provide power",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 219,
+      "y": 71,
+      "w": 199,
+      "h": 50,
+      "inner": {
+        "x": 219,
+        "y": 71,
+        "w": 199,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "provide power.generate torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008d",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 442,
+      "y": 16,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 442,
+        "y": 16,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The optional requirement ID of this requirement ('1') is given after the keyword \"id\" (using name syntax). Every requirement is parameterized by a \"subject\". The \"subject\" of this requirement is implicitly \"Anything\".",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008f",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 898,
+      "y": 46,
+      "w": 354,
+      "h": 45,
+      "inner": {
+        "x": 898,
+        "y": 46,
+        "w": 354,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The actual mass shall be less than or equal to the required mass.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "8-Requirements::Vehicle Usages::provide power::generate torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 32,
+      "y": 512.05,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 512.05,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "generate torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000052/^8-Requirements::Vehicle Usages::provide power::generate torque",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 131,
+      "y": 282.32,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 131,
+        "y": 282.32,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "^generate torque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "8-Requirements::Vehicle Definitions::Engine::generate torque→8-Requirements::Vehicle Definitions::Generate Torque#0",
+      "source": "8-Requirements::Vehicle Definitions::Engine::generate torque",
+      "target": "8-Requirements::Vehicle Definitions::Generate Torque",
+      "d": "M381,304.82380952380953 C381,363.9357142857143 381,363.9357142857143 381,423.04761904761904",
+      "start": {
+        "x": 381,
+        "y": 304.82
+      },
+      "end": {
+        "x": 381,
+        "y": 423.05
+      },
+      "length": 118.22,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000003f→8-Requirements::Vehicle Usages::provide power::generate torque#1",
+      "source": "00000000-0000-0000-0000-00000000003f",
+      "target": "8-Requirements::Vehicle Usages::provide power::generate torque",
+      "d": "M123.81996851077692,121 C123.81996851077692,316.5238095238095 103.31114609913676,316.5238095238095 103.31114609913676,512.047619047619",
+      "start": {
+        "x": 123.82,
+        "y": 121
+      },
+      "end": {
+        "x": 103.31,
+        "y": 512.05
+      },
+      "length": 391.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000052→8-Requirements::Vehicle Usages::provide power#2",
+      "source": "00000000-0000-0000-0000-000000000052",
+      "target": "8-Requirements::Vehicle Usages::provide power",
+      "d": "M170.83334024294186,352.32380952380953 C170.83334024294186,387.6857142857143 132.16665975705814,387.6857142857143 132.16665975705814,423.04761904761904",
+      "start": {
+        "x": 170.83,
+        "y": 352.32
+      },
+      "end": {
+        "x": 132.17,
+        "y": 423.05
+      },
+      "length": 83.61,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000003f→00000000-0000-0000-0000-000000000052/^8-Requirements::Vehicle Usages::provide power::generate torque#3",
+      "source": "00000000-0000-0000-0000-00000000003f",
+      "target": "00000000-0000-0000-0000-000000000052/^8-Requirements::Vehicle Usages::provide power::generate torque",
+      "d": "M133.18872141016578,121 C133.18872141016578,201.66190476190476 191.90142065537134,201.66190476190476 191.90142065537134,282.32380952380953",
+      "start": {
+        "x": 133.19,
+        "y": 121
+      },
+      "end": {
+        "x": 191.9,
+        "y": 282.32
+      },
+      "length": 175.38,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005b→00000000-0000-0000-0000-000000000052/^8-Requirements::Vehicle Usages::provide power::generate torque#4",
+      "source": "00000000-0000-0000-0000-00000000005b",
+      "target": "00000000-0000-0000-0000-000000000052/^8-Requirements::Vehicle Usages::provide power::generate torque",
+      "d": "M304.59953129929244,121 C304.59953129929244,192.16190476190476 214.90046870070756,192.16190476190476 214.90046870070756,263.32380952380953",
+      "start": {
+        "x": 304.6,
+        "y": 121
+      },
+      "end": {
+        "x": 214.9,
+        "y": 263.32
+      },
+      "length": 175.49,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005b→8-Requirements::Vehicle Definitions::Engine::generate torque#5",
+      "source": "00000000-0000-0000-0000-00000000005b",
+      "target": "8-Requirements::Vehicle Definitions::Engine::generate torque",
+      "d": "M326.9999870476388,121 C326.9999870476388,178.41190476190476 372.5000129523612,178.41190476190476 372.5000129523612,235.82380952380953",
+      "start": {
+        "x": 327,
+        "y": 121
+      },
+      "end": {
+        "x": 372.5,
+        "y": 235.82
+      },
+      "length": 126.54,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "d2cca3f554a0eb86",
+  "unsettled": false
+}

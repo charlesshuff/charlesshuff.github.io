@@ -1,0 +1,2039 @@
+{
+  "zoom": 0.771707,
+  "nodes": [
+    {
+      "id": "18-Use Case",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 83,
+      "y": 67.48,
+      "w": 2087.5,
+      "h": 1263,
+      "inner": {
+        "x": 83,
+        "y": 67.48,
+        "w": 2087.5,
+        "h": 1263
+      },
+      "clipped": 0,
+      "title": "18-Use Case",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 2107,
+      "y": 1460.92,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2107,
+        "y": 1460.92,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1943,
+      "y": 1460.92,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1943,
+        "y": 1460.92,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 180,
+      "y": 1460.92,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 180,
+        "y": 1460.92,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::add fuel::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 16,
+      "y": 1460.92,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 16,
+        "y": 1460.92,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "subject",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1226.67,
+      "y": 112.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1226.67,
+        "y": 112.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::Person",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 529.67,
+      "y": 1264.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 529.67,
+        "y": 1264.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Person",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::Environment",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1985.5,
+      "y": 1130.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1985.5,
+        "y": 1130.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Environment",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::Fuel Station",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 1218.83,
+      "y": 1264.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1218.83,
+        "y": 1264.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Fuel Station",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::provide transportation",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 528.67,
+      "y": 291.48,
+      "w": 654,
+      "h": 574,
+      "inner": {
+        "x": 528.67,
+        "y": 291.48,
+        "w": 654,
+        "h": 574
+      },
+      "clipped": 0,
+      "title": "provide transportation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "use case",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::driver",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 822.67,
+      "y": 1130.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 822.67,
+        "y": 1130.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "driver: Person",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::passengers",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 658.67,
+      "y": 1130.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 658.67,
+        "y": 1130.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "passengers: Person",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::environment",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1967.5,
+      "y": 975.48,
+      "w": 176,
+      "h": 50,
+      "inner": {
+        "x": 1967.5,
+        "y": 975.48,
+        "w": 176,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "environment: Environment",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000003a",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1344.5,
+      "y": 954.48,
+      "w": 191,
+      "h": 92,
+      "inner": {
+        "x": 1344.5,
+        "y": 954.48,
+        "w": 191,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "driver",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 'provide transportation'::driver",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000040",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1559.5,
+      "y": 954.48,
+      "w": 220,
+      "h": 92,
+      "inner": {
+        "x": 1559.5,
+        "y": 954.48,
+        "w": 220,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "passengers",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 'provide transportation'::passengers",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000057",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 770.67,
+      "y": 112.48,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 770.67,
+        "y": 112.48,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Mock-up of an extension point. (But reference to 'add fuel' is in the wrong direction, and it doesn't make the extension condition sufficient to trigger the behavior.)",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 963.33,
+      "y": 954.48,
+      "w": 140,
+      "h": 92,
+      "inner": {
+        "x": 963.33,
+        "y": 954.48,
+        "w": 140,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "fueler",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= driver",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000071",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 99,
+      "y": 954.48,
+      "w": 191,
+      "h": 92,
+      "inner": {
+        "x": 99,
+        "y": 954.48,
+        "w": 191,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "driver",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 'provide transportation'::driver",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000077",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 478,
+      "y": 954.48,
+      "w": 220,
+      "h": 92,
+      "inner": {
+        "x": 478,
+        "y": 954.48,
+        "w": 220,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "passengers",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 'provide transportation'::passengers",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1803.5,
+      "y": 985.98,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1803.5,
+        "y": 985.98,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "enter vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "use case",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle::driver",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1393.33,
+      "y": 1130.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1393.33,
+        "y": 1130.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "driver: Person",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle::passengers",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1622.83,
+      "y": 1130.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1622.83,
+        "y": 1130.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "passengers: Person",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 314,
+      "y": 985.98,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 314,
+        "y": 985.98,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "exit vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "use case",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle::driver",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 147.83,
+      "y": 1130.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 147.83,
+        "y": 1130.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "driver: Person",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle::passengers",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 494.67,
+      "y": 1130.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 494.67,
+        "y": 1130.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "passengers: Person",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::add fuel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1127.33,
+      "y": 985.98,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1127.33,
+        "y": 985.98,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "add fuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "use case",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::add fuel::fueler",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 986.67,
+      "y": 1130.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 986.67,
+        "y": 1130.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fueler: Person",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::add fuel::fuel station",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1208.33,
+      "y": 1130.48,
+      "w": 161,
+      "h": 50,
+      "inner": {
+        "x": 1208.33,
+        "y": 1130.48,
+        "w": 161,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "fuel station: Fuel Station",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::obj",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d95757",
+      "classes": "smlml-node smlml-usage fam-requirement",
+      "x": 544.67,
+      "y": 361.48,
+      "w": 432,
+      "h": 120,
+      "inner": {
+        "x": 544.67,
+        "y": 361.48,
+        "w": 432,
+        "h": 120
+      },
+      "clipped": 0,
+      "title": "«objective»",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [
+        {
+          "title": "doc",
+          "entries": [
+            {
+              "text": "Satisfy mission requirements to transport driver and passengers from starting location to ending location in conformance with the driving profile and meet the mission requirements for safety, reliability, comfort, and affordability.",
+              "kind": null
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.868235 0.868235)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000035",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 1026.67,
+      "y": 431.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1026.67,
+        "y": 431.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "enter vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "include",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::drive vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 900.67,
+      "y": 570.48,
+      "w": 172,
+      "h": 140,
+      "inner": {
+        "x": 900.67,
+        "y": 570.48,
+        "w": 172,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "drive vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "use case",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006c",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 883.33,
+      "y": 799.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 883.33,
+        "y": 799.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "exit vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "include",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 916.67,
+      "y": 640.48,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 916.67,
+        "y": 640.48,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "add fuel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "include",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "18-Use Case::provide transportation→18-Use Case::provide transportation::vehicle#4",
+      "source": "18-Use Case::provide transportation",
+      "target": "18-Use Case::provide transportation::vehicle",
+      "d": "M1195.6666666666667,803.0488731920619 C1668.132099102314,803.0488731920619 2140.597531537961,1131.9863413579358 2140.597531537961,1460.9238095238097",
+      "start": {
+        "x": 1195.67,
+        "y": 803.05
+      },
+      "end": {
+        "x": 2140.6,
+        "y": 1460.92
+      },
+      "length": 1252.28,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::vehicle→18-Use Case::Vehicle#5",
+      "source": "18-Use Case::provide transportation::vehicle",
+      "target": "18-Use Case::Vehicle",
+      "d": "M2160.678762880773,1460.9238095238097 C2160.678762880773,821.2 1312.9879037858939,821.2000000000002 1312.9879037858939,181.47619047619048",
+      "start": {
+        "x": 2160.68,
+        "y": 1460.92
+      },
+      "end": {
+        "x": 1312.99,
+        "y": 181.48
+      },
+      "length": 1604.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::provide transportation→18-Use Case::provide transportation::driver#6",
+      "source": "18-Use Case::provide transportation",
+      "target": "18-Use Case::provide transportation::driver",
+      "d": "M874.0704794916235,865.4761904761905 C874.0704794916235,997.9761904761904 891.0635470826113,997.9761904761904 891.0635470826113,1130.4761904761904",
+      "start": {
+        "x": 874.07,
+        "y": 865.48
+      },
+      "end": {
+        "x": 891.06,
+        "y": 1130.48
+      },
+      "length": 265.77,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::driver→18-Use Case::Person#7",
+      "source": "18-Use Case::provide transportation::driver",
+      "target": "18-Use Case::Person",
+      "d": "M838.0024875621891,1180.4761904761904 C838.0024875621891,1212.9761904761904 654.3308457711444,1212.9761904761904 654.3308457711444,1245.4761904761904",
+      "start": {
+        "x": 838,
+        "y": 1180.48
+      },
+      "end": {
+        "x": 654.33,
+        "y": 1245.48
+      },
+      "length": 202.08,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::provide transportation→18-Use Case::provide transportation::passengers#8",
+      "source": "18-Use Case::provide transportation",
+      "target": "18-Use Case::provide transportation::passengers",
+      "d": "M792.4968226458695,865.4761904761905 C792.4968226458695,997.9761904761904 734.1692663200463,997.9761904761904 734.1692663200463,1130.4761904761904",
+      "start": {
+        "x": 792.5,
+        "y": 865.48
+      },
+      "end": {
+        "x": 734.17,
+        "y": 1130.48
+      },
+      "length": 273.86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::passengers→18-Use Case::Person#9",
+      "source": "18-Use Case::provide transportation::passengers",
+      "target": "18-Use Case::Person",
+      "d": "M704.5995024875623,1180.4761904761904 C704.5995024875623,1212.9761904761904 623.7338308457712,1212.9761904761904 623.7338308457712,1245.4761904761904",
+      "start": {
+        "x": 704.6,
+        "y": 1180.48
+      },
+      "end": {
+        "x": 623.73,
+        "y": 1245.48
+      },
+      "length": 109.84,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::provide transportation→18-Use Case::provide transportation::environment#10",
+      "source": "18-Use Case::provide transportation",
+      "target": "18-Use Case::provide transportation::environment",
+      "d": "M1182.6666666666667,693.4871642225442 C1583.5432464454975,693.4871642225442 1984.4198262243285,834.4816773493674 1984.4198262243285,975.4761904761905",
+      "start": {
+        "x": 1182.67,
+        "y": 693.49
+      },
+      "end": {
+        "x": 1984.42,
+        "y": 975.48
+      },
+      "length": 893.06,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::environment→18-Use Case::Environment#11",
+      "source": "18-Use Case::provide transportation::environment",
+      "target": "18-Use Case::Environment",
+      "d": "M2055.5,1025.4761904761904 C2055.5,1068.4761904761904 2055.5,1068.4761904761904 2055.5,1111.4761904761904",
+      "start": {
+        "x": 2055.5,
+        "y": 1025.48
+      },
+      "end": {
+        "x": 2055.5,
+        "y": 1111.48
+      },
+      "length": 86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000035→18-Use Case::enter vehicle#12",
+      "source": "00000000-0000-0000-0000-000000000035",
+      "target": "18-Use Case::enter vehicle",
+      "d": "M1131.6907123534718,481.4761904761905 C1131.6907123534718,724.2261904761905 1838.4759543131952,724.2261904761905 1838.4759543131952,966.9761904761905",
+      "start": {
+        "x": 1131.69,
+        "y": 481.48
+      },
+      "end": {
+        "x": 1838.48,
+        "y": 966.98
+      },
+      "length": 906.55,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000035→00000000-0000-0000-0000-00000000003a#13",
+      "source": "00000000-0000-0000-0000-000000000035",
+      "target": "00000000-0000-0000-0000-00000000003a",
+      "d": "M1112.4448529411766,481.4761904761905 C1112.4448529411766,717.9761904761905 1410.968137254902,717.9761904761905 1410.968137254902,954.4761904761905",
+      "start": {
+        "x": 1112.44,
+        "y": 481.48
+      },
+      "end": {
+        "x": 1410.97,
+        "y": 954.48
+      },
+      "length": 583.49,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000003a→18-Use Case::enter vehicle::driver#14",
+      "source": "00000000-0000-0000-0000-00000000003a",
+      "target": "18-Use Case::enter vehicle::driver",
+      "d": "M1446.924731182796,1046.4761904761904 C1446.924731182796,1078.9761904761904 1459.5698924731184,1078.9761904761904 1459.5698924731184,1111.4761904761904",
+      "start": {
+        "x": 1446.92,
+        "y": 1046.48
+      },
+      "end": {
+        "x": 1459.57,
+        "y": 1111.48
+      },
+      "length": 66.71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000035→00000000-0000-0000-0000-000000000040#15",
+      "source": "00000000-0000-0000-0000-000000000035",
+      "target": "00000000-0000-0000-0000-000000000040",
+      "d": "M1122.9917279411766,481.4761904761905 C1122.9917279411766,717.9761904761905 1621.061887254902,717.9761904761905 1621.061887254902,954.4761904761905",
+      "start": {
+        "x": 1122.99,
+        "y": 481.48
+      },
+      "end": {
+        "x": 1621.06,
+        "y": 954.48
+      },
+      "length": 726.73,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000040→18-Use Case::enter vehicle::passengers#16",
+      "source": "00000000-0000-0000-0000-000000000040",
+      "target": "18-Use Case::enter vehicle::passengers",
+      "d": "M1676.424731182796,1046.4761904761904 C1676.424731182796,1078.9761904761904 1689.0698924731184,1078.9761904761904 1689.0698924731184,1111.4761904761904",
+      "start": {
+        "x": 1676.42,
+        "y": 1046.48
+      },
+      "end": {
+        "x": 1689.07,
+        "y": 1111.48
+      },
+      "length": 66.71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000035→18-Use Case::provide transportation::drive vehicle#17",
+      "source": "00000000-0000-0000-0000-000000000035",
+      "target": "18-Use Case::provide transportation::drive vehicle",
+      "d": "M1081.7210144927537,481.4761904761905 C1081.7210144927537,520.9761904761905 1028.5144927536232,520.9761904761905 1028.5144927536232,560.4761904761905",
+      "start": {
+        "x": 1081.72,
+        "y": 481.48
+      },
+      "end": {
+        "x": 1028.51,
+        "y": 560.48
+      },
+      "length": 99.61,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000057→00000000-0000-0000-0000-00000000004e#18",
+      "source": "00000000-0000-0000-0000-000000000057",
+      "target": "00000000-0000-0000-0000-00000000004e",
+      "d": "M986.6666666666667,202.47619047619048 C986.6666666666667,421.4761904761905 986.6666666666667,421.4761904761905 986.6666666666667,640.4761904761905",
+      "start": {
+        "x": 986.67,
+        "y": 202.48
+      },
+      "end": {
+        "x": 986.67,
+        "y": 640.48
+      },
+      "length": 438,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e→18-Use Case::add fuel#19",
+      "source": "00000000-0000-0000-0000-00000000004e",
+      "target": "18-Use Case::add fuel",
+      "d": "M1001.9102749638206,690.4761904761905 C1001.9102749638206,828.7261904761905 1182.0897250361795,828.7261904761905 1182.0897250361795,966.9761904761905",
+      "start": {
+        "x": 1001.91,
+        "y": 690.48
+      },
+      "end": {
+        "x": 1182.09,
+        "y": 966.98
+      },
+      "length": 344.71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e→00000000-0000-0000-0000-00000000005b#20",
+      "source": "00000000-0000-0000-0000-00000000004e",
+      "target": "00000000-0000-0000-0000-00000000005b",
+      "d": "M990.1492537313434,690.4761904761905 C990.1492537313434,822.4761904761905 1026.9253731343285,822.4761904761905 1026.9253731343285,954.4761904761905",
+      "start": {
+        "x": 990.15,
+        "y": 690.48
+      },
+      "end": {
+        "x": 1026.93,
+        "y": 954.48
+      },
+      "length": 267.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000005b→18-Use Case::add fuel::fueler#21",
+      "source": "00000000-0000-0000-0000-00000000005b",
+      "target": "18-Use Case::add fuel::fueler",
+      "d": "M1040.2580645161293,1046.4761904761904 C1040.2580645161293,1078.9761904761904 1052.9032258064517,1078.9761904761904 1052.9032258064517,1111.4761904761904",
+      "start": {
+        "x": 1040.26,
+        "y": 1046.48
+      },
+      "end": {
+        "x": 1052.9,
+        "y": 1111.48
+      },
+      "length": 66.71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::provide transportation::drive vehicle→00000000-0000-0000-0000-00000000006c#22",
+      "source": "18-Use Case::provide transportation::drive vehicle",
+      "target": "00000000-0000-0000-0000-00000000006c",
+      "d": "M973.9855072463769,710.4761904761905 C973.9855072463769,749.9761904761905 957.8623188405797,749.9761904761905 957.8623188405797,789.4761904761905",
+      "start": {
+        "x": 973.99,
+        "y": 710.48
+      },
+      "end": {
+        "x": 957.86,
+        "y": 789.48
+      },
+      "length": 81.28,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006c→18-Use Case::exit vehicle#23",
+      "source": "00000000-0000-0000-0000-00000000006c",
+      "target": "18-Use Case::exit vehicle",
+      "d": "M883.3333333333334,847.406518345043 C678.1666666666667,847.406518345043 678.1666666666667,988.045862607338 473,988.045862607338",
+      "start": {
+        "x": 883.33,
+        "y": 847.41
+      },
+      "end": {
+        "x": 473,
+        "y": 988.05
+      },
+      "length": 442.3,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006c→00000000-0000-0000-0000-000000000071#24",
+      "source": "00000000-0000-0000-0000-00000000006c",
+      "target": "00000000-0000-0000-0000-000000000071",
+      "d": "M883.3333333333334,840.7116396305942 C586.6666666666667,840.7116396305942 586.6666666666667,978.3263991298254 290,978.3263991298254",
+      "start": {
+        "x": 883.33,
+        "y": 840.71
+      },
+      "end": {
+        "x": 290,
+        "y": 978.33
+      },
+      "length": 615.29,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000071→18-Use Case::exit vehicle::driver#25",
+      "source": "00000000-0000-0000-0000-000000000071",
+      "target": "18-Use Case::exit vehicle::driver",
+      "d": "M201.4247311827957,1046.4761904761904 C201.4247311827957,1078.9761904761904 214.06989247311827,1078.9761904761904 214.06989247311827,1111.4761904761904",
+      "start": {
+        "x": 201.42,
+        "y": 1046.48
+      },
+      "end": {
+        "x": 214.07,
+        "y": 1111.48
+      },
+      "length": 66.71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006c→00000000-0000-0000-0000-000000000077#26",
+      "source": "00000000-0000-0000-0000-00000000006c",
+      "target": "00000000-0000-0000-0000-000000000077",
+      "d": "M901.439393939394,849.4761904761905 C901.439393939394,901.9761904761905 683.4848484848485,901.9761904761905 683.4848484848485,954.4761904761905",
+      "start": {
+        "x": 901.44,
+        "y": 849.48
+      },
+      "end": {
+        "x": 683.48,
+        "y": 954.48
+      },
+      "length": 253.57,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000077→18-Use Case::exit vehicle::passengers#27",
+      "source": "00000000-0000-0000-0000-000000000077",
+      "target": "18-Use Case::exit vehicle::passengers",
+      "d": "M581.0752688172043,1046.4761904761904 C581.0752688172043,1078.9761904761904 568.4301075268818,1078.9761904761904 568.4301075268818,1111.4761904761904",
+      "start": {
+        "x": 581.08,
+        "y": 1046.48
+      },
+      "end": {
+        "x": 568.43,
+        "y": 1111.48
+      },
+      "length": 66.71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle→18-Use Case::enter vehicle::vehicle#29",
+      "source": "18-Use Case::enter vehicle",
+      "target": "18-Use Case::enter vehicle::vehicle",
+      "d": "M1880.8429150081715,1048.9761904761904 C1880.8429150081715,1254.95 2005.6570849918287,1254.95 2005.6570849918287,1460.9238095238097",
+      "start": {
+        "x": 1880.84,
+        "y": 1048.98
+      },
+      "end": {
+        "x": 2005.66,
+        "y": 1460.92
+      },
+      "length": 437.39,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle::vehicle→18-Use Case::Vehicle#30",
+      "source": "18-Use Case::enter vehicle::vehicle",
+      "target": "18-Use Case::Vehicle",
+      "d": "M1999.719296263075,1460.9238095238097 C1999.719296263075,821.2 1309.9473704035918,821.2000000000002 1309.9473704035918,181.47619047619048",
+      "start": {
+        "x": 1999.72,
+        "y": 1460.92
+      },
+      "end": {
+        "x": 1309.95,
+        "y": 181.48
+      },
+      "length": 1506.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle→18-Use Case::enter vehicle::driver#31",
+      "source": "18-Use Case::enter vehicle",
+      "target": "18-Use Case::enter vehicle::driver",
+      "d": "M1803.5000000000002,1035.636897505853 C1668.416666666667,1035.636897505853 1668.416666666667,1130.8154834465277 1533.3333333333335,1130.8154834465277",
+      "start": {
+        "x": 1803.5,
+        "y": 1035.64
+      },
+      "end": {
+        "x": 1533.33,
+        "y": 1130.82
+      },
+      "length": 292.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle::driver→18-Use Case::Person#32",
+      "source": "18-Use Case::enter vehicle::driver",
+      "target": "18-Use Case::Person",
+      "d": "M1393.3333333333335,1166.3368620315744 C1041,1166.3368620315744 1041,1278.6155189208064 688.6666666666667,1278.6155189208064",
+      "start": {
+        "x": 1393.33,
+        "y": 1166.34
+      },
+      "end": {
+        "x": 688.67,
+        "y": 1278.62
+      },
+      "length": 717.2,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle→18-Use Case::enter vehicle::passengers#33",
+      "source": "18-Use Case::enter vehicle",
+      "target": "18-Use Case::enter vehicle::passengers",
+      "d": "M1842.242791234141,1035.9761904761904 C1842.242791234141,1083.2261904761904 1724.0905420991928,1083.2261904761904 1724.0905420991928,1130.4761904761904",
+      "start": {
+        "x": 1842.24,
+        "y": 1035.98
+      },
+      "end": {
+        "x": 1724.09,
+        "y": 1130.48
+      },
+      "length": 160.18,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::enter vehicle::passengers→18-Use Case::Person#34",
+      "source": "18-Use Case::enter vehicle::passengers",
+      "target": "18-Use Case::Person",
+      "d": "M1622.8333333333335,1164.0567667835544 C1155.75,1164.0567667835544 1155.75,1280.8956141688263 688.6666666666667,1280.8956141688263",
+      "start": {
+        "x": 1622.83,
+        "y": 1164.06
+      },
+      "end": {
+        "x": 688.67,
+        "y": 1280.9
+      },
+      "length": 944.47,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle→18-Use Case::exit vehicle::vehicle#36",
+      "source": "18-Use Case::exit vehicle",
+      "target": "18-Use Case::exit vehicle::vehicle",
+      "d": "M376.94659060146984,1048.9761904761904 C376.94659060146984,1254.95 257.05340939853016,1254.95 257.05340939853016,1460.9238095238097",
+      "start": {
+        "x": 376.95,
+        "y": 1048.98
+      },
+      "end": {
+        "x": 257.05,
+        "y": 1460.92
+      },
+      "length": 435.52,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle::vehicle→18-Use Case::Vehicle#37",
+      "source": "18-Use Case::exit vehicle::vehicle",
+      "target": "18-Use Case::Vehicle",
+      "d": "M269.405030122822,1460.9238095238097 C269.405030122822,821.2 1277.2616365438448,821.2000000000002 1277.2616365438448,181.47619047619048",
+      "start": {
+        "x": 269.41,
+        "y": 1460.92
+      },
+      "end": {
+        "x": 1277.26,
+        "y": 181.48
+      },
+      "length": 1712.53,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle→18-Use Case::exit vehicle::driver#38",
+      "source": "18-Use Case::exit vehicle",
+      "target": "18-Use Case::exit vehicle::driver",
+      "d": "M355.25144175317183,1035.9761904761904 C355.25144175317183,1083.2261904761904 246.5818915801615,1083.2261904761904 246.5818915801615,1130.4761904761904",
+      "start": {
+        "x": 355.25,
+        "y": 1035.98
+      },
+      "end": {
+        "x": 246.58,
+        "y": 1130.48
+      },
+      "length": 152.46,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle::driver→18-Use Case::Person#39",
+      "source": "18-Use Case::exit vehicle::driver",
+      "target": "18-Use Case::Person",
+      "d": "M287.83333333333337,1180.041882313816 C399.25000000000006,1180.041882313816 399.25000000000006,1264.9104986385648 510.66666666666674,1264.9104986385648",
+      "start": {
+        "x": 287.83,
+        "y": 1180.04
+      },
+      "end": {
+        "x": 510.67,
+        "y": 1264.91
+      },
+      "length": 243.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle→18-Use Case::exit vehicle::passengers#40",
+      "source": "18-Use Case::exit vehicle",
+      "target": "18-Use Case::exit vehicle::passengers",
+      "d": "M415.25720876585933,1035.9761904761904 C415.25720876585933,1083.2261904761904 533.4094579008074,1083.2261904761904 533.4094579008074,1130.4761904761904",
+      "start": {
+        "x": 415.26,
+        "y": 1035.98
+      },
+      "end": {
+        "x": 533.41,
+        "y": 1130.48
+      },
+      "length": 160.18,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::exit vehicle::passengers→18-Use Case::Person#41",
+      "source": "18-Use Case::exit vehicle::passengers",
+      "target": "18-Use Case::Person",
+      "d": "M571.1965174129353,1180.4761904761904 C571.1965174129353,1212.9761904761904 593.1368159203981,1212.9761904761904 593.1368159203981,1245.4761904761904",
+      "start": {
+        "x": 571.2,
+        "y": 1180.48
+      },
+      "end": {
+        "x": 593.14,
+        "y": 1245.48
+      },
+      "length": 69.92,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::add fuel→18-Use Case::add fuel::vehicle#43",
+      "source": "18-Use Case::add fuel",
+      "target": "18-Use Case::add fuel::vehicle",
+      "d": "M1138.8356543912948,1048.9761904761904 C1138.8356543912948,1254.95 144.4976789420387,1254.95 144.4976789420387,1460.9238095238097",
+      "start": {
+        "x": 1138.84,
+        "y": 1048.98
+      },
+      "end": {
+        "x": 144.5,
+        "y": 1460.92
+      },
+      "length": 1122.43,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::add fuel::vehicle→18-Use Case::Vehicle#44",
+      "source": "18-Use Case::add fuel::vehicle",
+      "target": "18-Use Case::Vehicle",
+      "d": "M108.44556350512406,1460.9238095238097 C108.44556350512406,821.2 1274.2211031615427,821.2000000000002 1274.2211031615427,181.47619047619048",
+      "start": {
+        "x": 108.45,
+        "y": 1460.92
+      },
+      "end": {
+        "x": 1274.22,
+        "y": 181.48
+      },
+      "length": 1827,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::add fuel→18-Use Case::add fuel::fueler#45",
+      "source": "18-Use Case::add fuel",
+      "target": "18-Use Case::add fuel::fueler",
+      "d": "M1172.9965397923877,1035.9761904761904 C1172.9965397923877,1083.2261904761904 1081.0034602076125,1083.2261904761904 1081.0034602076125,1130.4761904761904",
+      "start": {
+        "x": 1173,
+        "y": 1035.98
+      },
+      "end": {
+        "x": 1081,
+        "y": 1130.48
+      },
+      "length": 139.38,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::add fuel::fueler→18-Use Case::Person#46",
+      "source": "18-Use Case::add fuel::fueler",
+      "target": "18-Use Case::Person",
+      "d": "M986.6666666666667,1176.001354589976 C837.6666666666667,1176.001354589976 837.6666666666667,1268.9510263624047 688.6666666666667,1268.9510263624047",
+      "start": {
+        "x": 986.67,
+        "y": 1176
+      },
+      "end": {
+        "x": 688.67,
+        "y": 1268.95
+      },
+      "length": 317.44,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::add fuel→18-Use Case::add fuel::fuel station#47",
+      "source": "18-Use Case::add fuel",
+      "target": "18-Use Case::add fuel::fuel station",
+      "d": "M1213.1637831603232,1035.9761904761904 C1213.1637831603232,1083.2261904761904 1273.0028835063438,1083.2261904761904 1273.0028835063438,1130.4761904761904",
+      "start": {
+        "x": 1213.16,
+        "y": 1035.98
+      },
+      "end": {
+        "x": 1273,
+        "y": 1130.48
+      },
+      "length": 116.7,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "18-Use Case::add fuel::fuel station→18-Use Case::Fuel Station#48",
+      "source": "18-Use Case::add fuel::fuel station",
+      "target": "18-Use Case::Fuel Station",
+      "d": "M1288.8333333333335,1180.4761904761904 C1288.8333333333335,1212.9761904761904 1288.8333333333335,1212.9761904761904 1288.8333333333335,1245.4761904761904",
+      "start": {
+        "x": 1288.83,
+        "y": 1180.48
+      },
+      "end": {
+        "x": 1288.83,
+        "y": 1245.48
+      },
+      "length": 65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "ed0029c744896d43",
+  "unsettled": false
+}

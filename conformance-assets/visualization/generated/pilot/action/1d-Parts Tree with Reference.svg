@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="146px" preserveAspectRatio="none" style="width:668px;height:146px;background:#FFFFFF;" version="1.1" viewBox="0 0 668 146" width="668px" zoomAndPan="magnify"><defs><filter height="300%" id="fhgk9uj9m9jva" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><g id="elem_E1"><path d="M6,15 L6,131.2361 L323,131.2361 L323,25 L313,15 L6,15 " fill="#FEFFDD" filter="url(#fhgk9uj9m9jva)" style="stroke:#181818;stroke-width:0.5;"/><path d="M313,15 L313,25 L323,25 L313,15 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="261" x="12" y="33.897">references a hitch ball that is not part of this</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="12" y="51.603">vehicle.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="293" x="12" y="69.309">If 'vehicle1_c1' is removed or destroyed, this does</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="12" y="87.0151">not</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="210" x="12" y="104.7211">effect the hitchBall referenced here.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="12" y="122.4271"> </text></g><g id="elem_E2"><path d="M358,6 L358,139.9421 L661,139.9421 L661,16 L651,6 L358,6 " fill="#FEFFDD" filter="url(#fhgk9uj9m9jva)" style="stroke:#181818;stroke-width:0.5;"/><path d="M651,6 L651,16 L661,16 L651,6 " fill="#FEFFDD" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="255" x="364" y="24.897">This is a shorthand for a binding connector</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="364" y="42.603">between the</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="279" x="364" y="60.309">The binding connector is now contained within</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="71" x="364" y="78.0151">the 'trailer1'</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="271" x="364" y="95.7211">part, though, rather than being at the system</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="30" x="364" y="113.4271">level.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="3" x="364" y="131.1331"> </text></g><!--MD5=[69b57c3d6ed81b8d25ca909105f84cf9]
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+skinparam ranksep 8
+
+note as E1
+'vehicle1_c1'::'hitchBall' is a reference property that
+references a hitch ball that is not part of this vehicle.
+If 'vehicle1_c1' is removed or destroyed, this does not
+effect the hitchBall referenced here.
+
+end note 
+note as E2
+This is a shorthand for a binding connector between the
+'trailerCoupler' here and the 'trailerCoupler' in 'trailerHitch'.
+The binding connector is now contained within the 'trailer1'
+part, though, rather than being at the system level.
+
+end note 
+@enduml
+
+@startuml
+skin sysmlc
+skinparam wrapWidth 300
+hide circle
+skinparam ranksep 8
+
+note as E1
+references a hitch ball that is not part of this vehicle.
+If 'vehicle1_c1' is removed or destroyed, this does not
+effect the hitchBall referenced here.
+
+end note 
+note as E2
+This is a shorthand for a binding connector between the
+The binding connector is now contained within the 'trailer1'
+part, though, rather than being at the system level.
+
+end note 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 13:01:30 EDT 2022)
+(EPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

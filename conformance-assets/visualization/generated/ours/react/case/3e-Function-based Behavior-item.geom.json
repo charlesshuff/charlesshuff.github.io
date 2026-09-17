@@ -1,0 +1,1650 @@
+{
+  "zoom": 0.669705,
+  "nodes": [
+    {
+      "id": "3e-Function-based Behavior-item",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 1743.59,
+      "h": 1426,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 1743.59,
+        "h": 1426
+      },
+      "clipped": 0,
+      "title": "3e-Function-based Behavior-item",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 253.75,
+      "y": 1027,
+      "w": 575.66,
+      "h": 399,
+      "inner": {
+        "x": 253.75,
+        "y": 1027,
+        "w": 575.66,
+        "h": 399
+      },
+      "clipped": 0,
+      "title": "Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 32,
+      "y": 61,
+      "w": 1602.27,
+      "h": 826,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 1602.27,
+        "h": 826
+      },
+      "clipped": 0,
+      "title": "Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Definitions::VehicleAssembly",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 357.75,
+      "y": 1360,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 357.75,
+        "y": 1360,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "VehicleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Definitions::AssembledVehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-def fam-item",
+      "x": 673.42,
+      "y": 1226,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 673.42,
+        "y": 1226,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AssembledVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Definitions::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 452.75,
+      "y": 1092,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 452.75,
+        "y": 1092,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Definitions::Transmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 291.75,
+      "y": 1092,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 291.75,
+        "y": 1092,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Definitions::Engine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 616.75,
+      "y": 1092,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 616.75,
+        "y": 1092,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1093.42,
+      "y": 553,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1093.42,
+        "y": 553,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AssemblyLine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 603,
+      "y": 106,
+      "w": 464,
+      "h": 140,
+      "inner": {
+        "x": 603,
+        "y": 106,
+        "w": 464,
+        "h": 140
+      },
+      "clipped": 0,
+      "title": "assemble vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without transmission or engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 84.75,
+      "y": 687,
+      "w": 370,
+      "h": 50,
+      "inner": {
+        "x": 84.75,
+        "y": 687,
+        "w": 370,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle assy without transmission or engine: VehicleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 695.75,
+      "y": 356,
+      "w": 178,
+      "h": 50,
+      "inner": {
+        "x": 695.75,
+        "y": 356,
+        "w": 178,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transmission: Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000022",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 360,
+      "y": 156,
+      "w": 219,
+      "h": 45,
+      "inner": {
+        "x": 360,
+        "y": 156,
+        "w": 219,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Note: A part can be treated as an item.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 353.15,
+      "y": 335,
+      "w": 279,
+      "h": 92,
+      "inner": {
+        "x": 353.15,
+        "y": 335,
+        "w": 279,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "vehicle assy without engine: VehicleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 'vehicle assy without transmission or engine'",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 475.75,
+      "y": 511,
+      "w": 288,
+      "h": 92,
+      "inner": {
+        "x": 475.75,
+        "y": 511,
+        "w": 288,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "transmission: Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 'assemble transmission into vehicle'.transmission",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000035",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 48,
+      "y": 156,
+      "w": 288,
+      "h": 45,
+      "inner": {
+        "x": 48,
+        "y": 156,
+        "w": 288,
+        "h": 45
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Note: An item can become a part of something else.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 795.75,
+      "y": 687,
+      "w": 279,
+      "h": 50,
+      "inner": {
+        "x": 795.75,
+        "y": 687,
+        "w": 279,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle assy without engine: VehicleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 799.75,
+      "y": 821,
+      "w": 178,
+      "h": 50,
+      "inner": {
+        "x": 799.75,
+        "y": 821,
+        "w": 178,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transmission: Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 1478.28,
+      "y": 356,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1478.28,
+        "y": 356,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine: Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#29b6c8",
+      "classes": "smlml-node smlml-usage fam-item",
+      "x": 1183.08,
+      "y": 335,
+      "w": 233,
+      "h": 92,
+      "inner": {
+        "x": 1183.08,
+        "y": 335,
+        "w": 233,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "assembledVehicle: AssembledVehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "item",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 'vehicle assy without engine'",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.832157 0.942745 0.956863)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1301.28,
+      "y": 511,
+      "w": 226,
+      "h": 92,
+      "inner": {
+        "x": 1301.28,
+        "y": 511,
+        "w": 226,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "engine: Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "values",
+          "entries": [
+            {
+              "text": "= 'assemble engine into vehicle'.engine",
+              "kind": "values"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1116.75,
+      "y": 687,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1116.75,
+        "y": 687,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000070",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 1091,
+      "y": 148.5,
+      "w": 330,
+      "h": 60,
+      "inner": {
+        "x": 1091,
+        "y": 148.5,
+        "w": 330,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Note: An in item one context can become a part in an other.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 998.75,
+      "y": 821,
+      "w": 178,
+      "h": 50,
+      "inner": {
+        "x": 998.75,
+        "y": 821,
+        "w": 178,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transmission: Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1197.75,
+      "y": 821,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1197.75,
+        "y": 821,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine: Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::providePower",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1445,
+      "y": 153.5,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1445,
+        "y": 153.5,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "providePower",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 619,
+      "y": 176,
+      "w": 221,
+      "h": 50,
+      "inner": {
+        "x": 619,
+        "y": 176,
+        "w": 221,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "assemble transmission into vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 864,
+      "y": 176,
+      "w": 187,
+      "h": 50,
+      "inner": {
+        "x": 864,
+        "y": 176,
+        "w": 187,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "assemble engine into vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "3e-Function-based Behavior-item→3e-Function-based Behavior-item::Definitions#0",
+      "source": "3e-Function-based Behavior-item",
+      "target": "3e-Function-based Behavior-item::Definitions",
+      "d": "M391.7663316582916,1442 C391.7663316582916,1570.8470508005519 680.5979899497487,888.1529491994481 680.5979899497487,1017",
+      "start": {
+        "x": 391.77,
+        "y": 1442
+      },
+      "end": {
+        "x": 680.6,
+        "y": 1017
+      },
+      "length": 576.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Definitions::AssembledVehicle→3e-Function-based Behavior-item::Definitions::VehicleAssembly#4",
+      "source": "3e-Function-based Behavior-item::Definitions::AssembledVehicle",
+      "target": "3e-Function-based Behavior-item::Definitions::VehicleAssembly",
+      "d": "M684.523631840796,1276 C684.523631840796,1308.5 486.64303482587064,1308.5 486.64303482587064,1341",
+      "start": {
+        "x": 684.52,
+        "y": 1276
+      },
+      "end": {
+        "x": 486.64,
+        "y": 1341
+      },
+      "length": 215.47,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Definitions::Vehicle→3e-Function-based Behavior-item::Definitions::AssembledVehicle#6",
+      "source": "3e-Function-based Behavior-item::Definitions::Vehicle",
+      "target": "3e-Function-based Behavior-item::Definitions::AssembledVehicle",
+      "d": "M563.9191542288557,1142 C563.9191542288557,1174.5 702.247512437811,1174.5 702.247512437811,1207",
+      "start": {
+        "x": 563.92,
+        "y": 1142
+      },
+      "end": {
+        "x": 702.25,
+        "y": 1207
+      },
+      "length": 160.06,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without transmission or engine#11",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without transmission or engine",
+      "d": "M707.0073385518591,239 C707.0073385518591,463 292.2426614481409,463 292.2426614481409,687",
+      "start": {
+        "x": 707.01,
+        "y": 239
+      },
+      "end": {
+        "x": 292.24,
+        "y": 687
+      },
+      "length": 644.63,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without transmission or engine→3e-Function-based Behavior-item::Definitions::VehicleAssembly#12",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without transmission or engine",
+      "target": "3e-Function-based Behavior-item::Definitions::VehicleAssembly",
+      "d": "M275.61924219910844,737 C275.61924219910844,1039 421.88075780089156,1039 421.88075780089156,1341",
+      "start": {
+        "x": 275.62,
+        "y": 737
+      },
+      "end": {
+        "x": 421.88,
+        "y": 1341
+      },
+      "length": 628.29,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::transmission#13",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::transmission",
+      "d": "M737.1736111111111,239 C737.1736111111111,297.5 777.0763888888889,297.5 777.0763888888889,356",
+      "start": {
+        "x": 737.17,
+        "y": 239
+      },
+      "end": {
+        "x": 777.08,
+        "y": 356
+      },
+      "length": 126.03,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::transmission→3e-Function-based Behavior-item::Definitions::Transmission#14",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::transmission",
+      "target": "3e-Function-based Behavior-item::Definitions::Transmission",
+      "d": "M770.3817934782609,406 C770.3817934782609,739.5 376.1182065217391,739.5 376.1182065217391,1073",
+      "start": {
+        "x": 770.38,
+        "y": 406
+      },
+      "end": {
+        "x": 376.12,
+        "y": 1073
+      },
+      "length": 806.19,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine#15",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine",
+      "d": "M696.6041666666666,239 C696.6041666666666,287 553.1783333333333,287 553.1783333333333,335",
+      "start": {
+        "x": 696.6,
+        "y": 239
+      },
+      "end": {
+        "x": 553.18,
+        "y": 335
+      },
+      "length": 182.39,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine→3e-Function-based Behavior-item::Definitions::VehicleAssembly#16",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine",
+      "target": "3e-Function-based Behavior-item::Definitions::VehicleAssembly",
+      "d": "M489.67649402390435,427 C489.67649402390435,884 429.3660358565737,884 429.3660358565737,1341",
+      "start": {
+        "x": 489.68,
+        "y": 427
+      },
+      "end": {
+        "x": 429.37,
+        "y": 1341
+      },
+      "length": 916.83,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without transmission or engine#17",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without transmission or engine",
+      "d": "M461.6729607250755,427 C461.6729607250755,557 286.58534743202415,557 286.58534743202415,687",
+      "start": {
+        "x": 461.67,
+        "y": 427
+      },
+      "end": {
+        "x": 286.59,
+        "y": 687
+      },
+      "length": 327.81,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine::transmission#18",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine::transmission",
+      "d": "M525.8693181818181,440 C525.8693181818181,475.5 586.5306818181818,475.5 586.5306818181818,511",
+      "start": {
+        "x": 525.87,
+        "y": 440
+      },
+      "end": {
+        "x": 586.53,
+        "y": 511
+      },
+      "length": 98.42,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine::transmission→3e-Function-based Behavior-item::Definitions::Transmission#19",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine::transmission",
+      "target": "3e-Function-based Behavior-item::Definitions::Transmission",
+      "d": "M598.5571428571428,603 C598.5571428571428,838 373.26785714285717,838 373.26785714285717,1073",
+      "start": {
+        "x": 598.56,
+        "y": 603
+      },
+      "end": {
+        "x": 373.27,
+        "y": 1073
+      },
+      "length": 537.78,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine#20",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine",
+      "d": "M554.1593655589123,427 C554.1593655589123,552 901.820996978852,552 901.820996978852,677",
+      "start": {
+        "x": 554.16,
+        "y": 427
+      },
+      "end": {
+        "x": 901.82,
+        "y": 677
+      },
+      "length": 453,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine#21",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine",
+      "d": "M956.4114481409002,239 C956.4114481409002,463 936.3385518590998,463 936.3385518590998,687",
+      "start": {
+        "x": 956.41,
+        "y": 239
+      },
+      "end": {
+        "x": 936.34,
+        "y": 687
+      },
+      "length": 448.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine→3e-Function-based Behavior-item::Definitions::VehicleAssembly#22",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine",
+      "target": "3e-Function-based Behavior-item::Definitions::VehicleAssembly",
+      "d": "M916.3978454680534,737 C916.3978454680534,1039 446.6021545319465,1039 446.6021545319465,1341",
+      "start": {
+        "x": 916.4,
+        "y": 737
+      },
+      "end": {
+        "x": 446.6,
+        "y": 1341
+      },
+      "length": 804.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine::transmission#23",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine::transmission",
+      "d": "M926.5746268656717,750 C926.5746268656717,785.5 897.4253731343283,785.5 897.4253731343283,821",
+      "start": {
+        "x": 926.57,
+        "y": 750
+      },
+      "end": {
+        "x": 897.43,
+        "y": 821
+      },
+      "length": 78.73,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine::transmission→3e-Function-based Behavior-item::Definitions::Transmission#24",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine::transmission",
+      "target": "3e-Function-based Behavior-item::Definitions::Transmission",
+      "d": "M840.1337638376384,871 C840.1337638376384,972 410.3662361623616,972 410.3662361623616,1073",
+      "start": {
+        "x": 840.13,
+        "y": 871
+      },
+      "end": {
+        "x": 410.37,
+        "y": 1073
+      },
+      "length": 497.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::engine#25",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::engine",
+      "d": "M1039.5529323165406,239 C1039.5529323165406,299.3361519777933 1258.917022497816,359.67230395558664 1478.2811126790918,359.67230395558664",
+      "start": {
+        "x": 1039.55,
+        "y": 239
+      },
+      "end": {
+        "x": 1478.28,
+        "y": 359.67
+      },
+      "length": 472.38,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::engine→3e-Function-based Behavior-item::Definitions::Engine#26",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::engine",
+      "target": "3e-Function-based Behavior-item::Definitions::Engine",
+      "d": "M1519.017148253851,406 C1519.017148253851,739.5 716.0139644252408,739.5 716.0139644252408,1073",
+      "start": {
+        "x": 1519.02,
+        "y": 406
+      },
+      "end": {
+        "x": 716.01,
+        "y": 1073
+      },
+      "length": 1105.23,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle#27",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle",
+      "d": "M1005.0112656498738,239 C1005.0112656498738,287 1212.1603838833241,287 1212.1603838833241,335",
+      "start": {
+        "x": 1005.01,
+        "y": 239
+      },
+      "end": {
+        "x": 1212.16,
+        "y": 335
+      },
+      "length": 239,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle→3e-Function-based Behavior-item::Definitions::AssembledVehicle#28",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle",
+      "target": "3e-Function-based Behavior-item::Definitions::AssembledVehicle",
+      "d": "M1270.1747166830328,427 C1270.1747166830328,817 759.3984036210468,817 759.3984036210468,1207",
+      "start": {
+        "x": 1270.17,
+        "y": 427
+      },
+      "end": {
+        "x": 759.4,
+        "y": 1207
+      },
+      "length": 974.02,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine#29",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine",
+      "d": "M1248.9489943007288,427 C1248.9489943007288,557 962.7674556404148,557 962.7674556404148,687",
+      "start": {
+        "x": 1248.95,
+        "y": 427
+      },
+      "end": {
+        "x": 962.77,
+        "y": 687
+      },
+      "length": 409.25,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle::engine#30",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle::engine",
+      "d": "M1329.559521770001,440 C1329.559521770001,475.5 1384.3027035881828,475.5 1384.3027035881828,511",
+      "start": {
+        "x": 1329.56,
+        "y": 440
+      },
+      "end": {
+        "x": 1384.3,
+        "y": 511
+      },
+      "length": 94.2,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle::engine→3e-Function-based Behavior-item::Definitions::Engine#31",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle::engine",
+      "target": "3e-Function-based Behavior-item::Definitions::Engine",
+      "d": "M1354.5196284233093,603 C1354.5196284233093,838 719.2290675303166,838 719.2290675303166,1073",
+      "start": {
+        "x": 1354.52,
+        "y": 603
+      },
+      "end": {
+        "x": 719.23,
+        "y": 1073
+      },
+      "length": 836.23,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle#32",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle",
+      "d": "M1283.9006559321488,427 C1283.9006559321488,557 1195.2719873624692,557 1195.2719873624692,687",
+      "start": {
+        "x": 1283.9,
+        "y": 427
+      },
+      "end": {
+        "x": 1195.27,
+        "y": 687
+      },
+      "length": 280.05,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine→3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle#33",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle",
+      "d": "M1167.7699004975123,616 C1167.7699004975123,651.5 1182.3967661691543,651.5 1182.3967661691543,687",
+      "start": {
+        "x": 1167.77,
+        "y": 616
+      },
+      "end": {
+        "x": 1182.4,
+        "y": 687
+      },
+      "length": 73.09,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle→3e-Function-based Behavior-item::Definitions::Vehicle#34",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle",
+      "target": "3e-Function-based Behavior-item::Definitions::Vehicle",
+      "d": "M1145.7623456790122,737 C1145.7623456790122,905 563.7376543209876,905 563.7376543209876,1073",
+      "start": {
+        "x": 1145.76,
+        "y": 737
+      },
+      "end": {
+        "x": 563.74,
+        "y": 1073
+      },
+      "length": 708.04,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::transmission#35",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::transmission",
+      "d": "M1168.2798507462687,750 C1168.2798507462687,785.5 1106.2201492537313,785.5 1106.2201492537313,821",
+      "start": {
+        "x": 1168.28,
+        "y": 750
+      },
+      "end": {
+        "x": 1106.22,
+        "y": 821
+      },
+      "length": 99.44,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::transmission→3e-Function-based Behavior-item::Definitions::Transmission#36",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::transmission",
+      "target": "3e-Function-based Behavior-item::Definitions::Transmission",
+      "d": "M1020.7758302583026,871 C1020.7758302583026,972 428.72416974169744,972 428.72416974169744,1073",
+      "start": {
+        "x": 1020.78,
+        "y": 871
+      },
+      "end": {
+        "x": 428.72,
+        "y": 1073
+      },
+      "length": 648,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::engine#37",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle",
+      "target": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::engine",
+      "d": "M1201.8619402985075,750 C1201.8619402985075,785.5 1252.6380597014925,785.5 1252.6380597014925,821",
+      "start": {
+        "x": 1201.86,
+        "y": 750
+      },
+      "end": {
+        "x": 1252.64,
+        "y": 821
+      },
+      "length": 91.49,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::engine→3e-Function-based Behavior-item::Definitions::Engine#38",
+      "source": "3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle::engine",
+      "target": "3e-Function-based Behavior-item::Definitions::Engine",
+      "d": "M1214.1522140221402,871 C1214.1522140221402,972 740.3477859778598,972 740.3477859778598,1073",
+      "start": {
+        "x": 1214.15,
+        "y": 871
+      },
+      "end": {
+        "x": 740.35,
+        "y": 1073
+      },
+      "length": 537.67,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 496.03,
+      "y": 1221.7,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "3e-Function-based Behavior-item→3e-Function-based Behavior-item::Definitions#0"
+    },
+    {
+      "x": 366.69,
+      "y": 549.2,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without engine→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble transmission into vehicle::vehicle assy without transmission or engine#17"
+    },
+    {
+      "x": 1098.42,
+      "y": 549.2,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::vehicle assy without engine#29"
+    },
+    {
+      "x": 1232.15,
+      "y": 549.2,
+      "w": 14.88,
+      "h": 15.59,
+      "text": "=",
+      "edge": "3e-Function-based Behavior-item::Usages::AssemblyLine::assemble vehicle::assemble engine into vehicle::assembledVehicle→3e-Function-based Behavior-item::Usages::AssemblyLine::vehicle#32"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "dbaeaf48082375a4",
+  "unsettled": false
+}

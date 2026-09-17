@@ -1,0 +1,90 @@
+{
+  "zoom": 4,
+  "nodes": [
+    {
+      "id": "EnumValues",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 172,
+      "h": 171,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 172,
+        "h": 171
+      },
+      "clipped": 0,
+      "title": "EnumValues",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "EnumValues::Status",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4caf6d",
+      "classes": "smlml-node smlml-def fam-attribute",
+      "x": 32,
+      "y": 61,
+      "w": 140,
+      "h": 110,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 140,
+        "h": 110
+      },
+      "clipped": 0,
+      "title": "Status",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "enum def",
+      "compartments": [
+        {
+          "title": "enums",
+          "entries": [
+            {
+              "text": "ok",
+              "kind": "enums"
+            },
+            {
+              "text": "fail",
+              "kind": "enums"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.859608 0.937255 0.88549)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "f40ac04739caac98",
+  "unsettled": false
+}

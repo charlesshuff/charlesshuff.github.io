@@ -1,0 +1,277 @@
+{
+  "zoom": 2.23235,
+  "nodes": [
+    {
+      "id": "7a1-Variant Configuration - General Concept-a::doX",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 392,
+      "y": 249.31,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 392,
+        "y": 249.31,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "doX",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7a1-Variant Configuration - General Concept-a::doY",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 556,
+      "y": 249.31,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 556,
+        "y": 249.31,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "doY",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "7a1-Variant Configuration - General Concept-a::part5::doXorY",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 157,
+      "y": 249.31,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 157,
+        "y": 249.31,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "doXorY",
+      "titleDecor": {
+        "strike": false,
+        "italic": true
+      },
+      "body": null,
+      "stereotype": "variation",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "dashed",
+        "borderWidth": "2px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 16,
+      "y": 110.82,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 16,
+        "y": 110.82,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "doXorY",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e9",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 180,
+      "y": 110.82,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 180,
+        "y": 110.82,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "doXorY",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "7a1-Variant Configuration - General Concept-a::part5::doXorY→7a1-Variant Configuration - General Concept-a::doX#0",
+      "source": "7a1-Variant Configuration - General Concept-a::part5::doXorY",
+      "target": "7a1-Variant Configuration - General Concept-a::doX",
+      "d": "M297,274.31428571428575 C339.5,274.31428571428575 339.5,274.31428571428575 382,274.31428571428575",
+      "start": {
+        "x": 297,
+        "y": 274.31
+      },
+      "end": {
+        "x": 382,
+        "y": 274.31
+      },
+      "length": 85,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "7a1-Variant Configuration - General Concept-a::part5::doXorY→7a1-Variant Configuration - General Concept-a::doY#1",
+      "source": "7a1-Variant Configuration - General Concept-a::part5::doXorY",
+      "target": "7a1-Variant Configuration - General Concept-a::doY",
+      "d": "M297,274.31428571428575 C421.5,274.31428571428575 421.5,274.31428571428575 546,274.31428571428575",
+      "start": {
+        "x": 297,
+        "y": 274.31
+      },
+      "end": {
+        "x": 546,
+        "y": 274.31
+      },
+      "length": 249,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d1→7a1-Variant Configuration - General Concept-a::part5::doXorY#2",
+      "source": "00000000-0000-0000-0000-0000000000d1",
+      "target": "7a1-Variant Configuration - General Concept-a::part5::doXorY",
+      "d": "M111.45213863292531,160.81904761904764 C111.45213863292531,195.5666666666667 201.5478613670747,195.5666666666667 201.5478613670747,230.31428571428575",
+      "start": {
+        "x": 111.45,
+        "y": 160.82
+      },
+      "end": {
+        "x": 201.55,
+        "y": 230.31
+      },
+      "length": 120.44,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e9→7a1-Variant Configuration - General Concept-a::part5::doXorY#3",
+      "source": "00000000-0000-0000-0000-0000000000e9",
+      "target": "7a1-Variant Configuration - General Concept-a::part5::doXorY",
+      "d": "M245.84823270526752,160.81904761904764 C245.84823270526752,195.5666666666667 231.15176729473248,195.5666666666667 231.15176729473248,230.31428571428575",
+      "start": {
+        "x": 245.85,
+        "y": 160.82
+      },
+      "end": {
+        "x": 231.15,
+        "y": 230.31
+      },
+      "length": 71.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-bar",
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 298.44,
+      "y": 266.52,
+      "w": 82.13,
+      "h": 15.59,
+      "text": "<<perform>>",
+      "edge": "7a1-Variant Configuration - General Concept-a::part5::doXorY→7a1-Variant Configuration - General Concept-a::doX#0"
+    },
+    {
+      "x": 380.44,
+      "y": 266.52,
+      "w": 82.13,
+      "h": 15.59,
+      "text": "<<perform>>",
+      "edge": "7a1-Variant Configuration - General Concept-a::part5::doXorY→7a1-Variant Configuration - General Concept-a::doY#1"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "322eba0139cc22fa",
+  "unsettled": false
+}

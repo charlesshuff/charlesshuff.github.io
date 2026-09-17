@@ -1,0 +1,1707 @@
+{
+  "zoom": 0.754098,
+  "nodes": [
+    {
+      "id": "4a-Functional Allocation",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 2013,
+      "h": 754,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 2013,
+        "h": 754
+      },
+      "clipped": 0,
+      "title": "4a-Functional Allocation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1762.5,
+      "y": 101,
+      "w": 210,
+      "h": 50,
+      "inner": {
+        "x": 1762.5,
+        "y": 101,
+        "w": 210,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1_functional_allocation",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000000b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 380.5,
+      "y": 249,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 380.5,
+        "y": 249,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000011",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 216.5,
+      "y": 249,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 216.5,
+        "y": 249,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000014",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 32,
+      "y": 61,
+      "w": 432,
+      "h": 90,
+      "inner": {
+        "x": 32,
+        "y": 61,
+        "w": 432,
+        "h": 90
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This allocates the action '3a-Function-based Behavior-1'::'provide power' as an enacted performance of 'vehicle_c1_functional_allocation'.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1095.5,
+      "y": 253.75,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1095.5,
+        "y": 253.75,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000023",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1165,
+      "y": 408,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1165,
+        "y": 408,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000029",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 833.1,
+      "y": 408,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 833.1,
+        "y": 408,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002f",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 639.5,
+      "y": 235,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 639.5,
+        "y": 235,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This allocates one of the sub-steps of 'provide power' to a sub-part of vehicle_c1.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000045",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1070,
+      "y": 408,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1070,
+        "y": 408,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 475.5,
+      "y": 253.75,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 475.5,
+        "y": 253.75,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 324.5,
+      "y": 394,
+      "w": 109,
+      "h": 92,
+      "inner": {
+        "x": 324.5,
+        "y": 394,
+        "w": 109,
+        "h": 92
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [
+        {
+          "title": "parameters",
+          "entries": [
+            {
+              "text": "in engineTorque",
+              "kind": "parameters"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000054",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 552.5,
+      "y": 408,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 552.5,
+        "y": 408,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000006e",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 457.5,
+      "y": 408,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 457.5,
+        "y": 408,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1872.5,
+      "y": 253.75,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1872.5,
+        "y": 253.75,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000077",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1847,
+      "y": 408,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1847,
+        "y": 408,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000007d",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1683,
+      "y": 408,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1683,
+        "y": 408,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000097",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1942,
+      "y": 408,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1942,
+        "y": 408,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1433.6,
+      "y": 253.75,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1433.6,
+        "y": 253.75,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a0",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1424,
+      "y": 408,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1424,
+        "y": 408,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a6",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 1519,
+      "y": 408,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1519,
+        "y": 408,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "null.null",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1260,
+      "y": 422,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1260,
+        "y": 422,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d5",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1119.33,
+      "y": 570,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1119.33,
+        "y": 570,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d8",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1153.83,
+      "y": 704,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1153.83,
+        "y": 704,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000de",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1283.33,
+      "y": 570,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1283.33,
+        "y": 570,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 1317.83,
+      "y": 704,
+      "w": 71,
+      "h": 50,
+      "inner": {
+        "x": 1317.83,
+        "y": 704,
+        "w": 71,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000011/fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 209.5,
+      "y": 235,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 209.5,
+        "y": 235,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000029/fuelCmd",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 826.1,
+      "y": 394,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 826.1,
+        "y": 394,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmd",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000029/engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 966.1,
+      "y": 394,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 966.1,
+        "y": 394,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000054/engineTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 545.5,
+      "y": 394,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 545.5,
+        "y": 394,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "engineTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000054/transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 685.5,
+      "y": 394,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 685.5,
+        "y": 394,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000007d/transmissionTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1676,
+      "y": 394,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1676,
+        "y": 394,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "transmissionTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000007d/driveshaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1816,
+      "y": 394,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1816,
+        "y": 394,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "driveshaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a6/driveshaftTorque",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1512,
+      "y": 394,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1512,
+        "y": 394,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "driveshaftTorque",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a6/wheelTorque1",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1652,
+      "y": 394,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1652,
+        "y": 394,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque1",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000a6/wheelTorque2",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1652,
+      "y": 394,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1652,
+        "y": 394,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelTorque2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-00000000000b#1",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-00000000000b",
+      "d": "M1749.5,136.70616603513608 C1100.5,136.70616603513608 1100.5,270.38029624526354 451.5,270.38029624526354",
+      "start": {
+        "x": 1749.5,
+        "y": 136.71
+      },
+      "end": {
+        "x": 451.5,
+        "y": 270.38
+      },
+      "length": 1307.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000014→00000000-0000-0000-0000-000000000011#2",
+      "source": "00000000-0000-0000-0000-000000000014",
+      "target": "00000000-0000-0000-0000-000000000011",
+      "d": "M258.3125,151 C258.3125,200 280.7708333333333,200 280.7708333333333,249",
+      "start": {
+        "x": 258.31,
+        "y": 151
+      },
+      "end": {
+        "x": 280.77,
+        "y": 249
+      },
+      "length": 101.54,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-000000000011#3",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-000000000011",
+      "d": "M1749.5,135.8292220113852 C1053,135.8292220113852 1053,267.4471853257432 356.5,267.4471853257432",
+      "start": {
+        "x": 1749.5,
+        "y": 135.83
+      },
+      "end": {
+        "x": 356.5,
+        "y": 267.45
+      },
+      "length": 1401.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-000000000020#4",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-000000000020",
+      "d": "M1749.5,148.84722222222223 C1492.5,148.84722222222223 1492.5,263.51851851851853 1235.5,263.51851851851853",
+      "start": {
+        "x": 1749.5,
+        "y": 148.85
+      },
+      "end": {
+        "x": 1235.5,
+        "y": 263.52
+      },
+      "length": 531.64,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020→00000000-0000-0000-0000-000000000023#5",
+      "source": "00000000-0000-0000-0000-000000000020",
+      "target": "00000000-0000-0000-0000-000000000023",
+      "d": "M1171.172609400324,316.75 C1171.172609400324,362.375 1194.827390599676,362.375 1194.827390599676,408",
+      "start": {
+        "x": 1171.17,
+        "y": 316.75
+      },
+      "end": {
+        "x": 1194.83,
+        "y": 408
+      },
+      "length": 95.43,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000002f→00000000-0000-0000-0000-000000000029#6",
+      "source": "00000000-0000-0000-0000-00000000002f",
+      "target": "00000000-0000-0000-0000-000000000029",
+      "d": "M866.6214953271028,310 C866.6214953271028,359 895.6856697819314,359 895.6856697819314,408",
+      "start": {
+        "x": 866.62,
+        "y": 310
+      },
+      "end": {
+        "x": 895.69,
+        "y": 408
+      },
+      "length": 103.81,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020→00000000-0000-0000-0000-000000000029#7",
+      "source": "00000000-0000-0000-0000-000000000020",
+      "target": "00000000-0000-0000-0000-000000000029",
+      "d": "M1122.9716369529983,316.75 C1122.9716369529983,362.375 945.6283630470016,362.375 945.6283630470016,408",
+      "start": {
+        "x": 1122.97,
+        "y": 316.75
+      },
+      "end": {
+        "x": 945.63,
+        "y": 408
+      },
+      "length": 209.46,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000020→00000000-0000-0000-0000-000000000045#8",
+      "source": "00000000-0000-0000-0000-000000000020",
+      "target": "00000000-0000-0000-0000-000000000045",
+      "d": "M1155.7755267423015,316.75 C1155.7755267423015,362.375 1115.2244732576985,362.375 1115.2244732576985,408",
+      "start": {
+        "x": 1155.78,
+        "y": 316.75
+      },
+      "end": {
+        "x": 1115.22,
+        "y": 408
+      },
+      "length": 102.73,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-00000000004b#9",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-00000000004b",
+      "d": "M1749.5,138.1321860816944 C1182.5,138.1321860816944 1182.5,270.6618759455371 615.5,270.6618759455371",
+      "start": {
+        "x": 1749.5,
+        "y": 138.13
+      },
+      "end": {
+        "x": 615.5,
+        "y": 270.66
+      },
+      "length": 1144.93,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b→00000000-0000-0000-0000-00000000004e#10",
+      "source": "00000000-0000-0000-0000-00000000004b",
+      "target": "00000000-0000-0000-0000-00000000004e",
+      "d": "M519.6860465116279,316.75 C519.6860465116279,355.375 426.4976744186047,355.375 426.4976744186047,394",
+      "start": {
+        "x": 519.69,
+        "y": 316.75
+      },
+      "end": {
+        "x": 426.5,
+        "y": 394
+      },
+      "length": 128.16,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b→00000000-0000-0000-0000-000000000054#11",
+      "source": "00000000-0000-0000-0000-00000000004b",
+      "target": "00000000-0000-0000-0000-000000000054",
+      "d": "M557.9797406807131,316.75 C557.9797406807131,362.375 610.0202593192869,362.375 610.0202593192869,408",
+      "start": {
+        "x": 557.98,
+        "y": 316.75
+      },
+      "end": {
+        "x": 610.02,
+        "y": 408
+      },
+      "length": 109.14,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000004b→00000000-0000-0000-0000-00000000006e#12",
+      "source": "00000000-0000-0000-0000-00000000004b",
+      "target": "00000000-0000-0000-0000-00000000006e",
+      "d": "M536.9910858995138,316.75 C536.9910858995138,362.375 501.5089141004862,362.375 501.5089141004862,408",
+      "start": {
+        "x": 536.99,
+        "y": 316.75
+      },
+      "end": {
+        "x": 501.51,
+        "y": 408
+      },
+      "length": 100.24,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-000000000074#13",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-000000000074",
+      "d": "M1879.7749590834696,164 C1879.7749590834696,208.875 1930.2250409165304,208.875 1930.2250409165304,253.75",
+      "start": {
+        "x": 1879.77,
+        "y": 164
+      },
+      "end": {
+        "x": 1930.23,
+        "y": 253.75
+      },
+      "length": 106.91,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074→00000000-0000-0000-0000-000000000077#14",
+      "source": "00000000-0000-0000-0000-000000000074",
+      "target": "00000000-0000-0000-0000-000000000077",
+      "d": "M1932.7755267423015,316.75 C1932.7755267423015,362.375 1892.2244732576985,362.375 1892.2244732576985,408",
+      "start": {
+        "x": 1932.78,
+        "y": 316.75
+      },
+      "end": {
+        "x": 1892.22,
+        "y": 408
+      },
+      "length": 102.73,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074→00000000-0000-0000-0000-00000000007d#15",
+      "source": "00000000-0000-0000-0000-000000000074",
+      "target": "00000000-0000-0000-0000-00000000007d",
+      "d": "M1911.7868719611022,316.75 C1911.7868719611022,362.375 1783.7131280388978,362.375 1783.7131280388978,408",
+      "start": {
+        "x": 1911.79,
+        "y": 316.75
+      },
+      "end": {
+        "x": 1783.71,
+        "y": 408
+      },
+      "length": 166.34,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000074→00000000-0000-0000-0000-000000000097#16",
+      "source": "00000000-0000-0000-0000-000000000074",
+      "target": "00000000-0000-0000-0000-000000000097",
+      "d": "M1948.172609400324,316.75 C1948.172609400324,362.375 1971.827390599676,362.375 1971.827390599676,408",
+      "start": {
+        "x": 1948.17,
+        "y": 316.75
+      },
+      "end": {
+        "x": 1971.83,
+        "y": 408
+      },
+      "length": 95.43,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "4a-Functional Allocation::vehicle1_c1_functional_allocation→00000000-0000-0000-0000-00000000009d#17",
+      "source": "4a-Functional Allocation::vehicle1_c1_functional_allocation",
+      "target": "00000000-0000-0000-0000-00000000009d",
+      "d": "M1807.941898527005,164 C1807.941898527005,208.875 1563.158101472995,208.875 1563.158101472995,253.75",
+      "start": {
+        "x": 1807.94,
+        "y": 164
+      },
+      "end": {
+        "x": 1563.16,
+        "y": 253.75
+      },
+      "length": 270.75,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d→00000000-0000-0000-0000-0000000000a0#18",
+      "source": "00000000-0000-0000-0000-00000000009d",
+      "target": "00000000-0000-0000-0000-0000000000a0",
+      "d": "M1496.4525121555914,316.75 C1496.4525121555914,362.375 1466.6474878444085,362.375 1466.6474878444085,408",
+      "start": {
+        "x": 1496.45,
+        "y": 316.75
+      },
+      "end": {
+        "x": 1466.65,
+        "y": 408
+      },
+      "length": 97.75,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d→00000000-0000-0000-0000-0000000000a6#19",
+      "source": "00000000-0000-0000-0000-00000000009d",
+      "target": "00000000-0000-0000-0000-0000000000a6",
+      "d": "M1517.4411669367908,316.75 C1517.4411669367908,362.375 1575.1588330632092,362.375 1575.1588330632092,408",
+      "start": {
+        "x": 1517.44,
+        "y": 316.75
+      },
+      "end": {
+        "x": 1575.16,
+        "y": 408
+      },
+      "length": 112.65,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000009d→00000000-0000-0000-0000-0000000000d2#20",
+      "source": "00000000-0000-0000-0000-00000000009d",
+      "target": "00000000-0000-0000-0000-0000000000d2",
+      "d": "M1477.8050520059435,316.75 C1477.8050520059435,369.375 1355.7949479940564,369.375 1355.7949479940564,422",
+      "start": {
+        "x": 1477.81,
+        "y": 316.75
+      },
+      "end": {
+        "x": 1355.79,
+        "y": 422
+      },
+      "length": 170.59,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2→00000000-0000-0000-0000-0000000000d5#21",
+      "source": "00000000-0000-0000-0000-0000000000d2",
+      "target": "00000000-0000-0000-0000-0000000000d5",
+      "d": "M1306.2387387387387,485 C1306.2387387387387,527.5 1213.0945945945946,527.5 1213.0945945945946,570",
+      "start": {
+        "x": 1306.24,
+        "y": 485
+      },
+      "end": {
+        "x": 1213.09,
+        "y": 570
+      },
+      "length": 133.46,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d5→00000000-0000-0000-0000-0000000000d8#22",
+      "source": "00000000-0000-0000-0000-0000000000d5",
+      "target": "00000000-0000-0000-0000-0000000000d8",
+      "d": "M1189.3333333333333,633 C1189.3333333333333,668.5 1189.3333333333333,668.5 1189.3333333333333,704",
+      "start": {
+        "x": 1189.33,
+        "y": 633
+      },
+      "end": {
+        "x": 1189.33,
+        "y": 704
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000d2→00000000-0000-0000-0000-0000000000de#23",
+      "source": "00000000-0000-0000-0000-0000000000d2",
+      "target": "00000000-0000-0000-0000-0000000000de",
+      "d": "M1333.9414414414414,485 C1333.9414414414414,527.5 1349.3918918918919,527.5 1349.3918918918919,570",
+      "start": {
+        "x": 1333.94,
+        "y": 485
+      },
+      "end": {
+        "x": 1349.39,
+        "y": 570
+      },
+      "length": 86.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000de→00000000-0000-0000-0000-0000000000e1#24",
+      "source": "00000000-0000-0000-0000-0000000000de",
+      "target": "00000000-0000-0000-0000-0000000000e1",
+      "d": "M1353.3333333333333,633 C1353.3333333333333,668.5 1353.3333333333333,668.5 1353.3333333333333,704",
+      "start": {
+        "x": 1353.33,
+        "y": 633
+      },
+      "end": {
+        "x": 1353.33,
+        "y": 704
+      },
+      "length": 71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [],
+  "schemaVersion": 8,
+  "modelDigest": "e3d623dd3a34288b",
+  "unsettled": false
+}

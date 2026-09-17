@@ -1,0 +1,3456 @@
+{
+  "zoom": 0.375739,
+  "nodes": [
+    {
+      "id": "2a-Parts Interconnection",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 4049.03,
+      "h": 1938,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 4049.03,
+        "h": 1938
+      },
+      "clipped": 0,
+      "title": "2a-Parts Interconnection",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 3265.04,
+      "y": 61,
+      "w": 784,
+      "h": 1877,
+      "inner": {
+        "x": 3265.04,
+        "y": 61,
+        "w": 784,
+        "h": 1877
+      },
+      "clipped": 0,
+      "title": "Definitions",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 198.32,
+      "y": 906.33,
+      "w": 2972.72,
+      "h": 683.66,
+      "inner": {
+        "x": 198.32,
+        "y": 906.33,
+        "w": 2972.72,
+        "h": 683.66
+      },
+      "clipped": 0,
+      "title": "Usages",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::FuelCmdPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 1872,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 1872,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "FuelCmdPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::DrivePwrPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 952,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 952,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "DrivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::ClutchPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 878,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 878,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::ShaftPort_a",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 1798,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 1798,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ShaftPort_a",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::ShaftPort_b",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 656,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 656,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ShaftPort_b",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::ShaftPort_c",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 328,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 328,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ShaftPort_c",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::ShaftPort_d",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 582,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 582,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "ShaftPort_d",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::DiffPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 730,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 730,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "DiffPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::AxlePort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 1026,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 1026,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AxlePort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::AxleToWheelPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 1724,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 1724,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AxleToWheelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::WheelToAxlePort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 180,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 180,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "WheelToAxlePort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::WheelToRoadPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 1100,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 1100,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "WheelToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::VehicleToRoadPort",
+      "type": "default",
+      "form": "definition",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-def fam-port",
+      "x": 3447.04,
+      "y": 1566,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 1566,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "VehicleToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::VehicleA",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3315.04,
+      "y": 1248,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3315.04,
+        "y": 1248,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "VehicleA",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::AxleAssembly",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3831.04,
+      "y": 804,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3831.04,
+        "y": 804,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "AxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::RearAxleAssembly",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3447.04,
+      "y": 804,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 804,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "RearAxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Axle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3831.04,
+      "y": 1174,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3831.04,
+        "y": 1174,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Axle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::RearAxle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3447.04,
+      "y": 1174,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3447.04,
+        "y": 1174,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "RearAxle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::HalfAxle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3315.04,
+      "y": 1322,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3315.04,
+        "y": 1322,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "HalfAxle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Engine",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3315.04,
+      "y": 106,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3315.04,
+        "y": 106,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Transmission",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3315.04,
+      "y": 254,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3315.04,
+        "y": 254,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Driveshaft",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3831.04,
+      "y": 515.6,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3831.04,
+        "y": 515.6,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Driveshaft",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Differential",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3831.04,
+      "y": 1416.83,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3831.04,
+        "y": 1416.83,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Differential",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008a",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 3301.04,
+      "y": 1396,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 3301.04,
+        "y": 1396,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "Ports do not have to be defined on part defs. They can be added directly to their usages.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Wheel",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 3315.04,
+      "y": 1492,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 3315.04,
+        "y": 1492,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::EngineToTransmissionInterface",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 3831.04,
+      "y": 1664.5,
+      "w": 202,
+      "h": 50,
+      "inner": {
+        "x": 3831.04,
+        "y": 1664.5,
+        "w": 202,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "EngineToTransmissionInterface",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "interface def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000090",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 3428.04,
+      "y": 1640,
+      "w": 291,
+      "h": 60,
+      "inner": {
+        "x": 3428.04,
+        "y": 1640,
+        "w": 291,
+        "h": 60
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The ends of an interface definition are always ports.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::DriveshaftInterface",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 3541.04,
+      "y": 402,
+      "w": 178,
+      "h": 159,
+      "inner": {
+        "x": 3541.04,
+        "y": 402,
+        "w": 178,
+        "h": 159
+      },
+      "clipped": 0,
+      "title": "DriveshaftInterface",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "interface def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 744.32,
+      "y": 951.33,
+      "w": 2405.72,
+      "h": 622.66,
+      "inner": {
+        "x": 744.32,
+        "y": 951.33,
+        "w": 2405.72,
+        "h": 622.66
+      },
+      "clipped": 0,
+      "title": "vehicle1_c1: VehicleA",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e7",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 214.32,
+      "y": 1063.83,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 214.32,
+        "y": 1063.83,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "This 'driveshaft' is the part of 'vehicle1_c1' that will act as the interface medium in the following 'DriveshaftInterface' usage.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016f",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 214.32,
+      "y": 1320.33,
+      "w": 432,
+      "h": 105,
+      "inner": {
+        "x": 214.32,
+        "y": 1320.33,
+        "w": 432,
+        "h": 105
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "The two rear wheels of 'rearAxleAssembly' must be given their own names in order to be referenced in connections. (\":>\" is a shorthand here for \"subsets\".)",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000119",
+      "type": "annotation",
+      "form": "note",
+      "fam": "#888888",
+      "classes": "smlml-annotation fam-default",
+      "x": 214.32,
+      "y": 1449.33,
+      "w": 432,
+      "h": 75,
+      "inner": {
+        "x": 214.32,
+        "y": 1449.33,
+        "w": 432,
+        "h": 75
+      },
+      "clipped": 0,
+      "title": null,
+      "titleDecor": null,
+      "body": "If the part def has no ports, then they can be defined directly in a usage of the part def.",
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "none",
+        "borderWidth": "0px",
+        "fill": "color(srgb 0.389216 0.389216 0.389216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::VehicleA::fuelCmdPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3308.04,
+      "y": 1278.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3308.04,
+        "y": 1278.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmdPort: FuelCmdPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::VehicleA::vehicleToRoadPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3308.04,
+      "y": 1259,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3308.04,
+        "y": 1259,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "vehicleToRoadPort: VehicleToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::RearAxleAssembly::shaftPort_d",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3440.04,
+      "y": 828,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3440.04,
+        "y": 828,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "shaftPort_d: ShaftPort_d",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::HalfAxle::axleToDiffPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3308.04,
+      "y": 1335.2,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3308.04,
+        "y": 1335.2,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "axleToDiffPort: AxlePort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::HalfAxle::axleToWheelPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3308.04,
+      "y": 1353.6,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3308.04,
+        "y": 1353.6,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "axleToWheelPort: AxleToWheelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Engine::fuelCmdPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3308.04,
+      "y": 136.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3308.04,
+        "y": 136.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "fuelCmdPort: FuelCmdPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Engine::drivePwrPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3308.04,
+      "y": 117,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3308.04,
+        "y": 117,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "drivePwrPort: DrivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Transmission::clutchPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3308.04,
+      "y": 284.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3308.04,
+        "y": 284.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "clutchPort: ClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Transmission::shaftPort_a",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3308.04,
+      "y": 265,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3308.04,
+        "y": 265,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "shaftPort_a: ShaftPort_a",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Driveshaft::shaftPort_b",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3824.04,
+      "y": 528.8,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3824.04,
+        "y": 528.8,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "shaftPort_b: ShaftPort_b",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::Driveshaft::shaftPort_c",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3824.04,
+      "y": 547.2,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3824.04,
+        "y": 547.2,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "shaftPort_c: ShaftPort_c",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::EngineToTransmissionInterface::drivePwrPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3824.04,
+      "y": 1695,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3824.04,
+        "y": 1695,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "drivePwrPort: DrivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::EngineToTransmissionInterface::clutchPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3824.04,
+      "y": 1675.5,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3824.04,
+        "y": 1675.5,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "clutchPort: ClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::DriveshaftInterface::shaftPort_a",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3712.04,
+      "y": 472,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3712.04,
+        "y": 472,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "shaftPort_a: ShaftPort_a",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::DriveshaftInterface::shaftPort_d",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3534.04,
+      "y": 496,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3534.04,
+        "y": 496,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "shaftPort_d: ShaftPort_d",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::DriveshaftInterface::driveshaft",
+      "type": "default",
+      "form": "usage",
+      "fam": "#888888",
+      "classes": "smlml-node smlml-usage fam-default",
+      "x": 3557.04,
+      "y": 495,
+      "w": 146,
+      "h": 50,
+      "inner": {
+        "x": 3557.04,
+        "y": 495,
+        "w": 146,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "driveshaft: Driveshaft",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "reference",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.906667 0.906667 0.906667)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::engine",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1018.32,
+      "y": 1026.33,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 1018.32,
+        "y": 1026.33,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "engine: Engine",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::transmission",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1270.32,
+      "y": 1032.33,
+      "w": 178,
+      "h": 50,
+      "inner": {
+        "x": 1270.32,
+        "y": 1032.33,
+        "w": 178,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "transmission: Transmission",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::driveshaft",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 774.32,
+      "y": 1076.33,
+      "w": 146,
+      "h": 50,
+      "inner": {
+        "x": 774.32,
+        "y": 1076.33,
+        "w": 146,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "driveshaft: Driveshaft",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1560.31,
+      "y": 1112.33,
+      "w": 1240.86,
+      "h": 445.66,
+      "inner": {
+        "x": 1560.31,
+        "y": 1112.33,
+        "w": 1240.86,
+        "h": 445.66
+      },
+      "clipped": 0,
+      "title": "rearAxleAssembly: RearAxleAssembly",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort",
+      "type": "default",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-node smlml-usage fam-port",
+      "x": 3005.04,
+      "y": 1456,
+      "w": 129,
+      "h": 50,
+      "inner": {
+        "x": 3005.04,
+        "y": 1456,
+        "w": 129,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "port",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.833726 0.942745 0.942745)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1/^2a-Parts Interconnection::Definitions::VehicleA::fuelCmdPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 3143.04,
+      "y": 1044.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 3143.04,
+        "y": 1044.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^fuelCmdPort: FuelCmdPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::engine/^2a-Parts Interconnection::Definitions::Engine::fuelCmdPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1011.32,
+      "y": 1044.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1011.32,
+        "y": 1044.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^fuelCmdPort: FuelCmdPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::engine/^2a-Parts Interconnection::Definitions::Engine::drivePwrPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1151.32,
+      "y": 1050.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1151.32,
+        "y": 1050.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^drivePwrPort: DrivePwrPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::transmission/^2a-Parts Interconnection::Definitions::Transmission::clutchPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1263.32,
+      "y": 1050.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1263.32,
+        "y": 1050.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^clutchPort: ClutchPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::transmission/^2a-Parts Interconnection::Definitions::Transmission::shaftPort_a",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1441.31,
+      "y": 1056.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1441.31,
+        "y": 1056.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^shaftPort_a: ShaftPort_a",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1705.18,
+      "y": 1357.83,
+      "w": 156,
+      "h": 50,
+      "inner": {
+        "x": 1705.18,
+        "y": 1357.83,
+        "w": 156,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "differential: Differential",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1964.18,
+      "y": 1182.33,
+      "w": 231,
+      "h": 210,
+      "inner": {
+        "x": 1964.18,
+        "y": 1182.33,
+        "w": 231,
+        "h": 210
+      },
+      "clipped": 0,
+      "title": "rearAxle: RearAxle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2645.18,
+      "y": 1492,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 2645.18,
+        "y": 1492,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rearWheel: Wheel",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2304.18,
+      "y": 1487.33,
+      "w": 240,
+      "h": 50,
+      "inner": {
+        "x": 2304.18,
+        "y": 1487.33,
+        "w": 240,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "leftWheel:>rearWheel = rearWheel#(1)",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 2298.18,
+      "y": 1413.33,
+      "w": 249,
+      "h": 50,
+      "inner": {
+        "x": 2298.18,
+        "y": 1413.33,
+        "w": 249,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rightWheel:>rearWheel = rearWheel#(2)",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly/^2a-Parts Interconnection::Definitions::RearAxleAssembly::shaftPort_d",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2794.18,
+      "y": 1348.83,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2794.18,
+        "y": 1348.83,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^shaftPort_d: ShaftPort_d",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort::leftWheelToRoadPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2998.04,
+      "y": 1474,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2998.04,
+        "y": 1474,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "leftWheelToRoadPort :>VehicleToRoadPort::wheelToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort::rightWheelToRoadPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2998.04,
+      "y": 1458,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2998.04,
+        "y": 1458,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "rightWheelToRoadPort :>VehicleToRoadPort::wheelToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort/^2a-Parts Interconnection::Definitions::VehicleToRoadPort::wheelToRoadPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2998.04,
+      "y": 1490,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2998.04,
+        "y": 1490,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^wheelToRoadPort: WheelToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::shaftPort_d",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1698.18,
+      "y": 1375.83,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1698.18,
+        "y": 1375.83,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "shaftPort_d: ShaftPort_d",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::leftDiffPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1854.18,
+      "y": 1382.83,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1854.18,
+        "y": 1382.83,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "leftDiffPort: DiffPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::rightDiffPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1854.18,
+      "y": 1363.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1854.18,
+        "y": 1363.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "rightDiffPort: DiffPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::leftHalfAxle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1999.51,
+      "y": 1326.33,
+      "w": 143,
+      "h": 50,
+      "inner": {
+        "x": 1999.51,
+        "y": 1326.33,
+        "w": 143,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "leftHalfAxle: HalfAxle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::rightHalfAxle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 1994.18,
+      "y": 1252.33,
+      "w": 151,
+      "h": 50,
+      "inner": {
+        "x": 1994.18,
+        "y": 1252.33,
+        "w": 151,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "rightHalfAxle: HalfAxle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel::wheelToAxlePort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2297.18,
+      "y": 1505.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2297.18,
+        "y": 1505.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelToAxlePort: WheelToAxlePort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel::wheelToRoadPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2537.18,
+      "y": 1499.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2537.18,
+        "y": 1499.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelToRoadPort: WheelToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel::wheelToAxlePort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2291.18,
+      "y": 1431.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2291.18,
+        "y": 1431.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelToAxlePort: WheelToAxlePort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel::wheelToRoadPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2540.18,
+      "y": 1425.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2540.18,
+        "y": 1425.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "wheelToRoadPort: WheelToRoadPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::leftHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToDiffPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1992.51,
+      "y": 1344.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1992.51,
+        "y": 1344.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^axleToDiffPort: AxlePort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::leftHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToWheelPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2135.51,
+      "y": 1350.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2135.51,
+        "y": 1350.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^axleToWheelPort: AxleToWheelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::rightHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToDiffPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 1987.18,
+      "y": 1270.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 1987.18,
+        "y": 1270.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^axleToDiffPort: AxlePort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::rightHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToWheelPort",
+      "type": "port",
+      "form": "usage",
+      "fam": "#2bb6b6",
+      "classes": "smlml-port-node fam-port",
+      "x": 2138.18,
+      "y": 1276.33,
+      "w": 14,
+      "h": 14,
+      "inner": {
+        "x": 2138.18,
+        "y": 1276.33,
+        "w": 14,
+        "h": 14
+      },
+      "clipped": 0,
+      "title": "^axleToWheelPort: AxleToWheelPort",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.152157 0.506471 0.506471)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "2a-Parts Interconnection→2a-Parts Interconnection::Definitions#0",
+      "source": "2a-Parts Interconnection",
+      "target": "2a-Parts Interconnection::Definitions",
+      "d": "M4065,1003.1592461988473 C4242.873108605344,1003.1592461988473 3077.1725166124884,995.9838604544587 3255.0456252178324,995.9838604544587",
+      "start": {
+        "x": 4065,
+        "y": 1003.16
+      },
+      "end": {
+        "x": 3255.05,
+        "y": 995.98
+      },
+      "length": 884.12,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection→2a-Parts Interconnection::Usages#1",
+      "source": "2a-Parts Interconnection",
+      "target": "2a-Parts Interconnection::Usages",
+      "d": "M731.6756245468309,1954 C731.6756245468309,2157.261172304665 2146.7547480588055,693.0721610286683 2146.7547480588055,896.3333333333333",
+      "start": {
+        "x": 731.68,
+        "y": 1954
+      },
+      "end": {
+        "x": 2146.75,
+        "y": 896.33
+      },
+      "length": 1831.14,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-chevron-open",
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::RearAxleAssembly→2a-Parts Interconnection::Definitions::AxleAssembly#2",
+      "source": "2a-Parts Interconnection::Definitions::RearAxleAssembly",
+      "target": "2a-Parts Interconnection::Definitions::AxleAssembly",
+      "d": "M3587.0456252178324,829 C3699.5456252178324,829 3699.5456252178324,829 3812.0456252178324,829",
+      "start": {
+        "x": 3587.05,
+        "y": 829
+      },
+      "end": {
+        "x": 3812.05,
+        "y": 829
+      },
+      "length": 225,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::RearAxle→2a-Parts Interconnection::Definitions::Axle#3",
+      "source": "2a-Parts Interconnection::Definitions::RearAxle",
+      "target": "2a-Parts Interconnection::Definitions::Axle",
+      "d": "M3587.0456252178324,1199 C3699.5456252178324,1199 3699.5456252178324,1199 3812.0456252178324,1199",
+      "start": {
+        "x": 3587.05,
+        "y": 1199
+      },
+      "end": {
+        "x": 3812.05,
+        "y": 1199
+      },
+      "length": 225,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000008a→2a-Parts Interconnection::Definitions::Differential#4",
+      "source": "00000000-0000-0000-0000-00000000008a",
+      "target": "2a-Parts Interconnection::Definitions::Differential",
+      "d": "M3733.0456252178324,1438.1875 C3782.0456252178324,1438.1875 3782.0456252178324,1440.314236111111 3831.0456252178324,1440.314236111111",
+      "start": {
+        "x": 3733.05,
+        "y": 1438.19
+      },
+      "end": {
+        "x": 3831.05,
+        "y": 1440.31
+      },
+      "length": 98.03,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000090→2a-Parts Interconnection::Definitions::EngineToTransmissionInterface#5",
+      "source": "00000000-0000-0000-0000-000000000090",
+      "target": "2a-Parts Interconnection::Definitions::EngineToTransmissionInterface",
+      "d": "M3719.0456252178324,1677.9142259414225 C3775.0456252178324,1677.9142259414225 3775.0456252178324,1684.0062761506276 3831.0456252178324,1684.0062761506276",
+      "start": {
+        "x": 3719.05,
+        "y": 1677.91
+      },
+      "end": {
+        "x": 3831.05,
+        "y": 1684.01
+      },
+      "length": 112.24,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Definitions::DriveshaftInterface::driveshaft→2a-Parts Interconnection::Definitions::Driveshaft#6",
+      "source": "2a-Parts Interconnection::Definitions::DriveshaftInterface::driveshaft",
+      "target": "2a-Parts Interconnection::Definitions::Driveshaft",
+      "d": "M3703.0456252178324,525.549077490775 C3757.5456252178324,525.549077490775 3757.5456252178324,535.278966789668 3812.0456252178324,535.278966789668",
+      "start": {
+        "x": 3703.05,
+        "y": 525.55
+      },
+      "end": {
+        "x": 3812.05,
+        "y": 535.28
+      },
+      "length": 109.62,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1→2a-Parts Interconnection::Definitions::VehicleA#7",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1",
+      "target": "2a-Parts Interconnection::Definitions::VehicleA",
+      "d": "M3150.3167331929812,1271.3401527120375 C3223.181179205407,1271.3401527120375 3223.181179205407,1272.5050063536914 3296.0456252178324,1272.5050063536914",
+      "start": {
+        "x": 3150.32,
+        "y": 1271.34
+      },
+      "end": {
+        "x": 3296.05,
+        "y": 1272.51
+      },
+      "length": 145.74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1/^2a-Parts Interconnection::Definitions::VehicleA::fuelCmdPort→2a-Parts Interconnection::Usages::vehicle1_c1::engine/^2a-Parts Interconnection::Definitions::Engine::fuelCmdPort#8",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1/^2a-Parts Interconnection::Definitions::VehicleA::fuelCmdPort",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::engine/^2a-Parts Interconnection::Definitions::Engine::fuelCmdPort",
+      "d": "M3143.0456252178324,1051.3333333333333 C2084.181179205407,1051.3333333333333 2084.181179205407,1051.3333333333333 1025.3167331929812,1051.3333333333333",
+      "start": {
+        "x": 3143.05,
+        "y": 1051.33
+      },
+      "end": {
+        "x": 1025.32,
+        "y": 1051.33
+      },
+      "length": 2117.73,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::engine→2a-Parts Interconnection::Definitions::Engine#9",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::engine",
+      "target": "2a-Parts Interconnection::Definitions::Engine",
+      "d": "M1150.7052398579085,1026.3333333333333 C1150.7052398579085,600.6666666666666 3322.657118552905,600.6666666666666 3322.657118552905,175",
+      "start": {
+        "x": 1150.71,
+        "y": 1026.33
+      },
+      "end": {
+        "x": 3322.66,
+        "y": 175
+      },
+      "length": 2428.19,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::engine/^2a-Parts Interconnection::Definitions::Engine::drivePwrPort→2a-Parts Interconnection::Usages::vehicle1_c1::transmission/^2a-Parts Interconnection::Definitions::Transmission::clutchPort#10",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::engine/^2a-Parts Interconnection::Definitions::Engine::drivePwrPort",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::transmission/^2a-Parts Interconnection::Definitions::Transmission::clutchPort",
+      "d": "M1165.3167331929812,1057.3333333333333 C1214.3167331929812,1057.3333333333333 1214.3167331929812,1057.3333333333333 1263.3167331929812,1057.3333333333333",
+      "start": {
+        "x": 1165.32,
+        "y": 1057.33
+      },
+      "end": {
+        "x": 1263.32,
+        "y": 1057.33
+      },
+      "length": 98,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::transmission→2a-Parts Interconnection::Definitions::Transmission#11",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::transmission",
+      "target": "2a-Parts Interconnection::Definitions::Transmission",
+      "d": "M1424.38297169485,1032.3333333333333 C1424.38297169485,677.6666666666666 3319.9793867159633,677.6666666666666 3319.9793867159633,323",
+      "start": {
+        "x": 1424.38,
+        "y": 1032.33
+      },
+      "end": {
+        "x": 3319.98,
+        "y": 323
+      },
+      "length": 2103.29,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-0000000000e7→2a-Parts Interconnection::Usages::vehicle1_c1::driveshaft#12",
+      "source": "00000000-0000-0000-0000-0000000000e7",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::driveshaft",
+      "d": "M646.3167331929812,1101.3333333333333 C710.3167331929812,1101.3333333333333 710.3167331929812,1101.3333333333333 774.3167331929812,1101.3333333333333",
+      "start": {
+        "x": 646.32,
+        "y": 1101.33
+      },
+      "end": {
+        "x": 774.32,
+        "y": 1101.33
+      },
+      "length": 128,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::driveshaft→2a-Parts Interconnection::Definitions::Driveshaft#13",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::driveshaft",
+      "target": "2a-Parts Interconnection::Definitions::Driveshaft",
+      "d": "M920.3167331929812,1087.9288908367398 C2366.181179205407,1087.9288908367398 2366.181179205407,553.4535749967336 3812.0456252178324,553.4535749967336",
+      "start": {
+        "x": 920.32,
+        "y": 1087.93
+      },
+      "end": {
+        "x": 3812.05,
+        "y": 553.45
+      },
+      "length": 2960.52,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::transmission/^2a-Parts Interconnection::Definitions::Transmission::shaftPort_a→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly/^2a-Parts Interconnection::Definitions::RearAxleAssembly::shaftPort_d#14",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::transmission/^2a-Parts Interconnection::Definitions::Transmission::shaftPort_a",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly/^2a-Parts Interconnection::Definitions::RearAxleAssembly::shaftPort_d",
+      "d": "M1455.3167331929812,1064.846788732383 C2124.7489561991943,1064.846788732383 2124.7489561991943,1354.3198779342836 2794.181179205407,1354.3198779342836",
+      "start": {
+        "x": 1455.32,
+        "y": 1064.85
+      },
+      "end": {
+        "x": 2794.18,
+        "y": 1354.32
+      },
+      "length": 1382.11,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-00000000016f→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly#15",
+      "source": "00000000-0000-0000-0000-00000000016f",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly",
+      "d": "M646.3167331929812,1368.2060839760068 C1103.3167331929812,1368.2060839760068 1103.3167331929812,1348.6259640102826 1560.3167331929812,1348.6259640102826",
+      "start": {
+        "x": 646.32,
+        "y": 1368.21
+      },
+      "end": {
+        "x": 1560.32,
+        "y": 1348.63
+      },
+      "length": 914.3,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly→2a-Parts Interconnection::Definitions::RearAxleAssembly#16",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly",
+      "target": "2a-Parts Interconnection::Definitions::RearAxleAssembly",
+      "d": "M2769.32043876548,1112.3333333333333 C2769.32043876548,992.6666666666666 3451.0698734720368,992.6666666666666 3451.0698734720368,873",
+      "start": {
+        "x": 2769.32,
+        "y": 1112.33
+      },
+      "end": {
+        "x": 3451.07,
+        "y": 873
+      },
+      "length": 749.2,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly/^2a-Parts Interconnection::Definitions::RearAxleAssembly::shaftPort_d→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::shaftPort_d#17",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly/^2a-Parts Interconnection::Definitions::RearAxleAssembly::shaftPort_d",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::shaftPort_d",
+      "d": "M2794.181179205407,1356.0057785888077 C2253.181179205407,1356.0057785888077 2253.181179205407,1382.6608880778588 1712.1811792054068,1382.6608880778588",
+      "start": {
+        "x": 2794.18,
+        "y": 1356.01
+      },
+      "end": {
+        "x": 1712.18,
+        "y": 1382.66
+      },
+      "length": 1082.47,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential→2a-Parts Interconnection::Definitions::Differential#18",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential",
+      "target": "2a-Parts Interconnection::Definitions::Differential",
+      "d": "M1861.1811792054068,1385.0062769363408 C2836.6134022116194,1385.0062769363408 2836.6134022116194,1439.8832557408905 3812.0456252178324,1439.8832557408905",
+      "start": {
+        "x": 1861.18,
+        "y": 1385.01
+      },
+      "end": {
+        "x": 3812.05,
+        "y": 1439.88
+      },
+      "length": 1951.96,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000119→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::shaftPort_d#19",
+      "source": "00000000-0000-0000-0000-000000000119",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::shaftPort_d",
+      "d": "M646.3167331929812,1469.2126364268788 C1172.248956199194,1469.2126364268788 1172.248956199194,1383.4043744367832 1698.1811792054068,1383.4043744367832",
+      "start": {
+        "x": 646.32,
+        "y": 1469.21
+      },
+      "end": {
+        "x": 1698.18,
+        "y": 1383.4
+      },
+      "length": 1056.83,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": "6 4",
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::leftDiffPort→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::leftHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToDiffPort#20",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::leftDiffPort",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::leftHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToDiffPort",
+      "d": "M1868.1811792054068,1387.8851405622488 C1930.3478458720733,1387.8851405622488 1930.3478458720733,1353.2815261044177 1992.51451253874,1353.2815261044177",
+      "start": {
+        "x": 1868.18,
+        "y": 1387.89
+      },
+      "end": {
+        "x": 1992.51,
+        "y": 1353.28
+      },
+      "length": 130.87,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::rightDiffPort→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::rightHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToDiffPort#21",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::rightDiffPort",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::rightHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToDiffPort",
+      "d": "M1868.1811792054068,1365.438596491228 C1927.6811792054068,1365.438596491228 1927.6811792054068,1282.2280701754385 1987.1811792054068,1282.2280701754385",
+      "start": {
+        "x": 1868.18,
+        "y": 1365.44
+      },
+      "end": {
+        "x": 1987.18,
+        "y": 1282.23
+      },
+      "length": 152.07,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle→2a-Parts Interconnection::Definitions::RearAxle#22",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle",
+      "target": "2a-Parts Interconnection::Definitions::RearAxle",
+      "d": "M2195.181179205407,1280.2352726930385 C2811.6134022116194,1280.2352726930385 2811.6134022116194,1203.301854933512 3428.0456252178324,1203.301854933512",
+      "start": {
+        "x": 2195.18,
+        "y": 1280.24
+      },
+      "end": {
+        "x": 3428.05,
+        "y": 1203.3
+      },
+      "length": 1236.28,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::leftHalfAxle→2a-Parts Interconnection::Definitions::HalfAxle#23",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::leftHalfAxle",
+      "target": "2a-Parts Interconnection::Definitions::HalfAxle",
+      "d": "M2142.51451253874,1351.0975449031023 C2719.2800688782863,1351.0975449031023 2719.2800688782863,1347.2308418198065 3296.0456252178324,1347.2308418198065",
+      "start": {
+        "x": 2142.51,
+        "y": 1351.1
+      },
+      "end": {
+        "x": 3296.05,
+        "y": 1347.23
+      },
+      "length": 1153.54,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::rightHalfAxle→2a-Parts Interconnection::Definitions::HalfAxle#24",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::rightHalfAxle",
+      "target": "2a-Parts Interconnection::Definitions::HalfAxle",
+      "d": "M2145.181179205407,1281.3320983518638 C2720.6134022116194,1281.3320983518638 2720.6134022116194,1343.2925357444087 3296.0456252178324,1343.2925357444087",
+      "start": {
+        "x": 2145.18,
+        "y": 1281.33
+      },
+      "end": {
+        "x": 3296.05,
+        "y": 1343.29
+      },
+      "length": 1153.24,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::leftHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToWheelPort→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel::wheelToAxlePort#25",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::leftHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToWheelPort",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel::wheelToAxlePort",
+      "d": "M2149.51451253874,1364.0446735395187 C2223.3478458720733,1364.0446735395187 2223.3478458720733,1505.6219931271478 2297.181179205407,1505.6219931271478",
+      "start": {
+        "x": 2149.51,
+        "y": 1364.04
+      },
+      "end": {
+        "x": 2297.18,
+        "y": 1505.62
+      },
+      "length": 216.15,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::rightHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToWheelPort→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel::wheelToAxlePort#26",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearAxle::rightHalfAxle/^2a-Parts Interconnection::Definitions::HalfAxle::axleToWheelPort",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel::wheelToAxlePort",
+      "d": "M2152.0908566247617,1290.3333333333333 C2221.681179205407,1290.3333333333333 2221.681179205407,1431.3333333333333 2291.271501786052,1431.3333333333333",
+      "start": {
+        "x": 2152.09,
+        "y": 1290.33
+      },
+      "end": {
+        "x": 2291.27,
+        "y": 1431.33
+      },
+      "length": 209.52,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearWheel→2a-Parts Interconnection::Definitions::Wheel#27",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearWheel",
+      "target": "2a-Parts Interconnection::Definitions::Wheel",
+      "d": "M2785.181179205407,1517 C3040.6134022116194,1517 3040.6134022116194,1517 3296.0456252178324,1517",
+      "start": {
+        "x": 2785.18,
+        "y": 1517
+      },
+      "end": {
+        "x": 3296.05,
+        "y": 1517
+      },
+      "length": 510.86,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearWheel#28",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearWheel",
+      "d": "M2544.181179205407,1514.2577319587629 C2585.181179205407,1514.2577319587629 2585.181179205407,1515.8774341351661 2626.181179205407,1515.8774341351661",
+      "start": {
+        "x": 2544.18,
+        "y": 1514.26
+      },
+      "end": {
+        "x": 2626.18,
+        "y": 1515.88
+      },
+      "length": 82.02,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearWheel#29",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rearWheel",
+      "d": "M2515.636687679983,1463.3333333333333 C2515.636687679983,1480.7535612535612 2570.908933442695,1498.1737891737891 2626.181179205407,1498.1737891737891",
+      "start": {
+        "x": 2515.64,
+        "y": 1463.33
+      },
+      "end": {
+        "x": 2626.18,
+        "y": 1498.17
+      },
+      "length": 121.11,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel::wheelToRoadPort→2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort::leftWheelToRoadPort#30",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel::wheelToRoadPort",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort::leftWheelToRoadPort",
+      "d": "M2551.181179205407,1505.9485491850492 C2774.6134022116194,1505.9485491850492 2774.6134022116194,1481.384784148284 2998.0456252178324,1481.384784148284",
+      "start": {
+        "x": 2551.18,
+        "y": 1505.95
+      },
+      "end": {
+        "x": 2998.05,
+        "y": 1481.38
+      },
+      "length": 447.82,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel::wheelToRoadPort→2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort::rightWheelToRoadPort#31",
+      "source": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel::wheelToRoadPort",
+      "target": "2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort::rightWheelToRoadPort",
+      "d": "M2554.181179205407,1432.832753344339 C2776.1134022116194,1432.832753344339 2776.1134022116194,1464.5005799889943 2998.0456252178324,1464.5005799889943",
+      "start": {
+        "x": 2554.18,
+        "y": 1432.83
+      },
+      "end": {
+        "x": 2998.05,
+        "y": 1464.5
+      },
+      "length": 445.47,
+      "width": 5,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 3619.86,
+      "y": 991.77,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "2a-Parts Interconnection→2a-Parts Interconnection::Definitions#0"
+    },
+    {
+      "x": 1399.06,
+      "y": 1417.37,
+      "w": 80.31,
+      "h": 15.59,
+      "text": "<<import>>*",
+      "edge": "2a-Parts Interconnection→2a-Parts Interconnection::Usages#1"
+    },
+    {
+      "x": 2076.74,
+      "y": 1043.54,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "2a-Parts Interconnection::Usages::vehicle1_c1/^2a-Parts Interconnection::Definitions::VehicleA::fuelCmdPort→2a-Parts Interconnection::Usages::vehicle1_c1::engine/^2a-Parts Interconnection::Definitions::Engine::fuelCmdPort#8"
+    },
+    {
+      "x": 2245.74,
+      "y": 1361.53,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly/^2a-Parts Interconnection::Definitions::RearAxleAssembly::shaftPort_d→2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::differential::shaftPort_d#17"
+    },
+    {
+      "x": 2767.17,
+      "y": 1485.87,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::leftWheel::wheelToRoadPort→2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort::leftWheelToRoadPort#30"
+    },
+    {
+      "x": 2768.67,
+      "y": 1440.87,
+      "w": 14.87,
+      "h": 15.59,
+      "text": "=",
+      "edge": "2a-Parts Interconnection::Usages::vehicle1_c1::rearAxleAssembly::rightWheel::wheelToRoadPort→2a-Parts Interconnection::Usages::vehicle1_c1::vehicleToRoadPort::rightWheelToRoadPort#31"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "68c06a83a1060172",
+  "unsettled": false
+}

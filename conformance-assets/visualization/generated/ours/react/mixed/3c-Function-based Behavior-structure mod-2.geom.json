@@ -1,0 +1,989 @@
+{
+  "zoom": 0.81452,
+  "nodes": [
+    {
+      "id": "3c-Function-based Behavior-structure mod-2",
+      "type": "package",
+      "form": "package",
+      "fam": "#8a8f98",
+      "classes": "smlml-package-symbol fam-package",
+      "x": 16,
+      "y": 16,
+      "w": 862.33,
+      "h": 924,
+      "inner": {
+        "x": 16,
+        "y": 16,
+        "w": 862.33,
+        "h": 924
+      },
+      "clipped": 0,
+      "title": "3c-Function-based Behavior-structure mod-2",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": null,
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::HitchBall",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 348,
+      "y": 1138.47,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 348,
+        "y": 1138.47,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "HitchBall",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::TrailerCoupler",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 512,
+      "y": 1138.47,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 512,
+        "y": 1138.47,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TrailerCoupler",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::Vehicle",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 350.33,
+      "y": 606,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 350.33,
+        "y": 606,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::VehicleFrame",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 32,
+      "y": 740,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 32,
+        "y": 740,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "VehicleFrame",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::Trailer",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 514.33,
+      "y": 606,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 514.33,
+        "y": 606,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "Trailer",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::TrailerFrame",
+      "type": "default",
+      "form": "definition",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-def fam-part",
+      "x": 722.33,
+      "y": 740,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 722.33,
+        "y": 740,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TrailerFrame",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::TrailerHitch",
+      "type": "default",
+      "form": "definition",
+      "fam": "#8a8f98",
+      "classes": "smlml-node smlml-def fam-connection",
+      "x": 445.33,
+      "y": 874,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 445.33,
+        "y": 874,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "TrailerHitch",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "connection def",
+      "compartments": [],
+      "shape": {
+        "radius": "0px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.908235 0.912157 0.919216)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 416.5,
+      "y": 61,
+      "w": 432,
+      "h": 107,
+      "inner": {
+        "x": 416.5,
+        "y": 61,
+        "w": 432,
+        "h": 107
+      },
+      "clipped": 0,
+      "title": "vehicle-trailer system",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [
+        {
+          "title": "connections",
+          "entries": [
+            {
+              "text": "trailerHitch: TrailerHitch connect vehicle.vehicleFrame.hitch to trailer.trailerFrame.coupler",
+              "kind": "connections"
+            }
+          ]
+        }
+      ],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 327,
+      "y": 398.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 327,
+        "y": 398.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicle: Vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 145.33,
+      "y": 606,
+      "w": 181,
+      "h": 50,
+      "inner": {
+        "x": 145.33,
+        "y": 606,
+        "w": 181,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "vehicleFrame: VehicleFrame",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame::hitch",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 196,
+      "y": 740,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 196,
+        "y": 740,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "hitch: HitchBall",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 670.5,
+      "y": 398.67,
+      "w": 140,
+      "h": 50,
+      "inner": {
+        "x": 670.5,
+        "y": 398.67,
+        "w": 140,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "trailer: Trailer",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 678.33,
+      "y": 606,
+      "w": 171,
+      "h": 50,
+      "inner": {
+        "x": 678.33,
+        "y": 606,
+        "w": 171,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "trailerFrame: TrailerFrame",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame::coupler",
+      "type": "default",
+      "form": "usage",
+      "fam": "#4a90d9",
+      "classes": "smlml-node smlml-usage fam-part",
+      "x": 609.33,
+      "y": 874,
+      "w": 153,
+      "h": 50,
+      "inner": {
+        "x": 609.33,
+        "y": 874,
+        "w": 153,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "coupler: TrailerCoupler",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "part",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.858039 0.912941 0.970196)"
+      },
+      "parent": null
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000044",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 76,
+      "y": 252,
+      "w": 227,
+      "h": 270,
+      "inner": {
+        "x": 76,
+        "y": 252,
+        "w": 227,
+        "h": 270
+      },
+      "clipped": 0,
+      "title": "noname",
+      "titleDecor": {
+        "strike": true,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "perform action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "connect trailer to vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 108,
+      "y": 322,
+      "w": 163,
+      "h": 50,
+      "inner": {
+        "x": 108,
+        "y": 322,
+        "w": 163,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "connect trailer to vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    },
+    {
+      "id": "disconnect trailer from vehicle",
+      "type": "default",
+      "form": "usage",
+      "fam": "#d98a2b",
+      "classes": "smlml-node smlml-usage fam-action",
+      "x": 92,
+      "y": 456,
+      "w": 195,
+      "h": 50,
+      "inner": {
+        "x": 92,
+        "y": 456,
+        "w": 195,
+        "h": 50
+      },
+      "clipped": 0,
+      "title": "disconnect trailer from vehicle",
+      "titleDecor": {
+        "strike": false,
+        "italic": false
+      },
+      "body": null,
+      "stereotype": "action",
+      "compartments": [],
+      "shape": {
+        "radius": "12px",
+        "borderStyle": "solid",
+        "borderWidth": "1px",
+        "fill": "color(srgb 0.970196 0.908235 0.833726)"
+      },
+      "parent": null
+    }
+  ],
+  "edges": [
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::TrailerHitch→3c-Function-based Behavior-structure mod-2::HitchBall#7",
+      "source": "3c-Function-based Behavior-structure mod-2::TrailerHitch",
+      "target": "3c-Function-based Behavior-structure mod-2::HitchBall",
+      "d": "M506.1325397423792,937 C506.1325397423792,1037.7349702380952 427.20079359095405,1037.7349702380952 427.20079359095405,1138.4699404761905",
+      "start": {
+        "x": 506.13,
+        "y": 937
+      },
+      "end": {
+        "x": 427.2,
+        "y": 1138.47
+      },
+      "length": 221.6,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::TrailerHitch→3c-Function-based Behavior-structure mod-2::TrailerCoupler#8",
+      "source": "3c-Function-based Behavior-structure mod-2::TrailerHitch",
+      "target": "3c-Function-based Behavior-structure mod-2::TrailerCoupler",
+      "d": "M521.635246751795,937 C521.635246751795,1037.7349702380952 575.6980865815383,1037.7349702380952 575.6980865815383,1138.4699404761905",
+      "start": {
+        "x": 521.64,
+        "y": 937
+      },
+      "end": {
+        "x": 575.7,
+        "y": 1138.47
+      },
+      "length": 211.34,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system→3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle#10",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system",
+      "target": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle",
+      "d": "M591.7477088948787,181 C591.7477088948787,289.8333333333333 416.04312668463615,289.8333333333333 416.04312668463615,398.66666666666663",
+      "start": {
+        "x": 591.75,
+        "y": 181
+      },
+      "end": {
+        "x": 416.04,
+        "y": 398.67
+      },
+      "length": 294.34,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle→3c-Function-based Behavior-structure mod-2::Vehicle#11",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle",
+      "target": "3c-Function-based Behavior-structure mod-2::Vehicle",
+      "d": "M399.8135048231511,448.66666666666663 C399.8135048231511,517.8333333333333 417.5198285101822,517.8333333333333 417.5198285101822,587",
+      "start": {
+        "x": 399.81,
+        "y": 448.67
+      },
+      "end": {
+        "x": 417.52,
+        "y": 587
+      },
+      "length": 139.93,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle→3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame#12",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle",
+      "target": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame",
+      "d": "M377.56672025723475,461.66666666666663 C377.56672025723475,533.8333333333333 255.2666130760986,533.8333333333333 255.2666130760986,606",
+      "start": {
+        "x": 377.57,
+        "y": 461.67
+      },
+      "end": {
+        "x": 255.27,
+        "y": 606
+      },
+      "length": 199.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame→3c-Function-based Behavior-structure mod-2::VehicleFrame#13",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame",
+      "target": "3c-Function-based Behavior-structure mod-2::VehicleFrame",
+      "d": "M210.8644278606965,656 C210.8644278606965,688.5 126.9689054726368,688.5 126.9689054726368,721",
+      "start": {
+        "x": 210.86,
+        "y": 656
+      },
+      "end": {
+        "x": 126.97,
+        "y": 721
+      },
+      "length": 112.34,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame→3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame::hitch#14",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame",
+      "target": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame::hitch",
+      "d": "M241.46144278606963,669 C241.46144278606963,704.5 260.37189054726366,704.5 260.37189054726366,740",
+      "start": {
+        "x": 241.46,
+        "y": 669
+      },
+      "end": {
+        "x": 260.37,
+        "y": 740
+      },
+      "length": 74.43,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame::hitch→3c-Function-based Behavior-structure mod-2::HitchBall#15",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame::hitch",
+      "target": "3c-Function-based Behavior-structure mod-2::HitchBall",
+      "d": "M275.536478449187,790 C275.536478449187,954.7349702380952 408.463521550813,954.7349702380952 408.463521550813,1119.4699404761905",
+      "start": {
+        "x": 275.54,
+        "y": 790
+      },
+      "end": {
+        "x": 408.46,
+        "y": 1119.47
+      },
+      "length": 364.22,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame::hitch→3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame::coupler#16",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::vehicle::vehicleFrame::hitch",
+      "target": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame::coupler",
+      "d": "M336,787.3421992854308 C472.66666666666663,787.3421992854308 472.66666666666663,874.5831679237792 609.3333333333333,874.5831679237792",
+      "start": {
+        "x": 336,
+        "y": 787.34
+      },
+      "end": {
+        "x": 609.33,
+        "y": 874.58
+      },
+      "length": 291.96,
+      "width": 3,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system→3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer#17",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system",
+      "target": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer",
+      "d": "M651.188948787062,181 C651.188948787062,289.8333333333333 731.766846361186,289.8333333333333 731.766846361186,398.66666666666663",
+      "start": {
+        "x": 651.19,
+        "y": 181
+      },
+      "end": {
+        "x": 731.77,
+        "y": 398.67
+      },
+      "length": 237.25,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer→3c-Function-based Behavior-structure mod-2::Trailer#18",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer",
+      "target": "3c-Function-based Behavior-structure mod-2::Trailer",
+      "d": "M721.66961414791,448.66666666666663 C721.66961414791,517.8333333333333 603.1637191854232,517.8333333333333 603.1637191854232,587",
+      "start": {
+        "x": 721.67,
+        "y": 448.67
+      },
+      "end": {
+        "x": 603.16,
+        "y": 587
+      },
+      "length": 191.98,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer→3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame#19",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer",
+      "target": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame",
+      "d": "M743.3135048231511,461.66666666666663 C743.3135048231511,533.8333333333333 761.0198285101822,533.8333333333333 761.0198285101822,606",
+      "start": {
+        "x": 743.31,
+        "y": 461.67
+      },
+      "end": {
+        "x": 761.02,
+        "y": 606
+      },
+      "length": 145.87,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame→3c-Function-based Behavior-structure mod-2::TrailerFrame#20",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame",
+      "target": "3c-Function-based Behavior-structure mod-2::TrailerFrame",
+      "d": "M769.1504975124377,656 C769.1504975124377,688.5 787.0161691542288,688.5 787.0161691542288,721",
+      "start": {
+        "x": 769.15,
+        "y": 656
+      },
+      "end": {
+        "x": 787.02,
+        "y": 721
+      },
+      "length": 68.33,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame→3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame::coupler#21",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame",
+      "target": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame::coupler",
+      "d": "M756.5572139303482,669 C756.5572139303482,771.5 693.1094527363183,771.5 693.1094527363183,874",
+      "start": {
+        "x": 756.56,
+        "y": 669
+      },
+      "end": {
+        "x": 693.11,
+        "y": 874
+      },
+      "length": 218.18,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-filled",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame::coupler→3c-Function-based Behavior-structure mod-2::TrailerCoupler#22",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system::trailer::trailerFrame::coupler",
+      "target": "3c-Function-based Behavior-structure mod-2::TrailerCoupler",
+      "d": "M676.0181031840792,924 C676.0181031840792,1021.7349702380952 591.815230149254,1021.7349702380952 591.815230149254,1119.4699404761905",
+      "start": {
+        "x": 676.02,
+        "y": 924
+      },
+      "end": {
+        "x": 591.82,
+        "y": 1119.47
+      },
+      "length": 218.71,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-triangle-hollow-colon",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "connect trailer to vehicle→disconnect trailer from vehicle#23",
+      "source": "connect trailer to vehicle",
+      "target": "disconnect trailer from vehicle",
+      "d": "M189.5,372 C189.5,409 189.5,409 189.5,446",
+      "start": {
+        "x": 189.5,
+        "y": 372
+      },
+      "end": {
+        "x": 189.5,
+        "y": 446
+      },
+      "length": 74,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": null,
+      "markerEnd": "smlml-arrow-filled",
+      "dash": null,
+      "fam": null
+    },
+    {
+      "id": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system→00000000-0000-0000-0000-000000000044#24",
+      "source": "3c-Function-based Behavior-structure mod-2::vehicle-trailer system",
+      "target": "00000000-0000-0000-0000-000000000044",
+      "d": "M545.5256880733945,181 C545.5256880733945,249.09170428893904 424.26284403669723,317.1834085778781 303,317.1834085778781",
+      "start": {
+        "x": 545.53,
+        "y": 181
+      },
+      "end": {
+        "x": 303,
+        "y": 317.18
+      },
+      "length": 299.69,
+      "width": 1,
+      "stroke": "rgb(31, 31, 31)",
+      "markerStart": "smlml-diamond-hollow",
+      "markerEnd": null,
+      "dash": null,
+      "fam": null
+    }
+  ],
+  "labels": [
+    {
+      "x": 448.65,
+      "y": 1029.94,
+      "w": 36.03,
+      "h": 15.59,
+      "text": "hitch",
+      "edge": "3c-Function-based Behavior-structure mod-2::TrailerHitch→3c-Function-based Behavior-structure mod-2::HitchBall#7"
+    },
+    {
+      "x": 523.35,
+      "y": 1029.94,
+      "w": 50.64,
+      "h": 15.59,
+      "text": "coupler",
+      "edge": "3c-Function-based Behavior-structure mod-2::TrailerHitch→3c-Function-based Behavior-structure mod-2::TrailerCoupler#8"
+    }
+  ],
+  "schemaVersion": 8,
+  "modelDigest": "b78f1083afc944f1",
+  "unsettled": false
+}
